@@ -11,6 +11,7 @@
 			<Item Name="Columns.DfcLoanApp.Caption" Value="Loan Application" />
 			<Item Name="Columns.DfcLoanContract.Caption" Value="Loan Contract" />
 			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
+			<Item Name="Columns.DfcLoanStatus.Caption" Value="Loan Status" />
 			<Item Name="Columns.DfcMaturity.Caption" Value="Maturity" />
 			<Item Name="Columns.DfcPeriodType.Caption" Value="Period Type" />
 			<Item Name="Columns.DfcProduct.Caption" Value="Product" />

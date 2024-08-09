@@ -12,6 +12,7 @@
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcIdInfo/DfcIdInfo.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcIdInfo/DfcIdInfo.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcLoans/DfcLoans.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcLoans/DfcLoans.cs')" />
+		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcLoanStatus/DfcLoanStatus.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcLoanStatus/DfcLoanStatus.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcLocationType/DfcLocationType.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcLocationType/DfcLocationType.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcParticipantOccup/DfcParticipantOccup.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcParticipantOccup/DfcParticipantOccup.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcProductSector/DfcProductSector.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcProductSector/DfcProductSector.cs')" />

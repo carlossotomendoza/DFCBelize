@@ -851,6 +851,7 @@
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcIdInfo/DfcIdInfo.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcIdInfo/DfcIdInfo.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcLoans/DfcLoans.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcLoans/DfcLoans.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcLoanStatus/DfcLoanStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcLoanStatus/DfcLoanStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcLocationType/DfcLocationType.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcLocationType/DfcLocationType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcParticipantOccup/DfcParticipantOccup.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcParticipantOccup/DfcParticipantOccup.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcProductSector/DfcProductSector.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcProductSector/DfcProductSector.cs')" />
