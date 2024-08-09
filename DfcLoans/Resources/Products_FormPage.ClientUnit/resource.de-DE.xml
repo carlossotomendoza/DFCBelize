@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="de-DE">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.addRecord_61u7xtp_caption.Value" Value="Neu" />
+			<Item Name="LocalizableStrings.AvailabilityExpansionPanel_title.Value" Value="Verfügbarkeit" />
+			<Item Name="LocalizableStrings.ExpansionPanel_8916g2e_title.Value" Value="Einheiten" />
+			<Item Name="LocalizableStrings.ExpansionPanel_byjqiod_title.Value" Value="Verfügbarkeit" />
+			<Item Name="LocalizableStrings.ExpansionPanel_bzx1bdx_title.Value" Value="Produktpreis" />
+			<Item Name="LocalizableStrings.ExpansionPanel_d8u3ioo_title.Value" Value="Liste erweitern" />
+			<Item Name="LocalizableStrings.GridDetail_snzncmyDS_UnitShortName.Value" Value="Kurzbezeichnung" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_2u8w5ou_caption.Value" Value="Neu" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_51lho3i_caption.Value" Value="Neu" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_vqh1486_caption.Value" Value="Neu" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_wq35d3r_caption.Value" Value="Neu" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_15dodzf_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_3w8sz9o_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_eiymfk8_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_p8xdb3v_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_05pe1tu_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_guqd7x1_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_tyxy8vz_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_vo9mcul_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_8eyutp9_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ny5fg9g_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_qqf4p8c_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ujkbirs_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_1wl0gtb_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_b4abwkk_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_nf22n1q_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_o3zyuv6_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_5ntnqjk_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_5u633cm_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_f1b73j7_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_uzfuq5a_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.PricesExpansionPanel_title.Value" Value="Preise" />
+			<Item Name="LocalizableStrings.PricesTab_caption.Value" Value="Preise und Verfügbarkeiten" />
+			<Item Name="LocalizableStrings.ProductInStockListExportDataButton_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.ProductInStockListImportDataButton_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.ProductInStockListSearchFilter_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.ProductInStockListSettingsButton_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.ProductInStockRefreshButton_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.ProductPriceListExportDataButton_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.ProductPriceListImportDataButton_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.ProductPriceListRefreshButton_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.ProductPriceListSearchFilter_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.ProductPriceListSettingsButton_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.ProductUnitListExportDataButton_caption.Value" Value="Exportieren nach Excel" />
+			<Item Name="LocalizableStrings.ProductUnitListImportDataButton_caption.Value" Value="Datenimport" />
+			<Item Name="LocalizableStrings.ProductUnitListRefreshButton_caption.Value" Value="Aktualisieren" />
+			<Item Name="LocalizableStrings.ProductUnitListSearchFilter_placeholder.Value" Value="Suche" />
+			<Item Name="LocalizableStrings.ProductUnitListSettingsButton_caption.Value" Value="Aktionen" />
+			<Item Name="LocalizableStrings.TabContainer_c14w0u0_caption.Value" Value="Preise und Verfügbarkeiten" />
+			<Item Name="LocalizableStrings.UnitsExpansionPanel_title.Value" Value="Einheiten" />
+		</Items>
+	</Group>
+</Resources>

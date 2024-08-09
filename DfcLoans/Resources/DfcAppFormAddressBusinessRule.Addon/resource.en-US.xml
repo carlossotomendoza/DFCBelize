@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.b8ecd6f8-ef63-13b0-31ef-2ef946d601d0.Caption" Value="Apply filter: Town/Village" />
+			<Item Name="AddonConfig.Rules.ca6825f4-5a12-b8cb-675c-8a6554d0957a.Caption" Value="ChildRule-b8ecd6f8-ef63-13b0-31ef-2ef946d601d0-ClearValue" />
+			<Item Name="AddonConfig.Rules.e7421e41-78f8-624c-5f30-14f95fa3df63.Caption" Value="Apply static filter: Country" />
+			<Item Name="AddonConfig.Rules.ed896b83-00d6-eb62-a59b-5c1f77145d31.Caption" Value="Make elements required: Years in Primary Residence" />
+			<Item Name="AddonConfig.Rules.fafef08f-f392-8131-4398-9a66604f1f86.Caption" Value="ChildRule-b8ecd6f8-ef63-13b0-31ef-2ef946d601d0-PopulateValue" />
+			<Item Name="Caption" Value="Address in application form (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

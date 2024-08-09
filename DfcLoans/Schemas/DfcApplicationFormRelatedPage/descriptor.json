@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "311332b0-d91a-4932-b26e-a79db163530e",
+    "Name": "DfcApplicationFormRelatedPage",
+    "ModifiedOnUtc": "\/Date(1721761465000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Application Form (Page settings)",
+    "DependsOn": []
+  }
+}

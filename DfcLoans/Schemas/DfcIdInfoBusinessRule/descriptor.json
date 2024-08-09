@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d620725e-ddb7-44e7-8405-44a759d4fe76",
+    "Name": "DfcIdInfoBusinessRule",
+    "ModifiedOnUtc": "\/Date(1722618812000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Identification Info (Business rules)",
+    "DependsOn": []
+  }
+}

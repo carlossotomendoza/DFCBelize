@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hu-HU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="Reklámkampány" />
+			<Item Name="Columns.Channel.Caption" Value="Csatorna" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="Vevői igény" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Érvénytelen e-mail cím" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead konverziós pontszáma" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="Regisztrációs módszer" />
+			<Item Name="Columns.Source.Caption" Value="Forrás" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f849bfdf-bb71-4456-b1bb-2ce3ab14d963",
+    "Name": "DfcLoanApplication_Detail",
+    "ModifiedOnUtc": "\/Date(1721761368000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Loan Application detail",
+    "DependsOn": []
+  }
+}

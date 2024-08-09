@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Identification Info modal page" />
+			<Item Name="LocalizableStrings.addRecord_2xk9en6_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_9r9ubxm_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_dmw1hvr_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_hop56ei_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_r401qcq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_vvbwbng_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_w5ez4fq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_wnubyjz_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_xow6ylv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_y58plpi_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_aca8uw1_caption.Value" Value="Upload File" />
+			<Item Name="LocalizableStrings.Button_ovdc3v5_caption.Value" Value="Button" />
+			<Item Name="LocalizableStrings.ComboBox_hzt2lra_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_hzt2lra_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_n83m9cc_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_n83m9cc_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.DfcAppform_label.Value" Value="Participant" />
+			<Item Name="LocalizableStrings.DfcListInCondition_label.Value" Value="Id Type" />
+		</Items>
+	</Group>
+</Resources>

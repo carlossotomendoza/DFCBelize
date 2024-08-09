@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Participant Occupations" />
+			<Item Name="Columns.DfcAppForm.Caption" Value="Application Form" />
+			<Item Name="Columns.DfcOccupation.Caption" Value="Occupation" />
+			<Item Name="Columns.DfcRefNo.Caption" Value="Reference No." />
+			<Item Name="Columns.DfcYearsOfExp.Caption" Value="Years of Experience" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

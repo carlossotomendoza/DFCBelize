@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "9a3176c9-6b2c-40c7-9ba5-00ea85c616c3",
+    "Name": "DfcPage_Occupations",
+    "ModifiedOnUtc": "\/Date(1722623216000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Participant Occupations modal page"
+  }
+}

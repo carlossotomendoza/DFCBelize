@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="広告キャンペーン" />
+			<Item Name="Columns.Channel.Caption" Value="チャネル" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="顧客ニーズ" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="無効なメール" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="リード変換スコア" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="登録方法" />
+			<Item Name="Columns.Source.Caption" Value="情報源" />
+		</Items>
+	</Group>
+</Resources>

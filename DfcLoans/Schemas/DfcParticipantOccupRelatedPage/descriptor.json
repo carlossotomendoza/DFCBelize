@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "83dedfed-1317-48bc-81e5-cdc2f6c9be7f",
+    "Name": "DfcParticipantOccupRelatedPage",
+    "ModifiedOnUtc": "\/Date(1722623273000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Participant Occupations (Page settings)",
+    "DependsOn": []
+  }
+}

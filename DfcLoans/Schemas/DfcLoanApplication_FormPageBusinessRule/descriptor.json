@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "60af1abb-1e0c-4367-b519-dd7d32aa3ae4",
+    "Name": "DfcLoanApplication_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1721774335000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Loan Application form page (Business rules)",
+    "DependsOn": []
+  }
+}

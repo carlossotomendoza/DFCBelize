@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "87d18caf-c9c9-4009-b747-d0a277077fc7",
+    "Name": "DfcLoanApplicationRelatedPage",
+    "ModifiedOnUtc": "\/Date(1721761368000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Loan Application (Page settings)",
+    "DependsOn": []
+  }
+}

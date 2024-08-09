@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.c200ab6f-3efb-8447-f39e-261164218fe5.Caption" Value="Show elements: Years in Primary Residence" />
+			<Item Name="Caption" Value="Address in application form modal page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

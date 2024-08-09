@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e40e8006-f523-4d41-aa57-503a3aad9168",
+    "Name": "DfcAppFormCommunication",
+    "ModifiedOnUtc": "\/Date(1722535324000)\/",
+    "Parent": {
+      "UId": "8f1c7f11-798b-46c5-8852-eb08078d99b8",
+      "Name": "AppFormCommunication"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "App Form Communication",
+    "DependsOn": []
+  }
+}

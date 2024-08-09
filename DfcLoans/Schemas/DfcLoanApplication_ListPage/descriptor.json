@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "085bff95-9035-4372-9a23-6391b8cadcc9",
+    "Name": "DfcLoanApplication_ListPage",
+    "ModifiedOnUtc": "\/Date(1721936983000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Loan Application list page"
+  }
+}

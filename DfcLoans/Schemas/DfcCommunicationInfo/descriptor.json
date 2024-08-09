@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4787e9a5-11f9-4a99-a5e4-aed85cc6969f",
+    "Name": "DfcCommunicationInfo",
+    "ModifiedOnUtc": "\/Date(1722539738000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Communication option in application form modal page"
+  }
+}

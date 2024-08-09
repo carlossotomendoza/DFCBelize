@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Application Financials modal page" />
+			<Item Name="LocalizableStrings.addRecord_63iaa4a_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_7k0ysjk_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.DfcFinCategory_label.Value" Value="Source" />
+			<Item Name="LocalizableStrings.DfcFinType_label.Value" Value="Type" />
+		</Items>
+	</Group>
+</Resources>

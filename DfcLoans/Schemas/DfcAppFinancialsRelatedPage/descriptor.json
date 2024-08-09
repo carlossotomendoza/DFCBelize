@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "581ba6f4-82e9-45cd-84d0-2c138ee8d6d3",
+    "Name": "DfcAppFinancialsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1722546961000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Application Financials (Page settings)",
+    "DependsOn": []
+  }
+}

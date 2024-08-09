@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.083ce4e5-7f85-3686-e287-bf34cdb561bb.Caption" Value="ChildRule-e985beb1-2a91-0e29-47af-343875b774cf-ClearValue" />
+			<Item Name="AddonConfig.Rules.35e133e8-5fa8-22bb-6e9a-d37fb1b91463.Caption" Value="ChildRule-e985beb1-2a91-0e29-47af-343875b774cf-ClearValue" />
+			<Item Name="AddonConfig.Rules.5ffd7d2f-6ba3-8a4c-81a7-dccb31daf3e7.Caption" Value="Apply static filter: Documents in Package" />
+			<Item Name="AddonConfig.Rules.97c3ae3c-2245-d12a-4f70-3d1435d9a423.Caption" Value="Apply filter: Product Condition" />
+			<Item Name="AddonConfig.Rules.cf9572d3-9e7c-2bd6-1fae-709e2550ffd2.Caption" Value="ChildRule-97c3ae3c-2245-d12a-4f70-3d1435d9a423-PopulateValue" />
+			<Item Name="AddonConfig.Rules.d86ced4d-eb49-2e07-0ad1-b23d536edf51.Caption" Value="ChildRule-e985beb1-2a91-0e29-47af-343875b774cf-PopulateValue" />
+			<Item Name="AddonConfig.Rules.e985beb1-2a91-0e29-47af-343875b774cf.Caption" Value="Apply filter: Documents in Package" />
+			<Item Name="AddonConfig.Rules.f7e55a3d-040a-3f37-9bfa-8c814b0a2c7c.Caption" Value="ChildRule-e985beb1-2a91-0e29-47af-343875b774cf-PopulateValue" />
+			<Item Name="AddonConfig.Rules.fc42257c-bbf2-2868-1aec-c31bf2483fbe.Caption" Value="ChildRule-97c3ae3c-2245-d12a-4f70-3d1435d9a423-ClearValue" />
+			<Item Name="Caption" Value="Identification Info (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Address in application form modal page" />
+			<Item Name="LocalizableStrings.addRecord_42z9mh4_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_dgjfsvi_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_olu3au3_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qztn92o_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_r5vvycb_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.City_label.Value" Value="Town/Village" />
+			<Item Name="LocalizableStrings.DfcPrimaryResYears_label.Value" Value="Years in address" />
+		</Items>
+	</Group>
+</Resources>

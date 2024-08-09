@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="cs-CZ">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
+			<Item Name="Columns.Channel.Caption" Value="Kanál" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="Zájem klienta" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Chybný e-mail" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="Způsob registrace" />
+			<Item Name="Columns.Source.Caption" Value="Zdroj" />
+		</Items>
+	</Group>
+</Resources>

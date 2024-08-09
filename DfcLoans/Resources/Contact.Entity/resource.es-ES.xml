@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="es-ES">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="Campaña publicitaria" />
+			<Item Name="Columns.Channel.Caption" Value="Canal" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="Necesidad de cliente" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Correo electrónico no válido" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Puntuación de conversión de clientes potenciales" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="Método de registro" />
+			<Item Name="Columns.Source.Caption" Value="Fuente" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.04f61a83-0bc5-084e-e305-9c7495c97b1c.Caption" Value="Apply static filter: Branch" />
+			<Item Name="AddonConfig.Rules.2cd417d3-9622-5bf1-d471-168059aa6089.Caption" Value="Apply static filter: Contact Owner" />
+			<Item Name="AddonConfig.Rules.3215e295-4627-c8e3-06b9-a89aaf9501e7.Caption" Value="Apply filter: Sub Sector" />
+			<Item Name="AddonConfig.Rules.45c155cf-4455-c2b2-11a7-651996a67d61.Caption" Value="Apply filter: Product" />
+			<Item Name="AddonConfig.Rules.5085a2ad-5299-960e-fa4d-cff99ccbb29d.Caption" Value="ChildRule-8d2e04f1-21c7-f184-c252-63e2623d2a8f-ClearValue" />
+			<Item Name="AddonConfig.Rules.67bdfa30-161d-c789-5ce4-9577bf4e082a.Caption" Value="Apply static filter: Product category" />
+			<Item Name="AddonConfig.Rules.6a71e22e-6d8e-5cd6-321c-6645158f6711.Caption" Value="Apply filter: Product type" />
+			<Item Name="AddonConfig.Rules.840962cf-6812-7bf9-33dd-46892fff29eb.Caption" Value="Set values: Product category" />
+			<Item Name="AddonConfig.Rules.8d2e04f1-21c7-f184-c252-63e2623d2a8f.Caption" Value="Apply filter: Legal entity" />
+			<Item Name="AddonConfig.Rules.99428990-00f4-b0d2-220e-0fd2126d96d6.Caption" Value="ChildRule-3215e295-4627-c8e3-06b9-a89aaf9501e7-ClearValue" />
+			<Item Name="AddonConfig.Rules.a0e347b9-b542-8c0a-b7a4-4682144921d2.Caption" Value="ChildRule-8d2e04f1-21c7-f184-c252-63e2623d2a8f-PopulateValue" />
+			<Item Name="AddonConfig.Rules.ac6ec62d-1334-7c2e-1c67-25e9366364d4.Caption" Value="ChildRule-45c155cf-4455-c2b2-11a7-651996a67d61-ClearValue" />
+			<Item Name="AddonConfig.Rules.ae6dc263-1e9f-979e-29df-b8fdcb492fdc.Caption" Value="Apply static filter: Customer Type" />
+			<Item Name="AddonConfig.Rules.b1734954-6b7f-38be-0aaf-aa1c656dfe0d.Caption" Value="ChildRule-3215e295-4627-c8e3-06b9-a89aaf9501e7-PopulateValue" />
+			<Item Name="AddonConfig.Rules.c1b4f43f-6d78-78c0-2754-6440479e4106.Caption" Value="ChildRule-45c155cf-4455-c2b2-11a7-651996a67d61-PopulateValue" />
+			<Item Name="AddonConfig.Rules.e3096c02-84ab-b1e9-3064-0e53fbed1037.Caption" Value="Apply static filter: Legal entity" />
+			<Item Name="AddonConfig.Rules.ec2fb72a-fb7f-2f17-b4aa-4f6682f0aa4f.Caption" Value="Apply static filter: Client Contact" />
+			<Item Name="Caption" Value="Application (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8577b758-e5c9-4203-a0df-3ef4b29a1873",
+    "Name": "DfcApplicationForm_Detail",
+    "ModifiedOnUtc": "\/Date(1721761465000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Application Form detail",
+    "DependsOn": []
+  }
+}

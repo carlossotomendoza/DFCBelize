@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "9e71e5f0-022f-4afc-952a-446f9dc3983c",
+    "Name": "AppFormCommunication",
+    "ModifiedOnUtc": "\/Date(1722539375000)\/",
+    "Parent": {
+      "UId": "8f1c7f11-798b-46c5-8852-eb08078d99b8",
+      "Name": "AppFormCommunication"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Communication option in application form",
+    "DependsOn": []
+  }
+}

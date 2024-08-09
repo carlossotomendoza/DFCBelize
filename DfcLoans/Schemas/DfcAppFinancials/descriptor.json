@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3e413916-2660-42a4-8218-9bc21a819500",
+    "Name": "DfcAppFinancials",
+    "ModifiedOnUtc": "\/Date(1722623811000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application Financials",
+    "DependsOn": []
+  }
+}

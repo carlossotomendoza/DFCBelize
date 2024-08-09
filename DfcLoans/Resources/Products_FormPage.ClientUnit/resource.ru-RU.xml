@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования продукта" />
+			<Item Name="LocalizableStrings.AvailabilityExpansionPanel_title.Value" Value="Остатки на складах" />
+			<Item Name="LocalizableStrings.AvailableFor_addRecord_caption.Value" Value="Добавить запись" />
+			<Item Name="LocalizableStrings.EndDate_placeholder.Value" Value="Укажите дату завершения" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Информация о продукте" />
+			<Item Name="LocalizableStrings.GridDetail_snzncmyDS_UnitShortName.Value" Value="Короткое название" />
+			<Item Name="LocalizableStrings.PricesExpansionPanel_title.Value" Value="Цены" />
+			<Item Name="LocalizableStrings.PricesTab_caption.Value" Value="Цены и остатки" />
+			<Item Name="LocalizableStrings.ProductDetailAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.ProductDetailExpansionPanel_title.Value" Value="Условия продукта" />
+			<Item Name="LocalizableStrings.ProductDetailExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.ProductDetailImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.ProductDetailRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.ProductDetailSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.ProductDetailSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.ProductInStockListExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.ProductInStockListImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.ProductInStockListSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.ProductInStockListSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.ProductInStockRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.ProductPriceListExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.ProductPriceListImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.ProductPriceListRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.ProductPriceListSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.ProductPriceListSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.ProductUnitListExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.ProductUnitListImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.ProductUnitListRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.ProductUnitListSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.ProductUnitListSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.StartDate_placeholder.Value" Value="Укажите дату начала" />
+			<Item Name="LocalizableStrings.UnitsExpansionPanel_title.Value" Value="Единицы измерения" />
+		</Items>
+	</Group>
+</Resources>

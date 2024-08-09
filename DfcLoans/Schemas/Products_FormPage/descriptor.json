@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "66feda11-5ff2-458a-9fe4-d6b020e40236",
+    "Name": "Products_FormPage",
+    "ModifiedOnUtc": "\/Date(1721862819000)\/",
+    "Parent": {
+      "UId": "ade76c06-d514-4703-891c-7dd8697c5c40",
+      "Name": "Products_FormPage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page - Product"
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5caa4fbb-ad63-43dc-b5fd-cf4f8ebaada2",
+    "Name": "DfcAppFinancialsBusinessRule",
+    "ModifiedOnUtc": "\/Date(1722546685000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Application Financials (Business rules)",
+    "DependsOn": []
+  }
+}

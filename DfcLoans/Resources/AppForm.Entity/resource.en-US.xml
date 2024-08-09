@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.DfcAge.Caption" Value="Age" />
+			<Item Name="Columns.DfcEmpContactEmail.Caption" Value="Employer Contact Email" />
+			<Item Name="Columns.DfcEmpContactLname.Caption" Value="Employer Contact Last Name" />
+			<Item Name="Columns.DfcEmpContactName.Caption" Value="Employer Contact Name" />
+			<Item Name="Columns.DfcEmpContactPhone.Caption" Value="Employer Contact Phone" />
+			<Item Name="Columns.DfcEmployer.Caption" Value="Employer Name" />
+			<Item Name="Columns.DfcTitle.Caption" Value="Title" />
+		</Items>
+	</Group>
+</Resources>

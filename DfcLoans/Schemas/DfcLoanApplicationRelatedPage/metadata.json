@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "87d18caf-c9c9-4009-b747-d0a277077fc7",
+      "A2": "DfcLoanApplicationRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "cdda1304-e571-42de-9df7-6dfe528ea7b6",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "97be6710-293c-4129-b051-01cf12bf96d0",
+            "PageSchemaUId": "78c49f3c-e72e-4769-b3df-cf3f7327b8a7",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

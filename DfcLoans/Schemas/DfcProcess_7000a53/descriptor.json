@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0c205ebe-b80b-43f7-b78e-6cd13fb1bfbe",
+    "Name": "DfcProcess_7000a53",
+    "ModifiedOnUtc": "\/Date(1721936770000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Add Borrower Data",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1a74f562-65dd-455b-882a-5bbb5611c90d",
+    "Name": "DfcIdInfo",
+    "ModifiedOnUtc": "\/Date(1722618795000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Identification Info",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "fc537771-e421-430b-bb6d-7ce36f2052b7",
+    "Name": "DfcIdInfoRelatedPage",
+    "ModifiedOnUtc": "\/Date(1722461286000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Identification Info (Page settings)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Communication Info" />
+			<Item Name="Columns.DfcAppForm.Caption" Value="Application Form" />
+			<Item Name="Columns.DfcCommunicationType.Caption" Value="Communication Type" />
+			<Item Name="Columns.DfcEmailAddr.Caption" Value="Email Address" />
+			<Item Name="Columns.DfcPhone.Caption" Value="Phone Number" />
+			<Item Name="Columns.DfcRefNo.Caption" Value="Reference No." />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

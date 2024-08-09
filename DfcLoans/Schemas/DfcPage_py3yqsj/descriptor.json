@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "15f000ce-eb67-4ee7-b6cc-5038a00c2608",
+    "Name": "DfcPage_py3yqsj",
+    "ModifiedOnUtc": "\/Date(1722620684000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Communication Info modal page"
+  }
+}

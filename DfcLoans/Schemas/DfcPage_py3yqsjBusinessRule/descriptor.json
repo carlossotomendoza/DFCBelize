@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "70b52b8c-606f-4245-88c7-1743dcc97cb8",
+    "Name": "DfcPage_py3yqsjBusinessRule",
+    "ModifiedOnUtc": "\/Date(1722542363000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Communication Info modal page (Business rules)",
+    "DependsOn": []
+  }
+}

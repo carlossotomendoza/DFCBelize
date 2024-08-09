@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Communication option in application form" />
+			<Item Name="Columns.AppForm.Caption" Value="Application form" />
+			<Item Name="Columns.CommunicationType.Caption" Value="Type" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Created by" />
+			<Item Name="Columns.CreatedOn.Caption" Value="Created on" />
+			<Item Name="Columns.DateSetNonActual.Caption" Value="Invalid since" />
+			<Item Name="Columns.Id.Caption" Value="Id" />
+			<Item Name="Columns.ModifiedBy.Caption" Value="Modified by" />
+			<Item Name="Columns.ModifiedOn.Caption" Value="Modified on" />
+			<Item Name="Columns.NonActual.Caption" Value="Invalid" />
+			<Item Name="Columns.NonActualReason.Caption" Value="Reason for irrelevance" />
+			<Item Name="Columns.Number.Caption" Value="Number" />
+			<Item Name="Columns.Position.Caption" Value="Position" />
+			<Item Name="Columns.Primary.Caption" Value="Primary" />
+			<Item Name="Columns.ProcessListeners.Caption" Value="Active processes" />
+			<Item Name="Columns.SearchNumber.Caption" Value="Number for search" />
+			<Item Name="Columns.SocialMediaId.Caption" Value="Social network Id" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

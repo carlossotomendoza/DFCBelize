@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e1a04e9e-e525-4742-9039-8f980e225945",
+    "Name": "DfcApplicationForm_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1722625144000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Application Form form page (Business rules)",
+    "DependsOn": []
+  }
+}

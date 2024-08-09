@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "637c3eb9-64e7-455a-bdd0-4645cdd1e329",
+    "Name": "DfcPage_IdInfo",
+    "ModifiedOnUtc": "\/Date(1722620258000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Identification Info modal page"
+  }
+}

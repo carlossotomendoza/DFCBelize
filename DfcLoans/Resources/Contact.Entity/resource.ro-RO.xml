@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="Campanie publicitară" />
+			<Item Name="Columns.Channel.Caption" Value="Canal" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="Nevoie client" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Email invalid" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Scor de conversie lead" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="Metoda de inregistrare" />
+			<Item Name="Columns.Source.Caption" Value="Sursa" />
+		</Items>
+	</Group>
+</Resources>

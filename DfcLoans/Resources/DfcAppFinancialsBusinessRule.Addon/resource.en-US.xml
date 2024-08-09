@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.28d543d3-414b-a9cc-b603-8eb085e45e84.Caption" Value="ChildRule-64395426-15dc-eea1-4fb0-2adf1a3ab35f-PopulateValue" />
+			<Item Name="AddonConfig.Rules.2af6d91c-4708-effd-a5ab-364e06484ece.Caption" Value="ChildRule-64395426-15dc-eea1-4fb0-2adf1a3ab35f-ClearValue" />
+			<Item Name="AddonConfig.Rules.64395426-15dc-eea1-4fb0-2adf1a3ab35f.Caption" Value="Apply filter: Financial Category" />
+			<Item Name="Caption" Value="Application Financials (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

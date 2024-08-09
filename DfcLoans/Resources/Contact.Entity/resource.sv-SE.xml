@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
+			<Item Name="Columns.Channel.Caption" Value="Kanal" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="Kundbehov" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Ogiltig e-post" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="Registreringsmetod" />
+			<Item Name="Columns.Source.Caption" Value="Källa" />
+		</Items>
+	</Group>
+</Resources>

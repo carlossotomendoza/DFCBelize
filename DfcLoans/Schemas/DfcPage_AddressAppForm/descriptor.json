@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d637ca80-763f-457a-abad-03252b94617e",
+    "Name": "DfcPage_AddressAppForm",
+    "ModifiedOnUtc": "\/Date(1722346331000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Address in application form modal page"
+  }
+}

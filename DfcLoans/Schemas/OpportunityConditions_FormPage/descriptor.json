@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "50cbdbb6-44e0-4b01-9d75-36b6a815ab26",
+    "Name": "OpportunityConditions_FormPage",
+    "ModifiedOnUtc": "\/Date(1721911951000)\/",
+    "Parent": {
+      "UId": "15bebac0-f0cf-4e56-828b-d7c6f6173969",
+      "Name": "OpportunityConditions_FormPage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page - Opportunity condition"
+  }
+}

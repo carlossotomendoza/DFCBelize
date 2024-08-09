@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.9a58de7a-c04a-e806-f3a0-e98f5943faa8.Caption" Value="Make elements editable: Email Address, Make elements required: Email Address" />
+			<Item Name="AddonConfig.Rules.caff561c-4c5a-5e58-7f7d-1cae65fdbe2c.Caption" Value="Make elements editable: Phone Number, Make elements required: Phone Number" />
+			<Item Name="Caption" Value="Communication Info modal page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

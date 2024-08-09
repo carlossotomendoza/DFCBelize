@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
+			<Item Name="Columns.Channel.Caption" Value="ช่องทาง" />
+			<Item Name="Columns.CustomerNeed.Caption" Value="ความจำเป็นของลูกค้า" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="อีเมลไม่ถูกต้อง" />
+			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
+			<Item Name="Columns.RegisterMethod.Caption" Value="วิธีลงทะเบียน" />
+			<Item Name="Columns.Source.Caption" Value="แหล่งข้อมูล" />
+		</Items>
+	</Group>
+</Resources>

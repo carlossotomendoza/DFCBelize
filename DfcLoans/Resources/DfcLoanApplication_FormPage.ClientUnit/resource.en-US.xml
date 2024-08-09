@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Loan Application form page" />
+			<Item Name="LocalizableStrings.addRecord_0e2y2b3_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_0q5yso1_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_8rr30on_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_97xckrm_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_b56idpz_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_bg8hf96_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_bqc6ky7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_c4we974_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_dcy6xj3_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_erjda0i_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_gzq5tol_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_jethvcq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_keaso92_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_p60rme6_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_pmxrhtt_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qe41eiv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qh6r0p5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qhkbscg_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_uu0kau1_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_xdrqhq9_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_6hj1jo8_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.Button_Refresh_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.ComboBox_gzgz4hw_label.Value" Value="Company Name" />
+			<Item Name="LocalizableStrings.ComboBox_y82wnhf_label.Value" Value="Client" />
+			<Item Name="LocalizableStrings.Company_label.Value" Value="Company" />
+			<Item Name="LocalizableStrings.CompanyName_label.Value" Value="Company" />
+			<Item Name="LocalizableStrings.DfcCustomerType_label.Value" Value="Client Category" />
+			<Item Name="LocalizableStrings.ExpansionPanel_6t8blni_title.Value" Value="Application Form" />
+			<Item Name="LocalizableStrings.ExpansionPanel_digzels_title.Value" Value="Product Terms" />
+			<Item Name="LocalizableStrings.ExpansionPanel_yrjimho_title.Value" Value="Product Terms" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_3lu1gh4_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_w6thk04_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_m93rt5f_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_n3pr5n0_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_nymzzxp_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_qraiqg6_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_7uhlloq_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_bn9r7zh_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_bvjsyd5_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_v0hx8m8_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_6gy9njk_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ling4ll_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Input_r0ycpk7_label.Value" Value="Product Type" />
+			<Item Name="LocalizableStrings.Input_vm108sj_label.Value" Value="Product" />
+			<Item Name="LocalizableStrings.ProductType_label.Value" Value="Product Type" />
+		</Items>
+	</Group>
+</Resources>

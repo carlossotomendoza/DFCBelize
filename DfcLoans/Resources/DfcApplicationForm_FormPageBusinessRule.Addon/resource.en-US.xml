@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.b0869b9e-df92-19ce-ca33-af405f59999f.Caption" Value="Make elements read-only: Participant role" />
+			<Item Name="Caption" Value="Application Form form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

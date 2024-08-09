@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.addRecord_61u7xtp_caption.Value" Value="Lägg till ny" />
+			<Item Name="LocalizableStrings.AvailabilityExpansionPanel_title.Value" Value="Tillgänglighet" />
+			<Item Name="LocalizableStrings.ExpansionPanel_8916g2e_title.Value" Value="Enheter" />
+			<Item Name="LocalizableStrings.ExpansionPanel_byjqiod_title.Value" Value="Tillgänglighet" />
+			<Item Name="LocalizableStrings.ExpansionPanel_bzx1bdx_title.Value" Value="Produktpris" />
+			<Item Name="LocalizableStrings.ExpansionPanel_d8u3ioo_title.Value" Value="Expanded list" />
+			<Item Name="LocalizableStrings.GridDetail_snzncmyDS_UnitShortName.Value" Value="Kortnamn" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_2u8w5ou_caption.Value" Value="Ny" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_51lho3i_caption.Value" Value="Ny" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_vqh1486_caption.Value" Value="Ny" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_wq35d3r_caption.Value" Value="Ny" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_15dodzf_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_3w8sz9o_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_eiymfk8_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_p8xdb3v_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_05pe1tu_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_guqd7x1_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_tyxy8vz_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_vo9mcul_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_8eyutp9_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ny5fg9g_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_qqf4p8c_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ujkbirs_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_1wl0gtb_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_b4abwkk_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_nf22n1q_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_o3zyuv6_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_5ntnqjk_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_5u633cm_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_f1b73j7_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_uzfuq5a_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.PricesExpansionPanel_title.Value" Value="Priser" />
+			<Item Name="LocalizableStrings.PricesTab_caption.Value" Value="Priser och tillgänglighet" />
+			<Item Name="LocalizableStrings.ProductInStockListExportDataButton_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.ProductInStockListImportDataButton_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.ProductInStockListSearchFilter_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.ProductInStockListSettingsButton_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.ProductInStockRefreshButton_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.ProductPriceListExportDataButton_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.ProductPriceListImportDataButton_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.ProductPriceListRefreshButton_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.ProductPriceListSearchFilter_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.ProductPriceListSettingsButton_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.ProductUnitListExportDataButton_caption.Value" Value="Expotera till Excel" />
+			<Item Name="LocalizableStrings.ProductUnitListImportDataButton_caption.Value" Value="Dataimport" />
+			<Item Name="LocalizableStrings.ProductUnitListRefreshButton_caption.Value" Value="Uppdatera" />
+			<Item Name="LocalizableStrings.ProductUnitListSearchFilter_placeholder.Value" Value="Sök" />
+			<Item Name="LocalizableStrings.ProductUnitListSettingsButton_caption.Value" Value="Åtgärder" />
+			<Item Name="LocalizableStrings.TabContainer_c14w0u0_caption.Value" Value="Priser och tillgänglighet" />
+			<Item Name="LocalizableStrings.UnitsExpansionPanel_title.Value" Value="Enheter" />
+		</Items>
+	</Group>
+</Resources>

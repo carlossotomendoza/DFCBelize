@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ce8e6b5e-85bc-42a1-9554-07770b0b8dec",
+    "Name": "BaseLookupPageTemplate",
+    "ModifiedOnUtc": "\/Date(1722284011000)\/",
+    "Parent": {
+      "UId": "ac545d45-b915-46c9-ad64-806407e620a4",
+      "Name": "BaseLookupPageTemplate"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Lookup page"
+  }
+}

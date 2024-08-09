@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "23f81619-6e3f-4402-9b00-4b564d97e87b",
+    "Name": "DfcApplicationFinancials",
+    "ModifiedOnUtc": "\/Date(1722624249000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Application Financials modal page"
+  }
+}

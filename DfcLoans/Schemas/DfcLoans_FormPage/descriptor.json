@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "07539889-0c36-4037-9c6d-d21d7bd56984",
+    "Name": "DfcLoans_FormPage",
+    "ModifiedOnUtc": "\/Date(1723068050000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Loans form page"
+  }
+}

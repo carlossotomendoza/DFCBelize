@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "a7a3e6b8-6fa2-468c-b4b7-bf1a9905c119",
+    "Name": "AppFormAddress",
+    "ModifiedOnUtc": "\/Date(1722346277000)\/",
+    "Parent": {
+      "UId": "9bb1fcf8-271b-4535-bb96-1032313255d7",
+      "Name": "AppFormAddress"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Address in application form",
+    "DependsOn": []
+  }
+}

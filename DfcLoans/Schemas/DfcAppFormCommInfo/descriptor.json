@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "224acb80-8277-448e-94ea-75f7b5ae64d3",
+    "Name": "DfcAppFormCommInfo",
+    "ModifiedOnUtc": "\/Date(1722620666000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Communication Info",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2c250e00-afb2-413d-8214-75b16eb1341a",
+    "Name": "DfcAppFormAddressRelatedPage",
+    "ModifiedOnUtc": "\/Date(1721929245000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Address in application form (Page settings)",
+    "DependsOn": []
+  }
+}

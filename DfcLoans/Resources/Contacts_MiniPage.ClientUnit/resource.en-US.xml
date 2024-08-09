@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.addRecord_gcmeiea_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_vwp1r0s_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ComboBox_Account_label.Value" Value="Company" />
+			<Item Name="LocalizableStrings.ComboBox_Account_placeholder.Value" Value="Select company" />
+			<Item Name="LocalizableStrings.ComboBox_Account_tooltip.Value" Value="Select company" />
+		</Items>
+	</Group>
+</Resources>

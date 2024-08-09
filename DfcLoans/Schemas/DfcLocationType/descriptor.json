@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7337eca5-da90-4dce-bc55-c7bd7434bd9a",
+    "Name": "DfcLocationType",
+    "ModifiedOnUtc": "\/Date(1722341320000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Location Type",
+    "DependsOn": []
+  }
+}

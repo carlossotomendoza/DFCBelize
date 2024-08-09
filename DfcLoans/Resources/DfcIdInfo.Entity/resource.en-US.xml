@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Identification Info" />
+			<Item Name="Columns.DfcAppform.Caption" Value="Application Form" />
+			<Item Name="Columns.DfcDocImageFile.Caption" Value="Document Image File" />
+			<Item Name="Columns.DfcDocListGroup.Caption" Value="Registration Document Group" />
+			<Item Name="Columns.DfcDocUploadStatus.Caption" Value="Document Upload Status" />
+			<Item Name="Columns.DfcIdExpirationDate.Caption" Value="Id Expiration Date" />
+			<Item Name="Columns.DfcIdIssueDate.Caption" Value="Id Issue Date" />
+			<Item Name="Columns.DfcIdNumber.Caption" Value="Id Number" />
+			<Item Name="Columns.DfcListInCondition.Caption" Value="Documents in Package" />
+			<Item Name="Columns.DfcNumber.Caption" Value="Reference No." />
+			<Item Name="Columns.DfcProduct.Caption" Value="Loan Product" />
+			<Item Name="Columns.DfcProductCondition.Caption" Value="Product Condition" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

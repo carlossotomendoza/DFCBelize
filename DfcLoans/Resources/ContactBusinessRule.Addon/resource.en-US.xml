@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.a281d1a9-4d1c-ffdf-a587-81334b06d8f9.Caption" Value="Apply static filter: Type" />
+		</Items>
+	</Group>
+</Resources>

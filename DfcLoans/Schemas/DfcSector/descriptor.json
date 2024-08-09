@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c8c5364-19fb-42a6-8b8c-0b393f9eeb83",
+    "Name": "DfcSector",
+    "ModifiedOnUtc": "\/Date(1722625508000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Sector",
+    "DependsOn": []
+  }
+}

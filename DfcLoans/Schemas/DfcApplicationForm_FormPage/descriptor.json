@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "7c2ceeed-75c9-44f8-a414-690409825f30",
+    "Name": "DfcApplicationForm_FormPage",
+    "ModifiedOnUtc": "\/Date(1722625119000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Application Form form page"
+  }
+}

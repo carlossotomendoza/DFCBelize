@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5b09e1b7-26df-47d2-8bdc-ae516ee45299",
+    "Name": "DfcAppFormCommInfoRelatedPage",
+    "ModifiedOnUtc": "\/Date(1722541445000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Communication Info (Page settings)",
+    "DependsOn": []
+  }
+}

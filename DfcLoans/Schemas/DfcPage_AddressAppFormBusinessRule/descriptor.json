@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f4d14c97-88d0-43a3-9ad8-30e5de1e36fe",
+    "Name": "DfcPage_AddressAppFormBusinessRule",
+    "ModifiedOnUtc": "\/Date(1722346152000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Address in application form modal page (Business rules)",
+    "DependsOn": []
+  }
+}
