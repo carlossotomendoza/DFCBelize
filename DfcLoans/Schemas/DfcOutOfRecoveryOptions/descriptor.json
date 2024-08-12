@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cb637ac3-d562-467b-a1a3-d92de0734173",
+    "Name": "DfcOutOfRecoveryOptions",
+    "ModifiedOnUtc": "\/Date(1723477417000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Out of recovery options"
+  }
+}

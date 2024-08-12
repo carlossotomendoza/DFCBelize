@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AccountAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.AccountExpansionPanel_title.Value" Value="Счета" />
+			<Item Name="LocalizableStrings.AccountExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.AccountImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.AccountInfoLabel_caption.Value" Value="Информация о контрагенте" />
+			<Item Name="LocalizableStrings.AccountRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.AccountSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.AccountSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.CardsAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.CardsExpansionPanel_title.Value" Value="Карты" />
+			<Item Name="LocalizableStrings.CardsExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.CardsImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.CardsRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.CardsSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.CardsSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.ClientInformationTab_caption.Value" Value="Информация о Физ. лице" />
+			<Item Name="LocalizableStrings.CustomerProfileTabContainer_caption.Value" Value="Профиль клиента" />
+			<Item Name="LocalizableStrings.CustomerProfileTabContainerHeaderLabel_caption.Value" Value="Профиль клиента" />
+			<Item Name="LocalizableStrings.FinApplicationAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.FinApplicationExpansionPanel_title.Value" Value="Заявки" />
+			<Item Name="LocalizableStrings.FinApplicationExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.FinApplicationImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.FinApplicationRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.FinApplicationSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.FinApplicationSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.Label_59nue7x_caption.Value" Value="Информация о контрагенте" />
+		</Items>
+	</Group>
+</Resources>

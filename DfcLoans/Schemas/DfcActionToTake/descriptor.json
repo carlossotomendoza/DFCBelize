@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "f89914fe-9d8d-484b-aad1-3ed574b42813",
+    "Name": "DfcActionToTake",
+    "ModifiedOnUtc": "\/Date(1723471059000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Action to take"
+  }
+}

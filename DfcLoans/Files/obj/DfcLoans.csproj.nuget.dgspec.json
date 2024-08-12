@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj": {}
+  },
+  "projects": {
+    "C:\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj": {
+      "version": "8.1.3.6801",
+      "restore": {
+        "projectUniqueName": "C:\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
+        "projectName": "DfcLoans",
+        "projectPath": "C:\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
+        "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_PreProd\\Default\\dotnet\\.nuget\\packages\\",
+        "outputPath": "C:\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_PreProd\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

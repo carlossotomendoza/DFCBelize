@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3f3c9b10-1f98-4123-992d-3381f34139a5",
+    "Name": "DfcCommitteeDecision",
+    "ModifiedOnUtc": "\/Date(1723476597000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Committee Decisions"
+  }
+}

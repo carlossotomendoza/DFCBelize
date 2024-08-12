@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.Account.Caption" Value="Юр. лицо" />
+			<Item Name="Columns.Contact.Caption" Value="Физ. лицо" />
+			<Item Name="Columns.IsActive.Caption" Value="Активно" />
+			<Item Name="Columns.PostponedOn.Caption" Value="Отложен" />
+			<Item Name="EventsProcessSchema.BaseElements.CaseInsertingStartMessage.Caption" Value="CaseInserting" />
+			<Item Name="EventsProcessSchema.BaseElements.CaseSavedStartMessage5.Caption" Value="CaseSaved" />
+			<Item Name="EventsProcessSchema.BaseElements.CaseSavingScriptTask13.Caption" Value="Выполнить CaseSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.CaseSavingStartMessage5.Caption" Value="CaseSaving" />
+			<Item Name="EventsProcessSchema.BaseElements.ConditionalFlow4.Caption" Value="Да" />
+			<Item Name="EventsProcessSchema.BaseElements.ConditionalFlow5.Caption" Value="Внутренний пользователь" />
+			<Item Name="EventsProcessSchema.BaseElements.GenerateNumberUserTask.Caption" Value="GenerateNumberUserTask" />
+			<Item Name="EventsProcessSchema.BaseElements.NeedGenerateExclusiveGateway.Caption" Value="Генерировать номер" />
+			<Item Name="EventsProcessSchema.BaseElements.SequenceFlow15.Caption" Value="Нет" />
+			<Item Name="EventsProcessSchema.BaseElements.SequenceFlow16.Caption" Value="Пользователь портала" />
+			<Item Name="EventsProcessSchema.BaseElements.SetGeneratedNumberScript.Caption" Value="SetGeneratedNumberScript" />
+			<Item Name="EventsProcessSchema.BaseElements.SetNumberScriptTask.Caption" Value="SetNumberScriptTask" />
+			<Item Name="EventsProcessSchema.BaseElements.SetPortalNumberScriptTask.Caption" Value="SetPortalNumberScriptTask" />
+			<Item Name="EventsProcessSchema.BaseElements.SetSymptomsScriptTask.Caption" Value="SetSymptomsScriptTask" />
+			<Item Name="EventsProcessSchema.BaseElements.SLM_CaseSavingStartMessage.Caption" Value="CaseSaving" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
+			<Item Name="EventsProcessSchema.Methods.ActualizePortalUsersRights.Caption" Value="ActualizePortalUsersRights" />
+			<Item Name="EventsProcessSchema.Parameters.IsNeedUpdateCaseHistory.DisplayValue" Value="false" />
+			<Item Name="EventsProcessSchema.Parameters.NeedSaveLifecycle.Caption" Value="NeedSaveLifecycle" />
+		</Items>
+	</Group>
+</Resources>
