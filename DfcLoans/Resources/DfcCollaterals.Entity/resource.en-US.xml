@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Collaterals" />
+			<Item Name="Columns.DfcColValue.Caption" Value="Collateral Value" />
+			<Item Name="Columns.DfcDateEntered.Caption" Value="Date Entered" />
+			<Item Name="Columns.DfcDescription.Caption" Value="Description" />
+			<Item Name="Columns.DfcInAuction.Caption" Value="In Auction" />
+			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>
