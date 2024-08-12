@@ -846,6 +846,7 @@
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcAppFinancials/DfcAppFinancials.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcAppFinancials/DfcAppFinancials.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcAppFormCommInfo/DfcAppFormCommInfo.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcAppFormCommInfo/DfcAppFormCommInfo.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcAppFormCommunication/DfcAppFormCommunication.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcAppFormCommunication/DfcAppFormCommunication.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcCollaterals/DfcCollaterals.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcCollaterals/DfcCollaterals.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcDocUploadStatus/DfcDocUploadStatus.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcDocUploadStatus/DfcDocUploadStatus.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcFinCategory/DfcFinCategory.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcFinCategory/DfcFinCategory.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs')" />
