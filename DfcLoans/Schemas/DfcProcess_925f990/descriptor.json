@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b31f6caa-5f1f-4574-bb68-185dfe3d3c62",
+    "Name": "DfcProcess_925f990",
+    "ModifiedOnUtc": "\/Date(1723575816000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Set publication date",
+    "DependsOn": []
+  }
+}

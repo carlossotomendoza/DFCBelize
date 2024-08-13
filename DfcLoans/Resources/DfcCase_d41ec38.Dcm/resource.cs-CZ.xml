@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="cs-CZ">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Loan Recovery Case" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Account.Caption" Value="Firma" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ActivityCategory.Caption" Value="Kategorie" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ActivityPriority.Caption" Value="Priorita" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ActivityResult.Caption" Value="Výsledek činnosti" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Application.Caption" Value="Aplikace" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Case.Caption" Value="Požadavek" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Change.Caption" Value="Změna" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Contact.Caption" Value="Kontakt" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Contract.Caption" Value="Smlouva" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.CurrentActivityId.Caption" Value="Id úkolu" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Document.Caption" Value="Dokument" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Duration.Caption" Value="Doba trvání" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.DurationPeriod.Caption" Value="Doba trvání (období)" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ExecutionContext.Caption" Value="Kontext výkonu" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.FinApplication.Caption" Value="Aplikace" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.InformationOnStep.Caption" Value="Informace o kroku" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Invoice.Caption" Value="Faktura" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.IsActivityCompleted.Caption" Value="Aktivita dokončena" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Lead.Caption" Value="Potenciální zákazník" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Listing.Caption" Value="Listingy" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Opportunity.Caption" Value="Příležitost" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Order.Caption" Value="Objednávka" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.OwnerId.Caption" Value="Vlastník" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Problem.Caption" Value="Problém" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Project.Caption" Value="Projekt" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Property.Caption" Value="Vlastnosti" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.QueueItem.Caption" Value="Položka ve frontě" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Recommendation.Caption" Value="Doporučení" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Release.Caption" Value="Uvolnění" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.RemindBefore.Caption" Value="Upozorněte majitele předem" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.RemindBeforePeriod.Caption" Value="Upozornit majitele předem (období)" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Requests.Caption" Value="Žádost" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ShowExecutionPage.Caption" Value="Automaticky zobrazit stránku provádění" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ShowInScheduler.Caption" Value="Zobrazit v kalendáři" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.StartIn.Caption" Value="Zahájení provádění v" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.StartInPeriod.Caption" Value="Zahájení provádění v (období)" />
+		</Items>
+	</Group>
+</Resources>

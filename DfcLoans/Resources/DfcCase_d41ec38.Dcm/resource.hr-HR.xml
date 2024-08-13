@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hr-HR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Loan Recovery Case" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Account.Caption" Value="Račun" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ActivityCategory.Caption" Value="Kategorija" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ActivityPriority.Caption" Value="Prioritet" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ActivityResult.Caption" Value="Result of activity" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Application.Caption" Value="Aplikacija" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Case.Caption" Value="Zahtjev" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Change.Caption" Value="Promjena" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Contact.Caption" Value="Kontakt" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Contract.Caption" Value="Ugovor" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.CurrentActivityId.Caption" Value="Id zadatka" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Document.Caption" Value="Dokument" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Duration.Caption" Value="Trajanje" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.DurationPeriod.Caption" Value="Trajanje (period)" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ExecutionContext.Caption" Value="Kontekst izvršenja" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.FinApplication.Caption" Value="Aplikacija" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.InformationOnStep.Caption" Value="Informacije o koraku" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Invoice.Caption" Value="Račun" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.IsActivityCompleted.Caption" Value="Aktivnost završena" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Lead.Caption" Value="Potencijal" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Listing.Caption" Value="Oglasi" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Opportunity.Caption" Value="Prilike" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Order.Caption" Value="Narudžba" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.OwnerId.Caption" Value="Vlasnik" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Problem.Caption" Value="Problem" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Project.Caption" Value="Projekt" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Property.Caption" Value="Svojstva" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.QueueItem.Caption" Value="Stavka čekanja" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Recommendation.Caption" Value="Preporuka" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Release.Caption" Value="Release" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.RemindBefore.Caption" Value="Podsjetite vlasnika unaprijed" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.RemindBeforePeriod.Caption" Value="Podsjeti vlasnika unaprijed (razdoblje)" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.Requests.Caption" Value="Zahtjev" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ShowExecutionPage.Caption" Value="Show execution page automatically" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.ShowInScheduler.Caption" Value="Pokaži u kalendaru" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.StartIn.Caption" Value="Počnite izvršavati u" />
+			<Item Name="Stages.Stage6.Elements.DcmElement12.ProcessFlowElement.Parameters.StartInPeriod.Caption" Value="Počnite izvršavati za (period)" />
+		</Items>
+	</Group>
+</Resources>

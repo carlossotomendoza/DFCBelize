@@ -9,6 +9,7 @@
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcAppFinancials/DfcAppFinancials.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcAppFinancials/DfcAppFinancials.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcAppFormCommInfo/DfcAppFormCommInfo.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcAppFormCommInfo/DfcAppFormCommInfo.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcAppFormCommunication/DfcAppFormCommunication.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcAppFormCommunication/DfcAppFormCommunication.cs')" />
+		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcAucSaleAgreement/DfcAucSaleAgreement.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcAucSaleAgreement/DfcAucSaleAgreement.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcCollaterals/DfcCollaterals.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcCollaterals/DfcCollaterals.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcCommitteeDecision/DfcCommitteeDecision.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcCommitteeDecision/DfcCommitteeDecision.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcDocUploadStatus/DfcDocUploadStatus.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcDocUploadStatus/DfcDocUploadStatus.cs')" />

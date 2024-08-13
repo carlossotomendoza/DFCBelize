@@ -4,10 +4,12 @@
 		<Items>
 			<Item Name="Columns.Account.Caption" Value="Legal entity" />
 			<Item Name="Columns.DfcActionToTake.Caption" Value="Action to take" />
-			<Item Name="Columns.DfcColumn2.Caption" Value="Dropdown 1" />
+			<Item Name="Columns.DfcAucSaleAgreement.Caption" Value="Auction Sale Agreement" />
+			<Item Name="Columns.DfcAuctionSaleAmount.Caption" Value="Sale Amount" />
 			<Item Name="Columns.DfcCommiteeDecisions.Caption" Value="Committee Decisions" />
 			<Item Name="Columns.DfcLoan.Caption" Value="Loan Associated" />
 			<Item Name="Columns.DfcOutOfRecovery.Caption" Value="Out of recovery options" />
+			<Item Name="Columns.DfcPublicationDate.Caption" Value="Publication Date" />
 			<Item Name="Columns.IsActive.Caption" Value="Active" />
 			<Item Name="Columns.PostponedOn.Caption" Value="Postponed on" />
 			<Item Name="EventsProcessSchema.BaseElements.BaseCaseSaved.Caption" Value="CaseSaved" />

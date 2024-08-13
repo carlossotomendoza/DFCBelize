@@ -18,9 +18,11 @@
 			<Item Name="LocalizableStrings.addRecord_jlnxf3v_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_juptj26_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_myjkaqn_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_phuaqhk_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_q5l7gpi_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_tdfbhv3_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_tv82bbh_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_whae2rz_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.CardsAddButton_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.CardsExpansionPanel_title.Value" Value="Cards" />
 			<Item Name="LocalizableStrings.CardsExportDataButton_caption.Value" Value="Export to Excel" />
@@ -29,8 +31,13 @@
 			<Item Name="LocalizableStrings.CardsSearchFilter_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.CardsSettingsButton_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.ClientInformationTab_caption.Value" Value="Contact information" />
+			<Item Name="LocalizableStrings.ComboBox_mfhizka_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_mfhizka_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.CreateEmailMenuItem_l0nq9nv_caption.Value" Value="Create an email" />
+			<Item Name="LocalizableStrings.CreateTaskMenuItem_l7s78rk_caption.Value" Value="Create a task" />
 			<Item Name="LocalizableStrings.CustomerProfileTabContainer_caption.Value" Value="Customer profile" />
 			<Item Name="LocalizableStrings.CustomerProfileTabContainerHeaderLabel_caption.Value" Value="Customer profile" />
+			<Item Name="LocalizableStrings.ExpansionPanel_najd9hj_title.Value" Value="Collateral List" />
 			<Item Name="LocalizableStrings.FinApplicationAddButton_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.FinApplicationExpansionPanel_title.Value" Value="Applications" />
 			<Item Name="LocalizableStrings.FinApplicationExportDataButton_caption.Value" Value="Export to Excel" />
@@ -38,7 +45,17 @@
 			<Item Name="LocalizableStrings.FinApplicationRefreshButton_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.FinApplicationSearchFilter_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.FinApplicationSettingsButton_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_q1k6fkr_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_2bhstzy_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_336riey_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_gsxqnlg_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_4z8r14w_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_lcjo1t6_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Label_59nue7x_caption.Value" Value="Account info" />
+			<Item Name="LocalizableStrings.NextStepsContainer_cm6ch8j_title.Value" Value="Next steps" />
+			<Item Name="LocalizableStrings.TabContainer_u9deoko_caption.Value" Value="CHECK LIST" />
+			<Item Name="LocalizableStrings.Timer_xoz5gvg_caption.Value" Value="Timer" />
+			<Item Name="LocalizableStrings.Timer_xoz5gvg_label.Value" Value="Timer" />
 		</Items>
 	</Group>
 </Resources>

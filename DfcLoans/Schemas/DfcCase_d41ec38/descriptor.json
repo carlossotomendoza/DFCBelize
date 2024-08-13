@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0fd6090d-1473-4d2f-bbf2-4487cdd5d785",
+    "Name": "DfcCase_d41ec38",
+    "ModifiedOnUtc": "\/Date(1723573940000)\/",
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Loan Recovery Case",
+    "DependsOn": []
+  }
+}

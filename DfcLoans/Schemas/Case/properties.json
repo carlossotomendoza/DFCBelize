@@ -1,6 +1,6 @@
 ﻿{
   "Properties": {
-    "AdministratedByColumns": "True",
+    "AdministratedByColumns": "False",
     "AdministratedByOperations": "True",
     "AdministratedByRecords": "True",
     "CreatedInVersion": "0.0.0.0",
