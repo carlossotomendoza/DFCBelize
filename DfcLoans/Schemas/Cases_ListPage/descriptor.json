@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "74330aac-c276-4385-9cf9-6c534a1c7d75",
+    "Name": "Cases_ListPage",
+    "ModifiedOnUtc": "\/Date(1723639114000)\/",
+    "Parent": {
+      "UId": "7299090b-87c8-4062-8897-74497f40a7eb",
+      "Name": "Cases_ListPage"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Cases list page",
+    "DependsOn": []
+  }
+}

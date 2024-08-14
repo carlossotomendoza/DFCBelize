@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3cf83668-441f-4d1b-8ec2-13ee1b2c41fc",
+    "Name": "DfcProcess_7bb35a2",
+    "ModifiedOnUtc": "\/Date(1723639299000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Send to auction approval",
+    "DependsOn": []
+  }
+}

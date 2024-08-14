@@ -9,6 +9,7 @@
     },
     "ExtendParent": true,
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Cases form page"
+    "Caption": "Cases form page",
+    "DependsOn": []
   }
 }
