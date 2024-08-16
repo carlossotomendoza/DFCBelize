@@ -1,0 +1,172 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1d58a2e0-9cf8-4361-90bc-e9da84d1bc43"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825637467-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825637467-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "9613116e-f3ab-4303-99f0-fd26dc48dc1c",
+          "DisplayValue": "Expense"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "21494f82-6f84-4b49-93eb-b48254c4f6e2"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825736480-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825736479-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "9706c06a-f8d7-4b27-ad2c-9bd639d9a72b",
+          "DisplayValue": "Asset"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "4594d464-5e09-4009-9d5e-0d657aa53d62"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825653413-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825653413-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "faf964ef-17f5-4605-bbc4-30e3bdf800b5",
+          "DisplayValue": "Liability"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "5db9e50d-512a-4614-ae0b-6fa0b4cbf4c5"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825729750-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825729750-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "9706c06a-f8d7-4b27-ad2c-9bd639d9a72b",
+          "DisplayValue": "Asset"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "68fc3b01-00a2-48d8-b65f-f6db1e8a4a20"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825691218-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825691218-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "1f61012d-4dcc-4076-9858-7929f0df41a6",
+          "DisplayValue": "Income"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "82974c11-434a-4ef7-aa34-39f0b3d410e4"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825668685-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825668685-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "9706c06a-f8d7-4b27-ad2c-9bd639d9a72b",
+          "DisplayValue": "Asset"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f079e0fc-3d98-4fe9-be85-cca642e3620e"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825593669-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825593669-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "9613116e-f3ab-4303-99f0-fd26dc48dc1c",
+          "DisplayValue": "Expense"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f48eaa7a-b398-4020-a922-3423fdd398bc"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1723825631997-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1723825631997-0400)\/"
+        },
+        {
+          "SchemaColumnUId": "f122d31e-6686-3d98-bb64-b554c57f9ce8",
+          "Value": "9706c06a-f8d7-4b27-ad2c-9bd639d9a72b",
+          "DisplayValue": "Asset"
+        }
+      ]
+    }
+  ]
+}
