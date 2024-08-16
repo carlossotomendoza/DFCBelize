@@ -2,80 +2,80 @@
 <Resources Culture="pt-PT">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Account.Caption" Value="Conta" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityCategory.Caption" Value="Categoria" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityPriority.Caption" Value="Prioridade" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityResult.Caption" Value="Resultado da atividade" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Application.Caption" Value="Aplicação" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Case.Caption" Value="Caso" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Change.Caption" Value="Alteração" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contact.Caption" Value="Contacto" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contract.Caption" Value="Contrato" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.CurrentActivityId.Caption" Value="Id Tarefa" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Document.Caption" Value="Documento" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Duration.Caption" Value="Duração" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.DurationPeriod.Caption" Value="Duração (period)" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.ExecutionContext.Caption" Value="Contexto de execução" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.FinApplication.Caption" Value="Aplicação" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Incident.Caption" Value="Incidente" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.InformationOnStep.Caption" Value="Informação sobre o passo" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Invoice.Caption" Value="Fatura" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.IsActivityCompleted.Caption" Value="Atividade concluída" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Listing.Caption" Value="Listagens" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Opportunity.Caption" Value="Oportunidade" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Order.Caption" Value="Encomenda" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.OwnerId.Caption" Value="Responsável" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Problem.Caption" Value="Problema" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Project.Caption" Value="Projeto" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Property.Caption" Value="Propriedade" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.QueueItem.Caption" Value="Colocar na fila" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Recommendation.Caption" Value="Recomendação" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Release.Caption" Value="Lançamento" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBefore.Caption" Value="Lembrar responsável com antecedência" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBeforePeriod.Caption" Value="Lembrar responsável com antecedência (período)" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.Requests.Caption" Value="Pedido" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowExecutionPage.Caption" Value="Mostrar a página de execução automaticamente" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowInScheduler.Caption" Value="Mostrar no calendário" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartIn.Caption" Value="Comece a executar em" />
-			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartInPeriod.Caption" Value="Começar a executar em (period)" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Account.Caption" Value="Conta" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityCategory.Caption" Value="Categoria" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityPriority.Caption" Value="Prioridade" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityResult.Caption" Value="Resultado da atividade" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Application.Caption" Value="Aplicação" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Case.Caption" Value="Caso" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Change.Caption" Value="Alteração" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contact.Caption" Value="Contacto" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contract.Caption" Value="Contrato" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.CurrentActivityId.Caption" Value="Id Tarefa" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Document.Caption" Value="Documento" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Duration.Caption" Value="Duração" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.DurationPeriod.Caption" Value="Duração (period)" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.ExecutionContext.Caption" Value="Contexto de execução" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.FinApplication.Caption" Value="Aplicação" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Incident.Caption" Value="Incidente" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.InformationOnStep.Caption" Value="Informação sobre o passo" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Invoice.Caption" Value="Fatura" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.IsActivityCompleted.Caption" Value="Atividade concluída" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Listing.Caption" Value="Listagens" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Opportunity.Caption" Value="Oportunidade" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Order.Caption" Value="Encomenda" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.OwnerId.Caption" Value="Responsável" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Problem.Caption" Value="Problema" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Project.Caption" Value="Projeto" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Property.Caption" Value="Propriedade" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.QueueItem.Caption" Value="Colocar na fila" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Recommendation.Caption" Value="Recomendação" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Release.Caption" Value="Lançamento" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBefore.Caption" Value="Lembrar responsável com antecedência" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBeforePeriod.Caption" Value="Lembrar responsável com antecedência (período)" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.Requests.Caption" Value="Pedido" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowExecutionPage.Caption" Value="Mostrar a página de execução automaticamente" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowInScheduler.Caption" Value="Mostrar no calendário" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartIn.Caption" Value="Comece a executar em" />
-			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartInPeriod.Caption" Value="Começar a executar em (period)" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Account.Caption" Value="Conta" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ActivityCategory.Caption" Value="Categoria" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ActivityPriority.Caption" Value="Prioridade" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ActivityResult.Caption" Value="Resultado da atividade" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Application.Caption" Value="Aplicação" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Case.Caption" Value="Caso" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Change.Caption" Value="Alteração" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Contact.Caption" Value="Contacto" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Contract.Caption" Value="Contrato" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.CurrentActivityId.Caption" Value="Id Tarefa" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Document.Caption" Value="Documento" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Duration.Caption" Value="Duração" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.DurationPeriod.Caption" Value="Duração (period)" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ExecutionContext.Caption" Value="Contexto de execução" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.FinApplication.Caption" Value="Aplicação" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Incident.Caption" Value="Incidente" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.InformationOnStep.Caption" Value="Informação sobre o passo" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Invoice.Caption" Value="Fatura" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.IsActivityCompleted.Caption" Value="Atividade concluída" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Listing.Caption" Value="Listagens" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Opportunity.Caption" Value="Oportunidade" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Order.Caption" Value="Encomenda" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.OwnerId.Caption" Value="Responsável" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Problem.Caption" Value="Problema" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Project.Caption" Value="Projeto" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Property.Caption" Value="Propriedade" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.QueueItem.Caption" Value="Colocar na fila" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Recommendation.Caption" Value="Recomendação" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Release.Caption" Value="Lançamento" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.RemindBefore.Caption" Value="Lembrar responsável com antecedência" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.RemindBeforePeriod.Caption" Value="Lembrar responsável com antecedência (período)" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Requests.Caption" Value="Pedido" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ShowExecutionPage.Caption" Value="Mostrar a página de execução automaticamente" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ShowInScheduler.Caption" Value="Mostrar no calendário" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.StartIn.Caption" Value="Comece a executar em" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.StartInPeriod.Caption" Value="Começar a executar em (period)" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Account.Caption" Value="Conta" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ActivityCategory.Caption" Value="Categoria" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ActivityPriority.Caption" Value="Prioridade" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ActivityResult.Caption" Value="Resultado da atividade" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Application.Caption" Value="Aplicação" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Case.Caption" Value="Caso" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Change.Caption" Value="Alteração" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Contact.Caption" Value="Contacto" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Contract.Caption" Value="Contrato" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.CurrentActivityId.Caption" Value="Id Tarefa" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Document.Caption" Value="Documento" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Duration.Caption" Value="Duração" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.DurationPeriod.Caption" Value="Duração (period)" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ExecutionContext.Caption" Value="Contexto de execução" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.FinApplication.Caption" Value="Aplicação" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Incident.Caption" Value="Incidente" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.InformationOnStep.Caption" Value="Informação sobre o passo" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Invoice.Caption" Value="Fatura" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.IsActivityCompleted.Caption" Value="Atividade concluída" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Listing.Caption" Value="Listagens" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Opportunity.Caption" Value="Oportunidade" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Order.Caption" Value="Encomenda" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.OwnerId.Caption" Value="Responsável" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Problem.Caption" Value="Problema" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Project.Caption" Value="Projeto" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Property.Caption" Value="Propriedade" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.QueueItem.Caption" Value="Colocar na fila" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Recommendation.Caption" Value="Recomendação" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Release.Caption" Value="Lançamento" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.RemindBefore.Caption" Value="Lembrar responsável com antecedência" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.RemindBeforePeriod.Caption" Value="Lembrar responsável com antecedência (período)" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Requests.Caption" Value="Pedido" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ShowExecutionPage.Caption" Value="Mostrar a página de execução automaticamente" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ShowInScheduler.Caption" Value="Mostrar no calendário" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.StartIn.Caption" Value="Comece a executar em" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.StartInPeriod.Caption" Value="Começar a executar em (period)" />
 			<Item Name="Caption" Value="Change in Commitee Decision" />
 		</Items>
 	</Group>
