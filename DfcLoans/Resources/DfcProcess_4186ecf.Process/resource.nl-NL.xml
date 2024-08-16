@@ -2,136 +2,80 @@
 <Resources Culture="nl-NL">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Account.Caption" Value="Bedrijf" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityCategory.Caption" Value="Categorie" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityPriority.Caption" Value="Prioriteit" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityResult.Caption" Value="Resultaten van taken" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Application.Caption" Value="Applicatie" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Case.Caption" Value="Case" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Change.Caption" Value="Wijzigen" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contact.Caption" Value="Contact" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contract.Caption" Value="Contract" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.CurrentActivityId.Caption" Value="Taak Id" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Document.Caption" Value="Document" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Duration.Caption" Value="Duur" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.DurationPeriod.Caption" Value="Looptijd (periode)" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ExecutionContext.Caption" Value="uitvoering context" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.FinApplication.Caption" Value="Applicatie" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Incident.Caption" Value="Incident" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.InformationOnStep.Caption" Value="Informatie over stap" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Invoice.Caption" Value="Factuur" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.IsActivityCompleted.Caption" Value="Activiteit voltooid" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Listing.Caption" Value="Lijsten" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Opportunity.Caption" Value="Verkoopkans" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Order.Caption" Value="Order" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.OwnerId.Caption" Value="Eigenaar" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Problem.Caption" Value="Probleem" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Project.Caption" Value="Project" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Property.Caption" Value="Eigenschappen" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.QueueItem.Caption" Value="Wachtrij-item" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Recommendation.Caption" Value="Aanbeveling" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Release.Caption" Value="Uitgave" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBefore.Caption" Value="Herinner eigenaar van tevoren" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Eigenaar vooraf herinneren (periode)" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Requests.Caption" Value="Verzoek" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowExecutionPage.Caption" Value="Toon executie pagina automatisch" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowInScheduler.Caption" Value="Toon in kalender" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartIn.Caption" Value="Begin met uitvoeren in" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartInPeriod.Caption" Value="Start het uitvoeren in (periode)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Account.Caption" Value="Bedrijf" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityCategory.Caption" Value="Categorie" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityPriority.Caption" Value="Prioriteit" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityResult.Caption" Value="Resultaten van taken" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Application.Caption" Value="Applicatie" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Case.Caption" Value="Case" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Change.Caption" Value="Wijzigen" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Contact.Caption" Value="Contact" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Contract.Caption" Value="Contract" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.CurrentActivityId.Caption" Value="Taak Id" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Document.Caption" Value="Document" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Duration.Caption" Value="Duur" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.DurationPeriod.Caption" Value="Looptijd (periode)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ExecutionContext.Caption" Value="uitvoering context" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.FinApplication.Caption" Value="Applicatie" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Incident.Caption" Value="Incident" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.InformationOnStep.Caption" Value="Informatie over stap" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Invoice.Caption" Value="Factuur" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.IsActivityCompleted.Caption" Value="Activiteit voltooid" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Listing.Caption" Value="Lijsten" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Opportunity.Caption" Value="Verkoopkans" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Order.Caption" Value="Order" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.OwnerId.Caption" Value="Eigenaar" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Problem.Caption" Value="Probleem" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Project.Caption" Value="Project" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Property.Caption" Value="Eigenschappen" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.QueueItem.Caption" Value="Wachtrij-item" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Recommendation.Caption" Value="Aanbeveling" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Release.Caption" Value="Uitgave" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.RemindBefore.Caption" Value="Herinner eigenaar van tevoren" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.RemindBeforePeriod.Caption" Value="Eigenaar vooraf herinneren (periode)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Requests.Caption" Value="Verzoek" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ShowExecutionPage.Caption" Value="Toon executie pagina automatisch" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ShowInScheduler.Caption" Value="Toon in kalender" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.StartIn.Caption" Value="Begin met uitvoeren in" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.StartInPeriod.Caption" Value="Start het uitvoeren in (periode)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Account.Caption" Value="Bedrijf" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityCategory.Caption" Value="Categorie" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityPriority.Caption" Value="Prioriteit" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityResult.Caption" Value="Resultaten van taken" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Application.Caption" Value="Applicatie" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Case.Caption" Value="Case" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Change.Caption" Value="Wijzigen" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Contact.Caption" Value="Contact" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Contract.Caption" Value="Contract" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.CurrentActivityId.Caption" Value="Taak Id" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Document.Caption" Value="Document" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Duration.Caption" Value="Duur" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.DurationPeriod.Caption" Value="Looptijd (periode)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ExecutionContext.Caption" Value="uitvoering context" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.FinApplication.Caption" Value="Applicatie" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Incident.Caption" Value="Incident" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.InformationOnStep.Caption" Value="Informatie over stap" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Invoice.Caption" Value="Factuur" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.IsActivityCompleted.Caption" Value="Activiteit voltooid" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Listing.Caption" Value="Lijsten" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Opportunity.Caption" Value="Verkoopkans" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Order.Caption" Value="Order" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.OwnerId.Caption" Value="Eigenaar" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Problem.Caption" Value="Probleem" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Project.Caption" Value="Project" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Property.Caption" Value="Eigenschappen" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.QueueItem.Caption" Value="Wachtrij-item" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Recommendation.Caption" Value="Aanbeveling" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Release.Caption" Value="Uitgave" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.RemindBefore.Caption" Value="Herinner eigenaar van tevoren" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.RemindBeforePeriod.Caption" Value="Eigenaar vooraf herinneren (periode)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Requests.Caption" Value="Verzoek" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ShowExecutionPage.Caption" Value="Toon executie pagina automatisch" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ShowInScheduler.Caption" Value="Toon in kalender" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.StartIn.Caption" Value="Begin met uitvoeren in" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.StartInPeriod.Caption" Value="Start het uitvoeren in (periode)" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Naam van de verzamelde functiekolom" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Lees niet-vastgelegde gegevens" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Houd rekening met tijd in het filter" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Gegevensbron van filters" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Te lezen kolommen" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate functietype" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Weergegeven waarden van opzoekkolommen niet lezen" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Aantal records om te lezen" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Kolomvolgorde" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Lees eerst" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Verzameling van records" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Aantal records" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="Eerste item van resulterende collectie" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulterende collectie" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Aantal records gelezen" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Soort resultaat" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Account.Caption" Value="Bedrijf" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityCategory.Caption" Value="Categorie" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityPriority.Caption" Value="Prioriteit" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityResult.Caption" Value="Resultaten van taken" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Application.Caption" Value="Applicatie" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Case.Caption" Value="Case" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Change.Caption" Value="Wijzigen" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contact.Caption" Value="Contact" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contract.Caption" Value="Contract" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.CurrentActivityId.Caption" Value="Taak Id" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Document.Caption" Value="Document" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Duration.Caption" Value="Duur" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.DurationPeriod.Caption" Value="Looptijd (periode)" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ExecutionContext.Caption" Value="uitvoering context" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.FinApplication.Caption" Value="Applicatie" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.InformationOnStep.Caption" Value="Informatie over stap" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Invoice.Caption" Value="Factuur" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.IsActivityCompleted.Caption" Value="Activiteit voltooid" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Listing.Caption" Value="Lijsten" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Opportunity.Caption" Value="Verkoopkans" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Order.Caption" Value="Order" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.OwnerId.Caption" Value="Eigenaar" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Problem.Caption" Value="Probleem" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Project.Caption" Value="Project" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Property.Caption" Value="Eigenschappen" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.QueueItem.Caption" Value="Wachtrij-item" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Recommendation.Caption" Value="Aanbeveling" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Release.Caption" Value="Uitgave" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBefore.Caption" Value="Herinner eigenaar van tevoren" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBeforePeriod.Caption" Value="Eigenaar vooraf herinneren (periode)" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Requests.Caption" Value="Verzoek" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowExecutionPage.Caption" Value="Toon executie pagina automatisch" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowInScheduler.Caption" Value="Toon in kalender" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartIn.Caption" Value="Begin met uitvoeren in" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartInPeriod.Caption" Value="Start het uitvoeren in (periode)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Account.Caption" Value="Bedrijf" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityCategory.Caption" Value="Categorie" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityPriority.Caption" Value="Prioriteit" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityResult.Caption" Value="Resultaten van taken" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Application.Caption" Value="Applicatie" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Case.Caption" Value="Case" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Change.Caption" Value="Wijzigen" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contact.Caption" Value="Contact" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contract.Caption" Value="Contract" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.CurrentActivityId.Caption" Value="Taak Id" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Document.Caption" Value="Document" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Duration.Caption" Value="Duur" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.DurationPeriod.Caption" Value="Looptijd (periode)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ExecutionContext.Caption" Value="uitvoering context" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.FinApplication.Caption" Value="Applicatie" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.InformationOnStep.Caption" Value="Informatie over stap" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Invoice.Caption" Value="Factuur" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.IsActivityCompleted.Caption" Value="Activiteit voltooid" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Listing.Caption" Value="Lijsten" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Opportunity.Caption" Value="Verkoopkans" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Order.Caption" Value="Order" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.OwnerId.Caption" Value="Eigenaar" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Problem.Caption" Value="Probleem" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Project.Caption" Value="Project" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Property.Caption" Value="Eigenschappen" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.QueueItem.Caption" Value="Wachtrij-item" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Recommendation.Caption" Value="Aanbeveling" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Release.Caption" Value="Uitgave" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBefore.Caption" Value="Herinner eigenaar van tevoren" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBeforePeriod.Caption" Value="Eigenaar vooraf herinneren (periode)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Requests.Caption" Value="Verzoek" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowExecutionPage.Caption" Value="Toon executie pagina automatisch" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowInScheduler.Caption" Value="Toon in kalender" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartIn.Caption" Value="Begin met uitvoeren in" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartInPeriod.Caption" Value="Start het uitvoeren in (periode)" />
 			<Item Name="Caption" Value="Change in Commitee Decision" />
 		</Items>
 	</Group>

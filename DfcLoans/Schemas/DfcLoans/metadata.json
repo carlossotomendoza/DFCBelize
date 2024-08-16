@@ -202,7 +202,23 @@
   "E17": "DfcLoanStatusId",
   "E18": "DfcLoanStatusName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","bb9036d9-8c9d-300d-251b-aa04af1bf0de","9d70c24c-19f0-4840-90cf-03ef1cf68efc","9a8bd052-133d-3651-9be1-cb3b624fd9ad","c1c0dd46-4a0e-1926-4408-f1a1a38bc67c","2dbd8074-73b5-cb20-a854-95230f104a3c","1b5eb4dd-40ff-5253-a653-4bf9224c17b5","6ddef58c-c357-320a-70ae-f2c60a1ca3a5","6118618f-08c2-d7b9-6baa-0460283d951e","a6fca93a-425f-5f61-0c8c-beded0d14b66","1726f570-c3b7-1685-e929-6c3ea8c02d6a","0bda9551-227f-82e3-13b8-6c30125f3a71","a4ac2894-f162-653a-b6d5-dd066666b4ba"]
++ MetaData.Schema.D2 {
+  "UId": "5d98a0c6-ba65-331f-e169-3d773961cfe5",
+  "A2": "DfcReservePrice",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "4979007b-6b00-4a83-b84c-0a2747d501f8",
+  "S2": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+}
++ MetaData.Schema.D2 {
+  "UId": "ef1d875c-62fa-2a34-df19-8917619ee6a2",
+  "A2": "DfcDepositPayDate",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "4979007b-6b00-4a83-b84c-0a2747d501f8",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","bb9036d9-8c9d-300d-251b-aa04af1bf0de","9d70c24c-19f0-4840-90cf-03ef1cf68efc","9a8bd052-133d-3651-9be1-cb3b624fd9ad","c1c0dd46-4a0e-1926-4408-f1a1a38bc67c","2dbd8074-73b5-cb20-a854-95230f104a3c","1b5eb4dd-40ff-5253-a653-4bf9224c17b5","6ddef58c-c357-320a-70ae-f2c60a1ca3a5","6118618f-08c2-d7b9-6baa-0460283d951e","a6fca93a-425f-5f61-0c8c-beded0d14b66","1726f570-c3b7-1685-e929-6c3ea8c02d6a","0bda9551-227f-82e3-13b8-6c30125f3a71","a4ac2894-f162-653a-b6d5-dd066666b4ba","5d98a0c6-ba65-331f-e169-3d773961cfe5","ef1d875c-62fa-2a34-df19-8917619ee6a2"]
 = MetaData.Schema.D20.A2 "DfcLoansEvents"
 = MetaData.Schema.D36.A3 "fded6a55-d9f9-4e09-bbc2-cf6654a88b28"
 = MetaData.Schema.D36.BS1 false

@@ -2,7 +2,6 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Объект" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Пул 1" />
 		</Items>
 	</Group>

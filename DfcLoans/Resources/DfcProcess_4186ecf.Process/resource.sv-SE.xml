@@ -2,136 +2,80 @@
 <Resources Culture="sv-SE">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Account.Caption" Value="Konto" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityCategory.Caption" Value="Kategori" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityPriority.Caption" Value="Prioritet" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityResult.Caption" Value="Resultat på Aktivitet" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Application.Caption" Value="Program" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Case.Caption" Value="Ärenden" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Change.Caption" Value="Ändring" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contact.Caption" Value="Kontakt" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contract.Caption" Value="Kontrakt" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.CurrentActivityId.Caption" Value="Uppgift-ID" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Document.Caption" Value="Dokument" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Duration.Caption" Value="Frist" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.DurationPeriod.Caption" Value="Frist (tid)" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ExecutionContext.Caption" Value="Exekverings kontext" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.FinApplication.Caption" Value="Program" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Incident.Caption" Value="Incident" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.InformationOnStep.Caption" Value="Info på steg" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Invoice.Caption" Value="Faktura" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.IsActivityCompleted.Caption" Value="Aktivitet färdig" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Listing.Caption" Value="Listor" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Opportunity.Caption" Value="Affärsmöjlighet" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Order.Caption" Value="Beställning" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.OwnerId.Caption" Value="Ägare" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Problem.Caption" Value="Problem" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Project.Caption" Value="Projekt" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Property.Caption" Value="Egenskaper" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.QueueItem.Caption" Value="Köa artikel" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Recommendation.Caption" Value="Rekommendation" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Release.Caption" Value="Släpp" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBefore.Caption" Value="Påminn ägare i förtid" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Påminn ägare i förtid (tid)" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Requests.Caption" Value="Begäran" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowExecutionPage.Caption" Value="Visa exekverings-sida automatiskt" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowInScheduler.Caption" Value="Visa i kalender" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartIn.Caption" Value="Starta exekvering om" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartInPeriod.Caption" Value="Starta exekvering om (tid)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Account.Caption" Value="Konto" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityCategory.Caption" Value="Kategori" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityPriority.Caption" Value="Prioritet" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityResult.Caption" Value="Resultat på Aktivitet" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Application.Caption" Value="Program" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Case.Caption" Value="Ärenden" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Change.Caption" Value="Ändring" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Contact.Caption" Value="Kontakt" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Contract.Caption" Value="Kontrakt" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.CurrentActivityId.Caption" Value="Uppgift-ID" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Document.Caption" Value="Dokument" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Duration.Caption" Value="Frist" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.DurationPeriod.Caption" Value="Frist (tid)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ExecutionContext.Caption" Value="Exekverings kontext" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.FinApplication.Caption" Value="Program" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Incident.Caption" Value="Incident" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.InformationOnStep.Caption" Value="Info på steg" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Invoice.Caption" Value="Faktura" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.IsActivityCompleted.Caption" Value="Aktivitet färdig" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Listing.Caption" Value="Listor" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Opportunity.Caption" Value="Affärsmöjlighet" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Order.Caption" Value="Beställning" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.OwnerId.Caption" Value="Ägare" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Problem.Caption" Value="Problem" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Project.Caption" Value="Projekt" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Property.Caption" Value="Egenskaper" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.QueueItem.Caption" Value="Köa artikel" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Recommendation.Caption" Value="Rekommendation" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Release.Caption" Value="Släpp" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.RemindBefore.Caption" Value="Påminn ägare i förtid" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.RemindBeforePeriod.Caption" Value="Påminn ägare i förtid (tid)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Requests.Caption" Value="Begäran" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ShowExecutionPage.Caption" Value="Visa exekverings-sida automatiskt" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ShowInScheduler.Caption" Value="Visa i kalender" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.StartIn.Caption" Value="Starta exekvering om" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.StartInPeriod.Caption" Value="Starta exekvering om (tid)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Account.Caption" Value="Konto" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityCategory.Caption" Value="Kategori" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityPriority.Caption" Value="Prioritet" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityResult.Caption" Value="Resultat på Aktivitet" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Application.Caption" Value="Program" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Case.Caption" Value="Ärenden" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Change.Caption" Value="Ändring" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Contact.Caption" Value="Kontakt" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Contract.Caption" Value="Kontrakt" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.CurrentActivityId.Caption" Value="Uppgift-ID" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Document.Caption" Value="Dokument" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Duration.Caption" Value="Frist" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.DurationPeriod.Caption" Value="Frist (tid)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ExecutionContext.Caption" Value="Exekverings kontext" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.FinApplication.Caption" Value="Program" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Incident.Caption" Value="Incident" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.InformationOnStep.Caption" Value="Info på steg" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Invoice.Caption" Value="Faktura" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.IsActivityCompleted.Caption" Value="Aktivitet färdig" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Listing.Caption" Value="Listor" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Opportunity.Caption" Value="Affärsmöjlighet" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Order.Caption" Value="Beställning" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.OwnerId.Caption" Value="Ägare" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Problem.Caption" Value="Problem" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Project.Caption" Value="Projekt" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Property.Caption" Value="Egenskaper" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.QueueItem.Caption" Value="Köa artikel" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Recommendation.Caption" Value="Rekommendation" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Release.Caption" Value="Släpp" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.RemindBefore.Caption" Value="Påminn ägare i förtid" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.RemindBeforePeriod.Caption" Value="Påminn ägare i förtid (tid)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Requests.Caption" Value="Begäran" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ShowExecutionPage.Caption" Value="Visa exekverings-sida automatiskt" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ShowInScheduler.Caption" Value="Visa i kalender" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.StartIn.Caption" Value="Starta exekvering om" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.StartInPeriod.Caption" Value="Starta exekvering om (tid)" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Namn på kolumn för aggregerad funktion" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Läs oskickad data" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Betänketid i filter" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data-källa av filter" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Kolumner att läsa" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregat-funktions typ" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Läs inte visade värden i uppslagskolumner" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Antal poster att läsa" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Kolumnordning" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Läs först" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Samling av kort" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Antal kort" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="Första föremål i resulterande kollektion" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulterade samling" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Antal kort lästa" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Resultat-typ" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Account.Caption" Value="Konto" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityCategory.Caption" Value="Kategori" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityPriority.Caption" Value="Prioritet" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityResult.Caption" Value="Resultat på Aktivitet" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Application.Caption" Value="Program" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Case.Caption" Value="Ärenden" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Change.Caption" Value="Ändring" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contact.Caption" Value="Kontakt" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contract.Caption" Value="Kontrakt" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.CurrentActivityId.Caption" Value="Uppgift-ID" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Document.Caption" Value="Dokument" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Duration.Caption" Value="Frist" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.DurationPeriod.Caption" Value="Frist (tid)" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ExecutionContext.Caption" Value="Exekverings kontext" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.FinApplication.Caption" Value="Program" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.InformationOnStep.Caption" Value="Info på steg" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Invoice.Caption" Value="Faktura" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.IsActivityCompleted.Caption" Value="Aktivitet färdig" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Listing.Caption" Value="Listor" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Opportunity.Caption" Value="Affärsmöjlighet" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Order.Caption" Value="Beställning" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.OwnerId.Caption" Value="Ägare" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Problem.Caption" Value="Problem" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Project.Caption" Value="Projekt" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Property.Caption" Value="Egenskaper" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.QueueItem.Caption" Value="Köa artikel" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Recommendation.Caption" Value="Rekommendation" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Release.Caption" Value="Släpp" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBefore.Caption" Value="Påminn ägare i förtid" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBeforePeriod.Caption" Value="Påminn ägare i förtid (tid)" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Requests.Caption" Value="Begäran" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowExecutionPage.Caption" Value="Visa exekverings-sida automatiskt" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowInScheduler.Caption" Value="Visa i kalender" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartIn.Caption" Value="Starta exekvering om" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartInPeriod.Caption" Value="Starta exekvering om (tid)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Account.Caption" Value="Konto" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityCategory.Caption" Value="Kategori" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityPriority.Caption" Value="Prioritet" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityResult.Caption" Value="Resultat på Aktivitet" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Application.Caption" Value="Program" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Case.Caption" Value="Ärenden" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Change.Caption" Value="Ändring" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contact.Caption" Value="Kontakt" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contract.Caption" Value="Kontrakt" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.CurrentActivityId.Caption" Value="Uppgift-ID" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Document.Caption" Value="Dokument" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Duration.Caption" Value="Frist" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.DurationPeriod.Caption" Value="Frist (tid)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ExecutionContext.Caption" Value="Exekverings kontext" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.FinApplication.Caption" Value="Program" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Incident.Caption" Value="Incident" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.InformationOnStep.Caption" Value="Info på steg" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Invoice.Caption" Value="Faktura" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.IsActivityCompleted.Caption" Value="Aktivitet färdig" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Listing.Caption" Value="Listor" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Opportunity.Caption" Value="Affärsmöjlighet" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Order.Caption" Value="Beställning" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.OwnerId.Caption" Value="Ägare" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Problem.Caption" Value="Problem" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Project.Caption" Value="Projekt" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Property.Caption" Value="Egenskaper" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.QueueItem.Caption" Value="Köa artikel" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Recommendation.Caption" Value="Rekommendation" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Release.Caption" Value="Släpp" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBefore.Caption" Value="Påminn ägare i förtid" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBeforePeriod.Caption" Value="Påminn ägare i förtid (tid)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Requests.Caption" Value="Begäran" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowExecutionPage.Caption" Value="Visa exekverings-sida automatiskt" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowInScheduler.Caption" Value="Visa i kalender" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartIn.Caption" Value="Starta exekvering om" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartInPeriod.Caption" Value="Starta exekvering om (tid)" />
 			<Item Name="Caption" Value="Change in Commitee Decision" />
 		</Items>
 	</Group>

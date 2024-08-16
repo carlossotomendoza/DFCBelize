@@ -2,136 +2,80 @@
 <Resources Culture="ar-SA">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Account.Caption" Value="الحساب" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityCategory.Caption" Value="الفئة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityPriority.Caption" Value="الأولوية" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ActivityResult.Caption" Value="حصيلة النشاط" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Application.Caption" Value="تطبيق" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Case.Caption" Value="حالة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Change.Caption" Value="تغيير" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contact.Caption" Value="جهة الاتصال" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Contract.Caption" Value="عقد" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.CurrentActivityId.Caption" Value="معرف المهمة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Document.Caption" Value="وثيقة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Duration.Caption" Value="المدة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.DurationPeriod.Caption" Value="المدة (الفترة)" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ExecutionContext.Caption" Value="سياق التنفيذ" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.FinApplication.Caption" Value="تطبيق" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Incident.Caption" Value="عارض" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.InformationOnStep.Caption" Value="معلومات عن الخطوة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Invoice.Caption" Value="الفاتورة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.IsActivityCompleted.Caption" Value="النشاط مكتمل" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Lead.Caption" Value="قيادة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Listing.Caption" Value="قوائم" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Opportunity.Caption" Value="فرصة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Order.Caption" Value="طلب" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.OwnerId.Caption" Value="المالك" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Problem.Caption" Value="المشكلة" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Project.Caption" Value="مشروع" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Property.Caption" Value="خصائص" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.QueueItem.Caption" Value="عنصر قائمة انتظار" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Recommendation.Caption" Value="توصية" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Release.Caption" Value="تحرير" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBefore.Caption" Value="تذكير المالك مقدما" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.RemindBeforePeriod.Caption" Value="قم بتذكير المالك مقدما (الفترة)" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.Requests.Caption" Value="طلب" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowExecutionPage.Caption" Value="إظهار صفحة التنفيذ تلقائياً" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.ShowInScheduler.Caption" Value="أدرج في جدول الأعمال" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartIn.Caption" Value="بدء التنفيذ في" />
-			<Item Name="BaseElements.ActivityUserTask1.Parameters.StartInPeriod.Caption" Value="بدء التنفيذ في (فترة)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Account.Caption" Value="الحساب" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityCategory.Caption" Value="الفئة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityPriority.Caption" Value="الأولوية" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ActivityResult.Caption" Value="حصيلة النشاط" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Application.Caption" Value="تطبيق" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Case.Caption" Value="حالة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Change.Caption" Value="تغيير" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Contact.Caption" Value="جهة الاتصال" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Contract.Caption" Value="عقد" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.CurrentActivityId.Caption" Value="معرف المهمة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Document.Caption" Value="وثيقة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Duration.Caption" Value="المدة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.DurationPeriod.Caption" Value="المدة (الفترة)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ExecutionContext.Caption" Value="سياق التنفيذ" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.FinApplication.Caption" Value="تطبيق" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Incident.Caption" Value="عارض" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.InformationOnStep.Caption" Value="معلومات عن الخطوة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Invoice.Caption" Value="الفاتورة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.IsActivityCompleted.Caption" Value="النشاط مكتمل" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Lead.Caption" Value="قيادة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Listing.Caption" Value="قوائم" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Opportunity.Caption" Value="فرصة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Order.Caption" Value="طلب" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.OwnerId.Caption" Value="المالك" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Problem.Caption" Value="المشكلة" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Project.Caption" Value="مشروع" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Property.Caption" Value="خصائص" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.QueueItem.Caption" Value="عنصر قائمة انتظار" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Recommendation.Caption" Value="توصية" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Release.Caption" Value="تحرير" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.RemindBefore.Caption" Value="تذكير المالك مقدما" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.RemindBeforePeriod.Caption" Value="قم بتذكير المالك مقدما (الفترة)" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.Requests.Caption" Value="طلب" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ShowExecutionPage.Caption" Value="إظهار صفحة التنفيذ تلقائياً" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.ShowInScheduler.Caption" Value="أدرج في جدول الأعمال" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.StartIn.Caption" Value="بدء التنفيذ في" />
-			<Item Name="BaseElements.ActivityUserTask2.Parameters.StartInPeriod.Caption" Value="بدء التنفيذ في (فترة)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Account.Caption" Value="الحساب" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityCategory.Caption" Value="الفئة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityPriority.Caption" Value="الأولوية" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ActivityResult.Caption" Value="حصيلة النشاط" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Application.Caption" Value="تطبيق" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Case.Caption" Value="حالة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Change.Caption" Value="تغيير" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Contact.Caption" Value="جهة الاتصال" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Contract.Caption" Value="عقد" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.CurrentActivityId.Caption" Value="معرف المهمة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Document.Caption" Value="وثيقة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Duration.Caption" Value="المدة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.DurationPeriod.Caption" Value="المدة (الفترة)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ExecutionContext.Caption" Value="سياق التنفيذ" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.FinApplication.Caption" Value="تطبيق" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Incident.Caption" Value="عارض" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.InformationOnStep.Caption" Value="معلومات عن الخطوة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Invoice.Caption" Value="الفاتورة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.IsActivityCompleted.Caption" Value="النشاط مكتمل" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Lead.Caption" Value="قيادة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Listing.Caption" Value="قوائم" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Opportunity.Caption" Value="فرصة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Order.Caption" Value="طلب" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.OwnerId.Caption" Value="المالك" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Problem.Caption" Value="المشكلة" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Project.Caption" Value="مشروع" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Property.Caption" Value="خصائص" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.QueueItem.Caption" Value="عنصر قائمة انتظار" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Recommendation.Caption" Value="توصية" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Release.Caption" Value="تحرير" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.RemindBefore.Caption" Value="تذكير المالك مقدما" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.RemindBeforePeriod.Caption" Value="قم بتذكير المالك مقدما (الفترة)" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.Requests.Caption" Value="طلب" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ShowExecutionPage.Caption" Value="إظهار صفحة التنفيذ تلقائياً" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.ShowInScheduler.Caption" Value="أدرج في جدول الأعمال" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.StartIn.Caption" Value="بدء التنفيذ في" />
-			<Item Name="BaseElements.ActivityUserTask3.Parameters.StartInPeriod.Caption" Value="بدء التنفيذ في (فترة)" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="أعمدة للقراءة" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="نوع الدالة التجميعية" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="عدد السجلات لقراءة" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="ترتيب الأعمدة" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="اقرأ أولا" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="عدد السجلات" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="العنصر الأول لناتج المجموعة" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="المجموعة الناتجة" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="عدد سجلات القراءة" />
-			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="نوع النتيجة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Account.Caption" Value="الحساب" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityCategory.Caption" Value="الفئة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityPriority.Caption" Value="الأولوية" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ActivityResult.Caption" Value="حصيلة النشاط" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Application.Caption" Value="تطبيق" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Case.Caption" Value="حالة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Change.Caption" Value="تغيير" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contact.Caption" Value="جهة الاتصال" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Contract.Caption" Value="عقد" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.CurrentActivityId.Caption" Value="معرف المهمة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Document.Caption" Value="وثيقة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Duration.Caption" Value="المدة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.DurationPeriod.Caption" Value="المدة (الفترة)" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ExecutionContext.Caption" Value="سياق التنفيذ" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.FinApplication.Caption" Value="تطبيق" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Incident.Caption" Value="عارض" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.InformationOnStep.Caption" Value="معلومات عن الخطوة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Invoice.Caption" Value="الفاتورة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.IsActivityCompleted.Caption" Value="النشاط مكتمل" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Lead.Caption" Value="قيادة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Listing.Caption" Value="قوائم" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Opportunity.Caption" Value="فرصة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Order.Caption" Value="طلب" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.OwnerId.Caption" Value="المالك" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Problem.Caption" Value="المشكلة" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Project.Caption" Value="مشروع" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Property.Caption" Value="خصائص" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.QueueItem.Caption" Value="عنصر قائمة انتظار" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Recommendation.Caption" Value="توصية" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Release.Caption" Value="تحرير" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBefore.Caption" Value="تذكير المالك مقدما" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.RemindBeforePeriod.Caption" Value="قم بتذكير المالك مقدما (الفترة)" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.Requests.Caption" Value="طلب" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowExecutionPage.Caption" Value="إظهار صفحة التنفيذ تلقائياً" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.ShowInScheduler.Caption" Value="أدرج في جدول الأعمال" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartIn.Caption" Value="بدء التنفيذ في" />
+			<Item Name="BaseElements.ActivityUserTask7.Parameters.StartInPeriod.Caption" Value="بدء التنفيذ في (فترة)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Account.Caption" Value="الحساب" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityCategory.Caption" Value="الفئة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityPriority.Caption" Value="الأولوية" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ActivityResult.Caption" Value="حصيلة النشاط" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Application.Caption" Value="تطبيق" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Case.Caption" Value="حالة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Change.Caption" Value="تغيير" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contact.Caption" Value="جهة الاتصال" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Contract.Caption" Value="عقد" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.CurrentActivityId.Caption" Value="معرف المهمة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Document.Caption" Value="وثيقة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Duration.Caption" Value="المدة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.DurationPeriod.Caption" Value="المدة (الفترة)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ExecutionContext.Caption" Value="سياق التنفيذ" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.FinApplication.Caption" Value="تطبيق" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Incident.Caption" Value="عارض" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.InformationOnStep.Caption" Value="معلومات عن الخطوة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Invoice.Caption" Value="الفاتورة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.IsActivityCompleted.Caption" Value="النشاط مكتمل" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Lead.Caption" Value="قيادة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Listing.Caption" Value="قوائم" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Opportunity.Caption" Value="فرصة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Order.Caption" Value="طلب" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.OwnerId.Caption" Value="المالك" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Problem.Caption" Value="المشكلة" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Project.Caption" Value="مشروع" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Property.Caption" Value="خصائص" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.QueueItem.Caption" Value="عنصر قائمة انتظار" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Recommendation.Caption" Value="توصية" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Release.Caption" Value="تحرير" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBefore.Caption" Value="تذكير المالك مقدما" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.RemindBeforePeriod.Caption" Value="قم بتذكير المالك مقدما (الفترة)" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.Requests.Caption" Value="طلب" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowExecutionPage.Caption" Value="إظهار صفحة التنفيذ تلقائياً" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.ShowInScheduler.Caption" Value="أدرج في جدول الأعمال" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartIn.Caption" Value="بدء التنفيذ في" />
+			<Item Name="BaseElements.ActivityUserTask8.Parameters.StartInPeriod.Caption" Value="بدء التنفيذ في (فترة)" />
 			<Item Name="Caption" Value="Change in Commitee Decision" />
 		</Items>
 	</Group>

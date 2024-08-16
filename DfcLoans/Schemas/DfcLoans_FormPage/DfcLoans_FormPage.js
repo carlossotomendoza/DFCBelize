@@ -629,6 +629,326 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GridDetail_Collaterals",
 				"propertyName": "bulkActions",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_BidList",
+				"values": {
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_hupg8t4_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "TabContainer_Collateral",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_4zavoqq",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_BidList",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_5772i52",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_4zavoqq",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_vwp53jh",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_vwp53jh_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "DfcBid"
+						}
+					}
+				},
+				"parentName": "FlexContainer_5772i52",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_bcdehz8",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_bcdehz8_caption)#",
+					"icon": "reload-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "GridDetail_spuzx2dDS"
+						}
+					}
+				},
+				"parentName": "FlexContainer_5772i52",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_9r8g0hs",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_9r8g0hs_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_5772i52",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_lrltowl",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_lrltowl_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "GridDetail_spuzx2d"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_9r8g0hs",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_gil0qqf",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_gil0qqf_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "DfcBid"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_9r8g0hs",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_2n6lc98",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_2n6lc98_placeholder)#",
+					"iconOnly": true,
+					"targetAttributes": [
+						"GridDetail_spuzx2d"
+					]
+				},
+				"parentName": "FlexContainer_5772i52",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_sda7e0w",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": [],
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "ExpansionPanel_BidList",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_o2h10ps",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcReservePrice_sl7ldgz",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcReservePrice_sl7ldgz"
+				},
+				"parentName": "GridContainer_sda7e0w",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DfcDepositPayDate",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.DateTimePicker",
+					"label": "$Resources.Strings.PDS_DfcDepositPayDate_ljd5q4b",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcDepositPayDate_ljd5q4b",
+					"pickerType": "date"
+				},
+				"parentName": "GridContainer_sda7e0w",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_spuzx2d",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 2,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						}
+					},
+					"items": "$GridDetail_spuzx2d",
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "GridDetail_spuzx2dDS_Id",
+					"columns": [
+						{
+							"id": "41ff2910-e706-a165-2dc2-28d5b0622196",
+							"code": "GridDetail_spuzx2dDS_DfcCollateralId",
+							"caption": "#ResourceString(GridDetail_spuzx2dDS_DfcCollateralId)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "797514dc-b7f8-ce92-f628-cdc77750412f",
+							"code": "GridDetail_spuzx2dDS_DfcCustomerId",
+							"caption": "#ResourceString(GridDetail_spuzx2dDS_DfcCustomerId)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "54b0bdaa-70c5-7283-0c41-dafc8c1d971e",
+							"code": "GridDetail_spuzx2dDS_DfcOffer",
+							"caption": "#ResourceString(GridDetail_spuzx2dDS_DfcOffer)#",
+							"dataValueType": 31
+						},
+						{
+							"id": "e61bf63b-652b-73fd-086f-f414e1650f8c",
+							"code": "GridDetail_spuzx2dDS_DfcPurchaseMethod",
+							"caption": "#ResourceString(GridDetail_spuzx2dDS_DfcPurchaseMethod)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "c08d30fe-85ab-5ccc-3bae-57d1b7707eeb",
+							"code": "GridDetail_spuzx2dDS_DfcBestOffer",
+							"caption": "#ResourceString(GridDetail_spuzx2dDS_DfcBestOffer)#",
+							"dataValueType": 12
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_sda7e0w",
+				"propertyName": "items",
+				"index": 2
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -712,6 +1032,56 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"modelConfig": {
 							"path": "PDS.DfcLoanNo"
 						}
+					},
+					"GridDetail_spuzx2d": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_spuzx2dDS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_spuzx2dDS_DfcCollateralId": {
+									"modelConfig": {
+										"path": "GridDetail_spuzx2dDS.DfcCollateralId"
+									}
+								},
+								"GridDetail_spuzx2dDS_DfcCustomerId": {
+									"modelConfig": {
+										"path": "GridDetail_spuzx2dDS.DfcCustomerId"
+									}
+								},
+								"GridDetail_spuzx2dDS_DfcOffer": {
+									"modelConfig": {
+										"path": "GridDetail_spuzx2dDS.DfcOffer"
+									}
+								},
+								"GridDetail_spuzx2dDS_DfcPurchaseMethod": {
+									"modelConfig": {
+										"path": "GridDetail_spuzx2dDS.DfcPurchaseMethod"
+									}
+								},
+								"GridDetail_spuzx2dDS_DfcBestOffer": {
+									"modelConfig": {
+										"path": "GridDetail_spuzx2dDS.DfcBestOffer"
+									}
+								},
+								"GridDetail_spuzx2dDS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_spuzx2dDS.Id"
+									}
+								}
+							}
+						}
+					},
+					"PDS_DfcReservePrice_sl7ldgz": {
+						"modelConfig": {
+							"path": "PDS.DfcReservePrice"
+						}
+					},
+					"PDS_DfcDepositPayDate_ljd5q4b": {
+						"modelConfig": {
+							"path": "PDS.DfcDepositPayDate"
+						}
 					}
 				}
 			},
@@ -776,6 +1146,30 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								},
 								"CreatedOn": {
 									"path": "CreatedOn"
+								}
+							}
+						}
+					},
+					"GridDetail_spuzx2dDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcBid",
+							"attributes": {
+								"DfcCollateralId": {
+									"path": "DfcCollateralId"
+								},
+								"DfcCustomerId": {
+									"path": "DfcCustomerId"
+								},
+								"DfcOffer": {
+									"path": "DfcOffer"
+								},
+								"DfcPurchaseMethod": {
+									"path": "DfcPurchaseMethod"
+								},
+								"DfcBestOffer": {
+									"path": "DfcBestOffer"
 								}
 							}
 						}
