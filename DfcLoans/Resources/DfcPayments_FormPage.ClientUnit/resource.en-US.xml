@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Payments form page" />
+			<Item Name="LocalizableStrings.addRecord_4ilrwse_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_4ljklb2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_bvy75vt_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_c2u1cbd_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_f3lbyed_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_o80aayg_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_spimnir_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_v4ozvg6_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_rwtkhzh_caption.Value" Value="Customer Information" />
+			<Item Name="LocalizableStrings.ComboBox_u8ifb3c_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_u8ifb3c_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ExpansionPanel_d1k4uv9_title.Value" Value="Arrears" />
+			<Item Name="LocalizableStrings.ExpansionPanel_pg62p8m_title.Value" Value="Payments" />
+			<Item Name="LocalizableStrings.ExpansionPanel_qhhxazf_title.Value" Value="Amortization Table" />
+			<Item Name="LocalizableStrings.ExpansionPanel_tvocb2u_title.Value" Value="Amortization Schedule" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Payment Information" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_4wc9ahr_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_a6agfyw_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_hss8ud2_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_85e3j8v_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_fjs5n9u_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_uhcvh84_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_0pplgpa_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_8kqle5i_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_cqzw71o_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_frkeycy_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_mpbfkgj_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_sfcwv2d_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_clfdrrs_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_ffrasp6_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_ti8hp92_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_0cqxxl3_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_7rtyjtl_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_oczp01u_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.IndicatorWidget_cmmzmoo_template.Value" Value="{0}" />
+			<Item Name="LocalizableStrings.IndicatorWidget_cmmzmoo_title.Value" Value="Current Payment Due" />
+			<Item Name="LocalizableStrings.Input_2miyfh0_label.Value" Value="Text" />
+			<Item Name="LocalizableStrings.Label_fam2l6i_caption.Value" Value="Label" />
+			<Item Name="LocalizableStrings.Label_x3csx3s_caption.Value" Value="Select Client" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="Apply Payment" />
+			<Item Name="LocalizableStrings.TabContainer_ctk8qp3_caption.Value" Value="Arrears" />
+			<Item Name="LocalizableStrings.TabContainer_wun4w4r_caption.Value" Value="General Information" />
+		</Items>
+	</Group>
+</Resources>

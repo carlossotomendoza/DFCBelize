@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9fe8dce8-c3b9-4d58-a477-746212bfdc7c",
+    "Name": "DfcLoanArrears",
+    "ModifiedOnUtc": "\/Date(1723828718000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Arrears",
+    "DependsOn": []
+  }
+}
