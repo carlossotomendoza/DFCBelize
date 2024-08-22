@@ -41,16 +41,28 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				"name": "OpenLandingDesigner"
 			},
 			{
+				"operation": "remove",
+				"name": "ActionButton"
+			},
+			{
+				"operation": "remove",
+				"name": "MenuItem_ExportToExcel"
+			},
+			{
 				"operation": "merge",
-				"name": "LeftFilterContainer",
+				"name": "MainFilterContainer",
 				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 3,
-						"rowSpan": 1
-					}
+					"visible": true,
+					"alignItems": "stretch"
 				}
+			},
+			{
+				"operation": "remove",
+				"name": "LeftFilterContainer"
+			},
+			{
+				"operation": "remove",
+				"name": "LeftFilterContainerInner"
 			},
 			{
 				"operation": "remove",
@@ -73,30 +85,8 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				"name": "DataTable_Summaries"
 			},
 			{
-				"operation": "merge",
-				"name": "RefreshButton",
-				"values": {
-					"caption": "#ResourceString(RefreshButton_caption)#",
-					"size": "large",
-					"clicked": {
-						"request": "crt.LoadDataRequest",
-						"params": {
-							"config": {
-								"loadType": "reload",
-								"useLastLoadParameters": true
-							},
-							"dataSourceName": "GridDetail_z4kqgrtDS"
-						}
-					},
-					"visible": true
-				}
-			},
-			{
-				"operation": "move",
-				"name": "RefreshButton",
-				"parentName": "ActionButtonsContainer",
-				"propertyName": "items",
-				"index": 2
+				"operation": "remove",
+				"name": "RefreshButton"
 			},
 			{
 				"operation": "remove",
@@ -108,16 +98,40 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
-				"name": "Button_fjdn5e1",
+				"name": "GridContainer_aie8fnr",
 				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(Button_fjdn5e1_caption)#",
-					"color": "default",
-					"disabled": false,
-					"size": "large",
-					"iconPosition": "only-text"
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
 				},
-				"parentName": "ActionButtonsContainer",
+				"parentName": "MainFilterContainer",
 				"propertyName": "items",
 				"index": 0
 			},
@@ -127,7 +141,7 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 2,
+						"row": 1,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -145,25 +159,8 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"tooltip": "",
 					"valueDetails": null
 				},
-				"parentName": "MainFilterContainer",
+				"parentName": "GridContainer_aie8fnr",
 				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_ypab6vi",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_ypab6vi_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_f1w1c4z",
-				"propertyName": "listActions",
 				"index": 0
 			},
 			{
@@ -185,31 +182,14 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"valueDetails": null,
 					"layoutConfig": {
 						"column": 2,
-						"row": 2,
+						"row": 1,
 						"colSpan": 1,
 						"rowSpan": 1
 					}
 				},
-				"parentName": "MainFilterContainer",
+				"parentName": "GridContainer_aie8fnr",
 				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_ih3gbqk",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_ih3gbqk_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_d10zfqv",
-				"propertyName": "listActions",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -230,31 +210,14 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"valueDetails": null,
 					"layoutConfig": {
 						"column": 3,
-						"row": 2,
+						"row": 1,
 						"colSpan": 1,
 						"rowSpan": 1
 					}
 				},
-				"parentName": "MainFilterContainer",
+				"parentName": "GridContainer_aie8fnr",
 				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_tj6gsds",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_tj6gsds_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_ihfkh5c",
-				"propertyName": "listActions",
-				"index": 0
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -291,6 +254,105 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
+				"name": "GridContainer_l08yb4g",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "TabContainer_qt39gmm",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_eugqq0q",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "#ResourceString(ComboBox_eugqq0q_label)#",
+					"labelPosition": "auto",
+					"control": "$PageParameters_DfcLoansParameterDfcLoanStatus",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"mode": "List",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GridContainer_l08yb4g",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_o6o0834",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_o6o0834_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_eugqq0q",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_0nncu3z",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "#ResourceString(NumberInput_0nncu3z_label)#",
+					"labelPosition": "auto",
+					"control": "$PageParameters_DfcLoansParameterDfcLoanAmt",
+					"readonly": true,
+					"visible": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_l08yb4g",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "ExpansionPanel_7thhm1z",
 				"values": {
 					"type": "crt.ExpansionPanel",
@@ -313,7 +375,7 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				},
 				"parentName": "TabContainer_qt39gmm",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -359,20 +421,14 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
-				"name": "GridDetailAddBtn_dplj9oi",
+				"name": "GridDetailSearchFilter_ucn3y9f",
 				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailAddBtn_dplj9oi_caption)#",
-					"icon": "add-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.CreateRecordRequest",
-						"params": {
-							"entityName": "DfcLoanAmortizationTable"
-						}
-					}
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_ucn3y9f_placeholder)#",
+					"iconOnly": false,
+					"targetAttributes": [
+						"GridDetail_plcq2jy"
+					]
 				},
 				"parentName": "FlexContainer_9d6e158",
 				"propertyName": "items",
@@ -387,92 +443,23 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"icon": "reload-button-icon",
 					"iconPosition": "only-icon",
 					"color": "default",
-					"size": "medium",
+					"size": "large",
 					"clicked": {
 						"request": "crt.LoadDataRequest",
 						"params": {
 							"config": {
-								"loadType": "reload"
+								"loadType": "reload",
+								"useLastLoadParameters": true
 							},
 							"dataSourceName": "GridDetail_plcq2jyDS"
 						}
-					}
+					},
+					"visible": true,
+					"clickMode": "default"
 				},
 				"parentName": "FlexContainer_9d6e158",
 				"propertyName": "items",
 				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSettingsBtn_ynwi9io",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailSettingsBtn_ynwi9io_caption)#",
-					"icon": "actions-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clickMode": "menu",
-					"menuItems": []
-				},
-				"parentName": "FlexContainer_9d6e158",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailExportDataBtn_dl1ofeh",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailExportDataBtn_dl1ofeh_caption)#",
-					"icon": "export-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "GridDetail_plcq2jy"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_ynwi9io",
-				"propertyName": "menuItems",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailImportDataBtn_quejj2l",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailImportDataBtn_quejj2l_caption)#",
-					"icon": "import-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ImportDataRequest",
-						"params": {
-							"entitySchemaName": "DfcLoanAmortizationTable"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_ynwi9io",
-				"propertyName": "menuItems",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSearchFilter_ucn3y9f",
-				"values": {
-					"type": "crt.SearchFilter",
-					"placeholder": "#ResourceString(GridDetailSearchFilter_ucn3y9f_placeholder)#",
-					"iconOnly": true,
-					"targetAttributes": [
-						"GridDetail_plcq2jy"
-					]
-				},
-				"parentName": "FlexContainer_9d6e158",
-				"propertyName": "items",
-				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -599,7 +586,7 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				},
 				"parentName": "TabContainer_qt39gmm",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -652,16 +639,19 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"icon": "reload-button-icon",
 					"iconPosition": "only-icon",
 					"color": "default",
-					"size": "medium",
+					"size": "large",
 					"clicked": {
 						"request": "crt.LoadDataRequest",
 						"params": {
 							"config": {
-								"loadType": "reload"
+								"loadType": "reload",
+								"useLastLoadParameters": true
 							},
 							"dataSourceName": "GridDetail_f7dd5jvDS"
 						}
-					}
+					},
+					"visible": true,
+					"clickMode": "default"
 				},
 				"parentName": "FlexContainer_2bd92my",
 				"propertyName": "items",
@@ -733,7 +723,9 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				"values": {
 					"type": "crt.TabContainer",
 					"items": [],
-					"caption": "#ResourceString(TabContainer_zp9469i_caption)#"
+					"caption": "#ResourceString(TabContainer_zp9469i_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
 				},
 				"parentName": "TabPanel_6tron9l",
 				"propertyName": "items",
@@ -752,10 +744,283 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					],
 					"gap": {
 						"columnGap": "large",
-						"rowGap": 0
-					}
+						"rowGap": "none"
+					},
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
 				},
 				"parentName": "TabContainer_zp9469i",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_ix0qfhl",
+				"values": {
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_ix0qfhl_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true
+				},
+				"parentName": "TabContainer_zp9469i",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_c2ycr2l",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_ix0qfhl",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_4l8krd0",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_c2ycr2l",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_g8a31ak",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_g8a31ak_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "DfcLoanArrears"
+						}
+					}
+				},
+				"parentName": "FlexContainer_4l8krd0",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_8x5vqyf",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_8x5vqyf_caption)#",
+					"icon": "reload-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "GridDetail_gvq79mpDS"
+						}
+					}
+				},
+				"parentName": "FlexContainer_4l8krd0",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_y3wmv8q",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_y3wmv8q_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_4l8krd0",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_dzmldf1",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_dzmldf1_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "GridDetail_gvq79mp"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_y3wmv8q",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_wfx0828",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_wfx0828_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "DfcLoanArrears"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_y3wmv8q",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_0itdx6r",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_0itdx6r_placeholder)#",
+					"iconOnly": true,
+					"targetAttributes": [
+						"GridDetail_gvq79mp"
+					]
+				},
+				"parentName": "FlexContainer_4l8krd0",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_uc18uax",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_ix0qfhl",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_gvq79mp",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						}
+					},
+					"items": "$GridDetail_gvq79mp",
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "GridDetail_gvq79mpDS_Id",
+					"columns": [
+						{
+							"id": "2aa706c3-9157-453f-c893-750d94fc3f96",
+							"code": "GridDetail_gvq79mpDS_DfcArrearNumber",
+							"caption": "#ResourceString(GridDetail_gvq79mpDS_DfcArrearNumber)#",
+							"dataValueType": 27
+						},
+						{
+							"id": "152dc58b-d1f6-7945-dda2-f2e4abda9b48",
+							"code": "GridDetail_gvq79mpDS_DfcAmortizationPeriod",
+							"caption": "#ResourceString(GridDetail_gvq79mpDS_DfcAmortizationPeriod)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "f155609f-3a6b-ef30-32ac-1725cc7e9074",
+							"code": "GridDetail_gvq79mpDS_DfcArrearDate",
+							"caption": "#ResourceString(GridDetail_gvq79mpDS_DfcArrearDate)#",
+							"dataValueType": 8
+						},
+						{
+							"id": "d3136d87-7c74-4d68-363c-79753e318989",
+							"code": "GridDetail_gvq79mpDS_DfcArrearAmount",
+							"caption": "#ResourceString(GridDetail_gvq79mpDS_DfcArrearAmount)#",
+							"dataValueType": 6
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_uc18uax",
 				"propertyName": "items",
 				"index": 0
 			}
@@ -823,7 +1088,7 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 								"default": [
 									{
 										"direction": "asc",
-										"columnName": "DfcAmortizationNumber"
+										"columnName": "DfcAmortizationApplicationNumber"
 									}
 								]
 							}
@@ -892,6 +1157,66 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 								}
 							}
 						}
+					},
+					"GridDetail_gvq79mp": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_gvq79mpDS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_gvq79mpDS_DfcArrearNumber": {
+									"modelConfig": {
+										"path": "GridDetail_gvq79mpDS.DfcArrearNumber"
+									}
+								},
+								"GridDetail_gvq79mpDS_DfcAmortizationPeriod": {
+									"modelConfig": {
+										"path": "GridDetail_gvq79mpDS.DfcAmortizationPeriod"
+									}
+								},
+								"GridDetail_gvq79mpDS_DfcArrearDate": {
+									"modelConfig": {
+										"path": "GridDetail_gvq79mpDS.DfcArrearDate"
+									}
+								},
+								"GridDetail_gvq79mpDS_DfcArrearAmount": {
+									"modelConfig": {
+										"path": "GridDetail_gvq79mpDS.DfcArrearAmount"
+									}
+								},
+								"GridDetail_gvq79mpDS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_gvq79mpDS.Id"
+									}
+								}
+							}
+						}
+					},
+					"PageParameters_DfcTextParameter1_nm96tmr": {
+						"modelConfig": {
+							"path": "PageParameters.DfcTextParameter1"
+						}
+					},
+					"PageParameters_DfcLookupParameter1_6v0cx87": {
+						"modelConfig": {
+							"path": "PageParameters.DfcLookupParameter1"
+						}
+					},
+					"PageParameters_DfcLoansParameterDfcLoanStatus": {
+						"modelConfig": {
+							"path": "PageParameters.DfcLoansParameterDfcLoanStatus"
+						}
+					},
+					"PageParameters_DfcIntegerParameter1_i98112q": {
+						"modelConfig": {
+							"path": "PageParameters.DfcIntegerParameter1"
+						}
+					},
+					"PageParameters_DfcLoansParameterDfcLoanAmt": {
+						"modelConfig": {
+							"path": "PageParameters.DfcLoansParameterDfcLoanAmt"
+						}
 					}
 				}
 			},
@@ -938,6 +1263,12 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 						"GridDetail_f7dd5jvDS": [
 							{
 								"attributePath": "DfcLoan",
+								"relationPath": "PageParameters.DfcLoansParameter"
+							}
+						],
+						"GridDetail_gvq79mpDS": [
+							{
+								"attributePath": "DfcArrearLoan",
 								"relationPath": "PageParameters.DfcLoansParameter"
 							}
 						]
@@ -1000,6 +1331,27 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 							"attributes": {
 								"DfcPaymentNumber": {
 									"path": "DfcPaymentNumber"
+								}
+							}
+						}
+					},
+					"GridDetail_gvq79mpDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcLoanArrears",
+							"attributes": {
+								"DfcArrearNumber": {
+									"path": "DfcArrearNumber"
+								},
+								"DfcAmortizationPeriod": {
+									"path": "DfcAmortizationPeriod"
+								},
+								"DfcArrearDate": {
+									"path": "DfcArrearDate"
+								},
+								"DfcArrearAmount": {
+									"path": "DfcArrearAmount"
 								}
 							}
 						}
