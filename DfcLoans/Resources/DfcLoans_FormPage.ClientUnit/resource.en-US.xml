@@ -3,9 +3,11 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Loans form page" />
+			<Item Name="LocalizableStrings.addRecord_6g3z8c7_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ll8puqj_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ujxbf3x_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_vyu29pr_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_wz9y7d7_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.ExpansionPanel_hupg8t4_title.Value" Value="Bid List" />
 			<Item Name="LocalizableStrings.ExpansionPanel_tgka4vj_title.Value" Value="Collaterals" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_0sdy1zf_caption.Value" Value="New" />
@@ -20,6 +22,7 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_l073eda_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_9r8g0hs_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_rj04289_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Label_ivhdx2r_caption.Value" Value="Loan Application Info" />
 			<Item Name="LocalizableStrings.TabContainer_es3rs4g_caption.Value" Value="Collateral" />
 		</Items>
 	</Group>

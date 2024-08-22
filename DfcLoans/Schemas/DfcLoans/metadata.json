@@ -218,7 +218,71 @@
   "A5": "4979007b-6b00-4a83-b84c-0a2747d501f8",
   "S2": "603d4960-a1a2-45e9-b232-206a54421b01"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","bb9036d9-8c9d-300d-251b-aa04af1bf0de","9d70c24c-19f0-4840-90cf-03ef1cf68efc","9a8bd052-133d-3651-9be1-cb3b624fd9ad","c1c0dd46-4a0e-1926-4408-f1a1a38bc67c","2dbd8074-73b5-cb20-a854-95230f104a3c","1b5eb4dd-40ff-5253-a653-4bf9224c17b5","6ddef58c-c357-320a-70ae-f2c60a1ca3a5","6118618f-08c2-d7b9-6baa-0460283d951e","a6fca93a-425f-5f61-0c8c-beded0d14b66","1726f570-c3b7-1685-e929-6c3ea8c02d6a","0bda9551-227f-82e3-13b8-6c30125f3a71","a4ac2894-f162-653a-b6d5-dd066666b4ba","5d98a0c6-ba65-331f-e169-3d773961cfe5","ef1d875c-62fa-2a34-df19-8917619ee6a2"]
++ MetaData.Schema.D2 {
+  "UId": "fd0e71c3-545b-3691-36be-ea666fc64443",
+  "A2": "DfcTotWriteOffBal",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "1e0410ca-d38c-6c60-85c2-506fea7bb470",
+  "A2": "DfcIntWriteOff",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "6e955cdb-c33f-921e-b628-95ccd2082ebd",
+  "A2": "DfcPpalWriteOff",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "3fa563fd-0422-1314-a6ea-9095099360c1",
+  "A2": "DfcOtherWriteOff",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "e4c1421c-aef2-89d8-9c9a-4ca5988e32f5",
+  "A2": "DfcLoanInstallmentTotAmt",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "25199a23-5c40-c7fd-74ed-3561ae4522a0",
+  "A2": "DfcEscrowBal",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "f4a0a53e-d24c-54ef-e3fe-cbe6fb45a9b5",
+  "A2": "DfcOtherAmtArrears",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "a1fbd6b6-ec00-240c-1fa4-fa898e735841",
+  "A2": "DfcEscrowAmtArrears",
+  "A3": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "A5": "a3a25e11-25f6-4184-bf6f-b20e82a4a69d",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","bb9036d9-8c9d-300d-251b-aa04af1bf0de","9d70c24c-19f0-4840-90cf-03ef1cf68efc","9a8bd052-133d-3651-9be1-cb3b624fd9ad","c1c0dd46-4a0e-1926-4408-f1a1a38bc67c","2dbd8074-73b5-cb20-a854-95230f104a3c","1b5eb4dd-40ff-5253-a653-4bf9224c17b5","6ddef58c-c357-320a-70ae-f2c60a1ca3a5","6118618f-08c2-d7b9-6baa-0460283d951e","a6fca93a-425f-5f61-0c8c-beded0d14b66","1726f570-c3b7-1685-e929-6c3ea8c02d6a","0bda9551-227f-82e3-13b8-6c30125f3a71","a4ac2894-f162-653a-b6d5-dd066666b4ba","5d98a0c6-ba65-331f-e169-3d773961cfe5","ef1d875c-62fa-2a34-df19-8917619ee6a2","fd0e71c3-545b-3691-36be-ea666fc64443","1e0410ca-d38c-6c60-85c2-506fea7bb470","6e955cdb-c33f-921e-b628-95ccd2082ebd","3fa563fd-0422-1314-a6ea-9095099360c1","e4c1421c-aef2-89d8-9c9a-4ca5988e32f5","25199a23-5c40-c7fd-74ed-3561ae4522a0","f4a0a53e-d24c-54ef-e3fe-cbe6fb45a9b5","a1fbd6b6-ec00-240c-1fa4-fa898e735841"]
 = MetaData.Schema.D20.A2 "DfcLoansEvents"
 = MetaData.Schema.D36.A3 "fded6a55-d9f9-4e09-bbc2-cf6654a88b28"
 = MetaData.Schema.D36.BS1 false
