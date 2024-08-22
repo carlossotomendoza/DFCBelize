@@ -37,6 +37,8 @@
 			<Item Name="LocalizableStrings.CreateTaskMenuItem_l7s78rk_caption.Value" Value="Create a task" />
 			<Item Name="LocalizableStrings.CustomerProfileTabContainer_caption.Value" Value="Customer profile" />
 			<Item Name="LocalizableStrings.CustomerProfileTabContainerHeaderLabel_caption.Value" Value="Customer profile" />
+			<Item Name="LocalizableStrings.DateTimePicker_unws389_label.Value" Value="Date/Time" />
+			<Item Name="LocalizableStrings.ExpansionPanel_5exdrbp_title.Value" Value="Bid List" />
 			<Item Name="LocalizableStrings.ExpansionPanel_najd9hj_title.Value" Value="Collateral List" />
 			<Item Name="LocalizableStrings.FinApplicationAddButton_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.FinApplicationExpansionPanel_title.Value" Value="Applications" />
@@ -45,15 +47,25 @@
 			<Item Name="LocalizableStrings.FinApplicationRefreshButton_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.FinApplicationSearchFilter_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.FinApplicationSettingsButton_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_d4uwbx4_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_q1k6fkr_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_2bhstzy_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_chxaqzp_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_336riey_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_vfnu33z_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_gsxqnlg_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_sg6ebuj_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_4z8r14w_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_jk6xt4p_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_l76cwxv_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_lcjo1t6_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Label_2g51r7b_caption.Value" Value="Days since deposit payment" />
 			<Item Name="LocalizableStrings.Label_59nue7x_caption.Value" Value="Account info" />
 			<Item Name="LocalizableStrings.NextStepsContainer_cm6ch8j_title.Value" Value="Next steps" />
+			<Item Name="LocalizableStrings.NumberInput_195llo1_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.TabContainer_u9deoko_caption.Value" Value="CHECK LIST" />
+			<Item Name="LocalizableStrings.Timer_5yuppj7_caption.Value" Value="Timer" />
+			<Item Name="LocalizableStrings.Timer_5yuppj7_label.Value" Value="Timer" />
 			<Item Name="LocalizableStrings.Timer_xoz5gvg_caption.Value" Value="Timer" />
 			<Item Name="LocalizableStrings.Timer_xoz5gvg_label.Value" Value="Timer" />
 		</Items>

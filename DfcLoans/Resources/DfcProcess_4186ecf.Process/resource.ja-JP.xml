@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Account.Caption" Value="アカウント" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ActivityCategory.Caption" Value="カテゴリ" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ActivityPriority.Caption" Value="優先度" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ActivityResult.Caption" Value="アクティビティ結果" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Application.Caption" Value="アプリケーション" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Case.Caption" Value="ケース" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Change.Caption" Value="変更" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Contact.Caption" Value="連絡先" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Contract.Caption" Value="契約" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.CurrentActivityId.Caption" Value="タスクId" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Document.Caption" Value="ドキュメント" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Duration.Caption" Value="期間" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.DurationPeriod.Caption" Value="期間" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ExecutionContext.Caption" Value="実行状況" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.FinApplication.Caption" Value="アプリケーション" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Incident.Caption" Value="インシデント" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.InformationOnStep.Caption" Value="ステップに関する情報" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Invoice.Caption" Value="請求書" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.IsActivityCompleted.Caption" Value="完了済みの活動" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Lead.Caption" Value="リード" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Listing.Caption" Value="一覧表示" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Opportunity.Caption" Value="案件" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Order.Caption" Value="受注" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.OwnerId.Caption" Value="所有者" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Problem.Caption" Value="問題" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Project.Caption" Value="プロジェクト" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Property.Caption" Value="プロパティ" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.QueueItem.Caption" Value="キューアイテム" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Recommendation.Caption" Value="推奨" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Release.Caption" Value="リリース" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.RemindBefore.Caption" Value="事前にオーナーに通知する" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.RemindBeforePeriod.Caption" Value="所有者に事前に通知する (期間)" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.Requests.Caption" Value="リクエスト" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ShowExecutionPage.Caption" Value="実行ページを自動的に表示" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.ShowInScheduler.Caption" Value="カレンダーで表示" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.StartIn.Caption" Value="次で実行を開始" />
+			<Item Name="BaseElements.ActivityUserTask10.Parameters.StartInPeriod.Caption" Value="(期間) で実行を開始" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Account.Caption" Value="アカウント" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ActivityCategory.Caption" Value="カテゴリ" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ActivityPriority.Caption" Value="優先度" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ActivityResult.Caption" Value="アクティビティ結果" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Application.Caption" Value="アプリケーション" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Case.Caption" Value="ケース" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Change.Caption" Value="変更" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Contact.Caption" Value="連絡先" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Contract.Caption" Value="契約" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.CurrentActivityId.Caption" Value="タスクId" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Document.Caption" Value="ドキュメント" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Duration.Caption" Value="期間" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.DurationPeriod.Caption" Value="期間" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ExecutionContext.Caption" Value="実行状況" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.FinApplication.Caption" Value="アプリケーション" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Incident.Caption" Value="インシデント" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.InformationOnStep.Caption" Value="ステップに関する情報" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Invoice.Caption" Value="請求書" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.IsActivityCompleted.Caption" Value="完了済みの活動" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Lead.Caption" Value="リード" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Listing.Caption" Value="一覧表示" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Opportunity.Caption" Value="案件" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Order.Caption" Value="受注" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.OwnerId.Caption" Value="所有者" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Problem.Caption" Value="問題" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Project.Caption" Value="プロジェクト" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Property.Caption" Value="プロパティ" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.QueueItem.Caption" Value="キューアイテム" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Recommendation.Caption" Value="推奨" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Release.Caption" Value="リリース" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.RemindBefore.Caption" Value="事前にオーナーに通知する" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.RemindBeforePeriod.Caption" Value="所有者に事前に通知する (期間)" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.Requests.Caption" Value="リクエスト" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ShowExecutionPage.Caption" Value="実行ページを自動的に表示" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.ShowInScheduler.Caption" Value="カレンダーで表示" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.StartIn.Caption" Value="次で実行を開始" />
+			<Item Name="BaseElements.ActivityUserTask9.Parameters.StartInPeriod.Caption" Value="(期間) で実行を開始" />
+			<Item Name="Caption" Value="Change in Commitee Decision" />
+		</Items>
+	</Group>
+</Resources>

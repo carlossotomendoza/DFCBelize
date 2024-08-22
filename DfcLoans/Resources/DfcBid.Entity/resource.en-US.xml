@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Bid" />
+			<Item Name="Columns.DfcBestOffer.Caption" Value="Best Offer" />
+			<Item Name="Columns.DfcCollateralId.Caption" Value="Collateral Id" />
+			<Item Name="Columns.DfcCustomerId.Caption" Value="Customer Id" />
+			<Item Name="Columns.DfcLoan.Caption" Value="Loan" />
+			<Item Name="Columns.DfcOffer.Caption" Value="Offer" />
+			<Item Name="Columns.DfcPurchaseMethod.Caption" Value="Purchase Method" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

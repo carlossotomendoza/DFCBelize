@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6af7adca-6f69-4f47-81d1-d02e5fe378e2",
+    "Name": "DfcProcess_4186ecf",
+    "ModifiedOnUtc": "\/Date(1723839757000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Change in Commitee Decision",
+    "DependsOn": []
+  }
+}
