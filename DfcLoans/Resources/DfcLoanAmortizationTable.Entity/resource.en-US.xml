@@ -6,6 +6,7 @@
 			<Item Name="Columns.DfcAmortizationAmount.Caption" Value="Amortization Amount" />
 			<Item Name="Columns.DfcAmortizationApplicationNumber.Caption" Value="Application N°" />
 			<Item Name="Columns.DfcAmortizationBeginningBalance.Caption" Value="Beginning Balance" />
+			<Item Name="Columns.DfcAmortizationDate.Caption" Value="Amortization Date" />
 			<Item Name="Columns.DfcAmortizationEndingBalance.Caption" Value="Ending Balance" />
 			<Item Name="Columns.DfcAmortizationInterest.Caption" Value="Interest" />
 			<Item Name="Columns.DfcAmortizationLoan.Caption" Value="Loan" />

@@ -96,7 +96,7 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 				"name": "RefreshButton",
 				"parentName": "ActionButtonsContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 1
 			},
 			{
 				"operation": "remove",
@@ -108,29 +108,8 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 			},
 			{
 				"operation": "insert",
-				"name": "Button_fjdn5e1",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(Button_fjdn5e1_caption)#",
-					"color": "default",
-					"disabled": false,
-					"size": "large",
-					"iconPosition": "only-text"
-				},
-				"parentName": "ActionButtonsContainer",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "ComboBox_f1w1c4z",
 				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 2,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
 					"type": "crt.ComboBox",
 					"label": "$Resources.Strings.PageParameters_DfcLookupParameter1_u7vj91v",
 					"labelPosition": "auto",
@@ -143,7 +122,13 @@ define("DfcPayments_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"readonly": false,
 					"placeholder": "",
 					"tooltip": "",
-					"valueDetails": null
+					"valueDetails": null,
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					}
 				},
 				"parentName": "MainFilterContainer",
 				"propertyName": "items",
