@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.e03588c4-7817-e678-9924-a473f6f4b25a.Caption" Value="Hide Customer" />
+			<Item Name="AddonConfig.Rules.ed9423aa-cb13-1655-edc7-2f527fd883e7.Caption" Value="Hide Legal Entity" />
+			<Item Name="Caption" Value="Payments form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

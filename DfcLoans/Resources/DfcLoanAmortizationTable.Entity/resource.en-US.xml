@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Amortization Table" />
+			<Item Name="Columns.DfcAmortizationAmount.Caption" Value="Amortization Amount" />
+			<Item Name="Columns.DfcAmortizationApplicationNumber.Caption" Value="Application N°" />
+			<Item Name="Columns.DfcAmortizationBeginningBalance.Caption" Value="Beginning Balance" />
+			<Item Name="Columns.DfcAmortizationEndingBalance.Caption" Value="Ending Balance" />
+			<Item Name="Columns.DfcAmortizationInterest.Caption" Value="Interest" />
+			<Item Name="Columns.DfcAmortizationLoan.Caption" Value="Loan" />
+			<Item Name="Columns.DfcAmortizationNumber.Caption" Value="Period N°" />
+			<Item Name="Columns.DfcAmortizationPrincipal.Caption" Value="Principal" />
+			<Item Name="Columns.DfcPaid.Caption" Value="Paid" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

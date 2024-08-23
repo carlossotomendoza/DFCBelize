@@ -1,0 +1,172 @@
+= MetaData.Schema.UId "c8802d81-6ed3-47da-8287-60bd34bafa59"
+= MetaData.Schema.A2 "DfcPayments"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+= MetaData.Schema.B6 "a3ad35dd-3fbe-4b86-802e-91949a5d3192"
+= MetaData.Schema.B8 "7.7.0.0"
+= MetaData.Schema.EG1.UId "35ed072d-b64b-48d9-a321-be185b27409b"
+= MetaData.Schema.EG1.A2 "DfcPaymentsEventsProcess"
+= MetaData.Schema.EG1.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+= MetaData.Schema.EG1.B1 []
+= MetaData.Schema.EG1.B3 []
++ MetaData.Schema.EG1.B8 "0.0.0.0"
+= MetaData.Schema.EG1.FJ1 []
+= MetaData.Schema.EG1.BK8 "7bb7d6a5-e7a3-4837-83bc-7f785d688165"
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK3 []
+= MetaData.Schema.EG1.BK4 []
+= MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "ab86d439-cdca-4fb4-9523-6f9b8a6a0157"
++ MetaData.Schema.D2 {
+  "UId": "ab86d439-cdca-4fb4-9523-6f9b8a6a0157",
+  "A2": "DfcPaymentNumber",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E2": 1,
+  "E5": false
+}
++ MetaData.Schema.D2 {
+  "UId": "ec9e0215-8c14-3c16-750c-37bb41502b2a",
+  "A2": "DfcPeriod",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "44e1aca7-5766-4e08-908b-db3167f36033",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcPeriodId",
+  "E18": "DfcPeriodDfcAmortizationNumber"
+}
++ MetaData.Schema.D2 {
+  "UId": "e273d1dd-292d-4e6d-e6e2-3838b1dddc6c",
+  "A2": "DfcLoan",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "fded6a55-d9f9-4e09-bbc2-cf6654a88b28",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcLoanId",
+  "E18": "DfcLoanDfcLoanNo"
+}
++ MetaData.Schema.D2 {
+  "UId": "e9942e66-6ba1-3237-bd63-f140dc19f5c0",
+  "A2": "DfcDate",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "603d4960-a1a2-45e9-b232-206a54421b01"
+}
++ MetaData.Schema.D2 {
+  "UId": "cbde7e02-f393-fd51-391b-2c781f07e951",
+  "A2": "DfcAmount",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "969093e2-2b4e-463b-883a-3d3b8c61f0cd"
+}
++ MetaData.Schema.D2 {
+  "UId": "944b5ea3-135f-68db-4f49-ddc4633018e9",
+  "A2": "DfcPaymentType",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "954cdbc0-efae-49e3-aa4a-7e8ae87de2c8",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcPaymentTypeId",
+  "E18": "DfcPaymentTypeName"
+}
++ MetaData.Schema.D2 {
+  "UId": "e3958a09-5cb3-3754-4248-5e62921f887b",
+  "A2": "DfcContact",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcContactId",
+  "E18": "DfcContactName"
+}
++ MetaData.Schema.D2 {
+  "UId": "4f232396-9511-40b3-b6cc-7e94e1b647f4",
+  "A2": "DfcLegalEntity",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "25d7c1ab-1de0-4501-b402-02e0e5a72d6e",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcLegalEntityId",
+  "E18": "DfcLegalEntityName"
+}
++ MetaData.Schema.D2 {
+  "UId": "940ea66c-4574-ee73-a1ab-b4ab20d36833",
+  "A2": "DfcPaymentsInfo",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcPaymentsInfoId",
+  "E18": "DfcPaymentsInfoDfcPaymentNumber"
+}
++ MetaData.Schema.D2 {
+  "UId": "262059e6-a1d9-1262-c806-282b571d1817",
+  "A2": "DfcCurrentPayment",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "44e1aca7-5766-4e08-908b-db3167f36033",
+  "E5": false,
+  "E6": true,
+  "E20": true,
+  "E17": "DfcCurrentPaymentId",
+  "E18": "DfcCurrentPaymentDfcAmortizationNumber"
+}
++ MetaData.Schema.D2 {
+  "UId": "e4d439c3-8026-1fba-205c-d68a28f4bd43",
+  "A2": "DfcLoanStatus",
+  "A3": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A4": "c8802d81-6ed3-47da-8287-60bd34bafa59",
+  "A5": "2f7916f9-ebfe-40b4-a9e4-ca148e67c533",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E25": true
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","ab86d439-cdca-4fb4-9523-6f9b8a6a0157","ec9e0215-8c14-3c16-750c-37bb41502b2a","e273d1dd-292d-4e6d-e6e2-3838b1dddc6c","e9942e66-6ba1-3237-bd63-f140dc19f5c0","cbde7e02-f393-fd51-391b-2c781f07e951","944b5ea3-135f-68db-4f49-ddc4633018e9","e3958a09-5cb3-3754-4248-5e62921f887b","4f232396-9511-40b3-b6cc-7e94e1b647f4","940ea66c-4574-ee73-a1ab-b4ab20d36833","262059e6-a1d9-1262-c806-282b571d1817","e4d439c3-8026-1fba-205c-d68a28f4bd43"]
+= MetaData.Schema.D20.A2 "DfcPaymentsEvents"
+= MetaData.Schema.D36.A3 "c8802d81-6ed3-47da-8287-60bd34bafa59"
+= MetaData.Schema.D36.BS1 false
+- MetaData.Schema.EG1.B6
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false
