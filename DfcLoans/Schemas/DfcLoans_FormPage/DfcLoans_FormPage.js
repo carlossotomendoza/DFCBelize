@@ -23,6 +23,26 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "merge",
+				"name": "GeneralInfoTabContainer",
+				"values": {
+					"gap": {
+						"columnGap": "none",
+						"rowGap": "none"
+					},
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "CardToggleTabPanel",
 				"values": {
 					"styleType": "default",
@@ -410,7 +430,8 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"id": "74df35fe-cdb5-d7e1-8c6a-93983e0e197b",
 							"code": "DataGrid_36pclewDS_Product",
 							"caption": "#ResourceString(DataGrid_36pclewDS_Product)#",
-							"dataValueType": 10
+							"dataValueType": 10,
+							"width": 200
 						},
 						{
 							"id": "850070cf-bc83-34e0-041c-7c0411994867",
@@ -493,9 +514,15 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						}
 					],
 					"placeholder": false,
-					"bulkActions": []
+					"bulkActions": [],
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 2,
+						"rowSpan": 1
+					}
 				},
-				"parentName": "GeneralInfoTab",
+				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 1
 			},
@@ -556,6 +583,425 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "DataGrid_LoanApplication",
 				"propertyName": "bulkActions",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_CurrentAmountsDue",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_5abdyzi_title)#",
+					"toggleType": "material",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_vrus6ws",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_CurrentAmountsDue",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_8yf6e40",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_vrus6ws",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_nirpjwq",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_CurrentAmountsDue",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_hw28vt3",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcEscrowBal_m40gr6s",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcEscrowBal_m40gr6s"
+				},
+				"parentName": "GridContainer_nirpjwq",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_Disbursements",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_b8uvs9i_title)#",
+					"toggleType": "material",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_oh6dx12",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_Disbursements",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_zg99ble",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_oh6dx12",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_emffdf9",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_emffdf9_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "DfcDisbursements",
+							"defaultValues": [
+								{
+									"attributeName": "DfcLoanNo",
+									"value": "$DfcLoanNo"
+								}
+							]
+						}
+					},
+					"visible": true,
+					"clickMode": "default"
+				},
+				"parentName": "FlexContainer_zg99ble",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_f3cyvb4",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_f3cyvb4_caption)#",
+					"icon": "reload-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "GridDetail_pxv0h5aDS"
+						}
+					}
+				},
+				"parentName": "FlexContainer_zg99ble",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_9cgdoy0",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_9cgdoy0_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_zg99ble",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_0fgpnu2",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_0fgpnu2_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "GridDetail_pxv0h5a"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_9cgdoy0",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_2j9et1j",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_2j9et1j_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "DfcDisbursements"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_9cgdoy0",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_zhn0eyg",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_zhn0eyg_placeholder)#",
+					"iconOnly": true,
+					"targetAttributes": [
+						"GridDetail_pxv0h5a"
+					]
+				},
+				"parentName": "FlexContainer_zg99ble",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_zcftewq",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_Disbursements",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_pxv0h5a",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false
+						}
+					},
+					"items": "$GridDetail_pxv0h5a",
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "GridDetail_pxv0h5aDS_Id",
+					"columns": [
+						{
+							"id": "a30664bb-9d73-df41-402e-47808dda1b4d",
+							"code": "GridDetail_pxv0h5aDS_DfcDisbNo",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_DfcDisbNo)#",
+							"dataValueType": 27
+						},
+						{
+							"id": "1c7e92ea-7359-2aad-d7b8-4d0ee68628ab",
+							"code": "GridDetail_pxv0h5aDS_DfcDisbDate",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_DfcDisbDate)#",
+							"dataValueType": 8
+						},
+						{
+							"id": "a7a4cb25-9451-b1a1-1d9a-e5025a244a3b",
+							"code": "GridDetail_pxv0h5aDS_DfcAmount",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_DfcAmount)#",
+							"dataValueType": 6
+						},
+						{
+							"id": "76827ce0-aa1b-9ffd-9b5c-d6cb8a66a9fb",
+							"code": "GridDetail_pxv0h5aDS_CreatedBy",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_CreatedBy)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "f1d4cc9f-35e8-65f1-f802-c64f97238750",
+							"code": "GridDetail_pxv0h5aDS_CreatedOn",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_CreatedOn)#",
+							"dataValueType": 7
+						},
+						{
+							"id": "95ee58d1-710c-0bf9-6e9b-399313b5c8cf",
+							"code": "GridDetail_pxv0h5aDS_ModifiedBy",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_ModifiedBy)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "6a652755-495d-4fdc-dea5-bd1cead9f69f",
+							"code": "GridDetail_pxv0h5aDS_ModifiedOn",
+							"caption": "#ResourceString(GridDetail_pxv0h5aDS_ModifiedOn)#",
+							"dataValueType": 7
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_zcftewq",
+				"propertyName": "items",
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -1438,7 +1884,15 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"DataGrid_36pclew": {
 						"isCollection": true,
 						"modelConfig": {
-							"path": "DataGrid_36pclewDS"
+							"path": "DataGrid_36pclewDS",
+							"sortingConfig": {
+								"default": [
+									{
+										"direction": "asc",
+										"columnName": "FillingDate"
+									}
+								]
+							}
 						},
 						"viewModelConfig": {
 							"attributes": {
@@ -1529,6 +1983,61 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								}
 							}
 						}
+					},
+					"PDS_DfcEscrowBal_m40gr6s": {
+						"modelConfig": {
+							"path": "PDS.DfcEscrowBal"
+						}
+					},
+					"GridDetail_pxv0h5a": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_pxv0h5aDS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_pxv0h5aDS_DfcDisbNo": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.DfcDisbNo"
+									}
+								},
+								"GridDetail_pxv0h5aDS_DfcDisbDate": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.DfcDisbDate"
+									}
+								},
+								"GridDetail_pxv0h5aDS_DfcAmount": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.DfcAmount"
+									}
+								},
+								"GridDetail_pxv0h5aDS_CreatedBy": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.CreatedBy"
+									}
+								},
+								"GridDetail_pxv0h5aDS_CreatedOn": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.CreatedOn"
+									}
+								},
+								"GridDetail_pxv0h5aDS_ModifiedBy": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.ModifiedBy"
+									}
+								},
+								"GridDetail_pxv0h5aDS_ModifiedOn": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.ModifiedOn"
+									}
+								},
+								"GridDetail_pxv0h5aDS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_pxv0h5aDS.Id"
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -1561,6 +2070,12 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							{
 								"attributePath": "Id",
 								"relationPath": "PDS.DfcLoanApp"
+							}
+						],
+						"GridDetail_pxv0h5aDS": [
+							{
+								"attributePath": "DfcLoanNo",
+								"relationPath": "PDS.Id"
 							}
 						]
 					}
@@ -1680,6 +2195,36 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								},
 								"CreatedOn": {
 									"path": "CreatedOn"
+								}
+							}
+						}
+					},
+					"GridDetail_pxv0h5aDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcDisbursements",
+							"attributes": {
+								"DfcDisbNo": {
+									"path": "DfcDisbNo"
+								},
+								"DfcDisbDate": {
+									"path": "DfcDisbDate"
+								},
+								"DfcAmount": {
+									"path": "DfcAmount"
+								},
+								"CreatedBy": {
+									"path": "CreatedBy"
+								},
+								"CreatedOn": {
+									"path": "CreatedOn"
+								},
+								"ModifiedBy": {
+									"path": "ModifiedBy"
+								},
+								"ModifiedOn": {
+									"path": "ModifiedOn"
 								}
 							}
 						}

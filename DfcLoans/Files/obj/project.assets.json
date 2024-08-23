@@ -8,25 +8,11 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\.nuget\\packages\\": {}
-=======
     "C:\\Windows\\TEMP\\1\\IIS APPPOOL_DFC_PreProd\\Default\\dotnet\\.nuget\\packages\\": {}
->>>>>>> 946ea23df8dfd8ce86a774aa1b0ffbee0518bed9
   },
   "project": {
     "version": "8.1.3.6801",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
-      "projectName": "DfcLoans",
-      "projectPath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
-      "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\.nuget\\packages\\",
-      "outputPath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
       "projectUniqueName": "D:\\Creatio\\DFC\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
       "projectName": "DfcLoans",
       "projectPath": "D:\\Creatio\\DFC\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
@@ -36,12 +22,12 @@
       "configFilePaths": [
         "C:\\Windows\\TEMP\\1\\IIS APPPOOL_DFC_PreProd\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 946ea23df8dfd8ce86a774aa1b0ffbee0518bed9
       ],
       "originalTargetFrameworks": [
         "net472"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -54,17 +40,26 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
->>>>>>> 946ea23df8dfd8ce86a774aa1b0ffbee0518bed9
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Creatio\\DFC\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

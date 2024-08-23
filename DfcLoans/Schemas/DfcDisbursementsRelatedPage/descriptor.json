@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1c114563-0a50-4e54-b35c-c7ac0dacb67e",
+    "Name": "DfcDisbursementsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1724446152000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Disbursements (Page settings)",
+    "DependsOn": []
+  }
+}

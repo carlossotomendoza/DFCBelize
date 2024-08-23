@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4f3a58ea-951b-4f77-829c-f8a89a022318",
+    "Name": "DfcInsBuildingRate",
+    "ModifiedOnUtc": "\/Date(1724435247000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Insurance Building Rate",
+    "DependsOn": []
+  }
+}

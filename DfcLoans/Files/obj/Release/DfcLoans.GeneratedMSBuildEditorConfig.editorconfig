@@ -1,9 +1,5 @@
 is_global = true
 build_property.RootNamespace = DfcLoans
-<<<<<<< HEAD
-build_property.ProjectDir = C:\DFC_Belize\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\
-=======
 build_property.ProjectDir = D:\Creatio\DFC\DFC_PreProd\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
->>>>>>> 946ea23df8dfd8ce86a774aa1b0ffbee0518bed9

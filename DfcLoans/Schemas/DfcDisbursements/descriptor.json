@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5b7ccc4-fe05-4690-a136-2a9baf5a6a2b",
+    "Name": "DfcDisbursements",
+    "ModifiedOnUtc": "\/Date(1724446091000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Disbursements",
+    "DependsOn": []
+  }
+}

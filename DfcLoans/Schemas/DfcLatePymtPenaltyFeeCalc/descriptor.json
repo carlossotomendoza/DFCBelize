@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "899fe34d-72eb-4844-aa15-b490e6621591",
+    "Name": "DfcLatePymtPenaltyFeeCalc",
+    "ModifiedOnUtc": "\/Date(1724435455000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Loan Late Pymt Penalty Fee",
+    "DependsOn": []
+  }
+}
