@@ -25,6 +25,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"operation": "merge",
 				"name": "GeneralInfoTabContainer",
 				"values": {
+					"columns": [
+						"minmax(64px, 1fr)",
+						"minmax(64px, 1fr)",
+						"minmax(64px, 1fr)"
+					],
 					"gap": {
 						"columnGap": "none",
 						"rowGap": "none"
@@ -518,7 +523,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"layoutConfig": {
 						"column": 1,
 						"row": 2,
-						"colSpan": 2,
+						"colSpan": 3,
 						"rowSpan": 1
 					}
 				},
@@ -709,7 +714,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"layoutConfig": {
 						"column": 2,
 						"row": 3,
-						"colSpan": 1,
+						"colSpan": 2,
 						"rowSpan": 1
 					},
 					"type": "crt.ExpansionPanel",
