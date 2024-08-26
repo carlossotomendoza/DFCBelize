@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Installment Info" />
+			<Item Name="LocalizableStrings.addRecord_2p6ktr2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.DateTimePicker_cd29a68_label.Value" Value="Payment Date" />
+			<Item Name="LocalizableStrings.DateTimePicker_uo5e8st_label.Value" Value="Date of Update" />
+			<Item Name="LocalizableStrings.NumberInput_3w8piui_label.Value" Value="Fee %" />
+			<Item Name="LocalizableStrings.NumberInput_vorbwln_label.Value" Value="Outstanding Amount" />
+			<Item Name="LocalizableStrings.PageTitle_caption.Value" Value="Installment Information" />
+		</Items>
+	</Group>
+</Resources>

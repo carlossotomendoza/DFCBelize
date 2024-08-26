@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3ad7849a-a998-421a-a7c1-5637e40007b3",
+    "Name": "DfcPage_33fs6gx",
+    "ModifiedOnUtc": "\/Date(1724686012000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Loans modal page"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1bd32bd3-bdbc-4a1d-b5c5-99b778e7b6eb",
+    "Name": "DfcPage_gh47jaz",
+    "ModifiedOnUtc": "\/Date(1724687065000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Installment Info"
+  }
+}

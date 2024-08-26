@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "030079b7-2a7a-4e21-b43b-d940d6196bf1",
+    "Name": "DfcPage_45xxl63",
+    "ModifiedOnUtc": "\/Date(1724690976000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Visits & Monitoring modal page"
+  }
+}

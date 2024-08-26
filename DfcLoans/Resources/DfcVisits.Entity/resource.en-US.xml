@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Visits &amp; Monitoring" />
+			<Item Name="Columns.DfcDue.Caption" Value="Due" />
+			<Item Name="Columns.DfcLoans.Caption" Value="Loans" />
+			<Item Name="Columns.DfcStart.Caption" Value="Start" />
+			<Item Name="Columns.DfcVisitStatus.Caption" Value="Visit Status" />
+			<Item Name="Columns.DfcVisitSubject.Caption" Value="Subject" />
+			<Item Name="Columns.DfcVisitSubjectRichtext.Caption" Value="Subject" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

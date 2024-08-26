@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Loans" />
+			<Item Name="Columns.Dfc1stDisbursementDate.Caption" Value="1st Disbursement Date" />
 			<Item Name="Columns.DfcAccount.Caption" Value="Customer" />
 			<Item Name="Columns.DfcAnniversaryDate.Caption" Value="Anniversary Date" />
 			<Item Name="Columns.DfcContact.Caption" Value="Contact" />
@@ -11,27 +12,39 @@
 			<Item Name="Columns.DfcEscrowAmtArrears.Caption" Value="Escrow Amount Arrears" />
 			<Item Name="Columns.DfcEscrowBal.Caption" Value="Escrow Balance" />
 			<Item Name="Columns.DfcInsPremRenewalDueDt.Caption" Value="Insurance Prem Renewal Due Date" />
+			<Item Name="Columns.DfcInstallmentPeriod.Caption" Value="Installment Period" />
 			<Item Name="Columns.DfcInterestBal.Caption" Value="Interest Balance" />
 			<Item Name="Columns.DfcInterestRate.Caption" Value="Interest %" />
 			<Item Name="Columns.DfcIntWriteOff.Caption" Value="Writeoff Interest" />
+			<Item Name="Columns.DfcLastNoticeDate.Caption" Value="Last Notice" />
+			<Item Name="Columns.DfcLastNoticeLoaninfo.Caption" Value="Last Notice" />
+			<Item Name="Columns.DfcLastPaymentAm.Caption" Value="Last payment amount" />
 			<Item Name="Columns.DfcLastPymtDate.Caption" Value="Last Payment Date" />
 			<Item Name="Columns.DfcLatePymtPenaltyDt.Caption" Value="Late Payment Penalty Date" />
+			<Item Name="Columns.DfcLoanAmDec.Caption" Value="Amount decommited" />
+			<Item Name="Columns.DfcLoanAmOther.Caption" Value="Other" />
 			<Item Name="Columns.DfcLoanAmt.Caption" Value="Loan Amount" />
 			<Item Name="Columns.DfcLoanApp.Caption" Value="Loan Application" />
+			<Item Name="Columns.DfcLoanApprovalDate.Caption" Value="Approval" />
 			<Item Name="Columns.DfcLoanContract.Caption" Value="Loan Contract" />
 			<Item Name="Columns.DfcLoanInstallmentTotAmt.Caption" Value="Total Periodic Loan Installment" />
+			<Item Name="Columns.DfcLoanLastInterest.Caption" Value="Last Interest" />
 			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
+			<Item Name="Columns.DfcLoanOutstandingPrincipal.Caption" Value="Outstanding Principal" />
 			<Item Name="Columns.DfcLoanRecoveryStatusDt.Caption" Value="Loan Recovery Status Date" />
 			<Item Name="Columns.DfcLoanStatus.Caption" Value="Loan Status" />
+			<Item Name="Columns.DfcLoanTimesRescheduled.Caption" Value="Times Rescheduled" />
 			<Item Name="Columns.DfcMaturity.Caption" Value="Maturity" />
 			<Item Name="Columns.DfcNonPerformingDt.Caption" Value="Non Performing Date" />
 			<Item Name="Columns.DfcOtherAmtArrears.Caption" Value="Other Amount Arrears" />
 			<Item Name="Columns.DfcOtherBal.Caption" Value="Other Balance" />
 			<Item Name="Columns.DfcOtherWriteOff.Caption" Value="Writeoff Other" />
+			<Item Name="Columns.DfcPaidAmount.Caption" Value="Paid Amount" />
 			<Item Name="Columns.DfcPeriodType.Caption" Value="Period Type" />
 			<Item Name="Columns.DfcPpalBal.Caption" Value="Principal Balance" />
 			<Item Name="Columns.DfcPpalWriteOff.Caption" Value="Writeoff Principal" />
 			<Item Name="Columns.DfcProduct.Caption" Value="Product" />
+			<Item Name="Columns.DfcRepaymentEndDate.Caption" Value="Repayment End Date" />
 			<Item Name="Columns.DfcRepaymentStartDate.Caption" Value="Repayment Start Date" />
 			<Item Name="Columns.DfcReservePrice.Caption" Value="Reserve Price" />
 			<Item Name="Columns.DfcTotalBal.Caption" Value="Total Balance" />

@@ -41,6 +41,7 @@
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcSector/DfcSector.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcSector/DfcSector.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcSubSector/DfcSubSector.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcSubSector/DfcSubSector.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcTownVillage/DfcTownVillage.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcTownVillage/DfcTownVillage.cs')" />
+		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcVisits/DfcVisits.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcVisits/DfcVisits.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/FinApplication/FinApplication.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/FinApplication/FinApplication.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/Product/Product.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/Product/Product.cs')" />
 	</ItemGroup>

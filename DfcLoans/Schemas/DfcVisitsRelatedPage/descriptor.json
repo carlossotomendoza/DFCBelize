@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "08ebeaa1-becb-4b09-97bf-479c102f255c",
+    "Name": "DfcVisitsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1724690232000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Visits & Monitoring (Page settings)",
+    "DependsOn": []
+  }
+}
