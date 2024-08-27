@@ -32,6 +32,7 @@
 			<Item Name="LocalizableStrings.DfcCustomerType_label.Value" Value="Client Category" />
 			<Item Name="LocalizableStrings.ExpansionPanel_6t8blni_title.Value" Value="Application Form" />
 			<Item Name="LocalizableStrings.ExpansionPanel_digzels_title.Value" Value="Product Terms" />
+			<Item Name="LocalizableStrings.ExpansionPanel_ProductTerms_title.Value" Value="Product Terms" />
 			<Item Name="LocalizableStrings.ExpansionPanel_yrjimho_title.Value" Value="Product Terms" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_3lu1gh4_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_w6thk04_caption.Value" Value="New" />

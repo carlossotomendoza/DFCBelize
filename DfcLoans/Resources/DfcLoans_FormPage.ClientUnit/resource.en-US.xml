@@ -53,9 +53,12 @@
 			<Item Name="LocalizableStrings.NumberInput_04pu97b_label.Value" Value="Total Approved" />
 			<Item Name="LocalizableStrings.NumberInput_ez7u74e_label.Value" Value="Total amount outstanding" />
 			<Item Name="LocalizableStrings.NumberInput_zhg82xi_label.Value" Value="Total amount disbursed" />
+			<Item Name="LocalizableStrings.TabContainer_5nhcphw_caption.Value" Value="Amortization" />
+			<Item Name="LocalizableStrings.TabContainer_60ju3uw_caption.Value" Value="Payments" />
 			<Item Name="LocalizableStrings.TabContainer_es3rs4g_caption.Value" Value="Collateral" />
 			<Item Name="LocalizableStrings.TabContainer_j0ta41g_caption.Value" Value="Installments" />
 			<Item Name="LocalizableStrings.TabContainer_ni7dz6e_caption.Value" Value="Visits &amp; Monitoring" />
+			<Item Name="LocalizableStrings.TabContainer_skrt05p_caption.Value" Value="Arrears" />
 		</Items>
 	</Group>
 </Resources>

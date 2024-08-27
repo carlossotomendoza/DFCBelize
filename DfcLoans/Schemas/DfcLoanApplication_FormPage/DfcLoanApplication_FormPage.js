@@ -743,7 +743,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 					"type": "crt.ExpansionPanel",
 					"tools": [],
 					"items": [],
-					"title": "#ResourceString(ExpansionPanel_yrjimho_title)#",
+					"title": "#ResourceString(ExpansionPanel_ProductTerms_title)#",
 					"toggleType": "default",
 					"togglePosition": "before",
 					"expanded": true,
@@ -757,7 +757,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"right": "none"
 					},
 					"fitContent": true,
-					"visible": false,
+					"visible": true,
 					"alignItems": "stretch"
 				},
 				"parentName": "GeneralInfoTab",
