@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "95443074-94df-4032-a71d-6b90c48bae33",
+    "Name": "DfcProcess_beb48a7",
+    "ModifiedOnUtc": "\/Date(1724795283000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Update file upload",
+    "DependsOn": []
+  }
+}

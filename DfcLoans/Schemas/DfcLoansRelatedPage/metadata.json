@@ -24,17 +24,6 @@
       "Actions": null,
       "Role": null,
       "TypeColumnValue": null
-    },
-    {
-      "UId": "c39878cc-4ea5-f8cb-9c80-5c327ce162d0",
-      "PageSchemaUId": "1bd32bd3-bdbc-4a1d-b5c5-99b778e7b6eb",
-      "IsDefault": false,
-      "IsSspDefault": false,
-      "Actions": {
-        "Add": true
-      },
-      "Role": null,
-      "TypeColumnValue": null
     }
   ],
   "TypeColumnUId": null

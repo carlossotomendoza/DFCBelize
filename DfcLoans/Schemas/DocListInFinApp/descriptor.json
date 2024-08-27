@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "a46d1eed-f73c-43ab-adea-dcf3c970c815",
+    "Name": "DocListInFinApp",
+    "ModifiedOnUtc": "\/Date(1724794078000)\/",
+    "Parent": {
+      "UId": "96616f6a-fb01-40c8-a8b6-83cd245ae45a",
+      "Name": "DocListInFinApp"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Required documents in application",
+    "DependsOn": []
+  }
+}

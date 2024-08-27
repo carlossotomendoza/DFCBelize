@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ab921263-d76f-451c-952e-1a9e2f36d2d6",
+    "Name": "DfcDocListInFinAppRelatedPage",
+    "ModifiedOnUtc": "\/Date(1724793094000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Required documents in application (Page settings)",
+    "DependsOn": []
+  }
+}
