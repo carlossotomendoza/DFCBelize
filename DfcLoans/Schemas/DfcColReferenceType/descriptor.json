@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9505d990-e931-410a-b693-e41172b1e95b",
+    "Name": "DfcColReferenceType",
+    "ModifiedOnUtc": "\/Date(1724783550000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Reference Type",
+    "DependsOn": []
+  }
+}

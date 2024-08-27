@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Arrears" />
+			<Item Name="Columns.DfcAmortizationPeriod.Caption" Value="Period" />
+			<Item Name="Columns.DfcArrearAmount.Caption" Value="Amount" />
+			<Item Name="Columns.DfcArrearDate.Caption" Value="Date" />
+			<Item Name="Columns.DfcArrearLoan.Caption" Value="Loan" />
+			<Item Name="Columns.DfcArrearNumber.Caption" Value="Arrear N°" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

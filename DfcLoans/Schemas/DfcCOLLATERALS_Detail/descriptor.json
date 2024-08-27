@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ffa98e7d-aeef-40dc-813c-716ec2a922c0",
+    "Name": "DfcCOLLATERALS_Detail",
+    "ModifiedOnUtc": "\/Date(1724795797000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "COLLATERALS detail",
+    "DependsOn": []
+  }
+}

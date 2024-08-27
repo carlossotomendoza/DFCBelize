@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "eb29c168-d191-40d1-be0b-ef144994a5f9",
+    "Name": "DfcPayments_FormPage",
+    "ModifiedOnUtc": "\/Date(1724414693000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Payments form page",
+    "DependsOn": []
+  }
+}

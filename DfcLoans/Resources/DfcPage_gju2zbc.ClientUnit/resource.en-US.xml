@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="COLLATERALS FORM PAGE" />
+			<Item Name="LocalizableStrings.addRecord_45j7wfa_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_4w8cxpd_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_5hbjun5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_5vastwv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_6zyvx4u_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_8qdv7z0_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_hm5o225_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_i7uiag5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_pns93jx_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ppa5tuq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_wq4275n_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_yt2h4ok_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_zqpcfom_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ComboBox_tnsosl9_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_tnsosl9_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.DateTimePicker_8grebko_label.Value" Value="Last Valuation Date" />
+			<Item Name="LocalizableStrings.NumberInput_sy863nc_label.Value" Value="Amount or value of collateral" />
+			<Item Name="LocalizableStrings.TabContainer_kzmx7je_caption.Value" Value="DETAILS" />
+		</Items>
+	</Group>
+</Resources>

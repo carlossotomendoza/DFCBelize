@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "36ff3d8c-582b-437c-b04d-45d31d1dd065",
+    "Name": "DfcPayments_Detail",
+    "ModifiedOnUtc": "\/Date(1724414693000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Payments detail",
+    "DependsOn": []
+  }
+}

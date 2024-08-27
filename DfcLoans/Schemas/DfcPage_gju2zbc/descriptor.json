@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "45749056-b96b-4b97-becc-67bc6bb73ae4",
+    "Name": "DfcPage_gju2zbc",
+    "ModifiedOnUtc": "\/Date(1724795230000)\/",
+    "Parent": {
+      "UId": "7ed23be6-71df-4ad3-b56a-caa77b9881ce",
+      "Name": "PageWithTabsAndProgressBarTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "COLLATERALS FORM PAGE"
+  }
+}

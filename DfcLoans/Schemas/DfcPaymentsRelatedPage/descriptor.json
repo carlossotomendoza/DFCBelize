@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f7cb3608-fefe-4764-ab23-2212b53f4bab",
+    "Name": "DfcPaymentsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1724414693000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Payments (Page settings)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "bb3febf6-3141-4627-b788-fed9502a4477"
+= MetaData.Schema.A2 "DfcCOLLATERALS_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["0ff3d661-9d4a-4fef-9117-7776b9e90a32","66a37de7-c5bd-4b7f-b574-9d3bfb12d122","9c66ae20-b8b1-474c-9136-e470ffd572f8","62f14924-1c6c-4f6a-bf66-46da8c9a4e63"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

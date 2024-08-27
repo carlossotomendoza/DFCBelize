@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "954cdbc0-efae-49e3-aa4a-7e8ae87de2c8",
+    "Name": "DfcPaymentType",
+    "ModifiedOnUtc": "\/Date(1724414693000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Payment Type",
+    "DependsOn": []
+  }
+}

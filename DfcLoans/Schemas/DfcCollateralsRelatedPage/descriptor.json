@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "67657324-c08b-4282-b440-882ca24c6349",
+    "Name": "DfcCollateralsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1724796199000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Collaterals (Page settings)",
+    "DependsOn": []
+  }
+}

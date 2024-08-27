@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "23e3bc76-2f9b-4e55-8fb6-00070509872e",
+    "Name": "DfcColCollateralType",
+    "ModifiedOnUtc": "\/Date(1724783587000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "CollateralType",
+    "DependsOn": []
+  }
+}

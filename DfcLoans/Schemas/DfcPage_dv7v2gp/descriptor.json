@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cb7c5da9-1085-4cff-8a61-342c0e2f44eb",
+    "Name": "DfcPage_dv7v2gp",
+    "ModifiedOnUtc": "\/Date(1724795977000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "New edit page"
+  }
+}
