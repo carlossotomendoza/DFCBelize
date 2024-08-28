@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "59661363-dd40-4c3e-b85d-88a7248735aa",
+    "Name": "DfcCollaterals_Detail",
+    "ModifiedOnUtc": "\/Date(1724845021000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Collaterals detail",
+    "DependsOn": []
+  }
+}
