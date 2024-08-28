@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "f45f1957-6fd2-4527-805f-c067a065798f",
+    "Name": "DfcUserTaskCalcInstPayment",
+    "ModifiedOnUtc": "\/Date(1724809531000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "Calculate Installment Payment"
+  }
+}

@@ -39,3 +39,13 @@ C:\DfcDEV813.2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\R
 C:\DfcDEV813.2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.csproj.CoreCompileInputs.cache
 C:\DfcDEV813.2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.dll
 C:\DfcDEV813.2\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.pdb
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\Bin\DfcLoans.dll
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\Bin\DfcLoans.pdb
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.csproj.AssemblyReference.cache
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.GeneratedMSBuildEditorConfig.editorconfig
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.AssemblyInfoInputs.cache
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.AssemblyInfo.cs
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.csproj.CoreCompileInputs.cache
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.sourcelink.json
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.dll
+C:\Creatio\D3_Studio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.pdb

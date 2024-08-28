@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="โหมดการเพิ่มบันทึก" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="ไอดีของบันทึกที่สร้าง" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.EntitySchemaId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.FilterEntitySchemaId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordAddMode.Caption" Value="โหมดการเพิ่มบันทึก" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordId.Caption" Value="ไอดีของบันทึกที่สร้าง" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="ถ้าออบเจ็กต์ตรงกับเงื่อนไขต่อไปนี้" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="ถ้าออบเจ็กต์ตรงกับเงื่อนไขต่อไปนี้" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="ถ้าออบเจ็กต์ตรงกับเงื่อนไขต่อไปนี้" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.EntitySchemaUId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.Caption" Value="ถ้าออบเจ็กต์ตรงกับเงื่อนไขต่อไปนี้" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.EntitySchemaId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.IsMatchConditions.Caption" Value="ออบเจ็กต์ต้องตรงกับเงื่อนไขต่อไปนี้" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.AggregationColumnName.Caption" Value="ชื่อของคอลัมน์ฟังชั่นรวม" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.CanReadUncommitedData.Caption" Value="อ่านข้อมูลที่ไม่มีข้อผูกมัด" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.DataSourceFilters.Caption" Value="แหล่งข้อมูลของตัวกรอง" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.EntityColumnMetaPathes.Caption" Value="คอลัมน์ที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.FunctionType.Caption" Value="ประเภทฟังชั่นราวม" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.IgnoreDisplayValues.Caption" Value="อย่าอ่านค่าที่แสดงของคอลัมน์การค้นหา" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.NumberOfRecords.Caption" Value="จำนวนของบันทึกที่จะอ่าน" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.OrderInfo.Caption" Value="ลำดับของคอลัมน์" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ReadSomeTopRecords.Caption" Value="อ่านก่อน" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCompositeObjectList.Caption" Value="การรวบรวมบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCount.Caption" Value="จำนวนของบันทึก" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntity.Caption" Value="รายการแรกของคอลเลคชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntityCollection.Caption" Value="คอลเลกชั่นที่ส่งผล" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="จำนวนของบันทึกที่อ่านแล้ว" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="ประเภทของผลลัพธ์" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Account.Caption" Value="ลูกค้า (บริษัท)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityCategory.Caption" Value="หมวดหมู่" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityPriority.Caption" Value="ลำดับความสำคัญ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityResult.Caption" Value="ผลลัพธ์ของกิจกรรม" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Caption" Value="ตัวเลือก" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Case.Caption" Value="เคส" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Change.Caption" Value="เปลี่ยน" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contact.Caption" Value="ผู้ติดต่อ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contract.Caption" Value="สัญญา" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CreateActivity.Caption" Value="สร้างกิจกรรม" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CurrentActivityId.Caption" Value="ไอดีของงาน" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DecisionMode.Caption" Value="โหมดของไดอะล็อก" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Document.Caption" Value="เอกสาร" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Duration.Caption" Value="ระยะเวลา" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DurationPeriod.Caption" Value="ระยะเวลา (ช่วงเวลา)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ExecutionContext.Caption" Value="บริบทการดำเนินการ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Incident.Caption" Value="เคส" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.InformationOnStep.Caption" Value="ข้อมูลข่าวสารเกี่ยวกับขั้นตอน" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Invoice.Caption" Value="ใบแจ้งหนี้" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsActivityCompleted.Caption" Value="กิจกรรมแล้วเสร็จ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsDecisionRequired.Caption" Value="อย่างน้อยต้องเลือกหนึ่งตัวเลือก" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Listing.Caption" Value="การทำรายการ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Opportunity.Caption" Value="Opportunity" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Order.Caption" Value="คำสั่งซื้อ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OwnerId.Caption" Value="เจ้าของ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Problem.Caption" Value="ปัญหา" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Project.Caption" Value="โครงการ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Property.Caption" Value="คุณสมบัติ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.Caption" Value="คำถาม" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.Caption" Value="การเสนอแนะ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Release.Caption" Value="รีลีส" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBefore.Caption" Value="เตือนเจ้าของล่วงหน้า" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBeforePeriod.Caption" Value="เตือนความจำเจ้าของล่วงหน้า (ระยะเวลา)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Requests.Caption" Value="ร้องขอ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ResultDecisions.Caption" Value="คำตอบที่เลือก" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowExecutionPage.Caption" Value="แสดงหน้าการดำเนินการโดยอัตโนมัติ" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowInScheduler.Caption" Value="แสดงในปฏิทิน" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartIn.Caption" Value="เริ่มดำเนินการใน" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.Caption" Value="เริ่มการดำเนินการใน (ระยะเวลา)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Caption" Value="เฮดเดอร์ของหน้าต่าง" />
+			<Item Name="Caption" Value="Schedule Payment Process" />
+		</Items>
+	</Group>
+</Resources>

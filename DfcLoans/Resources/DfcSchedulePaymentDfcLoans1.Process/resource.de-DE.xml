@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="de-DE">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Hinzuügemodus für Satz" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Spaltenwerte setzen" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Erzeugte Satz-Id" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.EntitySchemaId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.FilterEntitySchemaId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordAddMode.Caption" Value="Hinzuügemodus für Satz" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Caption" Value="Spaltenwerte setzen" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordId.Caption" Value="Erzeugte Satz-Id" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Wenn das Objekt die folgenden Bedingungen erfüllt" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Spaltenwerte setzen" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="Wenn das Objekt die folgenden Bedingungen erfüllt" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="Spaltenwerte setzen" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="Wenn das Objekt die folgenden Bedingungen erfüllt" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Spaltenwerte setzen" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.EntitySchemaUId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.Caption" Value="Wenn das Objekt die folgenden Bedingungen erfüllt" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="Spaltenwerte setzen" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filter Datenquelle" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Objekt" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Objekt muss folgende Bedingungen erfüllen" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.AggregationColumnName.Caption" Value="Name der Aggregatsfunktionsspalte" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.CanReadUncommitedData.Caption" Value="Nicht committete Daten lesen" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Datenquelle der Filter" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.EntityColumnMetaPathes.Caption" Value="Zu lesende Spalten" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.FunctionType.Caption" Value="Aggregatesfunktionstyp" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.IgnoreDisplayValues.Caption" Value="Angezeigte Werte der Suchspalten nicht lesen" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.NumberOfRecords.Caption" Value="Anzahl zu lesender Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.OrderInfo.Caption" Value="Spaltensortiierung" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ReadSomeTopRecords.Caption" Value="Zuerst lesen" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCompositeObjectList.Caption" Value="Datensatz-Auswahl" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCount.Caption" Value="Anzahl Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntity.Caption" Value="Erstes Item der Ergebniskollektion" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntityCollection.Caption" Value="Ergenissammlung" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Anzahl gelesener Sätze" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Ergebnistyp" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Account.Caption" Value="Unternehmen" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityCategory.Caption" Value="Kategorie" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityPriority.Caption" Value="Priorität" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityResult.Caption" Value="Ergebnis der Aktivität" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Caption" Value="Optionen" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Case.Caption" Value="Fall" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Change.Caption" Value="Ändern" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contact.Caption" Value="Kontakt" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contract.Caption" Value="Vertrag" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CreateActivity.Caption" Value="Aktivität anlegen" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CurrentActivityId.Caption" Value="Aufgaben-ID" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DecisionMode.Caption" Value="Dialogmodus" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Document.Caption" Value="Dokument" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Duration.Caption" Value="Dauer" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DurationPeriod.Caption" Value="Dauer (Periode)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ExecutionContext.Caption" Value="Ausführungskontext" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Incident.Caption" Value="Fall" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.InformationOnStep.Caption" Value="Information über Schritt" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Invoice.Caption" Value="Rechnung" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsActivityCompleted.Caption" Value="Aktivität abgeschlossen" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsDecisionRequired.Caption" Value="Mindestens eine Option muss ausgewählt werden" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Lead.Caption" Value="Lead" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Listing.Caption" Value="Verzeichnis" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Opportunity.Caption" Value="Verkaufschance" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Order.Caption" Value="Bestellung" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OwnerId.Caption" Value="Eigentümer" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Problem.Caption" Value="Problem" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Project.Caption" Value="Projekt" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Property.Caption" Value="Eigenchaft" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.Caption" Value="Frage" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.Caption" Value="Empfehlung" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Release.Caption" Value="Freigeben" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBefore.Caption" Value="Besitzer vorab erinnern" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Besitzer vor informieren (Periode)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Requests.Caption" Value="Anforderung" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ResultDecisions.Caption" Value="Ausgewählte Antworten" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowExecutionPage.Caption" Value="Ausführungsseite automatisch zeigen" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowInScheduler.Caption" Value="In Kalender anzeigen" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartIn.Caption" Value="Ausführung starten in" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.Caption" Value="Ausführung starten in (Periode)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Caption" Value="Fensterkopf" />
+			<Item Name="Caption" Value="Schedule Payment Process" />
+		</Items>
+	</Group>
+</Resources>

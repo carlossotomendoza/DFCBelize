@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2530d8d1-c644-4d53-a80d-d19d9c1d50fd",
+    "Name": "DfcSchedulePaymentDfcLoans1",
+    "ModifiedOnUtc": "\/Date(1724815662000)\/",
+    "Parent": {
+      "UId": "df645643-66fa-43ef-ba7b-3340cdb7bf8f",
+      "Name": "DfcSchedulePayment"
+    },
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Schedule Payment Process"
+  }
+}

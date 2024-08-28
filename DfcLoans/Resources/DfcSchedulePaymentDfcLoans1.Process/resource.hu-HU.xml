@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hu-HU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Rekordhozzáadási mód" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Oszlopértékek beállítása" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Létrehozott rekordazonosító" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.EntitySchemaId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.FilterEntitySchemaId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordAddMode.Caption" Value="Rekordhozzáadási mód" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Caption" Value="Oszlopértékek beállítása" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordId.Caption" Value="Létrehozott rekordazonosító" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Ha az objektum megfelel az alábbi feltételeknek" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Oszlopértékek beállítása" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="Ha az objektum megfelel az alábbi feltételeknek" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="Oszlopértékek beállítása" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="Ha az objektum megfelel az alábbi feltételeknek" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Oszlopértékek beállítása" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.EntitySchemaUId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.Caption" Value="Ha az objektum megfelel az alábbi feltételeknek" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="Oszlopértékek beállítása" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Adatforrás-szűrők" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Az objektumnak meg kell felelnie a következő feltételeknek" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.AggregationColumnName.Caption" Value="Az összesítő függvényoszlop neve" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.CanReadUncommitedData.Caption" Value="Nem véglegesített adatok olvasása" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="Vegye figyelembe az időt a szűrőben" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.DataSourceFilters.Caption" Value="A szűrők adatforrása" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.EntityColumnMetaPathes.Caption" Value="Olvasandó oszlopok" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.FunctionType.Caption" Value="Összesítő függvény típusa" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.IgnoreDisplayValues.Caption" Value="Ne olvassa be a keresőoszlopok megjelenített értékeit" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.NumberOfRecords.Caption" Value="Olvasandó rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.OrderInfo.Caption" Value="Oszlopok sorrendje" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ReadSomeTopRecords.Caption" Value="Először olvassa el" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCompositeObjectList.Caption" Value="Nyilvántartások gyűjtése" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCount.Caption" Value="Rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultDateTimeFunction.Caption" Value="Függvény eredménye (dátum/idő)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntity.Caption" Value="Az eredményül kapott gyűjtemény első eleme" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntityCollection.Caption" Value="Eredményül kapott gyűjtemény" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultFloatFunction.Caption" Value="Függvény eredménye (decimális)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Függvény eredménye (egész szám)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Olvasott rekordok száma" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Az eredmény típusa" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Account.Caption" Value="Fiók" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityCategory.Caption" Value="Kategória" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityPriority.Caption" Value="Elsőbbség" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityResult.Caption" Value="A tevékenység eredménye" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Caption" Value="Opciók" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Case.Caption" Value="Eset" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Change.Caption" Value="Változtatás" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contact.Caption" Value="Kapcsolat" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contract.Caption" Value="Szerződés" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CreateActivity.Caption" Value="Tevékenység létrehozása" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CurrentActivityId.Caption" Value="Feladat azonosítója" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DecisionMode.Caption" Value="Párbeszéd mód" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Document.Caption" Value="Dokumentum" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Duration.Caption" Value="Időtartam" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DurationPeriod.Caption" Value="Időtartam" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ExecutionContext.Caption" Value="Végrehajtási környezet" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Incident.Caption" Value="Eset" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.InformationOnStep.Caption" Value="Információ a lépésről" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Invoice.Caption" Value="Számla" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsActivityCompleted.Caption" Value="Tevékenység befejezve" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsDecisionRequired.Caption" Value="Legalább egy lehetőséget ki kell választani" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Lead.Caption" Value="Érdeklődő" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Listing.Caption" Value="Hirdetés" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Opportunity.Caption" Value="Lehetőség" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Order.Caption" Value="Rendezés" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OwnerId.Caption" Value="Tulajdonos" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Problem.Caption" Value="Probléma" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Project.Caption" Value="Projekt" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Property.Caption" Value="Ingatlan" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.Caption" Value="Kérdés" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.Caption" Value="Ajánlásod" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Release.Caption" Value="Kiadás" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBefore.Caption" Value="Emlékeztesse előre a tulajdonost" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Emlékeztesse előre a tulajdonost (időszak)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Requests.Caption" Value="Kérés" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ResultDecisions.Caption" Value="Válogatott válaszok" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowExecutionPage.Caption" Value="Végrehajtási oldal automatikus megjelenítése" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowInScheduler.Caption" Value="Megjelenítés a naptárban" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartIn.Caption" Value="Végrehajtás indítása" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.Caption" Value="Végrehajtás indítása (pont)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Caption" Value="Ablak fejléce" />
+			<Item Name="Caption" Value="Schedule Payment Process" />
+		</Items>
+	</Group>
+</Resources>

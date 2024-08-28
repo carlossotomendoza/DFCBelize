@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Modaliteti i shtimit të të dhënave" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Id e të dhënave të krijuara" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.EntitySchemaId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.FilterEntitySchemaId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordAddMode.Caption" Value="Modaliteti i shtimit të të dhënave" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordDefValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.AddDataUserTask2.Parameters.RecordId.Caption" Value="Id e të dhënave të krijuara" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Nëse objekti përmbush kushtet vijuese" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="Nëse objekti përmbush kushtet vijuese" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="Nëse objekti përmbush kushtet vijuese" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.Caption" Value="Nëse objekti përmbush kushtet vijuese" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="Përcakto vlerat e kolonës" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Objekti" />
+			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Objekti duhet të përmbushë kriteret vijuese" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.AggregationColumnName.Caption" Value="Emri i kolonës së funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.CanReadUncommitedData.Caption" Value="Lexo të dhëna të paangazhuara" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Burimi i të dhënave të filtrave" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.EntityColumnMetaPathes.Caption" Value="Kolonat për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.FunctionType.Caption" Value="Lloji i funksionit agregat" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.IgnoreDisplayValues.Caption" Value="Mos lexo vlerat e paraqitura të kolonave të kërkimit" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.NumberOfRecords.Caption" Value="Numri i të dhënave për të lexuar" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.OrderInfo.Caption" Value="Renditja e kolonave" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ReadSomeTopRecords.Caption" Value="Lexo në fillim" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCompositeObjectList.Caption" Value="Mbledhja e të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCount.Caption" Value="Numri i të dhënave" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultDateTimeFunction.Caption" Value="Rezultati i funksionit (Data/Ora)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntity.Caption" Value="Artikulli i parë i mbledhjes rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntityCollection.Caption" Value="Mbledhja rezultuese" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultFloatFunction.Caption" Value="Rezultati i funksionit (numër dhjetor)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Account.Caption" Value="Subjekti" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityCategory.Caption" Value="Kategoria" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityPriority.Caption" Value="Prioriteti" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityResult.Caption" Value="Rezultati i aktivitetit" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Caption" Value="Opsionet" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Case.Caption" Value="Çështja" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Change.Caption" Value="Ndrysho" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contact.Caption" Value="Kontakti" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Contract.Caption" Value="Kontrata" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CreateActivity.Caption" Value="Krijo aktivitet" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CurrentActivityId.Caption" Value="Detyra Id" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DecisionMode.Caption" Value="Modaliteti i dialogut" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Document.Caption" Value="Dokumenti" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Duration.Caption" Value="Kohëzgjatja" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DurationPeriod.Caption" Value="Kohëzgjatja (periudha)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ExecutionContext.Caption" Value="Konteksti i ekzekutimit" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Incident.Caption" Value="Çështja" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.InformationOnStep.Caption" Value="Informacion rreth hapit" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Invoice.Caption" Value="Fatura" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsActivityCompleted.Caption" Value="Aktiviteti përfundoi" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsDecisionRequired.Caption" Value="Duhet të përzgjidhet të paktën një alternativë" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Lead.Caption" Value="Klient i mundshëm" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Listing.Caption" Value="Lista" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Opportunity.Caption" Value="Mundësia" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Order.Caption" Value="Porosi" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OwnerId.Caption" Value="Pronari" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Problem.Caption" Value="Problemi" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Project.Caption" Value="Projekti" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Property.Caption" Value="Veçori" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.Caption" Value="Pyetja" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.Caption" Value="Rekomandimi" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Release.Caption" Value="Lançimi" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBefore.Caption" Value="Rikujto paraprakisht pronarin" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Rikujto paraprakisht pronarin (periudha)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Requests.Caption" Value="Kërkesë" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ResultDecisions.Caption" Value="Përgjigjet e përzgjedhura" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowExecutionPage.Caption" Value="Paraqit faqen e ekzekutimit automatikisht" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowInScheduler.Caption" Value="Trego në kalendar" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartIn.Caption" Value="Fillo ekzekutimin në" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.Caption" Value="Fillo ekzekutimin në (periudhë)" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Caption" Value="Ballina e dritares" />
+			<Item Name="Caption" Value="Schedule Payment Process" />
+		</Items>
+	</Group>
+</Resources>
