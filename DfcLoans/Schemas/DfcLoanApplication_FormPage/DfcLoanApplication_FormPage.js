@@ -777,6 +777,25 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
+				"name": "DfcInstallmentAmt",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcInstallmentAmt_9mp5g18",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInstallmentAmt_9mp5g18"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
 				"name": "ExpansionPanel_ProductTerms",
 				"values": {
 					"type": "crt.ExpansionPanel",
@@ -2792,6 +2811,11 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 									}
 								}
 							}
+						}
+					},
+					"PDS_DfcInstallmentAmt_9mp5g18": {
+						"modelConfig": {
+							"path": "PDS.DfcInstallmentAmt"
 						}
 					}
 				}
