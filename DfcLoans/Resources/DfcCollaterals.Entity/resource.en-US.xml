@@ -3,11 +3,43 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Collaterals" />
+			<Item Name="Columns.DfcAddressOfProperty.Caption" Value="Address of Property" />
+			<Item Name="Columns.DfcArea.Caption" Value="Area" />
+			<Item Name="Columns.DfcAvalaibleValue.Caption" Value="Avalaible Value" />
+			<Item Name="Columns.DfcBlock.Caption" Value="Block" />
+			<Item Name="Columns.DfcCollateralNumber.Caption" Value="Collateral Number" />
+			<Item Name="Columns.DfcCollateralType.Caption" Value="Collateral Type" />
 			<Item Name="Columns.DfcColValue.Caption" Value="Collateral Value" />
+			<Item Name="Columns.DfcDateClosed.Caption" Value="Date Closed" />
 			<Item Name="Columns.DfcDateEntered.Caption" Value="Date Entered" />
+			<Item Name="Columns.DfcDateOfIssue.Caption" Value="Date of Issue" />
+			<Item Name="Columns.DfcDateSubmmited.Caption" Value="Date submmited to customer" />
 			<Item Name="Columns.DfcDescription.Caption" Value="Description" />
+			<Item Name="Columns.DfcDiscountedValue.Caption" Value="Discounted Value" />
+			<Item Name="Columns.DfcDiscountPercentaje.Caption" Value="Discount Percentaje" />
+			<Item Name="Columns.DfcExpiryDate.Caption" Value="Expiry Date" />
+			<Item Name="Columns.DfcExternalEntity.Caption" Value="External entity institution" />
+			<Item Name="Columns.DfcFolio.Caption" Value="Folio" />
 			<Item Name="Columns.DfcInAuction.Caption" Value="In Auction" />
+			<Item Name="Columns.DfcLastValuationType.Caption" Value="Last Valuation Type" />
 			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
+			<Item Name="Columns.DfcLocationSecurity.Caption" Value="Location of Security" />
+			<Item Name="Columns.DfcNotes.Caption" Value="Notes" />
+			<Item Name="Columns.Dfcparcel.Caption" Value="Parcel" />
+			<Item Name="Columns.DfcProjectedValue.Caption" Value="Projected value at expiry date" />
+			<Item Name="Columns.DfcRegistrationDate.Caption" Value="Registration Date" />
+			<Item Name="Columns.DfcRegistrationSection.Caption" Value="Registration Section" />
+			<Item Name="Columns.DfcSolicitor.Caption" Value="Solicitor" />
+			<Item Name="Columns.DfcStatus.Caption" Value="Status" />
+			<Item Name="Columns.DfcTermsStart.Caption" Value="Terms Start" />
+			<Item Name="Columns.DfcTermYears.Caption" Value="Term Years" />
+			<Item Name="Columns.DfcTitleDetails.Caption" Value="TitleDetails" />
+			<Item Name="Columns.DfcTitleNumber.Caption" Value="Title Number" />
+			<Item Name="Columns.DfcTownVillage.Caption" Value="Town/Village" />
+			<Item Name="Columns.DfcTypeClassification.Caption" Value="Collateral Type Classification" />
+			<Item Name="Columns.DfcUnit.Caption" Value="Unit" />
+			<Item Name="Columns.DfcValueSecuringLoans.Caption" Value="Value securing loans" />
+			<Item Name="Columns.DfcVolume.Caption" Value="Volume" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
 		</Items>
 	</Group>

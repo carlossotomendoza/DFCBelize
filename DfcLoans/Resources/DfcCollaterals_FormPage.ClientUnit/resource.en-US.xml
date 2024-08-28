@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Collaterals form page" />
+			<Item Name="LocalizableStrings.addRecord_1w6qajo_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_2wxuxzg_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_4hf1uv2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_cu3l0f5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_e3vr0lv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_h3pggm7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_kk2hzdj_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_nczfljz_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_o9odhmp_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_rq7qcqh_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_srejqwc_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.DateTimePicker_azbtg1g_label.Value" Value="Last Valuation Date" />
+			<Item Name="LocalizableStrings.TabContainer_gd9yhga_caption.Value" Value="Details" />
+		</Items>
+	</Group>
+</Resources>
