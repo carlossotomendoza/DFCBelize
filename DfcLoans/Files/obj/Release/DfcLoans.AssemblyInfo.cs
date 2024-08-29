@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DfcLoans")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.1.3.6801")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.1.3.6801+1845a65eb944b16ea806ea3adfd477c33722b55f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.1.3.6801+2a6b86ed9c10fc2c01ca580d097ff42edc62169b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DfcLoans")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DfcLoans")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.1.3.6801")]

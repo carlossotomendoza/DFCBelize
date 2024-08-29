@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WOEY88TrnOY=",
+  "dgSpecHash": "13X4zF7cSpk=",
   "success": true,
-  "projectFilePath": "D:\\Creatio\\DFC\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
+  "projectFilePath": "C:\\Creatio\\D2_Creatio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Creatio\\DFC\\DFC_PreProd\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
