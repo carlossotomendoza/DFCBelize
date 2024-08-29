@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj": {}
+    "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj": {}
   },
   "projects": {
-    "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj": {
+    "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj": {
       "version": "8.1.3.6801",
       "restore": {
-        "projectUniqueName": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
+        "projectUniqueName": "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
         "projectName": "DfcLoans",
-        "projectPath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
-        "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\.nuget\\packages\\",
-        "outputPath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\",
+        "projectPath": "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
+        "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Pre\\Default\\dotnet\\.nuget\\packages\\",
+        "outputPath": "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Pre\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"

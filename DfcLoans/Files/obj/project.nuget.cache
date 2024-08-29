@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7vExfFS/6AVlp4TVWqFVgJuPSiMcQo6j2dLZVfBkECXuCyogb96Wudu+M5yDdPHiQx4fiCZ6eYGVaVk+niE2iQ==",
+  "dgSpecHash": "sg1NmHvyoi3TNh0Dxj85+e1Rgp/X/6KhlaJGUKCbZawxTbzX80RxXTPwYK1WiO6urC9J4aHWVsJ+6k+Y6WtmOw==",
   "success": true,
-  "projectFilePath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
+  "projectFilePath": "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\DfcLoans.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
