@@ -1113,7 +1113,11 @@ define("DfcPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SC
 					"multiline": false,
 					"label": "$Resources.Strings.PDS_DfcPaymentNumber_vz35cmk",
 					"labelPosition": "auto",
-					"control": "$PDS_DfcPaymentNumber_vz35cmk"
+					"control": "$PDS_DfcPaymentNumber_vz35cmk",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",

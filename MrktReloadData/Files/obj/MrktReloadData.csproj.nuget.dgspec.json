@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\MrktReloadData\\Files\\MrktReloadData.csproj": {}
+  },
+  "projects": {
+    "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\MrktReloadData\\Files\\MrktReloadData.csproj": {
+      "version": "8.1.3.6801",
+      "restore": {
+        "projectUniqueName": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\MrktReloadData\\Files\\MrktReloadData.csproj",
+        "projectName": "MrktReloadData",
+        "projectPath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\MrktReloadData\\Files\\MrktReloadData.csproj",
+        "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\.nuget\\packages\\",
+        "outputPath": "C:\\DFC_Belize\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\MrktReloadData\\Files\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Belize\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

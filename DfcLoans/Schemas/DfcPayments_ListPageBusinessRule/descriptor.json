@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b170cced-18e9-460f-83fe-bed813435348",
+    "Name": "DfcPayments_ListPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1724810623000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Payments list page (Business rules)",
+    "DependsOn": []
+  }
+}
