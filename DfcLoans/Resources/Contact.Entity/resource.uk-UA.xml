@@ -3,12 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Columns.AdCampaign.Caption" Value="Рекламна кампанія" />
-			<Item Name="Columns.Channel.Caption" Value="Канал" />
-			<Item Name="Columns.CustomerNeed.Caption" Value="Тип потреби" />
 			<Item Name="Columns.IsNonActualEmail.Caption" Value="Вказано некоректний Email" />
-			<Item Name="Columns.LeadConversionScore.Caption" Value="Рейтинг конверсії лідів" />
-			<Item Name="Columns.RegisterMethod.Caption" Value="Як зареєстрований" />
-			<Item Name="Columns.Source.Caption" Value="Джерело" />
 		</Items>
 	</Group>
 </Resources>

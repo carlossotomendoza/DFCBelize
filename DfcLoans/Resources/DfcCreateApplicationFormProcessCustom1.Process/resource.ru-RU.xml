@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Caption" Value="Добавить анкету заемщика" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Caption" Value="Завершить активности предыдущей стадии" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Caption" Value="Изменить стадию в заявке" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Да" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Нет" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Caption" Value="Привязать процесс к Заявке" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntityId.DisplayValue" Value="[#Заявка#]" />
+			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntitySchemaId.DisplayValue" Value="Заявка" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Caption" Value="Открыть страницу Анкеты" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.ActivityCategory.DisplayValue" Value="Выполнить" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.ActivityPriority.Caption" Value="Приоритет" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.BankAccount.Caption" Value="Счет" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.BankCard.Caption" Value="Карта" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.CreateActivity.Caption" Value="Создать активность" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.Duration.DisplayValue" Value="5" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.DurationPeriod.DisplayValue" Value="минут" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.Event.Caption" Value="Мероприятие" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.FinApplication.Caption" Value="Заявка" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.GenerateDecisionsFromColumn.DisplayValue" Value="false" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.OmniChat.Caption" Value="Чат" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.OwnerId.DisplayValue" Value="[#Системная переменная.Контакт текущего пользователя#]" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.Product.Caption" Value="Продукт" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.Recommendation.DisplayValue" Value="Заполните анкетные данные и сформируйте пакет документов заемщика" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.Recommendation.Value" Value="Заполните анкетные данные и сформируйте пакет документов заемщика" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.RecordId.DisplayValue" Value="[#Добавить анкету заемщика.Id созданной записи#]" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.ShowExecutionPage.DisplayValue" Value="[#Логическое значение.Нет#]" />
+			<Item Name="BaseElements.OpenEditPageUserTask1.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Источник данных фильтров" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Перечень колонок для чтения" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Тип агрегирующей функции" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Не читать отображаемые значения колонок Справочников" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Количество записей для чтения" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Порядок сортировки колонок" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Читать первые" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Коллекция записей" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Количество записей" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Результат функции (Дата/Время)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="Первый элемент результирующей коллекции" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Результирующая коллекция" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Результат функции (Дробное число)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Результат функции (Целое)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Количество прочитанных записей" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Тип результата" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Caption" Value="Вопрос пользователю" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityCategory.DisplayValue" Value="Выполнить" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ActivityPriority.Caption" Value="Приоритет" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BankAccount.Caption" Value="Счет" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BankCard.Caption" Value="Карта" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Value.07b20dc2-4001-4ebd-9dc8-011c19b654c0.Caption" Value="Да" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.BranchingDecisions.Value.789634c8-06a6-4f11-80a3-3c296a50fefe.Caption" Value="Нет" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.CreateActivity.Caption" Value="Создать активность" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DecisionMode.DisplayValue" Value="0" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Duration.DisplayValue" Value="5" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.DurationPeriod.DisplayValue" Value="минут" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Event.Caption" Value="Мероприятие" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.FinApplication.Caption" Value="Заявка" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.IsDecisionRequired.DisplayValue" Value="true" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OmniChat.Caption" Value="Чат" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.OwnerId.DisplayValue" Value="[#Системная переменная.Контакт текущего пользователя#]" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Product.Caption" Value="Продукт" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.DisplayValue" Value="Отправить на верификацию?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Question.Value" Value="Отправить на верификацию?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.DisplayValue" Value="Отправить на верификацию?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.Recommendation.Value" Value="Отправить на верификацию?" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowExecutionPage.DisplayValue" Value="true" />
+			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="BaseElements.UserTask1.Caption" Value="Сформировать документы в Анкете" />
+			<Item Name="BaseElements.UserTask1.Parameters.AppForm.DisplayValue" Value="[#Добавить анкету заемщика.Id созданной записи#]" />
+			<Item Name="Caption" Value="Оформить кредитную анкету" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="Parameters.ApplicationId.Caption" Value="Заявка" />
+		</Items>
+	</Group>
+</Resources>

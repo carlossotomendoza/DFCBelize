@@ -3,12 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Columns.AdCampaign.Caption" Value="Campanha de anúncios" />
-			<Item Name="Columns.Channel.Caption" Value="Canal" />
-			<Item Name="Columns.CustomerNeed.Caption" Value="Necessidade do cliente" />
 			<Item Name="Columns.IsNonActualEmail.Caption" Value="Email inválido" />
-			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
-			<Item Name="Columns.RegisterMethod.Caption" Value="Método de subscrição" />
-			<Item Name="Columns.Source.Caption" Value="Fonte" />
 		</Items>
 	</Group>
 </Resources>

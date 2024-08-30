@@ -44,9 +44,11 @@
 			<Item Name="Columns.DfcPpalBal.Caption" Value="Principal Balance" />
 			<Item Name="Columns.DfcPpalWriteOff.Caption" Value="Writeoff Principal" />
 			<Item Name="Columns.DfcProduct.Caption" Value="Product" />
+			<Item Name="Columns.DfcRepaymentCycle.Caption" Value="Repayment Cycle" />
 			<Item Name="Columns.DfcRepaymentEndDate.Caption" Value="Repayment End Date" />
 			<Item Name="Columns.DfcRepaymentStartDate.Caption" Value="Repayment Start Date" />
 			<Item Name="Columns.DfcReservePrice.Caption" Value="Reserve Price" />
+			<Item Name="Columns.DfcTerm.Caption" Value="Term" />
 			<Item Name="Columns.DfcTotalBal.Caption" Value="Total Balance" />
 			<Item Name="Columns.DfcTotWriteOffBal.Caption" Value="Total WriteOff Balance" />
 			<Item Name="Columns.DfcWriteoffDate.Caption" Value="Write-off Date" />

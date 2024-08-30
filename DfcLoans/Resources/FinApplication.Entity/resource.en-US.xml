@@ -5,12 +5,21 @@
 			<Item Name="Columns.Case.Caption" Value="Case" />
 			<Item Name="Columns.DfcClient.Caption" Value="Client Contact" />
 			<Item Name="Columns.DfcClientPhoto.Caption" Value="Client Photo" />
+			<Item Name="Columns.DfcCreditOfficer.Caption" Value="Credit Officer" />
 			<Item Name="Columns.DfcCustomerType.Caption" Value="Customer Type" />
+			<Item Name="Columns.DfcGracePeriodIntMethod.Caption" Value="Grace Period Interest Method" />
 			<Item Name="Columns.DfcInstallmentAmt.Caption" Value="Installment Amount" />
+			<Item Name="Columns.DfcIntCalcMethod.Caption" Value="Interest Calculation Method" />
 			<Item Name="Columns.DfcInterestRate.Caption" Value="Interest %" />
+			<Item Name="Columns.DfcInterestType.Caption" Value="Interest Type" />
+			<Item Name="Columns.DfcLatePymtPenaltyFeeCalc.Caption" Value="Late Pymt Penalty Fee Calculation" />
+			<Item Name="Columns.DfcLoanOfficer.Caption" Value="Loan Officer" />
+			<Item Name="Columns.DfcLoanType.Caption" Value="Loan Type" />
 			<Item Name="Columns.DfcPeriodType.Caption" Value="Period Type" />
 			<Item Name="Columns.DfcProductSector.Caption" Value="Product Sector" />
 			<Item Name="Columns.DfcPurpose.Caption" Value="Purpose" />
+			<Item Name="Columns.DfcRepaymentCycle.Caption" Value="Repayment Cycle" />
+			<Item Name="Columns.DfcRepaymentMethod.Caption" Value="Repayment Method" />
 			<Item Name="Columns.DfcReqAmt.Caption" Value="Requested Amount" />
 			<Item Name="Columns.DfcSector.Caption" Value="Sector" />
 			<Item Name="Columns.DfcSubSector.Caption" Value="Sub Sector" />

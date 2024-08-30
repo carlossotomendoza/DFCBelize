@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "efbb9d59-25ef-49f0-ae28-0a9d49e78e55",
+    "Name": "DfcProcess_d3e5679",
+    "ModifiedOnUtc": "\/Date(1724974580000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Validate application docs attachments",
+    "DependsOn": []
+  }
+}

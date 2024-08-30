@@ -3,12 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
-			<Item Name="Columns.Channel.Caption" Value="ערוץ" />
-			<Item Name="Columns.CustomerNeed.Caption" Value="צורך לקוח" />
 			<Item Name="Columns.IsNonActualEmail.Caption" Value="דוא&quot;ל לא חוקי" />
-			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
-			<Item Name="Columns.RegisterMethod.Caption" Value="שיטת רישום" />
-			<Item Name="Columns.Source.Caption" Value="מקור" />
 		</Items>
 	</Group>
 </Resources>

@@ -2,12 +2,13 @@
   "Descriptor": {
     "UId": "2f7a488f-6b25-41a1-a028-1993716b8fee",
     "Name": "DfcUsrProcess_DocTransfertoAppCustom1",
-    "ModifiedOnUtc": "\/Date(1724804940000)\/",
+    "ModifiedOnUtc": "\/Date(1724976010000)\/",
     "Parent": {
       "UId": "fd61c9c7-0e52-40fe-9e2b-62037cfb66c6",
       "Name": "UsrProcess_DocTransfertoApp"
     },
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Document transfer from Product to Application"
+    "Caption": "Document transfer from Product to Application",
+    "DependsOn": []
   }
 }

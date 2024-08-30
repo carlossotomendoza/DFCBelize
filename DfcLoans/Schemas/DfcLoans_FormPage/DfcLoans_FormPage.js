@@ -121,7 +121,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"control": "$PDS_DfcLoanApp_nlbj80g",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
@@ -160,7 +164,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"control": "$PDS_DfcAccount_iwpq71s",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
@@ -199,7 +207,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"control": "$PDS_DfcContact_nh3i50v",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
@@ -307,7 +319,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"control": "$PDS_DfcProduct_33a0ucc",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GridContainer_mib9kql",
 				"propertyName": "items",
@@ -343,7 +359,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"type": "crt.NumberInput",
 					"label": "$Resources.Strings.PDS_DfcLoanAmt_90436eq",
 					"labelPosition": "auto",
-					"control": "$PDS_DfcLoanAmt_90436eq"
+					"control": "$PDS_DfcLoanAmt_90436eq",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GridContainer_mib9kql",
 				"propertyName": "items",
@@ -362,11 +382,317 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"type": "crt.NumberInput",
 					"label": "$Resources.Strings.PDS_DfcInterestRate_gjvhcim",
 					"labelPosition": "auto",
-					"control": "$PDS_DfcInterestRate_gjvhcim"
+					"control": "$PDS_DfcInterestRate_gjvhcim",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GridContainer_mib9kql",
 				"propertyName": "items",
 				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "DfcTerm",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcTerm_8g4shgy",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcTerm_8g4shgy",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_mib9kql",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "DfcCurrency",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcCurrency_3aedo6u",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcCurrency_3aedo6u",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"readonly": true
+				},
+				"parentName": "GridContainer_mib9kql",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "DfcRepaymentCycle",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 6,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcRepaymentCycle_5k1ahuo",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcRepaymentCycle_5k1ahuo",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_mib9kql",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_d45cqul",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "SideContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_hgceck5",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "#ResourceString(ComboBox_hgceck5_label)#",
+					"ariaLabel": "#ResourceString(ComboBox_hgceck5_ariaLabel)#",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$PDS_DfcLoanAppDfcLoanType",
+					"visible": true,
+					"placeholder": ""
+				},
+				"parentName": "GridContainer_d45cqul",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_dmfxn01",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLoanAppDfcInterestType",
+					"ariaLabel": "#ResourceString(ComboBox_dmfxn01_ariaLabel)#",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$PDS_DfcLoanAppDfcInterestType"
+				},
+				"parentName": "GridContainer_d45cqul",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_gz4ef1g",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_gz4ef1g_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_dmfxn01",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_m9mnq9t",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLoanAppDfcIntCalcMethod",
+					"ariaLabel": "#ResourceString(ComboBox_m9mnq9t_ariaLabel)#",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$PDS_DfcLoanAppDfcIntCalcMethod"
+				},
+				"parentName": "GridContainer_d45cqul",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_yfje2dw",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_yfje2dw_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_m9mnq9t",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_uv0lq3n",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLoanAppDfcGracePeriodIntMethod",
+					"ariaLabel": "#ResourceString(ComboBox_uv0lq3n_ariaLabel)#",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$PDS_DfcLoanAppDfcGracePeriodIntMethod"
+				},
+				"parentName": "GridContainer_d45cqul",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_482z99v",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_482z99v_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_uv0lq3n",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_9muqevp",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLoanAppDfcLatePymtPenaltyFeeCalc",
+					"ariaLabel": "#ResourceString(ComboBox_9muqevp_ariaLabel)#",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$PDS_DfcLoanAppDfcLatePymtPenaltyFeeCalc"
+				},
+				"parentName": "GridContainer_d45cqul",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_qkp51cp",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_qkp51cp_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_9muqevp",
+				"propertyName": "listActions",
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -3808,6 +4134,51 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								}
 							}
 						}
+					},
+					"PDS_DfcTerm_8g4shgy": {
+						"modelConfig": {
+							"path": "PDS.DfcTerm"
+						}
+					},
+					"PDS_DfcLoanAppDfcLoanType": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanAppDfcLoanType"
+						}
+					},
+					"PDS_DfcLoanAppDfcInterestType": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanAppDfcInterestType"
+						}
+					},
+					"PDS_DfcLoanAppDfcIntCalcMethod": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanAppDfcIntCalcMethod"
+						}
+					},
+					"PDS_DfcLoanAppDfcGracePeriodIntMethod": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanAppDfcGracePeriodIntMethod"
+						}
+					},
+					"PDS_DfcLoanApp_onmr9nf": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanApp"
+						}
+					},
+					"PDS_DfcLoanAppDfcLatePymtPenaltyFeeCalc": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanAppDfcLatePymtPenaltyFeeCalc"
+						}
+					},
+					"PDS_DfcCurrency_3aedo6u": {
+						"modelConfig": {
+							"path": "PDS.DfcCurrency"
+						}
+					},
+					"PDS_DfcRepaymentCycle_5k1ahuo": {
+						"modelConfig": {
+							"path": "PDS.DfcRepaymentCycle"
+						}
 					}
 				}
 			},
@@ -3884,7 +4255,29 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "DfcLoans"
+							"entitySchemaName": "DfcLoans",
+							"attributes": {
+								"DfcLoanAppDfcLoanType": {
+									"path": "DfcLoanApp.DfcLoanType",
+									"type": "ForwardReference"
+								},
+								"DfcLoanAppDfcInterestType": {
+									"path": "DfcLoanApp.DfcInterestType",
+									"type": "ForwardReference"
+								},
+								"DfcLoanAppDfcIntCalcMethod": {
+									"path": "DfcLoanApp.DfcIntCalcMethod",
+									"type": "ForwardReference"
+								},
+								"DfcLoanAppDfcGracePeriodIntMethod": {
+									"path": "DfcLoanApp.DfcGracePeriodIntMethod",
+									"type": "ForwardReference"
+								},
+								"DfcLoanAppDfcLatePymtPenaltyFeeCalc": {
+									"path": "DfcLoanApp.DfcLatePymtPenaltyFeeCalc",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					},

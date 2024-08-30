@@ -5,17 +5,24 @@
 			<Item Name="Caption" Value="Loan Application form page" />
 			<Item Name="LocalizableStrings.addRecord_0e2y2b3_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_0q5yso1_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_4alchif_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_5xuv2dt_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_8rr30on_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_97xckrm_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_b56idpz_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_bg8hf96_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_bqc6ky7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_c1j09kd_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_c4we974_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_dcy6xj3_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_dt9nh5v_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ejlmw1p_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_erjda0i_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_f5eurqr_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_gzq5tol_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_i4s9zni_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_jethvcq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_kaienv5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_keaso92_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_p60rme6_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_pmxrhtt_caption.Value" Value="Add new" />
@@ -23,7 +30,9 @@
 			<Item Name="LocalizableStrings.addRecord_qh6r0p5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_qhkbscg_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_uu0kau1_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_x1shqh4_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_xdrqhq9_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_zz141tv_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.Button_6hj1jo8_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.Button_Refresh_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.ComboBox_gzgz4hw_label.Value" Value="Company Name" />

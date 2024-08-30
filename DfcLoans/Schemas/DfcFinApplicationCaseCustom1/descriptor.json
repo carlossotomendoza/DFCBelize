@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a234d476-9a4a-466e-bd5e-95100c417ddf",
+    "Name": "DfcFinApplicationCaseCustom1",
+    "ModifiedOnUtc": "\/Date(1724979892000)\/",
+    "Parent": {
+      "UId": "120c44a6-8ae1-452c-85d2-b953dbd0c140",
+      "Name": "FinApplicationCase"
+    },
+    "ManagerName": "DcmSchemaManager",
+    "Caption": "Loan process flow",
+    "DependsOn": []
+  }
+}

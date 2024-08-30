@@ -3,11 +3,29 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Loans form page" />
+			<Item Name="LocalizableStrings.addRecord_482z99v_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_6g3z8c7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_8l90w92_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_g3zigln_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_gz4ef1g_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_khgco1g_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ll8puqj_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qkp51cp_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ujxbf3x_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_vyu29pr_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_wz9y7d7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_yfje2dw_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ComboBox_9muqevp_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_9muqevp_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_dmfxn01_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_dmfxn01_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_hgceck5_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_hgceck5_label.Value" Value="Loan Type" />
+			<Item Name="LocalizableStrings.ComboBox_m9mnq9t_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_m9mnq9t_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_oy5k282_label.Value" Value="Repayment Cycle" />
+			<Item Name="LocalizableStrings.ComboBox_uv0lq3n_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_uv0lq3n_label.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.DateTimePicker_f868skj_label.Value" Value="Last Activity" />
 			<Item Name="LocalizableStrings.ExpansionPanel_5abdyzi_title.Value" Value="Current Amounts Due" />
 			<Item Name="LocalizableStrings.ExpansionPanel_b8uvs9i_title.Value" Value="Disbursements" />

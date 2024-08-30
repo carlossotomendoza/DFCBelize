@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Потребительское кредитование (пример)" />
+			<Item Name="Stages.Stage1.Caption" Value="Подбор продукта" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.Caption" Value="Определите продукт для оформления в заявке и заполните условия продукта" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.ActivityCategory.DisplayValue" Value="Выполнить" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.ActivityPriority.Caption" Value="Приоритет" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.BankAccount.Caption" Value="Счет" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.BankCard.Caption" Value="Карта" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.Duration.DisplayValue" Value="20" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.DurationPeriod.DisplayValue" Value="минут" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.Event.Caption" Value="Мероприятие" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.FinApplication.DisplayValue" Value="[#Основная запись.Id#]" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.OmniChat.Caption" Value="Чат" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.OwnerId.DisplayValue" Value="[#Системная переменная.Контакт текущего пользователя#]" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.Product.Caption" Value="Продукт" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.Recommendation.DisplayValue" Value="Определите продукт для оформления в заявке и заполните условия продукта" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.Recommendation.Value" Value="Определите продукт для оформления в заявке и заполните условия продукта" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.RemindBefore.DisplayValue" Value="0" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.RemindBeforePeriod.DisplayValue" Value="минут" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.ShowExecutionPage.DisplayValue" Value="false" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.StartIn.DisplayValue" Value="0" />
+			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.StartInPeriod.DisplayValue" Value="минут" />
+			<Item Name="Stages.Stage2.Caption" Value="Оформление анкеты" />
+			<Item Name="Stages.Stage2.Elements.DcmElement4.Caption" Value="Оформить анкету заемщика" />
+			<Item Name="Stages.Stage2.Elements.DcmElement4.ProcessFlowElement.Parameters.ApplicationId.Caption" Value="Заявка" />
+			<Item Name="Stages.Stage2.Elements.DcmElement4.ProcessFlowElement.Parameters.ApplicationId.DisplayValue" Value="[#Основная запись.Id#]" />
+			<Item Name="Stages.Stage3.Caption" Value="Верификация" />
+			<Item Name="Stages.Stage3.Elements.DcmElement3.Caption" Value="Согласовать заявку" />
+			<Item Name="Stages.Stage3.Elements.DcmElement3.ProcessFlowElement.Parameters.ApplicationId.DisplayValue" Value="[#Основная запись.Id#]" />
+			<Item Name="Stages.Stage4.Caption" Value="Заключение сделки" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.Caption" Value="Подпиcание кредитного договора c клиентом" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.ActivityCategory.DisplayValue" Value="Выполнить" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.ActivityPriority.Caption" Value="Приоритет" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.BankAccount.Caption" Value="Счет" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.BankCard.Caption" Value="Карта" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.Contract.DisplayValue" Value="[#Основная запись.Договор#]" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.Duration.DisplayValue" Value="20" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.DurationPeriod.DisplayValue" Value="минут" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.Event.Caption" Value="Мероприятие" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.FinApplication.DisplayValue" Value="[#Основная запись.Id#]" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.OmniChat.Caption" Value="Чат" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.OwnerId.DisplayValue" Value="[#Системная переменная.Контакт текущего пользователя#]" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.Product.Caption" Value="Продукт" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.Recommendation.DisplayValue" Value="Подпиcание кредитного договора с клиентом" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.Recommendation.Value" Value="Подпиcание кредитного договора с клиентом" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.RemindBefore.DisplayValue" Value="0" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.RemindBeforePeriod.DisplayValue" Value="минут" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.ShowExecutionPage.DisplayValue" Value="false" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.StartIn.DisplayValue" Value="0" />
+			<Item Name="Stages.Stage4.Elements.DcmElement2.ProcessFlowElement.Parameters.StartInPeriod.DisplayValue" Value="минут" />
+			<Item Name="Stages.Stage5.Caption" Value="Завершена успешно" />
+			<Item Name="Stages.Stage6.Caption" Value="Отменена" />
+			<Item Name="Stages.Stage7.Caption" Value="Отклонена" />
+		</Items>
+	</Group>
+</Resources>

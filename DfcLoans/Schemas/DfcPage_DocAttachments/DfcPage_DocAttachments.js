@@ -139,7 +139,7 @@ define("DfcPage_DocAttachments", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 					"labelPosition": "left",
 					"control": "$DocListInFinAppDS_DfcFileUploaded_totz4lh",
 					"visible": true,
-					"readonly": true,
+					"readonly": false,
 					"placeholder": "",
 					"tooltip": ""
 				},

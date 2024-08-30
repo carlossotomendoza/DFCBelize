@@ -116,9 +116,10 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				"name": "EntityStageProgressBar_LoanApp",
 				"values": {
 					"type": "crt.EntityStageProgressBar",
-					"saveOnChange": false,
+					"saveOnChange": true,
 					"askUserToChangeSchema": true,
-					"entityName": "FinApplication"
+					"entityName": "FinApplication",
+					"visible": true
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
@@ -283,7 +284,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
-				"name": "GridContainer_96w6upm",
+				"name": "GridContainer_kvbwula",
 				"values": {
 					"type": "crt.GridContainer",
 					"columns": [
@@ -310,6 +311,146 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				"parentName": "SideContainer",
 				"propertyName": "items",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DfcLoanType",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLoanType_3plnppm",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcLoanType_3plnppm",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_kvbwula",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DfcInterestType",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcInterestType_si2jic2",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInterestType_si2jic2",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_kvbwula",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DfcIntCalcMethod",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcIntCalcMethod_ubywopx",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcIntCalcMethod_ubywopx",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_kvbwula",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "DfcGracePeriodIntMethod",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcGracePeriodIntMethod_ir9joaa",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcGracePeriodIntMethod_ir9joaa",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_kvbwula",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "DfcLatePymtPenaltyFeeCalc",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLatePymtPenaltyFeeCalc_xpx24sd",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcLatePymtPenaltyFeeCalc_xpx24sd",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_kvbwula",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_96w6upm",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "SideContainer",
+				"propertyName": "items",
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -340,11 +481,76 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
-				"name": "FillingDate",
+				"name": "DfcLoanOfficer",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcLoanOfficer_1sd81fa",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcLoanOfficer_1sd81fa",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_96w6upm",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_zz141tv",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_zz141tv_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "DfcLoanOfficer",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_0yjzos9",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcCreditOfficer_p5oo54x",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcCreditOfficer_p5oo54x",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_96w6upm",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "FillingDate",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -356,34 +562,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GridContainer_96w6upm",
 				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "Owner",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_Owner_1pnziuc",
-					"labelPosition": "auto",
-					"control": "$PDS_Owner_1pnziuc",
-					"listActions": [],
-					"showValueAsLink": true,
-					"controlActions": [],
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": "",
-					"mode": "List"
-				},
-				"parentName": "GridContainer_96w6upm",
-				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -391,7 +570,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 4,
+						"row": 5,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -410,7 +589,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GridContainer_96w6upm",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -418,7 +597,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 5,
+						"row": 6,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -437,7 +616,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GridContainer_96w6upm",
 				"propertyName": "items",
-				"index": 4
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -445,7 +624,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 6,
+						"row": 7,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -460,7 +639,29 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GridContainer_96w6upm",
 				"propertyName": "items",
-				"index": 5
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "CreatedBy",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 8,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_CreatedBy_eh6s3za",
+					"labelPosition": "auto",
+					"control": "$PDS_CreatedBy_eh6s3za",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_96w6upm",
+				"propertyName": "items",
+				"index": 7
 			},
 			{
 				"operation": "insert",
@@ -636,7 +837,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
-				"name": "DfcPeriodType",
+				"name": "DfcRepaymentCycle",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -645,16 +846,12 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_DfcPeriodType_4q50282",
-					"labelPosition": "above",
-					"control": "$PDS_DfcPeriodType_4q50282",
+					"label": "$Resources.Strings.PDS_DfcRepaymentCycle_wamfrj9",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcRepaymentCycle_wamfrj9",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": [],
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
+					"controlActions": []
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -662,20 +859,43 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
-				"name": "addRecord_c4we974",
+				"name": "addRecord_dt9nh5v",
 				"values": {
 					"code": "addRecord",
 					"type": "crt.ComboboxSearchTextAction",
 					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_c4we974_caption)#",
+					"caption": "#ResourceString(addRecord_dt9nh5v_caption)#",
 					"clicked": {
 						"request": "crt.CreateRecordFromLookupRequest",
 						"params": {}
 					}
 				},
-				"parentName": "DfcPeriodType",
+				"parentName": "DfcRepaymentCycle",
 				"propertyName": "listActions",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DfcInterestRate",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcInterestRate_m3yhhrh",
+					"labelPosition": "above",
+					"control": "$PDS_DfcInterestRate_m3yhhrh",
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 7
 			},
 			{
 				"operation": "insert",
@@ -704,30 +924,26 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 7
+				"index": 8
 			},
 			{
 				"operation": "insert",
-				"name": "DfcInterestRate",
+				"name": "DfcInstallmentAmt",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 4,
+						"row": 5,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcInterestRate_m3yhhrh",
-					"labelPosition": "above",
-					"control": "$PDS_DfcInterestRate_m3yhhrh",
-					"visible": false,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
+					"label": "$Resources.Strings.PDS_DfcInstallmentAmt_9mp5g18",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInstallmentAmt_9mp5g18"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 8
+				"index": 9
 			},
 			{
 				"operation": "insert",
@@ -750,7 +966,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 9
+				"index": 10
 			},
 			{
 				"operation": "insert",
@@ -770,25 +986,6 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 					"readonly": false,
 					"placeholder": "",
 					"tooltip": ""
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 10
-			},
-			{
-				"operation": "insert",
-				"name": "DfcInstallmentAmt",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 5,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcInstallmentAmt_9mp5g18",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcInstallmentAmt_9mp5g18"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -1555,6 +1752,36 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 							"code": "GridDetail_puci257DS_Participant",
 							"caption": "#ResourceString(GridDetail_puci257DS_Participant)#",
 							"dataValueType": 1
+						},
+						{
+							"id": "ec804833-dd57-2201-0138-8a55cd8e6c2c",
+							"code": "GridDetail_puci257DS_ParticipantRole",
+							"caption": "#ResourceString(GridDetail_puci257DS_ParticipantRole)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "b15ab42b-e414-422d-d176-54a2d664a019",
+							"code": "GridDetail_puci257DS_BirthDate",
+							"caption": "#ResourceString(GridDetail_puci257DS_BirthDate)#",
+							"dataValueType": 8
+						},
+						{
+							"id": "297c5a75-b631-6d78-b3fb-8f21c39f83c1",
+							"code": "GridDetail_puci257DS_MaritalStatus",
+							"caption": "#ResourceString(GridDetail_puci257DS_MaritalStatus)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "ceae5a4d-cd58-7eee-b556-f52b40b2f8fb",
+							"code": "GridDetail_puci257DS_PlaceOfBirth",
+							"caption": "#ResourceString(GridDetail_puci257DS_PlaceOfBirth)#",
+							"dataValueType": 29
+						},
+						{
+							"id": "47c225c3-832e-358c-0b69-3ee000d46885",
+							"code": "GridDetail_puci257DS_DfcAge",
+							"caption": "#ResourceString(GridDetail_puci257DS_DfcAge)#",
+							"dataValueType": 4
 						}
 					],
 					"placeholder": false
@@ -1840,7 +2067,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 							}
 						},
 						"editable": {
-							"enable": false,
+							"enable": true,
 							"itemsCreation": false
 						}
 					},
@@ -2438,6 +2665,31 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 										"path": "GridDetail_puci257DS.Participant"
 									}
 								},
+								"GridDetail_puci257DS_ParticipantRole": {
+									"modelConfig": {
+										"path": "GridDetail_puci257DS.ParticipantRole"
+									}
+								},
+								"GridDetail_puci257DS_BirthDate": {
+									"modelConfig": {
+										"path": "GridDetail_puci257DS.BirthDate"
+									}
+								},
+								"GridDetail_puci257DS_MaritalStatus": {
+									"modelConfig": {
+										"path": "GridDetail_puci257DS.MaritalStatus"
+									}
+								},
+								"GridDetail_puci257DS_PlaceOfBirth": {
+									"modelConfig": {
+										"path": "GridDetail_puci257DS.PlaceOfBirth"
+									}
+								},
+								"GridDetail_puci257DS_DfcAge": {
+									"modelConfig": {
+										"path": "GridDetail_puci257DS.DfcAge"
+									}
+								},
 								"GridDetail_puci257DS_Id": {
 									"modelConfig": {
 										"path": "GridDetail_puci257DS.Id"
@@ -2817,6 +3069,51 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"modelConfig": {
 							"path": "PDS.DfcInstallmentAmt"
 						}
+					},
+					"PDS_DfcLoanType_3plnppm": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanType"
+						}
+					},
+					"PDS_DfcInterestType_si2jic2": {
+						"modelConfig": {
+							"path": "PDS.DfcInterestType"
+						}
+					},
+					"PDS_DfcIntCalcMethod_ubywopx": {
+						"modelConfig": {
+							"path": "PDS.DfcIntCalcMethod"
+						}
+					},
+					"PDS_DfcGracePeriodIntMethod_ir9joaa": {
+						"modelConfig": {
+							"path": "PDS.DfcGracePeriodIntMethod"
+						}
+					},
+					"PDS_DfcLatePymtPenaltyFeeCalc_xpx24sd": {
+						"modelConfig": {
+							"path": "PDS.DfcLatePymtPenaltyFeeCalc"
+						}
+					},
+					"PDS_CreatedBy_eh6s3za": {
+						"modelConfig": {
+							"path": "PDS.CreatedBy"
+						}
+					},
+					"PDS_DfcLoanOfficer_1sd81fa": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanOfficer"
+						}
+					},
+					"PDS_DfcCreditOfficer_p5oo54x": {
+						"modelConfig": {
+							"path": "PDS.DfcCreditOfficer"
+						}
+					},
+					"PDS_DfcRepaymentCycle_wamfrj9": {
+						"modelConfig": {
+							"path": "PDS.DfcRepaymentCycle"
+						}
 					}
 				}
 			},
@@ -2882,6 +3179,21 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 							"attributes": {
 								"Participant": {
 									"path": "Participant"
+								},
+								"ParticipantRole": {
+									"path": "ParticipantRole"
+								},
+								"BirthDate": {
+									"path": "BirthDate"
+								},
+								"MaritalStatus": {
+									"path": "MaritalStatus"
+								},
+								"PlaceOfBirth": {
+									"path": "PlaceOfBirth"
+								},
+								"DfcAge": {
+									"path": "DfcAge"
 								}
 							}
 						}

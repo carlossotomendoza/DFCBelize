@@ -3,12 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
-			<Item Name="Columns.Channel.Caption" Value="Kanali" />
-			<Item Name="Columns.CustomerNeed.Caption" Value="Nevoja e klientit" />
 			<Item Name="Columns.IsNonActualEmail.Caption" Value="Email i pavlefshëm" />
-			<Item Name="Columns.LeadConversionScore.Caption" Value="Lead conversion score" />
-			<Item Name="Columns.RegisterMethod.Caption" Value="Metoda e regjistrimit" />
-			<Item Name="Columns.Source.Caption" Value="Burimi" />
 		</Items>
 	</Group>
 </Resources>
