@@ -4,52 +4,90 @@
 		<Items>
 			<Item Name="Caption" Value="Payments list page" />
 			<Item Name="LocalizableStrings.AddButton_caption.Value" Value="Make a payment" />
+			<Item Name="LocalizableStrings.addRecord_1kx2mhf_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ih3gbqk_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ly53idx_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_o6o0834_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qka34no_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_snuspaq_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_t05r64l_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_tas4rlp_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_tj6gsds_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_w21q8vf_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ypab6vi_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_0uvlmxj_caption.Value" Value="Legal Entity Info" />
+			<Item Name="LocalizableStrings.Button_9opz7z6_caption.Value" Value="Customer Info" />
+			<Item Name="LocalizableStrings.Button_fe30iz2_caption.Value" Value="Contact Info" />
 			<Item Name="LocalizableStrings.Button_fjdn5e1_caption.Value" Value="Button" />
+			<Item Name="LocalizableStrings.ComboBox_8zjjzsd_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_8zjjzsd_label.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ComboBox_eugqq0q_label.Value" Value="Loan Status" />
+			<Item Name="LocalizableStrings.ComboBox_fd6fq68_label.Value" Value="Loan Status" />
+			<Item Name="LocalizableStrings.ComboBox_jd2wal8_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_jd2wal8_label.Value" Value="Loan Status" />
+			<Item Name="LocalizableStrings.ComboBox_jt81voz_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_jt81voz_label.Value" Value="Loan Status" />
+			<Item Name="LocalizableStrings.ComboBox_q00p61a_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_q00p61a_label.Value" Value="Period Type" />
+			<Item Name="LocalizableStrings.ComboBox_ue8vv8n_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_ue8vv8n_label.Value" Value="Period Type" />
 			<Item Name="LocalizableStrings.ExpansionPanel_7thhm1z_title.Value" Value="Amortization Table" />
 			<Item Name="LocalizableStrings.ExpansionPanel_ix0qfhl_title.Value" Value="Arrears" />
+			<Item Name="LocalizableStrings.ExpansionPanel_mnk8bxv_title.Value" Value="Arrears" />
 			<Item Name="LocalizableStrings.ExpansionPanel_v4ucb82_title.Value" Value="Payments" />
 			<Item Name="LocalizableStrings.ExpansionPanel_vksx956_title.Value" Value="Payments" />
+			<Item Name="LocalizableStrings.GaugeWidget_3p1a4fq_template.Value" Value="{0}" />
+			<Item Name="LocalizableStrings.GaugeWidget_3p1a4fq_title.Value" Value="Current Debt" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_3rgp4dg_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_dplj9oi_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_e8sx54i_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_g8a31ak_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_y41bm5z_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_27y8ie2_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_dl1ofeh_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_dzmldf1_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_mp1h9rm_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_rbq20c1_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_88rx8yr_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_csqgzt7_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_hah1gou_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_quejj2l_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_wfx0828_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_8x5vqyf_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_8y6j2w0_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_dsufd6e_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ke2yz3b_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_md2pdx0_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_0itdx6r_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_5yxcj8z_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_6iigsn9_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_okckzt0_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_ucn3y9f_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_3x1a6u3_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_gqq8frc_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jo4vzgh_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_y3wmv8q_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ynwi9io_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.IndicatorWidget_tatoajy_template.Value" Value="{0}" />
+			<Item Name="LocalizableStrings.IndicatorWidget_tatoajy_title.Value" Value="Current Debt" />
+			<Item Name="LocalizableStrings.IndicatorWidget_tglw4kf_template.Value" Value="{0}" />
+			<Item Name="LocalizableStrings.IndicatorWidget_tglw4kf_title.Value" Value="Current Payment Amount" />
+			<Item Name="LocalizableStrings.IndicatorWidget_zp173ai_template.Value" Value="{0}" />
+			<Item Name="LocalizableStrings.IndicatorWidget_zp173ai_title.Value" Value="Current Payment Date" />
+			<Item Name="LocalizableStrings.Label_im6s1zo_caption.Value" Value="Loan Details" />
+			<Item Name="LocalizableStrings.Label_zds4ltz_caption.Value" Value="Select customer" />
 			<Item Name="LocalizableStrings.NumberInput_0nncu3z_label.Value" Value="Loan Amount" />
+			<Item Name="LocalizableStrings.NumberInput_7ii1eop_label.Value" Value="Loan Amount" />
+			<Item Name="LocalizableStrings.NumberInput_gexzv6k_label.Value" Value="Loan Amount" />
+			<Item Name="LocalizableStrings.NumberInput_wcl70fg_label.Value" Value="Interest %" />
 			<Item Name="LocalizableStrings.QuickFilter_wyh8owr_caption.Value" Value="Quick filter" />
 			<Item Name="LocalizableStrings.QuickFilter_wyh8owr_config_caption.Value" Value="Quick filter" />
 			<Item Name="LocalizableStrings.RefreshButton_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.TabContainer_qt39gmm_caption.Value" Value="General Information" />
 			<Item Name="LocalizableStrings.TabContainer_zp9469i_caption.Value" Value="Arrears" />
 			<Item Name="Parameters.01fcaa43-e6c0-20e0-2b6a-bb8aebbc5dc6.Caption" Value="Legal Entity" />
-			<Item Name="Parameters.0b80eeef-78bc-dea1-ec81-ff3ca7ddb726.Caption" Value="Number 1" />
 			<Item Name="Parameters.1533d6e3-b108-8527-5be5-47f4a4da7aa3.Caption" Value="Select Loan" />
-			<Item Name="Parameters.5e9cef1f-e036-c343-b9d5-6124edd301cb.Caption" Value="Dropdown 1" />
 			<Item Name="Parameters.67167613-109c-9ed8-06bf-578a334caf20.Caption" Value="Customer" />
-			<Item Name="Parameters.a893bbf1-a64f-5c28-7765-760eff04c871.Caption" Value="Text 1" />
 		</Items>
 	</Group>
 </Resources>

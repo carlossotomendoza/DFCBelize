@@ -6,12 +6,15 @@
 			<Item Name="Columns.DfcAmortizationAmount.Caption" Value="Amortization Amount" />
 			<Item Name="Columns.DfcAmortizationApplicationNumber.Caption" Value="Application N°" />
 			<Item Name="Columns.DfcAmortizationBeginningBalance.Caption" Value="Beginning Balance" />
+			<Item Name="Columns.DfcAmortizationDate.Caption" Value="Amortization Date" />
 			<Item Name="Columns.DfcAmortizationEndingBalance.Caption" Value="Ending Balance" />
 			<Item Name="Columns.DfcAmortizationInterest.Caption" Value="Interest" />
 			<Item Name="Columns.DfcAmortizationLoan.Caption" Value="Loan" />
-			<Item Name="Columns.DfcAmortizationNumber.Caption" Value="Period N°" />
+			<Item Name="Columns.DfcAmortizationNumber.Caption" Value="Amortization N°" />
 			<Item Name="Columns.DfcAmortizationPrincipal.Caption" Value="Principal" />
-			<Item Name="Columns.DfcPaid.Caption" Value="Paid" />
+			<Item Name="Columns.DfcCurrentDue.Caption" Value="Current Due" />
+			<Item Name="Columns.DfcPaid.Caption" Value="Paid in Full" />
+			<Item Name="Columns.DfcPeriodNumber.Caption" Value="Period N°" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
 		</Items>
 	</Group>
