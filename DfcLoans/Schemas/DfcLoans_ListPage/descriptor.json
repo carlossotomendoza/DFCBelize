@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "f7bebb26-d9da-43b3-bf23-20e80383ff5a",
     "Name": "DfcLoans_ListPage",
-    "ModifiedOnUtc": "\/Date(1723067751000)\/",
+    "ModifiedOnUtc": "\/Date(1725026040000)\/",
     "Parent": {
       "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
       "Name": "ListPageV2Template"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Loans list page",
-    "DependsOn": []
+    "Caption": "Loans list page"
   }
 }

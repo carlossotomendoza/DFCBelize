@@ -440,7 +440,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "DfcRepaymentCycle",
+				"name": "DfcPaymentFrequency",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -449,20 +449,37 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_DfcRepaymentCycle_5k1ahuo",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcRepaymentCycle_5k1ahuo",
-					"listActions": [],
+					"label": "$Resources.Strings.PDS_DfcLoanAppDfcPaymentFrequency",
+					"ariaLabel": "#ResourceString(ComboBox_gga42je_ariaLabel)#",
+					"isAddAllowed": true,
 					"showValueAsLink": true,
+					"labelPosition": "auto",
 					"controlActions": [],
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$PDS_DfcLoanAppDfcPaymentFrequency"
 				},
 				"parentName": "GridContainer_mib9kql",
 				"propertyName": "items",
 				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_jbi9u8n",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_jbi9u8n_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "DfcPaymentFrequency",
+				"propertyName": "listActions",
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -4179,6 +4196,11 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"modelConfig": {
 							"path": "PDS.DfcRepaymentCycle"
 						}
+					},
+					"PDS_DfcLoanAppDfcPaymentFrequency": {
+						"modelConfig": {
+							"path": "PDS.DfcLoanAppDfcPaymentFrequency"
+						}
 					}
 				}
 			},
@@ -4275,6 +4297,10 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								},
 								"DfcLoanAppDfcLatePymtPenaltyFeeCalc": {
 									"path": "DfcLoanApp.DfcLatePymtPenaltyFeeCalc",
+									"type": "ForwardReference"
+								},
+								"DfcLoanAppDfcPaymentFrequency": {
+									"path": "DfcLoanApp.DfcPaymentFrequency",
 									"type": "ForwardReference"
 								}
 							}

@@ -13,8 +13,10 @@
 			<Item Name="Columns.DfcInterestRate.Caption" Value="Interest %" />
 			<Item Name="Columns.DfcInterestType.Caption" Value="Interest Type" />
 			<Item Name="Columns.DfcLatePymtPenaltyFeeCalc.Caption" Value="Late Pymt Penalty Fee Calculation" />
+			<Item Name="Columns.DfcLegacyId.Caption" Value="Legacy Id" />
 			<Item Name="Columns.DfcLoanOfficer.Caption" Value="Loan Officer" />
 			<Item Name="Columns.DfcLoanType.Caption" Value="Loan Type" />
+			<Item Name="Columns.DfcPaymentFrequency.Caption" Value="Payment Frequency" />
 			<Item Name="Columns.DfcPeriodType.Caption" Value="Period Type" />
 			<Item Name="Columns.DfcProductSector.Caption" Value="Product Sector" />
 			<Item Name="Columns.DfcPurpose.Caption" Value="Purpose" />

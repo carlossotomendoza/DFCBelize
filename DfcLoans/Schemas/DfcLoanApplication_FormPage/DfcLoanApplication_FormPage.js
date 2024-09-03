@@ -755,33 +755,20 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_OpportunityCondition_grlqn8k",
+					"label": "#ResourceString(OpportunityCondition_label)#",
 					"labelPosition": "auto",
 					"control": "$PDS_OpportunityCondition_grlqn8k",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_i4s9zni",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_i4s9zni_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "OpportunityCondition",
-				"propertyName": "listActions",
-				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -837,68 +824,6 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
-				"name": "DfcRepaymentCycle",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_DfcRepaymentCycle_wamfrj9",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcRepaymentCycle_wamfrj9",
-					"listActions": [],
-					"showValueAsLink": true,
-					"controlActions": []
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 6
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_dt9nh5v",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_dt9nh5v_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "DfcRepaymentCycle",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DfcInterestRate",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 4,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcInterestRate_m3yhhrh",
-					"labelPosition": "above",
-					"control": "$PDS_DfcInterestRate_m3yhhrh",
-					"visible": false,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 7
-			},
-			{
-				"operation": "insert",
 				"name": "DfcPurpose",
 				"values": {
 					"type": "crt.RichTextEditor",
@@ -911,9 +836,9 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"recordColumnName": "RecordId"
 					},
 					"layoutConfig": {
-						"column": 2,
+						"column": 1,
 						"row": 3,
-						"colSpan": 2,
+						"colSpan": 3,
 						"rowSpan": 1
 					},
 					"visible": true,
@@ -924,30 +849,50 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 8
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "DfcPaymentFrequency",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcPaymentFrequency_kjsmyp1",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcPaymentFrequency_kjsmyp1",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_0sb7llu",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_0sb7llu_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "DfcPaymentFrequency",
+				"propertyName": "listActions",
+				"index": 0
 			},
 			{
 				"operation": "insert",
 				"name": "DfcInstallmentAmt",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 5,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcInstallmentAmt_9mp5g18",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcInstallmentAmt_9mp5g18"
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 9
-			},
-			{
-				"operation": "insert",
-				"name": "DfcTerm",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -956,21 +901,21 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcTerm_wv82jgc",
-					"labelPosition": "above",
-					"control": "$PDS_DfcTerm_wv82jgc",
-					"visible": false,
-					"readonly": false,
+					"label": "$Resources.Strings.PDS_DfcInstallmentAmt_9mp5g18",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInstallmentAmt_9mp5g18",
+					"visible": true,
+					"readonly": true,
 					"placeholder": "",
 					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 10
+				"index": 8
 			},
 			{
 				"operation": "insert",
-				"name": "DfcReqAmt",
+				"name": "CalculateInstallment",
 				"values": {
 					"layoutConfig": {
 						"column": 3,
@@ -978,18 +923,27 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcReqAmt_sb7sqaj",
-					"labelPosition": "above",
-					"control": "$PDS_DfcReqAmt_sb7sqaj",
-					"visible": false,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_xmybqfz_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "DfcCalculateInstallment",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "RecordId"
+						}
+					},
+					"clickMode": "default"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 11
+				"index": 9
 			},
 			{
 				"operation": "insert",
@@ -1792,6 +1746,215 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
+				"name": "TabContainer_Amortization",
+				"values": {
+					"type": "crt.TabContainer",
+					"items": [],
+					"caption": "#ResourceString(TabContainer_bv77mre_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
+				},
+				"parentName": "Tabs",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_co9fgv8",
+				"values": {
+					"type": "crt.GridContainer",
+					"items": [],
+					"rows": "minmax(32px, max-content)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					}
+				},
+				"parentName": "TabContainer_Amortization",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_Amortization",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.DataGrid",
+					"features": {
+						"rows": {
+							"selection": false
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false
+						}
+					},
+					"items": "$DataGrid_xlei2sm",
+					"activeRow": "$DataGrid_xlei2sm_ActiveRow",
+					"selectionState": "$DataGrid_xlei2sm_SelectionState",
+					"_selectionOptions": {
+						"attribute": "DataGrid_xlei2sm_SelectionState"
+					},
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "DataGrid_xlei2smDS_Id",
+					"columns": [
+						{
+							"id": "1593952d-ed17-fe10-8651-4da13a146037",
+							"code": "DataGrid_xlei2smDS_DfcAmortizationNumber",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcAmortizationNumber)#",
+							"dataValueType": 27,
+							"width": 193
+						},
+						{
+							"id": "c0848a1f-8cbf-a3df-bcff-3696fdb7f15e",
+							"code": "DataGrid_xlei2smDS_DfcPeriodNumber",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcPeriodNumber)#",
+							"dataValueType": 4
+						},
+						{
+							"id": "ca0dc1a5-214a-5a01-638a-6dec971c064f",
+							"code": "DataGrid_xlei2smDS_DfcAmortizationDate",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcAmortizationDate)#",
+							"dataValueType": 8,
+							"width": 179
+						},
+						{
+							"id": "df65a25b-138a-f1d0-a050-ec371ff206bb",
+							"code": "DataGrid_xlei2smDS_DfcAmortizationBeginningBalance",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcAmortizationBeginningBalance)#",
+							"dataValueType": 6,
+							"width": 177
+						},
+						{
+							"id": "4f971648-bb13-0075-aabe-5f0368bb22f1",
+							"code": "DataGrid_xlei2smDS_DfcAmortizationEndingBalance",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcAmortizationEndingBalance)#",
+							"dataValueType": 6,
+							"width": 155
+						},
+						{
+							"id": "fc51f6f1-9c55-d27f-b680-b3b6bad30ee9",
+							"code": "DataGrid_xlei2smDS_DfcCurrentDue",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcCurrentDue)#",
+							"dataValueType": 12,
+							"width": 140
+						},
+						{
+							"id": "4b1beeb0-689f-d633-7310-d67380d88271",
+							"code": "DataGrid_xlei2smDS_DfcAmortizationInterest",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcAmortizationInterest)#",
+							"dataValueType": 6
+						},
+						{
+							"id": "c0ca941a-71d3-9c01-6000-e6894242a2b5",
+							"code": "DataGrid_xlei2smDS_DfcPaid",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcPaid)#",
+							"dataValueType": 12,
+							"width": 131
+						},
+						{
+							"id": "9710c9a8-f746-5a93-3caf-8adae2e87470",
+							"code": "DataGrid_xlei2smDS_DfcAmortizationPrincipal",
+							"caption": "#ResourceString(DataGrid_xlei2smDS_DfcAmortizationPrincipal)#",
+							"dataValueType": 6
+						}
+					],
+					"placeholder": false,
+					"bulkActions": []
+				},
+				"parentName": "GridContainer_co9fgv8",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_xlei2sm_AddTagsBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Add tag",
+					"icon": "tag-icon",
+					"clicked": {
+						"request": "crt.AddTagsInRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_xlei2smDS",
+							"filters": "$DataGrid_xlei2sm | crt.ToCollectionFilters : 'DataGrid_xlei2sm' : $DataGrid_xlei2sm_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_xlei2sm_SelectionState"
+						}
+					},
+					"items": []
+				},
+				"parentName": "DataGrid_Amortization",
+				"propertyName": "bulkActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_xlei2sm_RemoveTagsBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Remove tag",
+					"icon": "delete-button-icon",
+					"clicked": {
+						"request": "crt.RemoveTagsInRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_xlei2smDS",
+							"filters": "$DataGrid_xlei2sm | crt.ToCollectionFilters : 'DataGrid_xlei2sm' : $DataGrid_xlei2sm_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_xlei2sm_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_xlei2sm_AddTagsBulkAction",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_xlei2sm_ExportToExcelBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Export to Excel",
+					"icon": "export-button-icon",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "DataGrid_Amortization",
+							"filters": "$DataGrid_xlei2sm | crt.ToCollectionFilters : 'DataGrid_xlei2sm' : $DataGrid_xlei2sm_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_xlei2sm_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_Amortization",
+				"propertyName": "bulkActions",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_xlei2sm_DeleteBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Delete",
+					"icon": "delete-button-icon",
+					"clicked": {
+						"request": "crt.DeleteRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_xlei2smDS",
+							"filters": "$DataGrid_xlei2sm | crt.ToCollectionFilters : 'DataGrid_xlei2sm' : $DataGrid_xlei2sm_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_xlei2sm_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_Amortization",
+				"propertyName": "bulkActions",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "TabContainer_Documents",
 				"values": {
 					"type": "crt.TabContainer",
@@ -1802,7 +1965,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -2304,7 +2467,7 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 				},
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -3114,6 +3277,71 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"modelConfig": {
 							"path": "PDS.DfcRepaymentCycle"
 						}
+					},
+					"PDS_DfcPaymentFrequency_kjsmyp1": {
+						"modelConfig": {
+							"path": "PDS.DfcPaymentFrequency"
+						}
+					},
+					"DataGrid_xlei2sm": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "DataGrid_xlei2smDS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"DataGrid_xlei2smDS_DfcAmortizationNumber": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcAmortizationNumber"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcPeriodNumber": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcPeriodNumber"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcAmortizationDate": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcAmortizationDate"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcAmortizationBeginningBalance": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcAmortizationBeginningBalance"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcAmortizationEndingBalance": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcAmortizationEndingBalance"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcCurrentDue": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcCurrentDue"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcAmortizationInterest": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcAmortizationInterest"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcPaid": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcPaid"
+									}
+								},
+								"DataGrid_xlei2smDS_DfcAmortizationPrincipal": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.DfcAmortizationPrincipal"
+									}
+								},
+								"DataGrid_xlei2smDS_Id": {
+									"modelConfig": {
+										"path": "DataGrid_xlei2smDS.Id"
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -3151,6 +3379,12 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"GridDetail_r43er3zDS": [
 							{
 								"attributePath": "FinApplication",
+								"relationPath": "PDS.Id"
+							}
+						],
+						"DataGrid_xlei2smDS": [
+							{
+								"attributePath": "DfcAmortizationApplicationNumber",
 								"relationPath": "PDS.Id"
 							}
 						]
@@ -3392,6 +3626,42 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"scope": "viewElement",
 						"config": {
 							"entitySchemaName": "SysFile"
+						}
+					},
+					"DataGrid_xlei2smDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcLoanAmortizationTable",
+							"attributes": {
+								"DfcAmortizationNumber": {
+									"path": "DfcAmortizationNumber"
+								},
+								"DfcPeriodNumber": {
+									"path": "DfcPeriodNumber"
+								},
+								"DfcAmortizationDate": {
+									"path": "DfcAmortizationDate"
+								},
+								"DfcAmortizationBeginningBalance": {
+									"path": "DfcAmortizationBeginningBalance"
+								},
+								"DfcAmortizationEndingBalance": {
+									"path": "DfcAmortizationEndingBalance"
+								},
+								"DfcCurrentDue": {
+									"path": "DfcCurrentDue"
+								},
+								"DfcAmortizationInterest": {
+									"path": "DfcAmortizationInterest"
+								},
+								"DfcPaid": {
+									"path": "DfcPaid"
+								},
+								"DfcAmortizationPrincipal": {
+									"path": "DfcAmortizationPrincipal"
+								}
+							}
 						}
 					}
 				}
