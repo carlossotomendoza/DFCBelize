@@ -57,11 +57,6 @@
         "PackageVersion": "7.8.0",
         "Name": "CrtFinservSalesAndServiceApp",
         "Type": 1
-      },
-      {
-        "UId": "b3a694fe-f6c8-2691-5a29-a6a51930b203",
-        "PackageVersion": "7.8.0",
-        "Name": "CrtEvent"
       }
     ]
   }
