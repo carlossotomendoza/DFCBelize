@@ -895,6 +895,29 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
+				"name": "DfcRefinanced",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 9,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Checkbox",
+					"label": "$Resources.Strings.PDS_DfcRefinanced_bzdjri5",
+					"labelPosition": "right",
+					"control": "$PDS_DfcRefinanced_bzdjri5",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_96w6upm",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
 				"name": "ProductCategory",
 				"values": {
 					"type": "crt.ComboBox",
@@ -4333,6 +4356,11 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 							"isEnabled": true,
 							"filterType": 6,
 							"rootSchemaName": "FinApplicationSpec"
+						}
+					},
+					"PDS_DfcRefinanced_bzdjri5": {
+						"modelConfig": {
+							"path": "PDS.DfcRefinanced"
 						}
 					}
 				}

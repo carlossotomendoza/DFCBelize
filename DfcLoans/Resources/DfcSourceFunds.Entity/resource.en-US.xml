@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Source of Funds" />
+			<Item Name="Columns.DfcBarrowersContrib.Caption" Value="Barrower's Contribution" />
+			<Item Name="Columns.DfcCollateralRequirements.Caption" Value="Collateral Requirements" />
+			<Item Name="Columns.DfcInteresRateRange.Caption" Value="Interes Rate Range" />
+			<Item Name="Columns.DfcMaxGracePeriod.Caption" Value="Maximum Grace Period" />
+			<Item Name="Columns.DfcMaxLoanSize.Caption" Value="Maximum Loan Size" />
+			<Item Name="Columns.DfcMaxLoanTerm.Caption" Value="Maximum Loan Term" />
+			<Item Name="Columns.DfcName.Caption" Value="Name" />
+			<Item Name="Columns.DfcPurpose.Caption" Value="Purpose" />
+			<Item Name="Columns.DfcRefinancing.Caption" Value="Refinancing" />
+			<Item Name="Columns.DfcRemarks.Caption" Value="Remarks" />
+			<Item Name="Columns.DfcStartUp.Caption" Value="Start Up" />
+			<Item Name="Columns.DfcUseFunds.Caption" Value="Use of Funds" />
+			<Item Name="Columns.DfcWorkingCapital.Caption" Value="Working Capital" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

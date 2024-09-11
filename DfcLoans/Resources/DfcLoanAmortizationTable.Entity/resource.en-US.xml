@@ -13,8 +13,10 @@
 			<Item Name="Columns.DfcAmortizationNumber.Caption" Value="Amortization N°" />
 			<Item Name="Columns.DfcAmortizationPrincipal.Caption" Value="Principal" />
 			<Item Name="Columns.DfcCurrentDue.Caption" Value="Current Due" />
+			<Item Name="Columns.DfcLegacyLoan.Caption" Value="Legacy Loan" />
 			<Item Name="Columns.DfcPaid.Caption" Value="Paid in Full" />
 			<Item Name="Columns.DfcPeriodNumber.Caption" Value="Period N°" />
+			<Item Name="Columns.DfcRefinance.Caption" Value="Refinance" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
 		</Items>
 	</Group>
