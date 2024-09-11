@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "a681223e-27bc-4a0e-ab77-97c217ab8c7f",
     "Name": "DfcFinApplicationBusinessRule",
-    "ModifiedOnUtc": "\/Date(1722628322000)\/",
+    "ModifiedOnUtc": "\/Date(1725649863000)\/",
     "ManagerName": "AddonSchemaManager",
     "Caption": "Application (Business rules)",
     "DependsOn": []

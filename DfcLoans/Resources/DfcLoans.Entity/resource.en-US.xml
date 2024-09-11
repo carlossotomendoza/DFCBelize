@@ -21,7 +21,7 @@
 			<Item Name="Columns.DfcLastPaymentAm.Caption" Value="Last payment amount" />
 			<Item Name="Columns.DfcLastPymtDate.Caption" Value="Last Payment Date" />
 			<Item Name="Columns.DfcLatePymtPenaltyDt.Caption" Value="Late Payment Penalty Date" />
-			<Item Name="Columns.DfcLegacyId.Caption" Value="Legacy Id" />
+			<Item Name="Columns.DfcLegacyId.Caption" Value="Loan Legacy Id" />
 			<Item Name="Columns.DfcLoanAmDec.Caption" Value="Amount decommited" />
 			<Item Name="Columns.DfcLoanAmOther.Caption" Value="Other" />
 			<Item Name="Columns.DfcLoanAmt.Caption" Value="Loan Amount" />

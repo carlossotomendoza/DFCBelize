@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "ddaa9ec1-2733-41f0-820f-c7ed8c69b985",
+    "Name": "FinApplicationSpec",
+    "ModifiedOnUtc": "\/Date(1726002457000)\/",
+    "Parent": {
+      "UId": "a1333edb-144a-476b-91f8-7aac85cd6d61",
+      "Name": "FinApplicationSpec"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application parameters",
+    "DependsOn": []
+  }
+}

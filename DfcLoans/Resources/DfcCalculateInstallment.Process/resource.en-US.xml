@@ -10,6 +10,9 @@
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="yes" />
+			<Item Name="BaseElements.DefaultSequenceFlow1.Caption" Value="Default" />
+			<Item Name="BaseElements.ExclusiveGateway1.Caption" Value="Term in months?" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Read Application" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -117,7 +120,7 @@
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Type of result" />
 			<Item Name="BaseElements.SubProcess1.Caption" Value="Schedule Payment Process 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.DfcProcessPaymentPerYear.Caption" Value="Payments per year" />
-			<Item Name="BaseElements.SubProcess1.Parameters.DfcProcessPaymentPerYear.DisplayValue" Value="[#Read Application Term.First item of resulting collection.Integer#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.DfcProcessPaymentPerYear.DisplayValue" Value="[#No of payments#]" />
 			<Item Name="BaseElements.SubProcess1.Parameters.DfcProcessSchemaPeriodCount.Caption" Value="PeriodCount" />
 			<Item Name="BaseElements.SubProcess1.Parameters.DfcProcessSchemaPeriodCount.DisplayValue" Value="[#Read Application Term.First item of resulting collection.Integer#]" />
 			<Item Name="BaseElements.SubProcess1.Parameters.PaymtFreqValue.Caption" Value="Payment Frequency Value" />
@@ -127,7 +130,7 @@
 			<Item Name="BaseElements.UserTask1.Caption" Value="Calculate Installment Payment" />
 			<Item Name="BaseElements.UserTask1.Parameters.DfcInstPayment.Caption" Value="Installment Payment" />
 			<Item Name="BaseElements.UserTask1.Parameters.DfcNumberOfPayments.Caption" Value="Number of Payments" />
-			<Item Name="BaseElements.UserTask1.Parameters.DfcNumberOfPayments.DisplayValue" Value="[#Read Application Term.First item of resulting collection.Integer#]" />
+			<Item Name="BaseElements.UserTask1.Parameters.DfcNumberOfPayments.DisplayValue" Value="[#No of payments#]" />
 			<Item Name="BaseElements.UserTask1.Parameters.DfcPaymentFrequency.Caption" Value="Payment Frequency" />
 			<Item Name="BaseElements.UserTask1.Parameters.DfcPaymentFrequency.DisplayValue" Value="[#Read Application.First item of resulting collection.Payment Frequency#]" />
 			<Item Name="BaseElements.UserTask1.Parameters.DfcPrincipal.Caption" Value="Principal" />
@@ -139,6 +142,7 @@
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.NoOfPymt.Caption" Value="No of payments" />
 			<Item Name="Parameters.RecordId.Caption" Value="Record Id" />
 		</Items>
 	</Group>

@@ -346,14 +346,6 @@
 			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
 			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.DisplayValue" Value="0" />
 			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Caption" Value="Window header" />
-			<Item Name="BaseElements.UserTask1.Caption" Value="Generate Amortization Number" />
-			<Item Name="BaseElements.UserTask1.Parameters.DfcAmortizationNumberString.Caption" Value="Amortization Number String" />
-			<Item Name="BaseElements.UserTask1.Parameters.DfcPeriodCount.Caption" Value="Period Count" />
-			<Item Name="BaseElements.UserTask1.Parameters.DfcPeriodCount.DisplayValue" Value="[#PeriodCount#]" />
-			<Item Name="BaseElements.UserTask2.Caption" Value="Generate Amortization Number 1" />
-			<Item Name="BaseElements.UserTask2.Parameters.DfcAmortizationNumberString.Caption" Value="Amortization Number String" />
-			<Item Name="BaseElements.UserTask2.Parameters.DfcPeriodCount.Caption" Value="Period Count" />
-			<Item Name="BaseElements.UserTask2.Parameters.DfcPeriodCount.DisplayValue" Value="[#PeriodCount#]" />
 			<Item Name="Caption" Value="Schedule Payment Process" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

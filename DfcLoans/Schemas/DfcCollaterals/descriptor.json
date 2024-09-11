@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "004a17ec-6a46-4456-a723-a2f080984437",
     "Name": "DfcCollaterals",
-    "ModifiedOnUtc": "\/Date(1724850745000)\/",
+    "ModifiedOnUtc": "\/Date(1726000278000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

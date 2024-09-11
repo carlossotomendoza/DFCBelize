@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b2eb601a-997b-4e62-ae73-edde946b9a18",
+    "Name": "DfcPage_AppParameters",
+    "ModifiedOnUtc": "\/Date(1726067759000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Application parameters modal page"
+  }
+}

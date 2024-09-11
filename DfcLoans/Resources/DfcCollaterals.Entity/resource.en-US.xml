@@ -22,6 +22,7 @@
 			<Item Name="Columns.DfcFolio.Caption" Value="Folio" />
 			<Item Name="Columns.DfcInAuction.Caption" Value="In Auction" />
 			<Item Name="Columns.DfcLastValuationType.Caption" Value="Last Valuation Type" />
+			<Item Name="Columns.DfcLoanApp.Caption" Value="Loan Application" />
 			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
 			<Item Name="Columns.DfcLocationSecurity.Caption" Value="Location of Security" />
 			<Item Name="Columns.DfcNotes.Caption" Value="Notes" />

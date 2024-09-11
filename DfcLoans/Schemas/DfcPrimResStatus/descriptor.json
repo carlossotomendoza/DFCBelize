@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "02321594-a14c-438f-8238-c1ebe6970a0a",
+    "Name": "DfcPrimResStatus",
+    "ModifiedOnUtc": "\/Date(1725559870000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Primary Residence Status",
+    "DependsOn": []
+  }
+}

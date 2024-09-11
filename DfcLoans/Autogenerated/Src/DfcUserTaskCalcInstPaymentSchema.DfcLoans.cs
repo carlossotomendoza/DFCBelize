@@ -34,7 +34,7 @@
 
 		#region Properties: Public
 
-		public virtual int DfcNumberOfPayments {
+		public virtual Decimal DfcNumberOfPayments {
 			get;
 			set;
 		}
@@ -72,7 +72,7 @@
 			}
 			if (UseFlowEngineMode) {
 				if (!HasMapping("DfcNumberOfPayments")) {
-					writer.WriteValue("DfcNumberOfPayments", DfcNumberOfPayments, 0);
+					writer.WriteValue("DfcNumberOfPayments", DfcNumberOfPayments, 0m);
 				}
 			}
 			if (UseFlowEngineMode) {
@@ -109,7 +109,7 @@
 					if (!UseFlowEngineMode) {
 						break;
 					}
-					DfcNumberOfPayments = reader.GetIntValue();
+					DfcNumberOfPayments = reader.GetValue<System.Decimal>();
 				break;
 				case "DfcInstPayment":
 					if (!UseFlowEngineMode) {
