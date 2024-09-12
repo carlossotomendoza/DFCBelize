@@ -2,8 +2,14 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="AddonConfig.Rules.163594bc-fe4d-c9ec-9ec5-323142143d38.Caption" Value="Apply filter: Loan" />
 			<Item Name="AddonConfig.Rules.2361fb86-3335-6572-a7d4-47a68c52461d.Caption" Value="ChildRule-f76f322d-23af-d9b2-88a3-02d30d314574-ClearValue" />
+			<Item Name="AddonConfig.Rules.61c8f3ce-8ecf-7d42-d9ab-b880cce53a5c.Caption" Value="Filter Arrear" />
 			<Item Name="AddonConfig.Rules.688c69c0-4ca8-e293-adf1-8a866c6fb832.Caption" Value="ChildRule-f76f322d-23af-d9b2-88a3-02d30d314574-PopulateValue" />
+			<Item Name="AddonConfig.Rules.7424b1eb-24b5-705d-4955-d4b12d4a6f2b.Caption" Value="ChildRule-61c8f3ce-8ecf-7d42-d9ab-b880cce53a5c-ClearValue" />
+			<Item Name="AddonConfig.Rules.895ef883-c730-78cf-c750-9d6015c6e3e9.Caption" Value="ChildRule-163594bc-fe4d-c9ec-9ec5-323142143d38-PopulateValue" />
+			<Item Name="AddonConfig.Rules.af916b4c-e940-c357-c1b3-68b986b37ed3.Caption" Value="ChildRule-163594bc-fe4d-c9ec-9ec5-323142143d38-ClearValue" />
+			<Item Name="AddonConfig.Rules.e7cd0c50-8013-b43e-e4de-ceae82a3c9cb.Caption" Value="ChildRule-61c8f3ce-8ecf-7d42-d9ab-b880cce53a5c-PopulateValue" />
 			<Item Name="AddonConfig.Rules.f76f322d-23af-d9b2-88a3-02d30d314574.Caption" Value="Period Filter" />
 			<Item Name="Caption" Value="Payments (Business rules)" />
 		</Items>
