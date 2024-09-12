@@ -4,6 +4,8 @@
 		<Items>
 			<Item Name="Caption" Value="Payments" />
 			<Item Name="Columns.DfcAmount.Caption" Value="Amount" />
+			<Item Name="Columns.DfcArrear.Caption" Value="Arrear" />
+			<Item Name="Columns.DfcContact.Caption" Value="Contact" />
 			<Item Name="Columns.DfcDate.Caption" Value="Date" />
 			<Item Name="Columns.DfcLoan.Caption" Value="Loan" />
 			<Item Name="Columns.DfcPaymentNumber.Caption" Value="Payment N°" />
