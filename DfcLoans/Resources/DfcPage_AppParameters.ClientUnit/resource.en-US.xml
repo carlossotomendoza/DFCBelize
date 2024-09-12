@@ -14,6 +14,17 @@
 			<Item Name="LocalizableStrings.ComboBox_2bboxe7_label.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ComboBox_b95bc6g_ariaLabel.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ComboBox_b95bc6g_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.DecimalValue_label.Value" Value="Parameter Value" />
+			<Item Name="LocalizableStrings.FinApplication_label.Value" Value="Loan Application No." />
+			<Item Name="LocalizableStrings.IntegerValue_label.Value" Value="Parameter Value" />
+			<Item Name="LocalizableStrings.Label_6jh4c57_caption.Value" Value="Current Value:" />
+			<Item Name="LocalizableStrings.MaxFloatValue_label.Value" Value="Max." />
+			<Item Name="LocalizableStrings.MaxIntegerValue_label.Value" Value="Max." />
+			<Item Name="LocalizableStrings.MinFloatValue_label.Value" Value="Min." />
+			<Item Name="LocalizableStrings.MinIntegerValue_label.Value" Value="Min." />
+			<Item Name="LocalizableStrings.OpportunityCondition_label.Value" Value="Product Condition" />
+			<Item Name="LocalizableStrings.Specification_label.Value" Value="Product Parameter" />
+			<Item Name="LocalizableStrings.SpecificationListItem_label.Value" Value="Parameter Value" />
 		</Items>
 	</Group>
 </Resources>

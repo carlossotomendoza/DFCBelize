@@ -15,6 +15,24 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "insert",
+				"name": "Label_6jh4c57",
+				"values": {
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Label_6jh4c57_caption)#)#",
+					"labelType": "headline-2",
+					"labelThickness": "default",
+					"labelEllipsis": false,
+					"labelColor": "auto",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "end",
+					"visible": true
+				},
+				"parentName": "MainHeader",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "FinApplication",
 				"values": {
 					"layoutConfig": {
@@ -24,13 +42,16 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_FinApplication_1e770yt",
+					"label": "#ResourceString(FinApplication_label)#",
 					"labelPosition": "above",
 					"control": "$FinApplicationSpecDS_FinApplication_1e770yt",
 					"listActions": [],
 					"showValueAsLink": true,
 					"controlActions": [],
-					"readonly": true
+					"readonly": true,
+					"visible": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
@@ -64,12 +85,16 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_OpportunityCondition_18a6diq",
+					"label": "#ResourceString(OpportunityCondition_label)#",
 					"labelPosition": "above",
 					"control": "$FinApplicationSpecDS_OpportunityCondition_18a6diq",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
@@ -103,12 +128,16 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_Specification_1qtj0bb",
+					"label": "#ResourceString(Specification_label)#",
 					"labelPosition": "above",
 					"control": "$FinApplicationSpecDS_Specification_1qtj0bb",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
@@ -133,21 +162,22 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "insert",
-				"name": "ComboBox_2z61uug",
+				"name": "DecimalValue",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"row": 4,
-						"colSpan": 3,
+						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_DfcParametertype_vjtdpuu",
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(DecimalValue_label)#",
 					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_DfcParametertype_vjtdpuu",
-					"listActions": [],
-					"showValueAsLink": true,
-					"controlActions": []
+					"control": "$FinApplicationSpecDS_FloatValue_jvyjsa6",
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
@@ -155,36 +185,22 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "insert",
-				"name": "addRecord_a0n11xy",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_a0n11xy_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_2z61uug",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "CurrentType",
+				"name": "MinFloatValue",
 				"values": {
 					"layoutConfig": {
-						"column": 1,
-						"row": 5,
-						"colSpan": 3,
+						"column": 2,
+						"row": 4,
+						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.Input",
-					"multiline": false,
-					"label": "$Resources.Strings.FinApplicationSpecDS_CurrentType_jgxjt22",
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(MinFloatValue_label)#",
 					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_CurrentType_jgxjt22"
+					"control": "$FinApplicationSpecDS_MinFloatValue_xwyh72a",
+					"visible": false,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
@@ -192,7 +208,99 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 			},
 			{
 				"operation": "insert",
-				"name": "Unit",
+				"name": "MaxFloatValue",
+				"values": {
+					"layoutConfig": {
+						"column": 3,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(MaxFloatValue_label)#",
+					"labelPosition": "above",
+					"control": "$FinApplicationSpecDS_MaxFloatValue_f7mirkf",
+					"visible": false,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "IntegerValue",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(IntegerValue_label)#",
+					"labelPosition": "above",
+					"control": "$FinApplicationSpecDS_IntegerValue_dzsxceh",
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "MinIntegerValue",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(MinIntegerValue_label)#",
+					"labelPosition": "above",
+					"control": "$FinApplicationSpecDS_MinIntegerValue_a96onzt",
+					"visible": false,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "MaxIntegerValue",
+				"values": {
+					"layoutConfig": {
+						"column": 3,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(MaxIntegerValue_label)#",
+					"labelPosition": "above",
+					"control": "$FinApplicationSpecDS_MaxIntegerValue_ks0v70c",
+					"visible": false,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "SpecificationListItem",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -201,268 +309,21 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_SpecificationUnit",
-					"ariaLabel": "#ResourceString(ComboBox_2bboxe7_ariaLabel)#",
-					"isAddAllowed": true,
-					"showValueAsLink": true,
-					"labelPosition": "above",
-					"controlActions": [],
-					"listActions": [],
-					"tooltip": "",
-					"readonly": true,
-					"control": "$FinApplicationSpecDS_SpecificationUnit"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_3tl9zrn",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_3tl9zrn_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "Unit",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DecimalValue",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 7,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_FloatValue_jvyjsa6",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_FloatValue_jvyjsa6"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 6
-			},
-			{
-				"operation": "insert",
-				"name": "MinFloatValue",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 7,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_MinFloatValue_xwyh72a",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_MinFloatValue_xwyh72a"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 7
-			},
-			{
-				"operation": "insert",
-				"name": "MaxFloatValue",
-				"values": {
-					"layoutConfig": {
-						"column": 3,
-						"row": 7,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_MaxFloatValue_f7mirkf",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_MaxFloatValue_f7mirkf"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 8
-			},
-			{
-				"operation": "insert",
-				"name": "IntegerValue",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 8,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_IntegerValue_dzsxceh",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_IntegerValue_dzsxceh"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 9
-			},
-			{
-				"operation": "insert",
-				"name": "MinIntegerValue",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 8,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_MinIntegerValue_a96onzt",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_MinIntegerValue_a96onzt"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 10
-			},
-			{
-				"operation": "insert",
-				"name": "MaxIntegerValue",
-				"values": {
-					"layoutConfig": {
-						"column": 3,
-						"row": 8,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_MaxIntegerValue_ks0v70c",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_MaxIntegerValue_ks0v70c"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 11
-			},
-			{
-				"operation": "insert",
-				"name": "DisplayValue",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 9,
-						"colSpan": 3,
-						"rowSpan": 1
-					},
-					"type": "crt.Input",
-					"multiline": false,
-					"label": "$Resources.Strings.FinApplicationSpecDS_DisplayValue_1seegp3",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_DisplayValue_1seegp3"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 12
-			},
-			{
-				"operation": "insert",
-				"name": "SpecificationListItem",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 10,
-						"colSpan": 3,
-						"rowSpan": 1
-					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_SpecificationListItem_crqexqs",
+					"label": "#ResourceString(SpecificationListItem_label)#",
 					"labelPosition": "above",
 					"control": "$FinApplicationSpecDS_SpecificationListItem_crqexqs",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"mode": "List"
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 13
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_qb15c67",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_qb15c67_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "SpecificationListItem",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "BooleanValue",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 11,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.Checkbox",
-					"label": "$Resources.Strings.FinApplicationSpecDS_BooleanValue_wcklyg2",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_BooleanValue_wcklyg2"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 14
-			},
-			{
-				"operation": "insert",
-				"name": "TextValue",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 12,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.Input",
-					"multiline": false,
-					"label": "$Resources.Strings.FinApplicationSpecDS_TextValue_mcj814l",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_TextValue_mcj814l"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 15
-			},
-			{
-				"operation": "insert",
-				"name": "RowPosition",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 13,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.FinApplicationSpecDS_RowPosition_pw7s5lh",
-					"labelPosition": "above",
-					"control": "$FinApplicationSpecDS_RowPosition_pw7s5lh"
-				},
-				"parentName": "MainContainer",
-				"propertyName": "items",
-				"index": 16
+				"index": 9
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -576,12 +437,7 @@ define("DfcPage_AppParameters", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**S
 							"scope": "page",
 							"config": {
 								"entitySchemaName": "FinApplicationSpec",
-								"attributes": {
-									"SpecificationUnit": {
-										"path": "Specification.Unit",
-										"type": "ForwardReference"
-									}
-								}
+								"attributes": {}
 							}
 						}
 					},
