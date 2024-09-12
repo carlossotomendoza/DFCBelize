@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3c96a26c-7fc4-47a9-8a8e-09e41e07ed75",
+    "Name": "DfcLandUse",
+    "ModifiedOnUtc": "\/Date(1726165856000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Land Use",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Projects" />
+			<Item Name="Columns.DfcProjectAddress.Caption" Value="Project Address" />
+			<Item Name="Columns.DfcProjectAddress.Description" Value="Project Address" />
+			<Item Name="Columns.DfcProjectAssociatedFacilities.Caption" Value="Associated facilities in and outside project area" />
+			<Item Name="Columns.DfcProjectAssociatedFacilities.Description" Value="Associated facilities in and outside project area" />
+			<Item Name="Columns.DfcProjectBorrowerAge.Caption" Value="Project Borrower Age" />
+			<Item Name="Columns.DfcProjectBorrowerAge.Description" Value="Project Borrower Age" />
+			<Item Name="Columns.DfcProjectBorrowerEthnicity.Caption" Value="Borrower Ethnicity" />
+			<Item Name="Columns.DfcProjectBorrowerEthnicity.Description" Value="Borrower Ethnicity" />
+			<Item Name="Columns.DfcProjectCategory.Caption" Value="Project Category" />
+			<Item Name="Columns.DfcProjectCategory.Description" Value="Project Category" />
+			<Item Name="Columns.DfcProjectClient.Caption" Value="Project Client" />
+			<Item Name="Columns.DfcProjectClient.Description" Value="Project Client" />
+			<Item Name="Columns.DfcProjectHistoricalContamination.Caption" Value="Evidence for historical contamination" />
+			<Item Name="Columns.DfcProjectHistoricalContamination.Description" Value="Evidence for historical contamination" />
+			<Item Name="Columns.DfcProjectLandUse.Caption" Value="Project Land Use" />
+			<Item Name="Columns.DfcProjectLandUse.Description" Value="Project Land Use" />
+			<Item Name="Columns.DfcProjectLocation.Caption" Value="Project Location" />
+			<Item Name="Columns.DfcProjectLocation.Description" Value="Project Location" />
+			<Item Name="Columns.DfcProjectName.Caption" Value="Project Name" />
+			<Item Name="Columns.DfcProjectName.Description" Value="Project Name" />
+			<Item Name="Columns.DfcProjectObjective.Caption" Value="Project Objective and Brief Description" />
+			<Item Name="Columns.DfcProjectObjective.Description" Value="Project Objective and Brief Description" />
+			<Item Name="Columns.DfcProjectRationale.Caption" Value="Project Rationale" />
+			<Item Name="Columns.DfcProjectRationale.Description" Value="Project Rationale" />
+			<Item Name="Columns.DfcProjectSector.Caption" Value="Project Sector" />
+			<Item Name="Columns.DfcProjectSector.Description" Value="Project Sector" />
+			<Item Name="Columns.DfcProjectStartDate.Caption" Value="Project Start Date" />
+			<Item Name="Columns.DfcProjectStartDate.Description" Value="Project Start Date" />
+			<Item Name="Columns.DfcProjectTypeOfLoans.Caption" Value="Project Type of Loans" />
+			<Item Name="Columns.DfcProjectTypeOfLoans.Description" Value="Project Type of Loans" />
+			<Item Name="Description" Value="Projects" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

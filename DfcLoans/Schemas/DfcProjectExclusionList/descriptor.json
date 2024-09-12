@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "5741dd59-43e4-4c16-a19e-aae5727ef503",
+    "Name": "DfcProjectExclusionList",
+    "ModifiedOnUtc": "\/Date(1726171005000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Project Exclusion List",
+    "DependsOn": []
+  }
+}

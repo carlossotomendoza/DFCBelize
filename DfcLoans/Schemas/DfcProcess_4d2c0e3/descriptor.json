@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4055dbe2-fae5-4a22-a53b-cac07bc4fc8f",
+    "Name": "DfcProcess_4d2c0e3",
+    "ModifiedOnUtc": "\/Date(1726080637000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate Fields SubProcess",
+    "DependsOn": []
+  }
+}

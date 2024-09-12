@@ -1,0 +1,343 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "1aae6969-7cd2-4f2d-902e-0753c42712c3",
+      "A2": "DfcPage_3ngla0qBusinessRule",
+      "A5": "cbc46c21-d2c2-4044-b814-cf59b4a4983a",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
+      "B8": "8.1.3.6801",
+      "AD1": "67dd70b6-8bcb-4d32-9cba-b6653100e147",
+      "AD2": "ClientUnitSchemaManager",
+      "AD3": "BusinessRule",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "JI0": "Terrasoft.Core.BusinessRules.BusinessRules",
+        "BRS1": [
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "0ebfe530-9780-8399-93c7-a9f929332e9d",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "8f683ac6-4635-5614-32e4-8fd5c0227707",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+                  "UId": "e0dc1e1c-3c6d-53a7-75d3-ff9d406886a0",
+                  "BGC1": 1,
+                  "BGC2": [
+                    {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                      "UId": "6fc1ac92-3af7-cda9-ef6d-6c2a33a3ca9e",
+                      "BCO1": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                        "UId": "3ea83e58-c784-7837-c7ae-35784c4cbf4f",
+                        "BRE1": "Lookup",
+                        "BRE2": "AttributeValue",
+                        "BRX1": "DfcPaymentsDS_DfcPeriod_4ugfrs0"
+                      }
+                    }
+                  ]
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionReadonlyElement",
+                    "UId": "b55cfe74-4593-8ab0-6699-dd29fbc66ed0",
+                    "BRA4": "ComboBox_xa7nf4p,DateTimePicker_y10rn34"
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "4386d8bb-cc10-248f-84ba-ecb4902ffe3c",
+                "BRT1": "null",
+                "BRT3": "null",
+                "BRT2": 2
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "53106d1f-1e49-6b62-28f9-ad573f086b2f",
+                "BRT1": "DfcPaymentsDS_DfcPeriod_4ugfrs0",
+                "BRT3": "null"
+              }
+            ],
+            "BR3": "BusinessRule_723822c"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "49cd76f1-df8a-01fe-57fc-6cd3a5846a67",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "d621d069-b74f-b687-80c3-ffba0019bc84",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+                  "UId": "bacfbda5-acf4-5f71-08ab-17c915550ebe",
+                  "BGC1": 1,
+                  "BGC2": [
+                    {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                      "UId": "20bdf208-a724-1972-f027-c7ace5bc0459",
+                      "BCO1": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                        "UId": "ada2bc68-e69c-774a-9c12-3e42658cec9f",
+                        "BRE1": "Lookup",
+                        "BRE2": "AttributeValue",
+                        "BRX1": "DfcPaymentsDS_DfcPeriod_4ugfrs0"
+                      },
+                      "BCO3": 1
+                    }
+                  ]
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionEditableElement",
+                    "UId": "368a4baa-802a-b553-bf9d-660c68d7293c",
+                    "BRA4": "NumberInput_v6rp3yo,ComboBox_xa7nf4p,DateTimePicker_y10rn34"
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "435efabb-88ae-c7c8-27d7-9dbf2da8efff",
+                "BRT1": "null",
+                "BRT3": "null",
+                "BRT2": 2
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "83a6e1f0-c148-55a4-8e19-888c86a705d4",
+                "BRT1": "DfcPaymentsDS_DfcPeriod_4ugfrs0",
+                "BRT3": "null"
+              }
+            ],
+            "BR3": "BusinessRule_113eafe"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "08a8ed4e-e415-7e4e-a978-cfbe683f9cea",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "09afa19d-7792-df3f-7b26-071867b6ff16",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+                  "UId": "95ccd834-af93-86ce-0160-9f39fb0428a3",
+                  "BGC1": 1,
+                  "BGC2": [
+                    {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                      "UId": "cb9fac23-11de-83b6-0c09-aa7ae9932184",
+                      "BCO1": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                        "UId": "466a967a-0708-d431-3007-fc346ed5a2d8",
+                        "BRE1": "Money",
+                        "BRE2": "AttributeValue",
+                        "BRX1": "DfcPaymentsDS_DfcAmount_5kf7ljd"
+                      }
+                    }
+                  ]
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionHideElement",
+                    "UId": "9fd37624-e582-cb8d-aa5e-628de0b53303",
+                    "BRA4": "SaveButton"
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "da6a0341-5331-d5b6-c8d6-6e5e7bb585e7",
+                "BRT1": "null",
+                "BRT3": "null",
+                "BRT2": 2
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "738498bb-2cd7-6007-9c89-3e645cdc5744",
+                "BRT1": "DfcPaymentsDS_DfcAmount_5kf7ljd",
+                "BRT3": "null"
+              }
+            ],
+            "BR3": "BusinessRule_84eaf16"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "dc80a757-4164-fc06-e502-ec57d847f58d",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "ac351778-a50a-8cff-b92d-a9b0c7434c34",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+                  "UId": "421ee43a-6962-8b15-eb26-84f8cf44d225",
+                  "BGC1": 1,
+                  "BGC2": [
+                    {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                      "UId": "73ed4933-7430-57be-1dc5-dd45f2e0fa09",
+                      "BCO1": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                        "UId": "29551399-7116-87d8-c2d2-31566dead63f",
+                        "BRE1": "Money",
+                        "BRE2": "AttributeValue",
+                        "BRX1": "DfcPaymentsDS_DfcArrearDfcArrearAmount"
+                      },
+                      "BCO3": 1
+                    }
+                  ]
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionShowElement",
+                    "UId": "ca53325a-2d1d-8764-bdec-29de5df03fc8",
+                    "BRA4": "SaveButton"
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "65450f1e-7419-48b1-7b08-1761faa0322d",
+                "BRT1": "null",
+                "BRT3": "null",
+                "BRT2": 2
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "f8cb8383-8988-6b4f-96ec-46b222c4e7a2",
+                "BRT1": "DfcPaymentsDS_DfcArrearDfcArrearAmount",
+                "BRT3": "null"
+              }
+            ],
+            "BR3": "BusinessRule_0f1fd93"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "7e5066c7-a1bb-5f6a-e592-f3ea043a090e",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "eb51f7e7-6fb6-7e46-00ed-b70c7da9d691",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+                  "UId": "60f97662-e894-9eff-a5d5-072821347e74",
+                  "BGC1": 1,
+                  "BGC2": [
+                    {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                      "UId": "f9df5aca-67b2-cca8-2dcf-7733e7ef4c74",
+                      "BCO1": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                        "UId": "0ebba59d-5f3e-c203-0d3c-855c0d112eeb",
+                        "BRE1": "Lookup",
+                        "BRE2": "AttributeValue",
+                        "BRX1": "DfcPaymentsDS_DfcLoan_3ig2a90"
+                      },
+                      "BCO3": 1
+                    }
+                  ]
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionShowElement",
+                    "UId": "6a6ee800-935c-efff-9630-0c1514bbd2f7",
+                    "BRA4": "ComboBox_w3dzt68"
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "428b50f2-3efa-5441-6008-c328f707641c",
+                "BRT1": "null",
+                "BRT3": "null",
+                "BRT2": 2
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "dec2bd07-a65c-c049-86a8-860cff44b556",
+                "BRT1": "DfcPaymentsDS_DfcLoan_3ig2a90",
+                "BRT3": "null"
+              }
+            ],
+            "BR3": "BusinessRule_30806fd"
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+            "UId": "2e5dade5-bfdd-a5d7-49d7-b7f5c0d823ee",
+            "BR1": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+                "UId": "77cea737-9595-dd96-72e7-f38c17cb7e90",
+                "BRC1": {
+                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+                  "UId": "73c3c42e-88a5-1595-64c2-66f257773c01",
+                  "BGC1": 1,
+                  "BGC2": [
+                    {
+                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+                      "UId": "61105470-8a2e-8d95-ef7a-54fbd563828b",
+                      "BCO1": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+                        "UId": "84a88f28-2f73-e73c-5eeb-f4826e30eab1",
+                        "BRE1": "Boolean",
+                        "BRE2": "AttributeValue",
+                        "BRX1": "DfcPaymentsDS_DfcPeriodDfcInArrear",
+                        "BRX2": "null"
+                      },
+                      "BCO2": {
+                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
+                        "UId": "9af448b1-32c9-0e01-b669-2705aab5d826",
+                        "BRE1": "Boolean",
+                        "BVE1": true
+                      },
+                      "BCO3": 2
+                    }
+                  ]
+                },
+                "BRC2": [
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionShowElement",
+                    "UId": "031a3238-e078-371f-e519-5c819cff4210",
+                    "BRA4": "ComboBox_vfaaodi,AmountArrear"
+                  },
+                  {
+                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionRequiredElement",
+                    "UId": "7c12462e-1651-8e8a-6f17-ca1d09a1df33",
+                    "BRA4": "ComboBox_vfaaodi"
+                  }
+                ]
+              }
+            ],
+            "BR2": [
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "233d4e50-abea-2dcb-1565-7c0f1af41680",
+                "BRT2": 2
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "946b7c4a-25f9-1438-e4da-850e78b51f48",
+                "BRT1": "DfcPaymentsDS_DfcPeriodDfcInArrear"
+              }
+            ],
+            "BR3": "BusinessRule_d006f37"
+          }
+        ]
+      }
+    }
+  }
+}

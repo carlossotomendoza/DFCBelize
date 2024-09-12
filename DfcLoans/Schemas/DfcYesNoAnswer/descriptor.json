@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a0e3f29b-04fc-4a76-9e9b-e1f1d83c7d02",
+    "Name": "DfcYesNoAnswer",
+    "ModifiedOnUtc": "\/Date(1726166197000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Yes No Answer",
+    "DependsOn": []
+  }
+}

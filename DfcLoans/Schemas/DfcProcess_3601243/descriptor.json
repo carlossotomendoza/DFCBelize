@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3731f825-c2da-48bb-901c-6fd24a7ef69e",
+    "Name": "DfcProcess_3601243",
+    "ModifiedOnUtc": "\/Date(1725978012000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Actualiza Amounts Principal Balance& Interest Balance",
+    "DependsOn": []
+  }
+}
