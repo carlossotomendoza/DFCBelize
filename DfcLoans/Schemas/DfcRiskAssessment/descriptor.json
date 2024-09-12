@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "68cd940f-16fc-44b2-bba3-7a680c53f85a",
+    "Name": "DfcRiskAssessment",
+    "ModifiedOnUtc": "\/Date(1726162774000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Risk Assessment",
+    "DependsOn": []
+  }
+}

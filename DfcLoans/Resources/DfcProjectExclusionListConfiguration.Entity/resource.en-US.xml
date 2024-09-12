@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Project Exclusion List Configuration" />
+			<Item Name="Columns.DfcExclusionListAnswers.Caption" Value="Exclusion List Answers" />
+			<Item Name="Columns.DfcExclusionListAnswers.Description" Value="Exclusion List Answers" />
+			<Item Name="Columns.DfcExclusionListDescription.Caption" Value="Exclusion List Description" />
+			<Item Name="Columns.DfcExclusionListDescription.Description" Value="Exclusion List Description" />
+			<Item Name="Columns.DfcExclusionListNumber.Caption" Value="Exclusion List Number" />
+			<Item Name="Columns.DfcExclusionListNumber.Description" Value="Exclusion List Number" />
+			<Item Name="Columns.DfcExclusionName.Caption" Value="Exclusion List Name" />
+			<Item Name="Columns.DfcExclusionName.Description" Value="Exclusion List Name" />
+			<Item Name="Description" Value="Project Exclusion List Configuration" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>
