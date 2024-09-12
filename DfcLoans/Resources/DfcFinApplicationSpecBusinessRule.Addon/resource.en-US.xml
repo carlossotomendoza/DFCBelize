@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.1e063766-a251-15ae-4c93-1a9b31609e9c.Caption" Value="Apply filter: Parameter value" />
+			<Item Name="AddonConfig.Rules.4b6ec5e2-3205-6ff1-7f6c-808866c52c2d.Caption" Value="ChildRule-1e063766-a251-15ae-4c93-1a9b31609e9c-PopulateValue" />
+			<Item Name="AddonConfig.Rules.79acc9fd-20ff-13b8-8655-9d4a2c3e6b06.Caption" Value="ChildRule-1e063766-a251-15ae-4c93-1a9b31609e9c-ClearValue" />
+			<Item Name="Caption" Value="Application parameters (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

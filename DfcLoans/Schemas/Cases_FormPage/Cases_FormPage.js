@@ -142,6 +142,216 @@ define("Cases_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_A
 			},
 			{
 				"operation": "insert",
+				"name": "GridContainer_jckmc22",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "ProgressBarContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "NextStepsContainer_0kontoh",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(NextStepsContainer_0kontoh_title)#",
+					"toggleType": "material",
+					"togglePosition": "after",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "none",
+						"bottom": "none",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "GridContainer_jckmc22",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_0pchfvd",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "NextStepsContainer_0kontoh",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_cfyoh8v",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_0pchfvd",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "AddStepButton_h3gwnkq",
+				"values": {
+					"type": "crt.Button",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"visible": "$CardState | crt.IsEqual : 'edit'",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_cfyoh8v",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "CreateTaskMenuItem_nwoakc0",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(CreateTaskMenuItem_nwoakc0_caption)#",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.AddNextStepRequest",
+						"params": {
+							"entityName": "Activity"
+						}
+					}
+				},
+				"parentName": "AddStepButton_h3gwnkq",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "CreateEmailMenuItem_6lfcjyy",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(CreateEmailMenuItem_6lfcjyy_caption)#",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateEmailRequest"
+					}
+				},
+				"parentName": "AddStepButton_h3gwnkq",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_4q1sd6i",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": [],
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "NextStepsContainer_0kontoh",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NextSteps_zxa6q2s",
+				"values": {
+					"type": "crt.NextSteps",
+					"masterSchemaId": "$Id",
+					"cardState": "$CardState",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					},
+					"masterSchemaName": "Case"
+				},
+				"parentName": "GridContainer_4q1sd6i",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Approval_q531r59",
 				"values": {
 					"type": "crt.Approval",
@@ -419,209 +629,6 @@ define("Cases_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_A
 				"parentName": "CaseInfoFlexContainer",
 				"propertyName": "items",
 				"index": 13
-			},
-			{
-				"operation": "insert",
-				"name": "TabContainer_u9deoko",
-				"values": {
-					"type": "crt.TabContainer",
-					"items": [],
-					"caption": "#ResourceString(TabContainer_u9deoko_caption)#",
-					"iconPosition": "only-text",
-					"visible": true
-				},
-				"parentName": "Tabs",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_jiu6c2v",
-				"values": {
-					"type": "crt.GridContainer",
-					"items": [],
-					"rows": "minmax(32px, max-content)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					}
-				},
-				"parentName": "TabContainer_u9deoko",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "NextStepsContainer_cm6ch8j",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 2,
-						"rowSpan": 1
-					},
-					"type": "crt.ExpansionPanel",
-					"tools": [],
-					"items": [],
-					"title": "#ResourceString(NextStepsContainer_cm6ch8j_title)#",
-					"toggleType": "material",
-					"togglePosition": "after",
-					"expanded": true,
-					"labelColor": "auto",
-					"fullWidthHeader": false,
-					"titleWidth": 20,
-					"padding": {
-						"top": "none",
-						"bottom": "none",
-						"left": "none",
-						"right": "none"
-					},
-					"fitContent": true
-				},
-				"parentName": "GridContainer_jiu6c2v",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_iapy9fl",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 24px)",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": []
-				},
-				"parentName": "NextStepsContainer_cm6ch8j",
-				"propertyName": "tools",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "FlexContainer_403lkdx",
-				"values": {
-					"type": "crt.FlexContainer",
-					"direction": "row",
-					"gap": "none",
-					"alignItems": "center",
-					"items": [],
-					"layoutConfig": {
-						"colSpan": 1,
-						"column": 1,
-						"row": 1,
-						"rowSpan": 1
-					}
-				},
-				"parentName": "GridContainer_iapy9fl",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "AddStepButton_k38fis1",
-				"values": {
-					"type": "crt.Button",
-					"icon": "add-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"visible": "$CardState | crt.IsEqual : 'edit'",
-					"clickMode": "menu",
-					"menuItems": []
-				},
-				"parentName": "FlexContainer_403lkdx",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "CreateTaskMenuItem_l7s78rk",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(CreateTaskMenuItem_l7s78rk_caption)#",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.AddNextStepRequest",
-						"params": {
-							"entityName": "Activity"
-						}
-					}
-				},
-				"parentName": "AddStepButton_k38fis1",
-				"propertyName": "menuItems",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "CreateEmailMenuItem_l0nq9nv",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(CreateEmailMenuItem_l0nq9nv_caption)#",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.CreateEmailRequest"
-					}
-				},
-				"parentName": "AddStepButton_k38fis1",
-				"propertyName": "menuItems",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_nqzj9ut",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 32px)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": []
-				},
-				"parentName": "NextStepsContainer_cm6ch8j",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "NextSteps_ryhlhz5",
-				"values": {
-					"type": "crt.NextSteps",
-					"masterSchemaId": "$Id",
-					"cardState": "$CardState",
-					"layoutConfig": {
-						"colSpan": 2,
-						"column": 1,
-						"row": 1,
-						"rowSpan": 1
-					},
-					"masterSchemaName": "Case",
-					"bindingColumns": []
-				},
-				"parentName": "GridContainer_nqzj9ut",
-				"propertyName": "items",
-				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -1290,7 +1297,7 @@ define("Cases_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_A
 				"name": "CaseGeneralInfoTab",
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 1
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[

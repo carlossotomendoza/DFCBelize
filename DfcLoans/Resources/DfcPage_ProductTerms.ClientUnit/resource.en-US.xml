@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Product terms filled" />
+			<Item Name="LocalizableStrings.Label_nr5dzao_caption.Value" Value="Product terms have been filled in, close to continue" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="Close" />
+		</Items>
+	</Group>
+</Resources>

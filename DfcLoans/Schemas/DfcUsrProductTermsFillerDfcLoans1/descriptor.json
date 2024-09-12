@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6db99970-9ae9-48c6-8595-a9be7c6c2632",
+    "Name": "DfcUsrProductTermsFillerDfcLoans1",
+    "ModifiedOnUtc": "\/Date(1726070138000)\/",
+    "Parent": {
+      "UId": "93544b7b-42e2-4775-9657-f33fddf2d6a6",
+      "Name": "UsrProductTermsFiller"
+    },
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Product terms filler",
+    "DependsOn": []
+  }
+}

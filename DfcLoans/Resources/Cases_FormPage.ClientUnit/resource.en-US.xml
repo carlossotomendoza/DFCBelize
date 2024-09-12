@@ -33,8 +33,10 @@
 			<Item Name="LocalizableStrings.ClientInformationTab_caption.Value" Value="Contact information" />
 			<Item Name="LocalizableStrings.ComboBox_mfhizka_ariaLabel.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ComboBox_mfhizka_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.CreateEmailMenuItem_6lfcjyy_caption.Value" Value="Create an email" />
 			<Item Name="LocalizableStrings.CreateEmailMenuItem_l0nq9nv_caption.Value" Value="Create an email" />
 			<Item Name="LocalizableStrings.CreateTaskMenuItem_l7s78rk_caption.Value" Value="Create a task" />
+			<Item Name="LocalizableStrings.CreateTaskMenuItem_nwoakc0_caption.Value" Value="Create a task" />
 			<Item Name="LocalizableStrings.CustomerProfileTabContainer_caption.Value" Value="Customer profile" />
 			<Item Name="LocalizableStrings.CustomerProfileTabContainerHeaderLabel_caption.Value" Value="Customer profile" />
 			<Item Name="LocalizableStrings.DateTimePicker_unws389_label.Value" Value="Date/Time" />
@@ -61,6 +63,7 @@
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_lcjo1t6_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Label_2g51r7b_caption.Value" Value="Days since deposit payment" />
 			<Item Name="LocalizableStrings.Label_59nue7x_caption.Value" Value="Account info" />
+			<Item Name="LocalizableStrings.NextStepsContainer_0kontoh_title.Value" Value="Check List" />
 			<Item Name="LocalizableStrings.NextStepsContainer_cm6ch8j_title.Value" Value="Next steps" />
 			<Item Name="LocalizableStrings.NumberInput_195llo1_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.TabContainer_u9deoko_caption.Value" Value="CHECK LIST" />

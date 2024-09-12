@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Columns.AdCampaign.Caption" Value="Ad campaign" />
+			<Item Name="Columns.DfcLegacyId.Caption" Value="Contact Legacy Id" />
 			<Item Name="Columns.IsNonActualEmail.Caption" Value="Invalid email" />
 			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.ChildEntitySchemaUId.Caption" Value="Subordinate object" />
 			<Item Name="EventsProcessSchema.BaseElements.SynchronizeAnniversary.Parameters.DefaultValues.Caption" Value="Default values for parent object columns" />

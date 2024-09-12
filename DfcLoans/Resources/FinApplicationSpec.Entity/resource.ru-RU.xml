@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Параметры заявки" />
+			<Item Name="Columns.BooleanValue.Caption" Value="Логическое значение" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Создал" />
+			<Item Name="Columns.CreatedOn.Caption" Value="Дата создания" />
+			<Item Name="Columns.CurrentType.Caption" Value="Тип представления" />
+			<Item Name="Columns.DisplayValue.Caption" Value="Значение" />
+			<Item Name="Columns.FinApplication.Caption" Value="Заявка" />
+			<Item Name="Columns.FloatValue.Caption" Value="Дробное значение" />
+			<Item Name="Columns.Id.Caption" Value="Id" />
+			<Item Name="Columns.IntegerValue.Caption" Value="Целочисленное значение" />
+			<Item Name="Columns.IsCustom.Caption" Value="Добавлен пользователем" />
+			<Item Name="Columns.IsEmptyMaxValue.Caption" Value="Максимальное значение не заполнено" />
+			<Item Name="Columns.IsEmptyMinValue.Caption" Value="Минимальное значение не заполнено" />
+			<Item Name="Columns.IsEmptyValue.Caption" Value="Значение не заполнено" />
+			<Item Name="Columns.MaxFloatValue.Caption" Value="Максимальное дробное значение" />
+			<Item Name="Columns.MaxIntegerValue.Caption" Value="Максимальное целочисленное значение" />
+			<Item Name="Columns.MinFloatValue.Caption" Value="Минимальное дробное значение" />
+			<Item Name="Columns.MinIntegerValue.Caption" Value="Минимальное целочисленное значение" />
+			<Item Name="Columns.ModifiedBy.Caption" Value="Изменил" />
+			<Item Name="Columns.ModifiedOn.Caption" Value="Дата изменения" />
+			<Item Name="Columns.OpportunityCondition.Caption" Value="Условие продажи" />
+			<Item Name="Columns.ProcessListeners.Caption" Value="Активные процессы" />
+			<Item Name="Columns.ProductCondition.Caption" Value="Условия продукта" />
+			<Item Name="Columns.RowPosition.Caption" Value="Позиция элемента в списке" />
+			<Item Name="Columns.Specification.Caption" Value="Параметр" />
+			<Item Name="Columns.SpecificationListItem.Caption" Value="Значение параметра" />
+			<Item Name="Columns.SpecInConditionType.Caption" Value="Классификация параметра в условии продукта" />
+			<Item Name="Columns.SpecTableValueX.Caption" Value="SpecTableValueX" />
+			<Item Name="Columns.SpecTableValueY.Caption" Value="SpecTableValueY" />
+			<Item Name="Columns.TextValue.Caption" Value="Текстовое значение" />
+			<Item Name="Columns.ValuePosition.Caption" Value="Позиция элемента в строке" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Application parameters modal page" />
+			<Item Name="LocalizableStrings.addRecord_3tl9zrn_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_8lhdlx2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_a0n11xy_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_j5vpe70_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_p80r9vh_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_qb15c67_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_wnpumsu_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ComboBox_2bboxe7_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_2bboxe7_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_b95bc6g_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_b95bc6g_label.Value" Value="Dropdown" />
+		</Items>
+	</Group>
+</Resources>

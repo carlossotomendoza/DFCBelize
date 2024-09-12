@@ -35,7 +35,7 @@ namespace Terrasoft.Core.Process.Configuration
             UserConnection userConnection = this.UserConnection;
             decimal principal = DfcPrincipal;
             decimal rate = DfcRate;
-            int numberOfPayments = DfcNumberOfPayments;
+            decimal numberOfPayments = DfcNumberOfPayments;
             string paymentFrequencyName = string.Empty;
           
             // Monthly payment formula M = P * r/(1+r)ˆ-n
@@ -84,42 +84,42 @@ namespace Terrasoft.Core.Process.Configuration
 
         #region Payment Calculation Methods
 
-        private decimal CalculateMonthlyPayment(decimal principal, decimal rate, int numberOfPayments)
+        private decimal CalculateMonthlyPayment(decimal principal, decimal rate, decimal numberOfPayments)
         {
             // Monthly payment formula M = P * r / (1 - (1 + r)^-n)
             decimal monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
-            decimal payment = principal * (monthlyRate / (1 - (decimal)Math.Pow((double)(1 + monthlyRate), -numberOfPayments)));
+            decimal payment = principal * (monthlyRate / (1 - (decimal)Math.Pow((double)(1 + monthlyRate), (double)-numberOfPayments)));
             return Math.Round(payment,2);
         }
 
-        private decimal CalculateQuarterlyPayment(decimal principal, decimal rate, int numberOfPayments)
+        private decimal CalculateQuarterlyPayment(decimal principal, decimal rate, decimal numberOfPayments)
         {
             // Quarterly payment formula
             decimal quarterlyRate = rate / 4 / 100; // Convert annual rate to quarterly rate
-            decimal payment = principal * (quarterlyRate / (1 - (decimal)Math.Pow((double)(1 + quarterlyRate), -numberOfPayments)));
+            decimal payment = principal * (quarterlyRate / (1 - (decimal)Math.Pow((double)(1 + quarterlyRate), (double)-numberOfPayments)));
             return  Math.Round(payment,2);
         }
 
-        private decimal CalculateAnnualPayment(decimal principal, decimal rate, int numberOfPayments)
+        private decimal CalculateAnnualPayment(decimal principal, decimal rate, decimal numberOfPayments)
         {
             // Annual payment formula (lump sum)
             decimal payment = principal * (1 + rate / 100 * numberOfPayments);
             return Math.Round(payment,2);
         }
 
-        private decimal CalculateSemiAnnualPayment(decimal principal, decimal rate, int numberOfPayments)
+        private decimal CalculateSemiAnnualPayment(decimal principal, decimal rate, decimal numberOfPayments)
         {
             // Semi-Annual payment formula 
             decimal semiAnnualRate = rate / 2 / 100; // Convert annual rate to semiannual rate
-            decimal payment = principal * (semiAnnualRate / (1 - (decimal)Math.Pow((double)(1 + semiAnnualRate), -numberOfPayments)));
+            decimal payment = principal * (semiAnnualRate / (1 - (decimal)Math.Pow((double)(1 + semiAnnualRate), (double)-numberOfPayments)));
             return Math.Round(payment,2);
         }
 
-        private decimal CalculateWeeklyPayment(decimal principal, decimal rate, int numberOfPayments)
+        private decimal CalculateWeeklyPayment(decimal principal, decimal rate, decimal numberOfPayments)
         {
             // Weekly payment formula
             decimal weeklyRate = rate / 52 / 100; // Convert annual rate to weekly rate
-            decimal payment = principal * (weeklyRate / (1 - (decimal)Math.Pow((double)(1 + weeklyRate), -numberOfPayments)));
+            decimal payment = principal * (weeklyRate / (1 - (decimal)Math.Pow((double)(1 + weeklyRate), (double)-numberOfPayments)));
             return Math.Round(payment,2);
         }  
         #endregion

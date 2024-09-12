@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9a4038a6-c543-409d-ae14-88bc41b74336",
+    "Name": "DfcProcess_UpdateParamType",
+    "ModifiedOnUtc": "\/Date(1726067916000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Update Parameter Type",
+    "DependsOn": []
+  }
+}
