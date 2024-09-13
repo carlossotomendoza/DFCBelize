@@ -23,6 +23,12 @@
 			<Item Name="BaseElements.DeleteDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
 			<Item Name="BaseElements.DeleteDataUserTask2.Parameters.EntitySchemaId.Caption" Value="Object" />
 			<Item Name="BaseElements.DeleteDataUserTask2.Parameters.IsMatchConditions.Caption" Value="Object must meet the following conditions" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Caption" Value="The refinancing was accepted" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbPopupWindowText.Caption" Value="Popup window text" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbPopupWindowText.DisplayValue" Value="The refinancing was accepted" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbPopupWindowText.Value" Value="The refinancing was accepted" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbUserToWhomShowWindow.Caption" Value="To whom should the window be shown?" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbUserToWhomShowWindow.DisplayValue" Value="[#System variable.Current user contact#]" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Read Application" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -135,74 +141,6 @@
 			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
 			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.StartInPeriod.DisplayValue" Value="0" />
 			<Item Name="BaseElements.UserQuestionUserTask1.Parameters.WindowCaption.Caption" Value="Window header" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Account.Caption" Value="Account" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ActivityCategory.Caption" Value="Category" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ActivityCategory.DisplayValue" Value="f51c4643-58e6-df11-971b-001d60e938c6" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ActivityPriority.Caption" Value="Priority" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ActivityPriority.DisplayValue" Value="ab96fa02-7fe6-df11-971b-001d60e938c6" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ActivityResult.Caption" Value="Result of activity" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.BankAccount.Caption" Value="Financial account" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.BankCard.Caption" Value="Card" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.BranchingDecisions.Caption" Value="Options" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.BranchingDecisions.Value.cd52e2ac-d290-40d5-a823-424055ea8984.Caption" Value="OK" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Case.Caption" Value="Case" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Change.Caption" Value="Change" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Contact.Caption" Value="Contact" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Contract.Caption" Value="Contract" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.CreateActivity.Caption" Value="Create activity" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.CreateActivity.DisplayValue" Value="false" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.CurrentActivityId.Caption" Value="Task Id" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.DecisionMode.Caption" Value="Dialog mode" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.DecisionMode.DisplayValue" Value="0" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Document.Caption" Value="Document" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Duration.Caption" Value="Duration" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Duration.DisplayValue" Value="5" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.DurationPeriod.Caption" Value="Duration (period)" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.DurationPeriod.DisplayValue" Value="0" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Event.Caption" Value="Event" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ExecutionContext.Caption" Value="Execution context" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.FinApplication.Caption" Value="Application" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Incident.Caption" Value="Case" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.InformationOnStep.Caption" Value="Information on step" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Invoice.Caption" Value="Invoice" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.IsActivityCompleted.Caption" Value="Activity completed" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.IsActivityCompleted.DisplayValue" Value="false" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.IsDecisionRequired.Caption" Value="At least one option must be selected" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.IsDecisionRequired.DisplayValue" Value="true" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Lead.Caption" Value="Lead" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Listing.Caption" Value="Listing" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.OmniChat.Caption" Value="Chat" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Opportunity.Caption" Value="Opportunity" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Order.Caption" Value="Order" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.OwnerId.Caption" Value="Owner" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.OwnerId.DisplayValue" Value="[#System variable.Current user contact#]" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Problem.Caption" Value="Problem" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Product.Caption" Value="Product" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Project.Caption" Value="Project" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Property.Caption" Value="Property" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Question.Caption" Value="Question" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Question.DisplayValue" Value="The refinancing was accepted" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Question.Value" Value="The refinancing was accepted" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Recommendation.Caption" Value="Recommendation" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Recommendation.DisplayValue" Value="The refinancing was accepted" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Recommendation.Value" Value="The refinancing was accepted" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Release.Caption" Value="Release" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.RemindBefore.Caption" Value="Remind owner in advance" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.RemindBefore.DisplayValue" Value="0" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.RemindBeforePeriod.Caption" Value="Remind owner in advance (period)" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.RemindBeforePeriod.DisplayValue" Value="0" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.Requests.Caption" Value="Request" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ResultDecisions.Caption" Value="Selected answers" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.RoleId.Caption" Value="Role" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ShowExecutionPage.Caption" Value="Show execution page automatically" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ShowExecutionPage.DisplayValue" Value="true" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ShowInScheduler.Caption" Value="Show in calendar" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.ShowInScheduler.DisplayValue" Value="false" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.StartIn.Caption" Value="Start executing in" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.StartIn.DisplayValue" Value="0" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.StartInPeriod.DisplayValue" Value="0" />
-			<Item Name="BaseElements.UserQuestionUserTask2.Parameters.WindowCaption.Caption" Value="Window header" />
 			<Item Name="Caption" Value="Confirm or reject new application Refinancing Loan" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

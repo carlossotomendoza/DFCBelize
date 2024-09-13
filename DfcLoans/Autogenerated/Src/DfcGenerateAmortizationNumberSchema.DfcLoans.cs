@@ -14,8 +14,13 @@
 
 	#region Class: DfcGenerateAmortizationNumber
 
+<<<<<<< HEAD
 	[DesignModeProperty(Name = "DfcAmortizationNumberString", Group = "", ValuesProvider = "ProcessSchemaParameterValueProvider", Editor="xtype=processschemaparametervalueedit;dataProvider=processschemaparametervalueprovider", ResourceManager = "18eccb98f0ee402aa1d2b8f261fa5627", CaptionResourceItem = "Parameters.DfcAmortizationNumberString.Caption", DescriptionResourceItem = "Parameters.DfcAmortizationNumberString.Caption", UseSolutionStorage = true)]
 	[DesignModeProperty(Name = "DfcPeriodCount", Group = "", ValuesProvider = "ProcessSchemaParameterValueProvider", Editor="xtype=processschemaparametervalueedit;dataProvider=processschemaparametervalueprovider", ResourceManager = "18eccb98f0ee402aa1d2b8f261fa5627", CaptionResourceItem = "Parameters.DfcPeriodCount.Caption", DescriptionResourceItem = "Parameters.DfcPeriodCount.Caption", UseSolutionStorage = true)]
+=======
+	[DesignModeProperty(Name = "DfcAmortizationNumberString", Group = "", ValuesProvider = "ProcessSchemaParameterValueProvider", Editor="xtype=processschemaparametervalueedit;dataProvider=processschemaparametervalueprovider", ResourceManager = "0d2112bf476a4e1ea9bc5dd1e5c9c6ee", CaptionResourceItem = "Parameters.DfcAmortizationNumberString.Caption", DescriptionResourceItem = "Parameters.DfcAmortizationNumberString.Caption", UseSolutionStorage = true)]
+	[DesignModeProperty(Name = "DfcPeriodCount", Group = "", ValuesProvider = "ProcessSchemaParameterValueProvider", Editor="xtype=processschemaparametervalueedit;dataProvider=processschemaparametervalueprovider", ResourceManager = "0d2112bf476a4e1ea9bc5dd1e5c9c6ee", CaptionResourceItem = "Parameters.DfcPeriodCount.Caption", DescriptionResourceItem = "Parameters.DfcPeriodCount.Caption", UseSolutionStorage = true)]
+>>>>>>> 120924carlos
 	/// <exclude/>
 	public partial class DfcGenerateAmortizationNumber : ProcessUserTask
 	{
@@ -24,7 +29,11 @@
 
 		public DfcGenerateAmortizationNumber(UserConnection userConnection)
 			: base(userConnection) {
+<<<<<<< HEAD
 			SchemaUId = new Guid("18eccb98-f0ee-402a-a1d2-b8f261fa5627");
+=======
+			SchemaUId = new Guid("0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee");
+>>>>>>> 120924carlos
 		}
 
 		#endregion

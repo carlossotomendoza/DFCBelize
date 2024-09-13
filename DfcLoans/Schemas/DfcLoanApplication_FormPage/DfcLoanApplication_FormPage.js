@@ -654,6 +654,45 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 			},
 			{
 				"operation": "insert",
+				"name": "ComboBox_kpzjxo4",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 7,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_DfcSourceFunds_0jfjkhy",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcSourceFunds_0jfjkhy",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_kvbwula",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_l9ifecb",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_l9ifecb_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_kpzjxo4",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "GridContainer_96w6upm",
 				"values": {
 					"type": "crt.GridContainer",
@@ -4362,6 +4401,51 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 						"modelConfig": {
 							"path": "PDS.DfcRefinanced"
 						}
+					},
+					"GridDetail_5du5a3d": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_5du5a3dDS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_5du5a3dDS_DfcName": {
+									"modelConfig": {
+										"path": "GridDetail_5du5a3dDS.DfcName"
+									}
+								},
+								"GridDetail_5du5a3dDS_DfcPurpose": {
+									"modelConfig": {
+										"path": "GridDetail_5du5a3dDS.DfcPurpose"
+									}
+								},
+								"GridDetail_5du5a3dDS_DfcMaxLoanSize": {
+									"modelConfig": {
+										"path": "GridDetail_5du5a3dDS.DfcMaxLoanSize"
+									}
+								},
+								"GridDetail_5du5a3dDS_DfcMaxLoanTerm": {
+									"modelConfig": {
+										"path": "GridDetail_5du5a3dDS.DfcMaxLoanTerm"
+									}
+								},
+								"GridDetail_5du5a3dDS_DfcMaxGracePeriod": {
+									"modelConfig": {
+										"path": "GridDetail_5du5a3dDS.DfcMaxGracePeriod"
+									}
+								},
+								"GridDetail_5du5a3dDS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_5du5a3dDS.Id"
+									}
+								}
+							}
+						}
+					},
+					"PDS_DfcSourceFunds_0jfjkhy": {
+						"modelConfig": {
+							"path": "PDS.DfcSourceFunds"
+						}
 					}
 				}
 			},
@@ -4776,6 +4860,30 @@ define("DfcLoanApplication_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]
 								},
 								"DfcParametertype": {
 									"path": "DfcParametertype"
+								}
+							}
+						}
+					},
+					"GridDetail_5du5a3dDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcSourceFunds",
+							"attributes": {
+								"DfcName": {
+									"path": "DfcName"
+								},
+								"DfcPurpose": {
+									"path": "DfcPurpose"
+								},
+								"DfcMaxLoanSize": {
+									"path": "DfcMaxLoanSize"
+								},
+								"DfcMaxLoanTerm": {
+									"path": "DfcMaxLoanTerm"
+								},
+								"DfcMaxGracePeriod": {
+									"path": "DfcMaxGracePeriod"
 								}
 							}
 						}
