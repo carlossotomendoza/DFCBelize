@@ -68,3 +68,4 @@ C:\Creatio\D2_Creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\File
 C:\Creatio\D2_Creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.sourcelink.json
 C:\Creatio\D2_Creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.dll
 C:\Creatio\D2_Creatio\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.pdb
+C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.sourcelink.json

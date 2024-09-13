@@ -2,12 +2,13 @@
   "Descriptor": {
     "UId": "0e044173-0114-4a67-b28a-3002ef3eafc4",
     "Name": "DfcSourceFunds",
-    "ModifiedOnUtc": "\/Date(1725905631000)\/",
+    "ModifiedOnUtc": "\/Date(1726230825000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Source of Funds"
+    "Caption": "Source of Funds",
+    "DependsOn": []
   }
 }

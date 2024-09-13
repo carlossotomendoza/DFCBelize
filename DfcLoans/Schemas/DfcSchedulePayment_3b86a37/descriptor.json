@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "d91e6b74-6780-4dfa-b77d-dc37a3b97831",
     "Name": "DfcSchedulePayment_3b86a37",
-    "ModifiedOnUtc": "\/Date(1726006632000)\/",
+    "ModifiedOnUtc": "\/Date(1726228500000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Schedule Payment Process - Refinancing"
+    "Caption": "Schedule Payment Process - Refinancing",
+    "DependsOn": []
   }
 }
