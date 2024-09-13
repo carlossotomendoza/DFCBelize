@@ -1,0 +1,41 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee",
+      "A2": "DfcGenerateAmortizationNumber",
+      "A5": "7b7ff455-6046-4024-999e-55c430316b6b",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
+      "B8": "8.1.3.6801",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "c8ef05bd-722b-364b-ed0d-acc6c8f2b368",
+          "A2": "DfcAmortizationNumberString",
+          "A3": "0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee",
+          "A4": "0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {},
+          "L11": false,
+          "L13": true
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "7cd0451e-8023-6ff5-b140-962b4d73f3f5",
+          "A2": "DfcPeriodCount",
+          "A3": "0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee",
+          "A4": "0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee",
+          "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+          "L8": {},
+          "L6": true,
+          "L11": false
+        }
+      ],
+      "FK12": "#839DC3",
+      "FK16": true
+    }
+  }
+}

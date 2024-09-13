@@ -26,6 +26,7 @@
 			<Item Name="LocalizableStrings.addRecord_jmxbref_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_kaienv5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_keaso92_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_l9ifecb_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_p60rme6_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_pmxrhtt_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_qe41eiv_caption.Value" Value="Add new" />
@@ -50,10 +51,12 @@
 			<Item Name="LocalizableStrings.ExpansionPanel_digzels_title.Value" Value="Product Terms" />
 			<Item Name="LocalizableStrings.ExpansionPanel_gj5szn0_title.Value" Value="Required documents in application" />
 			<Item Name="LocalizableStrings.ExpansionPanel_ProductTerms_title.Value" Value="Product Terms" />
+			<Item Name="LocalizableStrings.ExpansionPanel_sn3wr3o_title.Value" Value="Source of Funds" />
 			<Item Name="LocalizableStrings.ExpansionPanel_terc2fv_title.Value" Value="Collaterals" />
 			<Item Name="LocalizableStrings.ExpansionPanel_yrjimho_title.Value" Value="Product Terms" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_3lu1gh4_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_3no2oia_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_6ph77kn_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_h9r2b0w_caption.Value" Value="Upload" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_njp54pu_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_w6thk04_caption.Value" Value="New" />
@@ -61,12 +64,15 @@
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_a3oyrf8_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_m93rt5f_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_n3pr5n0_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_whmvghn_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_eppe3o1_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_ivkgff0_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_nymzzxp_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_qraiqg6_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_rzchiur_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_3ji5wqf_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_7uhlloq_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_akb2f50_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_bn9r7zh_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_dzf9837_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_nq0pgva_caption.Value" Value="Refresh" />
@@ -75,10 +81,12 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_hmqwfin_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_v0hx8m8_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_veqs4eu_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_yyd5oi0_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_3r1y4in_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_6gy9njk_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ling4ll_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ljb0dn3_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_o9sjxzy_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Input_r0ycpk7_label.Value" Value="Product Type" />
 			<Item Name="LocalizableStrings.Input_vm108sj_label.Value" Value="Product" />
 			<Item Name="LocalizableStrings.NextStepsContainer_kmjemon_title.Value" Value="Next steps" />

@@ -10,10 +10,13 @@
 			<Item Name="Columns.DfcMaxLoanSize.Caption" Value="Maximum Loan Size" />
 			<Item Name="Columns.DfcMaxLoanTerm.Caption" Value="Maximum Loan Term" />
 			<Item Name="Columns.DfcName.Caption" Value="Name" />
+			<Item Name="Columns.DfcProductSector.Caption" Value="Product Sector" />
 			<Item Name="Columns.DfcPurpose.Caption" Value="Purpose" />
 			<Item Name="Columns.DfcRefinancing.Caption" Value="Refinancing" />
 			<Item Name="Columns.DfcRemarks.Caption" Value="Remarks" />
+			<Item Name="Columns.DfcSector.Caption" Value="Sector" />
 			<Item Name="Columns.DfcStartUp.Caption" Value="Start Up" />
+			<Item Name="Columns.DfcSubSector.Caption" Value="Sub Sector" />
 			<Item Name="Columns.DfcUseFunds.Caption" Value="Use of Funds" />
 			<Item Name="Columns.DfcWorkingCapital.Caption" Value="Working Capital" />
 			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />

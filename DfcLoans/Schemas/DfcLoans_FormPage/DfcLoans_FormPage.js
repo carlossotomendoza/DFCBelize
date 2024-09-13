@@ -2328,25 +2328,6 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "DfcPeriodSim",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcPeriodSim_v4ten77",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcPeriodSim_v4ten77"
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
 				"name": "DfcInstallmentSim",
 				"values": {
 					"layoutConfig": {
@@ -2366,26 +2347,26 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "GridContainer_0u1pwpr",
 				"propertyName": "items",
-				"index": 4
+				"index": 3
 			},
 			{
 				"operation": "insert",
-				"name": "DfcInterestRateSim",
+				"name": "DfcPeriodSim",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 4,
+						"row": 3,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcInterestRateSim_gw96i04",
+					"label": "$Resources.Strings.PDS_DfcPeriodSim_v4ten77",
 					"labelPosition": "auto",
-					"control": "$PDS_DfcInterestRateSim_gw96i04"
+					"control": "$PDS_DfcPeriodSim_v4ten77"
 				},
 				"parentName": "GridContainer_0u1pwpr",
 				"propertyName": "items",
-				"index": 5
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -2404,22 +2385,41 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "GridContainer_0u1pwpr",
 				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "DfcInterestRateSim",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcInterestRateSim_gw96i04",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInterestRateSim_gw96i04"
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
 				"index": 6
 			},
 			{
 				"operation": "insert",
-				"name": "ExpansionPanel_d4zt3ud",
+				"name": "ExpansionPanel_1vrkmur",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"row": 2,
 						"colSpan": 1,
-						"rowSpan": 2
+						"rowSpan": 1
 					},
 					"type": "crt.ExpansionPanel",
 					"tools": [],
 					"items": [],
-					"title": "#ResourceString(ExpansionPanel_d4zt3ud_title)#",
+					"title": "#ResourceString(ExpansionPanel_1vrkmur_title)#",
 					"toggleType": "default",
 					"togglePosition": "before",
 					"expanded": true,
@@ -2442,7 +2442,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "GridContainer_nu0ueam",
+				"name": "GridContainer_o8ec6dk",
 				"values": {
 					"type": "crt.GridContainer",
 					"rows": "minmax(max-content, 24px)",
@@ -2458,13 +2458,13 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					},
 					"items": []
 				},
-				"parentName": "ExpansionPanel_d4zt3ud",
+				"parentName": "ExpansionPanel_1vrkmur",
 				"propertyName": "tools",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "FlexContainer_nreug2u",
+				"name": "FlexContainer_98yv1ar",
 				"values": {
 					"type": "crt.FlexContainer",
 					"direction": "row",
@@ -2478,135 +2478,9 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					}
 				},
-				"parentName": "GridContainer_nu0ueam",
+				"parentName": "GridContainer_o8ec6dk",
 				"propertyName": "items",
 				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailRefreshBtn_tyko4fk",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailRefreshBtn_tyko4fk_caption)#",
-					"icon": "reload-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.LoadDataRequest",
-						"params": {
-							"config": {
-								"loadType": "reload"
-							},
-							"dataSourceName": "GridDetail_ohtfy90DS"
-						}
-					}
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSettingsBtn_vfzxdpm",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailSettingsBtn_vfzxdpm_caption)#",
-					"icon": "actions-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clickMode": "menu",
-					"menuItems": []
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailExportDataBtn_ovdiook",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailExportDataBtn_ovdiook_caption)#",
-					"icon": "export-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "GridDetail_SchedulRefinance"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_vfzxdpm",
-				"propertyName": "menuItems",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailImportDataBtn_yit4hpc",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailImportDataBtn_yit4hpc_caption)#",
-					"icon": "import-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ImportDataRequest",
-						"params": {
-							"entitySchemaName": "DfcLoanAmortizationTable"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_vfzxdpm",
-				"propertyName": "menuItems",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSearchFilter_lu7odsr",
-				"values": {
-					"type": "crt.SearchFilter",
-					"placeholder": "#ResourceString(GridDetailSearchFilter_lu7odsr_placeholder)#",
-					"iconOnly": true,
-					"targetAttributes": [
-						"GridDetail_ohtfy90"
-					]
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_x1ox1qi",
-				"values": {
-					"type": "crt.GridContainer",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"rows": "minmax(max-content, 32px)",
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"items": [],
-					"fitContent": true,
-					"visible": true,
-					"color": "transparent",
-					"borderRadius": "none",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"alignItems": "stretch"
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -2629,9 +2503,9 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"justifyContent": "start",
 					"wrap": "wrap"
 				},
-				"parentName": "FlexContainer_nreug2u",
+				"parentName": "FlexContainer_98yv1ar",
 				"propertyName": "items",
-				"index": 4
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -2662,7 +2536,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "GridContainer_wvrd4ig",
+				"name": "GridContainer_h53ooac",
 				"values": {
 					"type": "crt.GridContainer",
 					"rows": "minmax(max-content, 32px)",
@@ -2679,13 +2553,13 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					},
 					"items": []
 				},
-				"parentName": "ExpansionPanel_d4zt3ud",
+				"parentName": "ExpansionPanel_1vrkmur",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "GridDetail_SchedulRefinance",
+				"name": "GridDetail_dourile",
 				"values": {
 					"type": "crt.DataGrid",
 					"layoutConfig": {
@@ -2700,167 +2574,57 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								"enable": true,
 								"multiple": true
 							}
-						},
-						"editable": {
-							"enable": false,
-							"itemsCreation": false
 						}
 					},
-					"items": "$GridDetail_ohtfy90",
+					"items": "$GridDetail_dourile",
 					"visible": true,
 					"fitContent": true,
-					"primaryColumnName": "GridDetail_ohtfy90DS_Id",
+					"primaryColumnName": "GridDetail_dourileDS_Id",
 					"columns": [
 						{
-							"id": "a22418cd-e562-b2ad-d10f-6c91c5d1a4ef",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationNumber",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationNumber)#",
+							"id": "ded63d21-c371-10de-8993-89c24131a0e8",
+							"code": "GridDetail_dourileDS_DfcAmortizationNumber",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationNumber)#",
 							"dataValueType": 27,
-							"width": 174
+							"width": 177
 						},
 						{
-							"id": "3c9d426d-825d-1c25-ec51-67fe4d0c44b4",
-							"code": "GridDetail_ohtfy90DS_DfcPeriodNumber",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcPeriodNumber)#",
-							"dataValueType": 4
+							"id": "f6b21c45-9583-910b-b98d-c9b1d321b79b",
+							"code": "GridDetail_dourileDS_DfcAmortizationAmount",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationAmount)#",
+							"dataValueType": 6,
+							"width": 155
 						},
 						{
-							"id": "ff8cc4f0-6543-5956-f5cb-b26748f935c4",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationEndingBalance",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationEndingBalance)#",
+							"id": "03f6130b-568a-2781-3298-bd9736e19f1a",
+							"code": "GridDetail_dourileDS_DfcAmortizationBeginningBalance",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationBeginningBalance)#",
 							"dataValueType": 6
 						},
 						{
-							"id": "58f68245-e9b5-d49e-3107-f0193f0eab17",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationBeginningBalance",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationBeginningBalance)#",
+							"id": "323ffb51-d9a0-9ed4-1fbc-fd5fb7304de7",
+							"code": "GridDetail_dourileDS_DfcAmortizationEndingBalance",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationEndingBalance)#",
 							"dataValueType": 6
 						},
 						{
-							"id": "20f97612-d99d-6c5d-e46a-2ccab86bae39",
-							"code": "GridDetail_ohtfy90DS_DfcCurrentDue",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcCurrentDue)#",
+							"id": "ca93209e-53f1-fe56-0535-2d9e0a7bf9be",
+							"code": "GridDetail_dourileDS_DfcCurrentDue",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcCurrentDue)#",
 							"dataValueType": 12
 						},
 						{
-							"id": "4ee491ec-1656-7ddd-0edd-2a38002ec9c4",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationInterest",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationInterest)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "a0fd0bed-766c-1592-d800-e4bb20370391",
-							"code": "GridDetail_ohtfy90DS_DfcPaid",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcPaid)#",
-							"dataValueType": 12
-						},
-						{
-							"id": "13fe7637-6e6d-419e-048c-bc2239cf33f7",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationPrincipal",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationPrincipal)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "562a665c-7a8d-284a-da0f-025d87b93821",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationDate",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationDate)#",
-							"dataValueType": 8
-						},
-						{
-							"id": "c0a4823a-9ce3-4ebc-1761-bc9ccef18eea",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationAmount",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationAmount)#",
+							"id": "c349f652-8363-2e9b-3311-349b2d6b479e",
+							"code": "GridDetail_dourileDS_DfcAmortizationInterest",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationInterest)#",
 							"dataValueType": 6
 						}
 					],
-					"placeholder": false,
-					"activeRow": "$GridDetail_ohtfy90_ActiveRow",
-					"selectionState": "$GridDetail_ohtfy90_SelectionState",
-					"_selectionOptions": {
-						"attribute": "GridDetail_ohtfy90_SelectionState"
-					},
-					"bulkActions": []
+					"placeholder": false
 				},
-				"parentName": "GridContainer_wvrd4ig",
+				"parentName": "GridContainer_h53ooac",
 				"propertyName": "items",
 				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_AddTagsBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Add tag",
-					"icon": "tag-icon",
-					"clicked": {
-						"request": "crt.AddTagsInRecordsRequest",
-						"params": {
-							"dataSourceName": "GridDetail_ohtfy90DS",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					},
-					"items": []
-				},
-				"parentName": "GridDetail_SchedulRefinance",
-				"propertyName": "bulkActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_RemoveTagsBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Remove tag",
-					"icon": "delete-button-icon",
-					"clicked": {
-						"request": "crt.RemoveTagsInRecordsRequest",
-						"params": {
-							"dataSourceName": "GridDetail_ohtfy90DS",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					}
-				},
-				"parentName": "GridDetail_ohtfy90_AddTagsBulkAction",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_ExportToExcelBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Export to Excel",
-					"icon": "export-button-icon",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "GridDetail_ohtfy90",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					}
-				},
-				"parentName": "GridDetail_SchedulRefinance",
-				"propertyName": "bulkActions",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_DeleteBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Delete",
-					"icon": "delete-button-icon",
-					"clicked": {
-						"request": "crt.DeleteRecordsRequest",
-						"params": {
-							"dataSourceName": "GridDetail_ohtfy90DS",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					}
-				},
-				"parentName": "GridDetail_SchedulRefinance",
-				"propertyName": "bulkActions",
-				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -5225,16 +4989,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"isCollection": true,
 						"modelConfig": {
 							"path": "GridDetail_ohtfy90DS",
-							"filterAttributes": [
-								{
-									"name": "GridDetailSearchFilter_lu7odsr_GridDetail_ohtfy90",
-									"loadOnChange": true
-								},
-								{
-									"loadOnChange": true,
-									"name": "GridDetail_ohtfy90_PredefinedFilter"
-								}
-							]
+							"filterAttributes": []
 						},
 						"viewModelConfig": {
 							"attributes": {
@@ -5344,6 +5099,79 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"modelConfig": {
 							"path": "PDS.DfcLoanAppDfcLegacyLoan"
 						}
+					},
+					"DataGrid_xoft756": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "DataGrid_xoft756DS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"DataGrid_xoft756DS_DfcAmortizationNumber": {
+									"modelConfig": {
+										"path": "DataGrid_xoft756DS.DfcAmortizationNumber"
+									}
+								},
+								"DataGrid_xoft756DS_Id": {
+									"modelConfig": {
+										"path": "DataGrid_xoft756DS.Id"
+									}
+								}
+							}
+						}
+					},
+					"GridDetail_dourile": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_dourileDS",
+							"sortingConfig": {
+								"default": [
+									{
+										"direction": "asc",
+										"columnName": "DfcAmortizationAmount"
+									}
+								]
+							}
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_dourileDS_DfcAmortizationNumber": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.DfcAmortizationNumber"
+									}
+								},
+								"GridDetail_dourileDS_DfcAmortizationAmount": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.DfcAmortizationAmount"
+									}
+								},
+								"GridDetail_dourileDS_DfcAmortizationBeginningBalance": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.DfcAmortizationBeginningBalance"
+									}
+								},
+								"GridDetail_dourileDS_DfcAmortizationEndingBalance": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.DfcAmortizationEndingBalance"
+									}
+								},
+								"GridDetail_dourileDS_DfcCurrentDue": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.DfcCurrentDue"
+									}
+								},
+								"GridDetail_dourileDS_DfcAmortizationInterest": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.DfcAmortizationInterest"
+									}
+								},
+								"GridDetail_dourileDS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_dourileDS.Id"
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -5408,7 +5236,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								"relationPath": "PDS.Id"
 							}
 						],
-						"GridDetail_ohtfy90DS": [
+						"GridDetail_dourileDS": [
 							{
 								"attributePath": "DfcLegacyLoan",
 								"relationPath": "PDS.Id"
@@ -5767,6 +5595,45 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								},
 								"DfcAmortizationAmount": {
 									"path": "DfcAmortizationAmount"
+								}
+							}
+						}
+					},
+					"DataGrid_xoft756DS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcLoanAmortizationTable",
+							"attributes": {
+								"DfcAmortizationNumber": {
+									"path": "DfcAmortizationNumber"
+								}
+							}
+						}
+					},
+					"GridDetail_dourileDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcLoanAmortizationTable",
+							"attributes": {
+								"DfcAmortizationNumber": {
+									"path": "DfcAmortizationNumber"
+								},
+								"DfcAmortizationAmount": {
+									"path": "DfcAmortizationAmount"
+								},
+								"DfcAmortizationBeginningBalance": {
+									"path": "DfcAmortizationBeginningBalance"
+								},
+								"DfcAmortizationEndingBalance": {
+									"path": "DfcAmortizationEndingBalance"
+								},
+								"DfcCurrentDue": {
+									"path": "DfcCurrentDue"
+								},
+								"DfcAmortizationInterest": {
+									"path": "DfcAmortizationInterest"
 								}
 							}
 						}

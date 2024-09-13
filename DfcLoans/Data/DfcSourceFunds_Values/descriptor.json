@@ -1,0 +1,147 @@
+﻿{
+  "Descriptor": {
+    "UId": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+    "Name": "DfcSourceFunds_Values",
+    "ModifiedOnUtc": "\/Date(1726231075000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+      "Name": "DfcSourceFunds"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CreatedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ModifiedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcRemarks",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcCollateralRequirements",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcBarrowersContrib",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcStartUp",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcWorkingCapital",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcPurpose",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcUseFunds",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcRefinancing",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcInteresRateRange",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcMaxGracePeriod",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcMaxLoanTerm",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcMaxLoanSize",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcName",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcSubSector",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcProductSector",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcSector",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,585 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "2d7f1c72-587b-4910-a93b-63597706c7c6"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "Sugarcane Cultivation"
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "n/a"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "84 Months"
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "At least 10% of the Project Cost "
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1725894006271-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "EU "
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": "Sugarcane Cultivation"
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "n/a"
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "6%  (Fixed) "
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725893962043-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "As per Cane License Delivery "
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "12 Months"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "35a77660-46ac-48a5-b968-dd9ed81881b4"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": "Must be used in conjunction with IDB - 65% IDB 35% ICDF TWN"
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "AIC"
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "YES"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "36 months - Working Capital 180 Months - Productive"
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "20% minimum "
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "Yes - Once a No objection letter is obtained from IDB "
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1725893916266-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy\t\t\t\t\t\t"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "ICDF - TWN "
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": " MSME"
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "Yes"
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "As per the CRM IR"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725893819110-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "$2.000.000,00 "
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "12 months - Working Capital 48 Months - Productive "
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "3a48f341-ba7b-44d7-8bb0-ab96313cc483"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "Orange (Creative Arts), Blue (Marine) and Green Loans"
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "144 Months"
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "20% minimum "
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1725893912376-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy\t\t\t\t\t\t"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "CDF - 2"
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": "SME - Above $40k"
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "No "
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "8.5% (Fixed) "
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725893912376-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "$500,000 = Productive $300,000 REEE (Productive)"
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "24 Months"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "53915377-b054-4b86-ac71-49cba1b2b77d"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "To Pursue tertiary studies, technical, vocational certification "
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "n/a"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "180 Months"
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "100% Financing can be considered on deserving cases \t"
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1726230310581-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "CDB - SSLS Regular"
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": "To pursue tertiary studies, technical, vocational certification "
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "n/a"
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "As per the CRM IR"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725894044118-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "$90,000 Regular Courses $150,000 Law, Medicine, Architecture"
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "60 Months "
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8050e87d-737d-4351-8057-5a65c2dc8321"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "AIC"
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "Yes"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "180 Months "
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "20% minimum "
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1725893919137-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy\t\t\t\t\t\t"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "CDB - 8"
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": "MSME"
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "REEE - 6%"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725893774778-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "$300,000 - REEE (Mortgage/ Productive) $500,000 - Productive"
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "36 Months"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "8898ed4b-2ede-45ec-b8e2-24ba09fe5841"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "To pursue tertiary studies, technical, vocational certification "
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "n/a"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "180 Months"
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "100% Financing can be considered on deserving cases \t"
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "No"
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1726230404830-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "CDB - SSLS Special"
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": "To pursue tertiary studies, technical, vocational certification "
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "n/a"
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "6.5% (Fixed) "
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1726230342700-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "$40.000"
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "60 Months"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "efde04d5-b8f4-4ee7-8634-a4062163e6b0"
+        },
+        {
+          "SchemaColumnUId": "2c3cad92-e34a-07ff-3982-d52783f5c08b",
+          "Value": "Lend to WMSME"
+        },
+        {
+          "SchemaColumnUId": "581a8300-4057-27b0-deb8-6c12da0cd09b",
+          "Value": "AIC "
+        },
+        {
+          "SchemaColumnUId": "59fc4032-9b2e-7334-f8fb-8b8fd4bf3906",
+          "Value": "YES"
+        },
+        {
+          "SchemaColumnUId": "796fdc66-693d-b170-61c1-96a64993c12a",
+          "Value": "36 months - Working Capital 180 Months - Productive"
+        },
+        {
+          "SchemaColumnUId": "7a2edeea-9de7-1f85-3723-da03fb602e5e",
+          "Value": "20% minimum "
+        },
+        {
+          "SchemaColumnUId": "88c524a9-726d-65f9-67e1-0c9292cf23af",
+          "Value": "Yes - Once a No objection letter is obtained from IDB "
+        },
+        {
+          "SchemaColumnUId": "8ed132fa-5544-012f-bd76-29081357abd1",
+          "Value": "null",
+          "DisplayValue": "null"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1725893921772-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "a241d2d6-9a16-26bd-2694-7908eb2cdb04",
+          "Value": "As per the Collateral Policy\t\t\t\t\t\t"
+        },
+        {
+          "SchemaColumnUId": "a245978d-2677-4a14-fe7e-d1f8c9206ed2",
+          "Value": "IDB"
+        },
+        {
+          "SchemaColumnUId": "c6672383-53c0-e95c-f5df-fef5210d61c7",
+          "Value": " MSME"
+        },
+        {
+          "SchemaColumnUId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "d6afb1ad-0b1e-1eea-6d75-11b275e48927",
+          "Value": "Yes"
+        },
+        {
+          "SchemaColumnUId": "e0a9fd02-684f-a822-a662-878d987a5e5c",
+          "Value": "As per the CRM IR"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725892286651-0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e87a4303-20f8-4cc8-8c83-31cd988cc495",
+          "Value": "$2.000.000,00 "
+        },
+        {
+          "SchemaColumnUId": "f8f1667d-942f-843d-da83-a417f1a7f662",
+          "Value": "12 months - Working Capital,  48 Months - Productive "
+        }
+      ]
+    }
+  ]
+}
