@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "fe165328-7e49-45e6-bc04-ed1a8757404f",
     "Name": "DfcTransferAppToLoan",
-    "ModifiedOnUtc": "\/Date(1726229674000)\/",
+    "ModifiedOnUtc": "\/Date(1726257223000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Transfer Application to Loan",
     "DependsOn": []

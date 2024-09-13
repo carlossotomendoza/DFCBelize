@@ -62,6 +62,11 @@
         "UId": "b3a694fe-f6c8-2691-5a29-a6a51930b203",
         "PackageVersion": "7.8.0",
         "Name": "CrtEvent"
+      },
+      {
+        "UId": "e6ad7169-1c51-42ce-9db7-920baf58995f",
+        "PackageVersion": "1.0.0",
+        "Name": "GlbOpenPopupWindowUserTask"
       }
     ]
   }

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Escrow Info" />
+			<Item Name="Columns.DfcAmount.Caption" Value="Amount" />
+			<Item Name="Columns.DfcEndDate.Caption" Value="End Date" />
+			<Item Name="Columns.DfcEscrowItem.Caption" Value="Escrow Item" />
+			<Item Name="Columns.DfcLoanApp.Caption" Value="Loan Application" />
+			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
+			<Item Name="Columns.DfcStartDate.Caption" Value="Start Date" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>
