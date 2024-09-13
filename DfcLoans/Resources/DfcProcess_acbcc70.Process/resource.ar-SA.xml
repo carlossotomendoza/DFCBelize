@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ar-SA">
+	<Group Type="String">
+		<Items>
+git			<Item Name="Caption" Value="Test Calculating Payment" />
+		</Items>
+	</Group>
+</Resources>

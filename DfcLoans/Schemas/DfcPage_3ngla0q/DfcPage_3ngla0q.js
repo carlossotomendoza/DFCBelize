@@ -2,6 +2,46 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
+				"operation": "remove",
+				"name": "ContinueInOtherPageButton"
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_gxfcc7j",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
 				"operation": "insert",
 				"name": "Input_7rcksox",
 				"values": {
@@ -15,11 +55,42 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"multiline": false,
 					"label": "$Resources.Strings.DfcPaymentsDS_DfcPaymentNumber_zbo2rfw",
 					"labelPosition": "above",
-					"control": "$DfcPaymentsDS_DfcPaymentNumber_zbo2rfw"
+					"control": "$DfcPaymentsDS_DfcPaymentNumber_zbo2rfw",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
-				"parentName": "MainContainer",
+				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_9n70zjp",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcContact_0fi6p7l",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcContact_0fi6p7l",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -27,7 +98,7 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 2,
+						"row": 3,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -37,28 +108,15 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"control": "$DfcPaymentsDS_DfcLoan_3ig2a90",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
-				"parentName": "MainContainer",
+				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_ehwv2sv",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_ehwv2sv_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_43rrs4t",
-				"propertyName": "listActions",
-				"index": 0
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -66,7 +124,7 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 3,
+						"row": 4,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -76,48 +134,87 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"control": "$DfcPaymentsDS_DfcPeriod_4ugfrs0",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
-				"parentName": "MainContainer",
+				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
-				"name": "addRecord_pgh5wqp",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_pgh5wqp_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "ComboBox_w3dzt68",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DateTimePicker_y10rn34",
+				"name": "Checkbox_8fz3guf",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 4,
+						"row": 5,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.DateTimePicker",
-					"pickerType": "date",
-					"label": "$Resources.Strings.DfcPaymentsDS_DfcDate_mqvy7n7",
+					"type": "crt.Checkbox",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcPeriodDfcInArrear",
 					"labelPosition": "above",
-					"control": "$DfcPaymentsDS_DfcDate_mqvy7n7"
+					"control": "$DfcPaymentsDS_DfcPeriodDfcInArrear",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
-				"parentName": "MainContainer",
+				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_vfaaodi",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 6,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "#ResourceString(ComboBox_vfaaodi_label)#",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcArrear_5mdziqw",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "AmountArrear",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 7,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(AmountArrear_label)#",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcArrearDfcArrearAmount",
+					"readonly": true,
+					"visible": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -125,7 +222,7 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 5,
+						"row": 8,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -135,28 +232,35 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"control": "$DfcPaymentsDS_DfcPaymentType_0d63d9w",
 					"listActions": [],
 					"showValueAsLink": true,
-					"controlActions": []
+					"controlActions": [],
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
-				"parentName": "MainContainer",
+				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 4
+				"index": 7
 			},
 			{
 				"operation": "insert",
-				"name": "addRecord_k2k7244",
+				"name": "DateTimePicker_y10rn34",
 				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_k2k7244_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
+					"layoutConfig": {
+						"column": 1,
+						"row": 9,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.DateTimePicker",
+					"pickerType": "date",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcDate_mqvy7n7",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcDate_mqvy7n7"
 				},
-				"parentName": "ComboBox_xa7nf4p",
-				"propertyName": "listActions",
-				"index": 0
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 8
 			},
 			{
 				"operation": "insert",
@@ -164,7 +268,7 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 6,
+						"row": 10,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -173,9 +277,9 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"labelPosition": "above",
 					"control": "$DfcPaymentsDS_DfcAmount_5kf7ljd"
 				},
-				"parentName": "MainContainer",
+				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 5
+				"index": 9
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -214,6 +318,36 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"modelConfig": {
 							"path": "DfcPaymentsDS.DfcDate"
 						}
+					},
+					"DfcPaymentsDS_DfcArrear_5mdziqw": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcArrear"
+						}
+					},
+					"DfcPaymentsDS_DfcArrearDfcArrearAmount": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcArrearDfcArrearAmount"
+						}
+					},
+					"DfcPaymentsDS_DfcContact_639p4ih": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcContact"
+						}
+					},
+					"DfcPaymentsDS_DfcContact_0fi6p7l": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcContact"
+						}
+					},
+					"DfcPaymentsDS_DfcColumn9_as34jlt": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcColumn9"
+						}
+					},
+					"DfcPaymentsDS_DfcPeriodDfcInArrear": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcPeriodDfcInArrear"
+						}
 					}
 				}
 			}
@@ -228,7 +362,17 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 							"type": "crt.EntityDataSource",
 							"scope": "page",
 							"config": {
-								"entitySchemaName": "DfcPayments"
+								"entitySchemaName": "DfcPayments",
+								"attributes": {
+									"DfcArrearDfcArrearAmount": {
+										"path": "DfcArrear.DfcArrearAmount",
+										"type": "ForwardReference"
+									},
+									"DfcPeriodDfcInArrear": {
+										"path": "DfcPeriod.DfcInArrear",
+										"type": "ForwardReference"
+									}
+								}
 							}
 						}
 					},

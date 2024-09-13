@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "87f3b299-5b5a-440f-94d4-b609cd7c7dc8",
+    "Name": "DfcTypeOfLoans",
+    "ModifiedOnUtc": "\/Date(1726165374000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Type of Loans",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1aae6969-7cd2-4f2d-902e-0753c42712c3",
+    "Name": "DfcPage_3ngla0qBusinessRule",
+    "ModifiedOnUtc": "\/Date(1726084839000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Payments modal page (Business rules)",
+    "DependsOn": []
+  }
+}

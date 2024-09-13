@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
+    "Name": "DfcProcess_7932bc9",
+    "ModifiedOnUtc": "\/Date(1726082369000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate Balance",
+    "DependsOn": []
+  }
+}

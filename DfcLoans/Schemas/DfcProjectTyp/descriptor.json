@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a7be2bdb-068b-42a9-99e4-3c3c3434a9b3",
+    "Name": "DfcProjectTyp",
+    "ModifiedOnUtc": "\/Date(1726167227000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Project Type",
+    "DependsOn": []
+  }
+}
