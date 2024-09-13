@@ -2,8 +2,6 @@
 <Resources Culture="es-ES">
 	<Group Type="String">
 		<Items>
-<<<<<<< HEAD
-=======
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Considerar la hora en el filtro" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filtros de fuente de datos" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Objeto" />
@@ -28,7 +26,6 @@
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Resultado de función" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Número de registros leídos" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Tipo de resultado" />
->>>>>>> 120924carlos
 			<Item Name="Caption" Value="Transfer Application to Loan" />
 		</Items>
 	</Group>
