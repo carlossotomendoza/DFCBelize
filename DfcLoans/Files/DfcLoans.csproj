@@ -902,6 +902,7 @@
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRepaymentCycle/DfcRepaymentCycle.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRepaymentCycle/DfcRepaymentCycle.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRepaymentMethod/DfcRepaymentMethod.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRepaymentMethod/DfcRepaymentMethod.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRiskAssessment/DfcRiskAssessment.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRiskAssessment/DfcRiskAssessment.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRobustnessID/DfcRobustnessID.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcRobustnessID/DfcRobustnessID.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcSector/DfcSector.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcSector/DfcSector.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcSourceFunds/DfcSourceFunds.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcSourceFunds/DfcSourceFunds.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcSourceofFundsRisk/DfcSourceofFundsRisk.cs" Condition="Exists('$(RelativePkgFolderPath)/DfcLoans/Schemas/DfcSourceofFundsRisk/DfcSourceofFundsRisk.cs')" />

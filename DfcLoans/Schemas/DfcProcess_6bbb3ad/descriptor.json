@@ -4,6 +4,7 @@
     "Name": "DfcProcess_6bbb3ad",
     "ModifiedOnUtc": "\/Date(1726256633000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Confirm or reject new application Refinancing Loan"
+    "Caption": "Confirm or reject new application Refinancing Loan",
+    "DependsOn": []
   }
 }
