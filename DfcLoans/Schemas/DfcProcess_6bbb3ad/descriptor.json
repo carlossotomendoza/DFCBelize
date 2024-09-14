@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "6ca34348-0e50-4256-b465-c9ef0114400d",
     "Name": "DfcProcess_6bbb3ad",
-    "ModifiedOnUtc": "\/Date(1726228801000)\/",
+    "ModifiedOnUtc": "\/Date(1726256633000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Confirm or reject new application Refinancing Loan",
-    "DependsOn": []
+    "Caption": "Confirm or reject new application Refinancing Loan"
   }
 }

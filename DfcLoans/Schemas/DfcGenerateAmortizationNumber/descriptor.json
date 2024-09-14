@@ -1,18 +1,10 @@
 ﻿{
   "Descriptor": {
-<<<<<<< HEAD
-    "UId": "18eccb98-f0ee-402a-a1d2-b8f261fa5627",
-    "Name": "DfcGenerateAmortizationNumber",
-    "ModifiedOnUtc": "\/Date(1725478499000)\/",
-    "ManagerName": "ProcessUserTaskSchemaManager",
-    "Caption": "Generate Amortization Number",
-=======
     "UId": "0d2112bf-476a-4e1e-a9bc-5dd1e5c9c6ee",
     "Name": "DfcGenerateAmortizationNumber",
     "ModifiedOnUtc": "\/Date(1726147670000)\/",
     "ManagerName": "ProcessUserTaskSchemaManager",
     "Caption": "Generate Amortization Number\t",
->>>>>>> 120924carlos
     "DependsOn": []
   }
 }

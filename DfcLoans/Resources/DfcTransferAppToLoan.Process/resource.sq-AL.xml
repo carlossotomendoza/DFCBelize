@@ -2,8 +2,6 @@
 <Resources Culture="sq-AL">
 	<Group Type="String">
 		<Items>
-<<<<<<< HEAD
-=======
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Konsidero kohën në filtrim" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Filtrat e burimit të të dhënave" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Objekti" />
@@ -28,7 +26,6 @@
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Rezultati i funksionit (numër i plotë)" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Numri i të dhënave të lexuara" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Lloji i rezultatit" />
->>>>>>> 120924carlos
 			<Item Name="Caption" Value="Transfer Application to Loan" />
 		</Items>
 	</Group>

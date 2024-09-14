@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cf6dbdd8-4ddb-4803-835a-597fc38e8227",
+    "Name": "DfcEmploymentType",
+    "ModifiedOnUtc": "\/Date(1726240310000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Employment Type"
+  }
+}
