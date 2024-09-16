@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c284bf7f-6da2-449c-89f3-8d4a1e841d8e",
+    "Name": "DfcRiskMatrixRelatedPage",
+    "ModifiedOnUtc": "\/Date(1726487974000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Application Risk Matrix (Page settings)",
+    "DependsOn": []
+  }
+}

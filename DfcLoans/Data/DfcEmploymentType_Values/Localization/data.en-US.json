@@ -1,0 +1,61 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "16822fcc-5c19-4665-8c6b-bcf74c501210"
+        },
+        {
+          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+          "ColumnName": "Name",
+          "Value": "Employed by a high risk business:  DNFBP, Money Lenders, Pawn Shop, Cash Intensive Business (supermarket/gas station), Foreign exchange provider, PEP owned business and other foreign company operating outside of Belize."
+        },
+        {
+          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+          "ColumnName": "Description",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "211ed34b-6456-4fe7-bd14-68e2ec6396f1"
+        },
+        {
+          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+          "ColumnName": "Name",
+          "Value": "Self employed or employed by a low risk business such as local restaurant, tacos shop, police, soldiers, public servants, farmers, teachers, other small scale entrepenuers and public servants.  "
+        },
+        {
+          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+          "ColumnName": "Description",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "ColumnName": "Id",
+          "Value": "9d63fea0-6c9e-4fc8-87a7-90585d6877a4"
+        },
+        {
+          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+          "ColumnName": "Name",
+          "Value": "Employed by a medium to large scale business ( Domestic Banks, Credit Unions, Trading Company, Truck/freight Company, Tourist Company, Construction business, Hardware Company and any other medium to large scale company operating in Belize) "
+        },
+        {
+          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+          "ColumnName": "Description",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

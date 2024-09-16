@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="APPPLICATION RISK MATRIX" />
+			<Item Name="LocalizableStrings.addRecord_0iv7gf7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_429usi5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_73wrfh9_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_7hl70f2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_iwwaw1k_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_n7jmwhz_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_u9bkok1_caption.Value" Value="Add new" />
+		</Items>
+	</Group>
+</Resources>

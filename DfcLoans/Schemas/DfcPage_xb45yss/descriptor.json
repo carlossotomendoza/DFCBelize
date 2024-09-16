@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "a59ed6e0-d81b-4d4a-9658-1c87e7f48a1a",
+    "Name": "DfcPage_xb45yss",
+    "ModifiedOnUtc": "\/Date(1726487780000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "APPPLICATION RISK MATRIX"
+  }
+}

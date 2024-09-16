@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "aaf7114f-844f-4f50-b331-2b8975b9df6e",
+    "Name": "DfcApplicantStatus",
+    "ModifiedOnUtc": "\/Date(1726420353000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Applicant Status",
+    "DependsOn": []
+  }
+}

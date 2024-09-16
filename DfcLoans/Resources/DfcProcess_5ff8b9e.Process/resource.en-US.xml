@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask1.Caption" Value="Modify Total" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Caption" Value="Modify Result" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Value.7dcd583a-57b6-47f4-8324-b2c7d2378c98.displayValue" Value="MEDIUM" />
+			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Value.7dcd583a-57b6-47f4-8324-b2c7d2378c98.value" Value="MEDIUM" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Value.5acb6a78-43ba-4136-a5d9-ac64ca9d3b0a.displayValue" Value="LOW" />
+			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Value.5acb6a78-43ba-4136-a5d9-ac64ca9d3b0a.value" Value="LOW" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.RecordColumnValues.Value.ad4247d1-50c1-444b-ab94-e1fca468fab1.displayValue" Value="HIGH" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.RecordColumnValues.Value.ad4247d1-50c1-444b-ab94-e1fca468fab1.value" Value="HIGH" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Conditional flow 2" />
+			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="Conditional flow 3" />
+			<Item Name="BaseElements.ConditionalSequenceFlow4.Caption" Value="Conditional flow 4" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbPopupWindowText.Caption" Value="Popup window text" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbPopupWindowText.DisplayValue" Value="&quot;The risk value has been calculated correctly, its value is: &quot; + [#Read Risk 3.First item of resulting collection.Total#] + &quot; the result is: &quot; + [#Read Risk 3.First item of resulting collection.Result#]" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbUserToWhomShowWindow.Caption" Value="To whom should the window be shown?" />
+			<Item Name="BaseElements.GlbOpenPopupWindow1.Parameters.GlbUserToWhomShowWindow.DisplayValue" Value="[#System variable.Current user contact#]" />
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Read Risk Matrix" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="Read Robustness" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Caption" Value="Read Residence" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask4.Caption" Value="Read Empoyment" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask4.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask5.Caption" Value="Read Applicant" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask6.Caption" Value="Read Source of funds" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask7.Caption" Value="Read Loan Purpose" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask8.Caption" Value="Read Risk Again" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask8.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Caption" Value="Read Risk 3" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="Caption" Value="Calculate Risk" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.RecordId.Caption" Value="RecordId" />
+		</Items>
+	</Group>
+</Resources>

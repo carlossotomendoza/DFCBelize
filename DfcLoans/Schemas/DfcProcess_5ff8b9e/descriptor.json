@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2f241481-8e11-400e-81b2-a6ebc942e029",
+    "Name": "DfcProcess_5ff8b9e",
+    "ModifiedOnUtc": "\/Date(1726491883000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate Risk",
+    "DependsOn": []
+  }
+}

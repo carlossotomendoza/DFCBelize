@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "42fdf1fc-da08-4e05-8c62-dd63d577241e",
+    "Name": "DfcSourceFundsRisk",
+    "ModifiedOnUtc": "\/Date(1726420494000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Source of Funds or Source of Wealth",
+    "DependsOn": []
+  }
+}
