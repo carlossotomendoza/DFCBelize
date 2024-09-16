@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "01e2c06c-027b-4f79-98ac-e229dd1db69e",
+    "Name": "DfcPage_1bzbfy0",
+    "ModifiedOnUtc": "\/Date(1726252462000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Escrow Info modal page"
+  }
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.0c243a55-20ea-4324-d248-357a4bb87271.Caption" Value="Show elements: Integer" />
+			<Item Name="AddonConfig.Rules.cdd1c90c-88e5-f409-743b-8a0944ddd31a.Caption" Value="Show elements: Parameter value" />
+			<Item Name="AddonConfig.Rules.ddca8cb5-5fa9-b1b8-fd63-c513477d7773.Caption" Value="Show elements: Decimal" />
+			<Item Name="Caption" Value="Application parameters modal page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

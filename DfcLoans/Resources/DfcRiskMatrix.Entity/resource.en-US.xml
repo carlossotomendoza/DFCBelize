@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Application Risk Matrix" />
+			<Item Name="Columns.DfcApplicantResidence.Caption" Value="Applicant Residence" />
+			<Item Name="Columns.DfcApplicantStatus.Caption" Value="Applicant Status" />
+			<Item Name="Columns.DfcEmploymentType.Caption" Value="Employment Type" />
+			<Item Name="Columns.DfcLoanApplication.Caption" Value="Loan Application" />
+			<Item Name="Columns.DfcLoanPurpose.Caption" Value="Loan Purpose" />
+			<Item Name="Columns.DfcResult.Caption" Value="Result" />
+			<Item Name="Columns.DfcRobustnessId.Caption" Value="Robustness of Applicant ID" />
+			<Item Name="Columns.DfcSourceFundRisk.Caption" Value="Source of Funds and/or Source of Wealth" />
+			<Item Name="Columns.DfcTotal.Caption" Value="Total" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

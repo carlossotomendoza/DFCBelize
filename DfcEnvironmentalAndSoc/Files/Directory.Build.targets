@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Data/**" />
+		<Compile Remove="$(PkgPath)/DfcEnvironmentalAndSoc/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas\**" />
+		<Compile Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DfcEnvironmentalAndSoc/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Resources/**" />
+		<None Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Assemblies/**" />
+		<None Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Data/**" />
+		<None Remove="$(PkgPath)/DfcEnvironmentalAndSoc/SqlScripts/**" />
+		<None Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/**" />
+		<None Remove="$(PkgPath)/DfcEnvironmentalAndSoc/Resources/**" />
+  </ItemGroup>
+</Project>

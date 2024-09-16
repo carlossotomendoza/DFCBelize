@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "99717ff2-53db-42b8-b2cb-721790899c82",
+    "Name": "DfcRiskMatrix",
+    "ModifiedOnUtc": "\/Date(1726491958000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application Risk Matrix",
+    "DependsOn": []
+  }
+}

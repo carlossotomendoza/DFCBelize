@@ -21,15 +21,11 @@ namespace Terrasoft.Core.Process.Configuration
 		#region Methods: Protected
 
 		protected override bool InternalExecute(ProcessExecutingContext context) {
-			// IMPORTANT: When implementing long-running operations, it is crucial to
-			// enable timely and responsive cancellation. To achieve this, ensure that your code is designed to
-			// respond appropriately to cancellation requests using the context.CancellationToken mechanism.
-			// For more detailed information and examples, please, refer to our documentation.
-          string numeroTexto = DfcPeriodCount.ToString();
-          string numeroTextoResult = "A";
-          numeroTextoResult = numeroTextoResult + numeroTexto.PadLeft(5, '0');
-          DfcAmortizationNumberString = numeroTextoResult;
-          
+			string numeroTexto = DfcPeriodCount.ToString();
+            string numeroTextoResult = "A";
+            numeroTextoResult = numeroTextoResult + numeroTexto.PadLeft(5, '0');
+            DfcAmortizationNumberString = numeroTextoResult;
+          
 			return true;
 		}
 
@@ -60,4 +56,3 @@ namespace Terrasoft.Core.Process.Configuration
 	#endregion
 
 }
-

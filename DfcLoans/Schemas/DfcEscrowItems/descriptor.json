@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "87a6aecb-3f4b-4a18-b8b2-b6f08e5ed2a8",
+    "Name": "DfcEscrowItems",
+    "ModifiedOnUtc": "\/Date(1726250755000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Escrow Items",
+    "DependsOn": []
+  }
+}

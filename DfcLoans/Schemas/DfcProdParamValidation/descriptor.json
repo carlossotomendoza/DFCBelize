@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "01542fb5-69f4-4a22-bdd1-9040dbc16423",
+    "Name": "DfcProdParamValidation",
+    "ModifiedOnUtc": "\/Date(1726165074000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Validation of Application parameters"
+  }
+}

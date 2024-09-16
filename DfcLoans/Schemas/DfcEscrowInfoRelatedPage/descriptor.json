@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1731aa30-0304-47dd-bb73-a808fe7602e5",
+    "Name": "DfcEscrowInfoRelatedPage",
+    "ModifiedOnUtc": "\/Date(1726253067000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Escrow Info (Page settings)",
+    "DependsOn": []
+  }
+}

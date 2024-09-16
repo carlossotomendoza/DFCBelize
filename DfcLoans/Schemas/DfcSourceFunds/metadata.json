@@ -159,7 +159,45 @@
   "A5": "7b7ff455-6046-4024-999e-55c430316b6b",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","2c3cad92-e34a-07ff-3982-d52783f5c08b","a241d2d6-9a16-26bd-2694-7908eb2cdb04","7a2edeea-9de7-1f85-3723-da03fb602e5e","59fc4032-9b2e-7334-f8fb-8b8fd4bf3906","d6afb1ad-0b1e-1eea-6d75-11b275e48927","581a8300-4057-27b0-deb8-6c12da0cd09b","c6672383-53c0-e95c-f5df-fef5210d61c7","88c524a9-726d-65f9-67e1-0c9292cf23af","e0a9fd02-684f-a822-a662-878d987a5e5c","f8f1667d-942f-843d-da83-a417f1a7f662","796fdc66-693d-b170-61c1-96a64993c12a","e87a4303-20f8-4cc8-8c83-31cd988cc495","a245978d-2677-4a14-fe7e-d1f8c9206ed2"]
++ MetaData.Schema.D2 {
+  "UId": "cb8f89fa-7900-5117-daa2-b2b561ed289b",
+  "A2": "DfcSubSector",
+  "A3": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+  "A4": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+  "A5": "7b7ff455-6046-4024-999e-55c430316b6b",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "58ffee04-de15-499b-8426-b475befcbb82",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcSubSectorId",
+  "E18": "DfcSubSectorName"
+}
++ MetaData.Schema.D2 {
+  "UId": "8ed132fa-5544-012f-bd76-29081357abd1",
+  "A2": "DfcProductSector",
+  "A3": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+  "A4": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+  "A5": "7b7ff455-6046-4024-999e-55c430316b6b",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "1526a5b4-8b73-4c4e-8cae-22b8fd743977",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcProductSectorId"
+}
++ MetaData.Schema.D2 {
+  "UId": "9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b",
+  "A2": "DfcSector",
+  "A3": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+  "A4": "0e044173-0114-4a67-b28a-3002ef3eafc4",
+  "A5": "7b7ff455-6046-4024-999e-55c430316b6b",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "1c8c5364-19fb-42a6-8b8c-0b393f9eeb83",
+  "E6": true,
+  "E20": true,
+  "E17": "DfcSectorId",
+  "E18": "DfcSectorName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","2c3cad92-e34a-07ff-3982-d52783f5c08b","a241d2d6-9a16-26bd-2694-7908eb2cdb04","7a2edeea-9de7-1f85-3723-da03fb602e5e","59fc4032-9b2e-7334-f8fb-8b8fd4bf3906","d6afb1ad-0b1e-1eea-6d75-11b275e48927","581a8300-4057-27b0-deb8-6c12da0cd09b","c6672383-53c0-e95c-f5df-fef5210d61c7","88c524a9-726d-65f9-67e1-0c9292cf23af","e0a9fd02-684f-a822-a662-878d987a5e5c","f8f1667d-942f-843d-da83-a417f1a7f662","796fdc66-693d-b170-61c1-96a64993c12a","e87a4303-20f8-4cc8-8c83-31cd988cc495","a245978d-2677-4a14-fe7e-d1f8c9206ed2","cb8f89fa-7900-5117-daa2-b2b561ed289b","8ed132fa-5544-012f-bd76-29081357abd1","9d8f1da5-d7bb-dd6c-94b8-06ac6eb04c4b"]
 = MetaData.Schema.D20.A2 "DfcSourceFundsEvents"
 = MetaData.Schema.D36.A3 "0e044173-0114-4a67-b28a-3002ef3eafc4"
 = MetaData.Schema.D36.BS1 false

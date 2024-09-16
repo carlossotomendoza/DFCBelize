@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "57610bb7-3a39-4d69-a054-6f2d1abfad5e",
+    "Name": "DfcPage_AppParamValPopUp",
+    "ModifiedOnUtc": "\/Date(1726163773000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Application Parameter Validation pop up"
+  }
+}

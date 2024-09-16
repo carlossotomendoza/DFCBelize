@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "433e4e4e-0d95-442b-9392-c48cb3165cd6",
+    "Name": "DfcProjects",
+    "ModifiedOnUtc": "\/Date(1726509202000)\/",
+    "Parent": {
+      "UId": "8a8cbe00-f26a-4a65-af50-143ae8075c42",
+      "Name": "DfcProjects"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Projects",
+    "DependsOn": []
+  }
+}

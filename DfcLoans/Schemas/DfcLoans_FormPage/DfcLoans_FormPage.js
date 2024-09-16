@@ -1991,6 +1991,1079 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "TabContainer_EscrowAccounts",
+				"values": {
+					"type": "crt.TabContainer",
+					"items": [],
+					"caption": "#ResourceString(TabContainer_ap6fo3d_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
+				},
+				"parentName": "Tabs",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_an0ppdo",
+				"values": {
+					"type": "crt.GridContainer",
+					"items": [],
+					"rows": "minmax(32px, max-content)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					}
+				},
+				"parentName": "TabContainer_EscrowAccounts",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_q3a9m24",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_q3a9m24_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true
+				},
+				"parentName": "GridContainer_an0ppdo",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_lsdypq2",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_q3a9m24",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_h1ni8rz",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_lsdypq2",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_3eitl20",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_3eitl20_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "DfcEscrowInfo",
+							"defaultValues": [
+								{
+									"attributeName": "DfcLoanNo",
+									"value": "$DfcLoanNo"
+								},
+								{
+									"attributeName": "DfcLoanApp",
+									"value": "$DfcLoanApp"
+								}
+							]
+						}
+					},
+					"visible": true,
+					"clickMode": "default"
+				},
+				"parentName": "FlexContainer_h1ni8rz",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_4broj73",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_4broj73_caption)#",
+					"icon": "reload-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "GridDetail_3roxzy7DS"
+						}
+					}
+				},
+				"parentName": "FlexContainer_h1ni8rz",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_chz0mxl",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_chz0mxl_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_h1ni8rz",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_228isde",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_228isde_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "GridDetail_3roxzy7"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_chz0mxl",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_odl5vc2",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_odl5vc2_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest",
+						"params": {
+							"entitySchemaName": "DfcEscrowInfo"
+						}
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_chz0mxl",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_f45l30e",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_f45l30e_placeholder)#",
+					"iconOnly": true,
+					"targetAttributes": [
+						"GridDetail_3roxzy7"
+					]
+				},
+				"parentName": "FlexContainer_h1ni8rz",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_yun3p10",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_q3a9m24",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_3roxzy7",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false
+						}
+					},
+					"items": "$GridDetail_3roxzy7",
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "GridDetail_3roxzy7DS_Id",
+					"columns": [
+						{
+							"id": "01f2f721-9552-f20d-50c7-0d5183749cea",
+							"code": "GridDetail_3roxzy7DS_DfcEscrowItem",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_DfcEscrowItem)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "f0590328-1d7b-debd-03ea-0b59cc9e05b6",
+							"code": "GridDetail_3roxzy7DS_DfcAmount",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_DfcAmount)#",
+							"dataValueType": 6
+						},
+						{
+							"id": "72b71953-54f7-8c60-5169-1254330e9da8",
+							"code": "GridDetail_3roxzy7DS_DfcStartDate",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_DfcStartDate)#",
+							"dataValueType": 8
+						},
+						{
+							"id": "b2b4a9bc-fee5-26fd-92e6-c43e3e4338a8",
+							"code": "GridDetail_3roxzy7DS_DfcEndDate",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_DfcEndDate)#",
+							"dataValueType": 8
+						},
+						{
+							"id": "386b0c53-67b8-6593-948e-06e7b13e9e9a",
+							"code": "GridDetail_3roxzy7DS_CreatedBy",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_CreatedBy)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "495f174b-c22c-5a50-fb68-34c4d4de376d",
+							"code": "GridDetail_3roxzy7DS_CreatedOn",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_CreatedOn)#",
+							"dataValueType": 7
+						},
+						{
+							"id": "5627b834-1f15-044a-a528-3dea34f5adfa",
+							"code": "GridDetail_3roxzy7DS_ModifiedBy",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_ModifiedBy)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "50c64c1e-9cfa-636e-ebef-6cb1f77a8e5b",
+							"code": "GridDetail_3roxzy7DS_ModifiedOn",
+							"caption": "#ResourceString(GridDetail_3roxzy7DS_ModifiedOn)#",
+							"dataValueType": 7
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_yun3p10",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "TabContainer_nskx9ds",
+				"values": {
+					"type": "crt.TabContainer",
+					"items": [],
+					"caption": "#ResourceString(TabContainer_nskx9ds_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
+				},
+				"parentName": "Tabs",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_fe0ozex",
+				"values": {
+					"type": "crt.GridContainer",
+					"items": [],
+					"rows": "minmax(32px, max-content)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "TabContainer_nskx9ds",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_o2j9jqt",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "TabContainer_nskx9ds",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_w0xe4q7",
+				"values": {
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_w0xe4q7_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch",
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_o2j9jqt",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_xgnx2p4",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "#CBE8FA",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "ExpansionPanel_w0xe4q7",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_hdmn3dk",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "GridContainer_xgnx2p4",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Button_lm03qqx",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_lm03qqx_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text",
+					"visible": true,
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "DfcProcess_b8b54d2",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "RecordId"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "GridContainer_hdmn3dk",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Button_5e7dsmg",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_5e7dsmg_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "DfcProcess_80fae23",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "RecordId"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "GridContainer_hdmn3dk",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "Button_arxciqy",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_arxciqy_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "disk-warn-button-icon",
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "DfcSchedulePayment_3b86a37",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "ProcessSchemaParameter1"
+						}
+					},
+					"clickMode": "default",
+					"layoutConfig": {
+						"column": 3,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_hdmn3dk",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_0u1pwpr",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": [],
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "ExpansionPanel_w0xe4q7",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_kyuqu66",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": [],
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch",
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DfcOutstandingPrincipal",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(DfcOutstandingPrincipal_label)#",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcOutstandingPrincipal_kvrpiqy",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_kyuqu66",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DfcTotalToPaySim",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcTotalToPaySim_bvtovwh",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcTotalToPaySim_bvtovwh"
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DfcPaymentFrecuencySim",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "#ResourceString(DfcPaymentFrecuencySim_label)#",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcColumn57_239hyzt",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_748ppqw",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_9cx5x3r_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "DfcPaymentFrecuencySim",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DfcInstallmentSim",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(DfcInstallmentSim_label)#",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInstallmentSim_2d4nkpx",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "DfcPeriodSim",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcPeriodSim_v4ten77",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcPeriodSim_v4ten77"
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "DfcAssosExpSim",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcAssosExpSim_yq8zzy1",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcAssosExpSim_yq8zzy1"
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "DfcInterestRateSim",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcInterestRateSim_gw96i04",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcInterestRateSim_gw96i04"
+				},
+				"parentName": "GridContainer_0u1pwpr",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_1vrkmur",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_1vrkmur_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"fitContent": true,
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "GridContainer_o2j9jqt",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_o8ec6dk",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_1vrkmur",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_98yv1ar",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_o8ec6dk",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_562389j",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"visible": true,
+					"color": "#CBE8FA",
+					"borderRadius": "medium",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"justifyContent": "start",
+					"wrap": "wrap"
+				},
+				"parentName": "FlexContainer_98yv1ar",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Button_35xf714",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_35xf714_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "message-composer-checkmark",
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "DfcProcess_6bbb3ad",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "RecordId"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "FlexContainer_562389j",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_h53ooac",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_1vrkmur",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetail_dourile",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						}
+					},
+					"items": "$GridDetail_dourile",
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "GridDetail_dourileDS_Id",
+					"columns": [
+						{
+							"id": "ded63d21-c371-10de-8993-89c24131a0e8",
+							"code": "GridDetail_dourileDS_DfcAmortizationNumber",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationNumber)#",
+							"dataValueType": 27,
+							"width": 177
+						},
+						{
+							"id": "f6b21c45-9583-910b-b98d-c9b1d321b79b",
+							"code": "GridDetail_dourileDS_DfcAmortizationAmount",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationAmount)#",
+							"dataValueType": 6,
+							"width": 155
+						},
+						{
+							"id": "03f6130b-568a-2781-3298-bd9736e19f1a",
+							"code": "GridDetail_dourileDS_DfcAmortizationBeginningBalance",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationBeginningBalance)#",
+							"dataValueType": 6
+						},
+						{
+							"id": "323ffb51-d9a0-9ed4-1fbc-fd5fb7304de7",
+							"code": "GridDetail_dourileDS_DfcAmortizationEndingBalance",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationEndingBalance)#",
+							"dataValueType": 6
+						},
+						{
+							"id": "ca93209e-53f1-fe56-0535-2d9e0a7bf9be",
+							"code": "GridDetail_dourileDS_DfcCurrentDue",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcCurrentDue)#",
+							"dataValueType": 12
+						},
+						{
+							"id": "c349f652-8363-2e9b-3311-349b2d6b479e",
+							"code": "GridDetail_dourileDS_DfcAmortizationInterest",
+							"caption": "#ResourceString(GridDetail_dourileDS_DfcAmortizationInterest)#",
+							"dataValueType": 6
+						}
+					],
+					"placeholder": false
+				},
+				"parentName": "GridContainer_h53ooac",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "TabContainer_Amortization",
 				"values": {
 					"type": "crt.TabContainer",
@@ -2001,7 +3074,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 1
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -2176,246 +3249,6 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "TabContainer_if3viac",
-				"values": {
-					"type": "crt.TabContainer",
-					"items": [],
-					"caption": "#ResourceString(TabContainer_if3viac_caption)#",
-					"iconPosition": "only-text",
-					"visible": true
-				},
-				"parentName": "Tabs",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "ExpansionPanel_748ppqw",
-				"values": {
-					"type": "crt.ExpansionPanel",
-					"tools": [],
-					"items": [],
-					"title": "#ResourceString(ExpansionPanel_748ppqw_title)#",
-					"toggleType": "default",
-					"togglePosition": "before",
-					"expanded": true,
-					"labelColor": "auto",
-					"fullWidthHeader": false,
-					"titleWidth": 20,
-					"padding": {
-						"top": "small",
-						"bottom": "small",
-						"left": "none",
-						"right": "none"
-					},
-					"fitContent": true
-				},
-				"parentName": "TabContainer_if3viac",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_99ywn3x",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 24px)",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": []
-				},
-				"parentName": "ExpansionPanel_748ppqw",
-				"propertyName": "tools",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "FlexContainer_dgihi9a",
-				"values": {
-					"type": "crt.FlexContainer",
-					"direction": "row",
-					"gap": "none",
-					"alignItems": "center",
-					"items": [],
-					"layoutConfig": {
-						"colSpan": 1,
-						"column": 1,
-						"row": 1,
-						"rowSpan": 1
-					}
-				},
-				"parentName": "GridContainer_99ywn3x",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSettingsBtn_ji47x74",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailSettingsBtn_ji47x74_caption)#",
-					"icon": "actions-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clickMode": "menu",
-					"menuItems": [],
-					"visible": true
-				},
-				"parentName": "FlexContainer_dgihi9a",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailExportDataBtn_ofoz4is",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailExportDataBtn_ofoz4is_caption)#",
-					"icon": "export-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "GridDetail_5lui0rj"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_ji47x74",
-				"propertyName": "menuItems",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailRefreshBtn_hhvpexv",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailRefreshBtn_hhvpexv_caption)#",
-					"icon": "reload-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.LoadDataRequest",
-						"params": {
-							"config": {
-								"loadType": "reload"
-							},
-							"dataSourceName": "GridDetail_5lui0rjDS"
-						}
-					}
-				},
-				"parentName": "FlexContainer_dgihi9a",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_ehl0cbx",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 32px)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": []
-				},
-				"parentName": "ExpansionPanel_748ppqw",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_5lui0rj",
-				"values": {
-					"type": "crt.DataGrid",
-					"layoutConfig": {
-						"colSpan": 2,
-						"column": 1,
-						"row": 1,
-						"rowSpan": 6
-					},
-					"features": {
-						"rows": {
-							"selection": false
-						},
-						"editable": {
-							"enable": false,
-							"itemsCreation": false
-						}
-					},
-					"items": "$GridDetail_5lui0rj",
-					"visible": true,
-					"fitContent": true,
-					"primaryColumnName": "GridDetail_5lui0rjDS_Id",
-					"columns": [
-						{
-							"id": "a1c92853-65bb-7208-c47e-e43ebb2bf1cb",
-							"code": "GridDetail_5lui0rjDS_BankAccountNumber",
-							"caption": "#ResourceString(GridDetail_5lui0rjDS_BankAccountNumber)#",
-							"dataValueType": 27,
-							"width": 179
-						},
-						{
-							"id": "4a0aa66e-6444-3ce1-f8ba-b1d9d10f2bd7",
-							"code": "GridDetail_5lui0rjDS_Type",
-							"caption": "#ResourceString(GridDetail_5lui0rjDS_Type)#",
-							"dataValueType": 10,
-							"width": 114
-						},
-						{
-							"id": "97ef4ada-25b2-6550-ba14-1fa54e34d948",
-							"code": "GridDetail_5lui0rjDS_Status",
-							"caption": "#ResourceString(GridDetail_5lui0rjDS_Status)#",
-							"dataValueType": 10,
-							"width": 114
-						},
-						{
-							"id": "5391f28f-b6ff-3ff9-b790-ceed782b6dfa",
-							"code": "GridDetail_5lui0rjDS_Balance",
-							"caption": "#ResourceString(GridDetail_5lui0rjDS_Balance)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "c24b0ac5-424e-88b4-aca1-44b5412c8a4f",
-							"code": "GridDetail_5lui0rjDS_DfcEscrowAmountPayment",
-							"caption": "#ResourceString(GridDetail_5lui0rjDS_DfcEscrowAmountPayment)#",
-							"dataValueType": 6,
-							"width": 217
-						},
-						{
-							"id": "075821b2-c760-9ae6-2a51-a23efc7f6053",
-							"code": "GridDetail_5lui0rjDS_DfcYearlyEscrowAmount",
-							"caption": "#ResourceString(GridDetail_5lui0rjDS_DfcYearlyEscrowAmount)#",
-							"dataValueType": 6,
-							"width": 196
-						}
-					],
-					"placeholder": false
-				},
-				"parentName": "GridContainer_ehl0cbx",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "TabContainer_Collateral",
 				"values": {
 					"type": "crt.TabContainer",
@@ -2426,7 +3259,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -3151,6 +3984,191 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "TabContainer_Payments",
+				"values": {
+					"type": "crt.TabContainer",
+					"items": [],
+					"caption": "#ResourceString(TabContainer_60ju3uw_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
+				},
+				"parentName": "Tabs",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_lksad8k",
+				"values": {
+					"type": "crt.GridContainer",
+					"items": [],
+					"rows": "minmax(32px, max-content)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					}
+				},
+				"parentName": "TabContainer_Payments",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_Payments",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.DataGrid",
+					"features": {
+						"rows": {
+							"selection": false
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false
+						}
+					},
+					"items": "$DataGrid_13xfjxc",
+					"activeRow": "$DataGrid_13xfjxc_ActiveRow",
+					"selectionState": "$DataGrid_13xfjxc_SelectionState",
+					"_selectionOptions": {
+						"attribute": "DataGrid_13xfjxc_SelectionState"
+					},
+					"visible": true,
+					"fitContent": true,
+					"primaryColumnName": "DataGrid_13xfjxcDS_Id",
+					"columns": [
+						{
+							"id": "0fcb2b6d-17f4-bff1-6d07-edab58eb0dc9",
+							"code": "DataGrid_13xfjxcDS_DfcPaymentNumber",
+							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcPaymentNumber)#",
+							"dataValueType": 28
+						},
+						{
+							"id": "7f54dc8a-dde2-45ba-13a1-b83975754741",
+							"code": "DataGrid_13xfjxcDS_DfcDate",
+							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcDate)#",
+							"dataValueType": 8
+						},
+						{
+							"id": "be549c4d-ca91-c78d-3abc-25780e8cd0ec",
+							"code": "DataGrid_13xfjxcDS_DfcAmount",
+							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcAmount)#",
+							"dataValueType": 6
+						},
+						{
+							"id": "5bbc9765-5cce-55a3-2b90-d6616032303b",
+							"code": "DataGrid_13xfjxcDS_DfcCurrentPayment",
+							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcCurrentPayment)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "3414e65f-4b34-1b18-16fa-131605918bd9",
+							"code": "DataGrid_13xfjxcDS_DfcPaymentType",
+							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcPaymentType)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "fdda425f-8411-82c9-3e6a-ae9088ae3aeb",
+							"code": "DataGrid_13xfjxcDS_DfcPeriod",
+							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcPeriod)#",
+							"dataValueType": 10
+						}
+					],
+					"placeholder": false,
+					"bulkActions": []
+				},
+				"parentName": "GridContainer_lksad8k",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_13xfjxc_AddTagsBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Add tag",
+					"icon": "tag-icon",
+					"clicked": {
+						"request": "crt.AddTagsInRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_13xfjxcDS",
+							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
+						}
+					},
+					"items": []
+				},
+				"parentName": "DataGrid_Payments",
+				"propertyName": "bulkActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_13xfjxc_RemoveTagsBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Remove tag",
+					"icon": "delete-button-icon",
+					"clicked": {
+						"request": "crt.RemoveTagsInRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_13xfjxcDS",
+							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_13xfjxc_AddTagsBulkAction",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_13xfjxc_ExportToExcelBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Export to Excel",
+					"icon": "export-button-icon",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest",
+						"params": {
+							"viewName": "DataGrid_13xfjxc",
+							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_Payments",
+				"propertyName": "bulkActions",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_13xfjxc_DeleteBulkAction",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "Delete",
+					"icon": "delete-button-icon",
+					"clicked": {
+						"request": "crt.DeleteRecordsRequest",
+						"params": {
+							"dataSourceName": "DataGrid_13xfjxcDS",
+							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
+						}
+					}
+				},
+				"parentName": "DataGrid_Payments",
+				"propertyName": "bulkActions",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "TabContainer_Arrears",
 				"values": {
 					"type": "crt.TabContainer",
@@ -3161,7 +4179,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 4
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -3351,191 +4369,6 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "TabContainer_Payments",
-				"values": {
-					"type": "crt.TabContainer",
-					"items": [],
-					"caption": "#ResourceString(TabContainer_60ju3uw_caption)#",
-					"iconPosition": "only-text",
-					"visible": true
-				},
-				"parentName": "Tabs",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_lksad8k",
-				"values": {
-					"type": "crt.GridContainer",
-					"items": [],
-					"rows": "minmax(32px, max-content)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					}
-				},
-				"parentName": "TabContainer_Payments",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DataGrid_Payments",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 2,
-						"rowSpan": 1
-					},
-					"type": "crt.DataGrid",
-					"features": {
-						"rows": {
-							"selection": false
-						},
-						"editable": {
-							"enable": false,
-							"itemsCreation": false
-						}
-					},
-					"items": "$DataGrid_13xfjxc",
-					"activeRow": "$DataGrid_13xfjxc_ActiveRow",
-					"selectionState": "$DataGrid_13xfjxc_SelectionState",
-					"_selectionOptions": {
-						"attribute": "DataGrid_13xfjxc_SelectionState"
-					},
-					"visible": true,
-					"fitContent": true,
-					"primaryColumnName": "DataGrid_13xfjxcDS_Id",
-					"columns": [
-						{
-							"id": "0fcb2b6d-17f4-bff1-6d07-edab58eb0dc9",
-							"code": "DataGrid_13xfjxcDS_DfcPaymentNumber",
-							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcPaymentNumber)#",
-							"dataValueType": 28
-						},
-						{
-							"id": "7f54dc8a-dde2-45ba-13a1-b83975754741",
-							"code": "DataGrid_13xfjxcDS_DfcDate",
-							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcDate)#",
-							"dataValueType": 8
-						},
-						{
-							"id": "be549c4d-ca91-c78d-3abc-25780e8cd0ec",
-							"code": "DataGrid_13xfjxcDS_DfcAmount",
-							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcAmount)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "5bbc9765-5cce-55a3-2b90-d6616032303b",
-							"code": "DataGrid_13xfjxcDS_DfcCurrentPayment",
-							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcCurrentPayment)#",
-							"dataValueType": 10
-						},
-						{
-							"id": "3414e65f-4b34-1b18-16fa-131605918bd9",
-							"code": "DataGrid_13xfjxcDS_DfcPaymentType",
-							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcPaymentType)#",
-							"dataValueType": 10
-						},
-						{
-							"id": "fdda425f-8411-82c9-3e6a-ae9088ae3aeb",
-							"code": "DataGrid_13xfjxcDS_DfcPeriod",
-							"caption": "#ResourceString(DataGrid_13xfjxcDS_DfcPeriod)#",
-							"dataValueType": 10
-						}
-					],
-					"placeholder": false,
-					"bulkActions": []
-				},
-				"parentName": "GridContainer_lksad8k",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DataGrid_13xfjxc_AddTagsBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Add tag",
-					"icon": "tag-icon",
-					"clicked": {
-						"request": "crt.AddTagsInRecordsRequest",
-						"params": {
-							"dataSourceName": "DataGrid_13xfjxcDS",
-							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
-						}
-					},
-					"items": []
-				},
-				"parentName": "DataGrid_Payments",
-				"propertyName": "bulkActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DataGrid_13xfjxc_RemoveTagsBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Remove tag",
-					"icon": "delete-button-icon",
-					"clicked": {
-						"request": "crt.RemoveTagsInRecordsRequest",
-						"params": {
-							"dataSourceName": "DataGrid_13xfjxcDS",
-							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
-						}
-					}
-				},
-				"parentName": "DataGrid_13xfjxc_AddTagsBulkAction",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DataGrid_13xfjxc_ExportToExcelBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Export to Excel",
-					"icon": "export-button-icon",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "DataGrid_13xfjxc",
-							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
-						}
-					}
-				},
-				"parentName": "DataGrid_Payments",
-				"propertyName": "bulkActions",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "DataGrid_13xfjxc_DeleteBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Delete",
-					"icon": "delete-button-icon",
-					"clicked": {
-						"request": "crt.DeleteRecordsRequest",
-						"params": {
-							"dataSourceName": "DataGrid_13xfjxcDS",
-							"filters": "$DataGrid_13xfjxc | crt.ToCollectionFilters : 'DataGrid_13xfjxc' : $DataGrid_13xfjxc_SelectionState | crt.SkipIfSelectionEmpty : $DataGrid_13xfjxc_SelectionState"
-						}
-					}
-				},
-				"parentName": "DataGrid_Payments",
-				"propertyName": "bulkActions",
-				"index": 2
-			},
-			{
-				"operation": "insert",
 				"name": "TabContainer_ni7dz6e",
 				"values": {
 					"type": "crt.TabContainer",
@@ -3546,7 +4379,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "Tabs",
 				"propertyName": "items",
-				"index": 6
+				"index": 7
 			},
 			{
 				"operation": "insert",
@@ -3816,972 +4649,6 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GridContainer_ylwt734",
 				"propertyName": "items",
 				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "TabContainer_nskx9ds",
-				"values": {
-					"type": "crt.TabContainer",
-					"items": [],
-					"caption": "#ResourceString(TabContainer_nskx9ds_caption)#",
-					"iconPosition": "only-text",
-					"visible": true
-				},
-				"parentName": "Tabs",
-				"propertyName": "items",
-				"index": 7
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_fe0ozex",
-				"values": {
-					"type": "crt.GridContainer",
-					"items": [],
-					"rows": "minmax(32px, max-content)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"visible": true,
-					"color": "transparent",
-					"borderRadius": "none",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"alignItems": "stretch"
-				},
-				"parentName": "TabContainer_nskx9ds",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_o2j9jqt",
-				"values": {
-					"type": "crt.GridContainer",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"rows": "minmax(max-content, 32px)",
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"items": [],
-					"fitContent": true,
-					"padding": {
-						"top": "medium",
-						"right": "large",
-						"bottom": "medium",
-						"left": "large"
-					},
-					"color": "primary",
-					"borderRadius": "medium",
-					"visible": true,
-					"alignItems": "stretch"
-				},
-				"parentName": "TabContainer_nskx9ds",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "ExpansionPanel_w0xe4q7",
-				"values": {
-					"type": "crt.ExpansionPanel",
-					"tools": [],
-					"items": [],
-					"title": "#ResourceString(ExpansionPanel_w0xe4q7_title)#",
-					"toggleType": "default",
-					"togglePosition": "before",
-					"expanded": true,
-					"labelColor": "auto",
-					"fullWidthHeader": false,
-					"titleWidth": 20,
-					"padding": {
-						"top": "small",
-						"bottom": "small",
-						"left": "none",
-						"right": "none"
-					},
-					"fitContent": true,
-					"visible": true,
-					"alignItems": "stretch",
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					}
-				},
-				"parentName": "GridContainer_o2j9jqt",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_xgnx2p4",
-				"values": {
-					"type": "crt.GridContainer",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"rows": "minmax(max-content, 32px)",
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"items": [],
-					"fitContent": true,
-					"padding": {
-						"top": "medium",
-						"right": "large",
-						"bottom": "medium",
-						"left": "large"
-					},
-					"color": "#CBE8FA",
-					"borderRadius": "medium",
-					"visible": true,
-					"alignItems": "stretch"
-				},
-				"parentName": "ExpansionPanel_w0xe4q7",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_hdmn3dk",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.GridContainer",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"rows": "minmax(max-content, 32px)",
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"items": [],
-					"fitContent": true,
-					"visible": true,
-					"color": "transparent",
-					"borderRadius": "none",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"alignItems": "stretch"
-				},
-				"parentName": "GridContainer_xgnx2p4",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "Button_lm03qqx",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(Button_lm03qqx_caption)#",
-					"color": "accent",
-					"disabled": false,
-					"size": "large",
-					"iconPosition": "only-text",
-					"visible": true,
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"clicked": {
-						"request": "crt.RunBusinessProcessRequest",
-						"params": {
-							"processName": "DfcProcess_b8b54d2",
-							"processRunType": "ForTheSelectedPage",
-							"showNotification": true,
-							"recordIdProcessParameterName": "RecordId"
-						}
-					},
-					"clickMode": "default"
-				},
-				"parentName": "GridContainer_hdmn3dk",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "Button_5e7dsmg",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.Button",
-					"caption": "#ResourceString(Button_5e7dsmg_caption)#",
-					"color": "accent",
-					"disabled": false,
-					"size": "large",
-					"iconPosition": "only-text",
-					"visible": true,
-					"clicked": {
-						"request": "crt.RunBusinessProcessRequest",
-						"params": {
-							"processName": "DfcProcess_80fae23",
-							"processRunType": "ForTheSelectedPage",
-							"showNotification": true,
-							"recordIdProcessParameterName": "RecordId"
-						}
-					},
-					"clickMode": "default"
-				},
-				"parentName": "GridContainer_hdmn3dk",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "Button_arxciqy",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(Button_arxciqy_caption)#",
-					"color": "primary",
-					"disabled": false,
-					"size": "large",
-					"iconPosition": "left-icon",
-					"visible": true,
-					"icon": "disk-warn-button-icon",
-					"clicked": {
-						"request": "crt.RunBusinessProcessRequest",
-						"params": {
-							"processName": "DfcSchedulePayment_3b86a37",
-							"processRunType": "ForTheSelectedPage",
-							"showNotification": true,
-							"recordIdProcessParameterName": "ProcessSchemaParameter1"
-						}
-					},
-					"clickMode": "default",
-					"layoutConfig": {
-						"column": 3,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					}
-				},
-				"parentName": "GridContainer_hdmn3dk",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_0u1pwpr",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 32px)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": [],
-					"visible": true,
-					"color": "transparent",
-					"borderRadius": "none",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"alignItems": "stretch"
-				},
-				"parentName": "ExpansionPanel_w0xe4q7",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_kyuqu66",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 24px)",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": [],
-					"visible": true,
-					"color": "transparent",
-					"borderRadius": "none",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"alignItems": "stretch",
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					}
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DfcOutstandingPrincipal",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "#ResourceString(DfcOutstandingPrincipal_label)#",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcOutstandingPrincipal_kvrpiqy",
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
-				},
-				"parentName": "GridContainer_kyuqu66",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DfcTotalToPaySim",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 1,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcTotalToPaySim_bvtovwh",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcTotalToPaySim_bvtovwh"
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "DfcPaymentFrecuencySim",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 2,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.ComboBox",
-					"label": "#ResourceString(DfcPaymentFrecuencySim_label)#",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcColumn57_239hyzt",
-					"listActions": [],
-					"showValueAsLink": true,
-					"controlActions": [],
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": "",
-					"valueDetails": null
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_9cx5x3r",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_9cx5x3r_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "DfcPaymentFrecuencySim",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "DfcPeriodSim",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcPeriodSim_v4ten77",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcPeriodSim_v4ten77"
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "DfcInstallmentSim",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 2,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "#ResourceString(DfcInstallmentSim_label)#",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcInstallmentSim_2d4nkpx",
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": ""
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "DfcInterestRateSim",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 4,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcInterestRateSim_gw96i04",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcInterestRateSim_gw96i04"
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "DfcAssosExpSim",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcAssosExpSim_yq8zzy1",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcAssosExpSim_yq8zzy1"
-				},
-				"parentName": "GridContainer_0u1pwpr",
-				"propertyName": "items",
-				"index": 6
-			},
-			{
-				"operation": "insert",
-				"name": "ExpansionPanel_d4zt3ud",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 2,
-						"colSpan": 1,
-						"rowSpan": 2
-					},
-					"type": "crt.ExpansionPanel",
-					"tools": [],
-					"items": [],
-					"title": "#ResourceString(ExpansionPanel_d4zt3ud_title)#",
-					"toggleType": "default",
-					"togglePosition": "before",
-					"expanded": true,
-					"labelColor": "auto",
-					"fullWidthHeader": false,
-					"titleWidth": 20,
-					"padding": {
-						"top": "small",
-						"bottom": "small",
-						"left": "none",
-						"right": "none"
-					},
-					"fitContent": true,
-					"visible": true,
-					"alignItems": "stretch"
-				},
-				"parentName": "GridContainer_o2j9jqt",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_nu0ueam",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 24px)",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": []
-				},
-				"parentName": "ExpansionPanel_d4zt3ud",
-				"propertyName": "tools",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "FlexContainer_nreug2u",
-				"values": {
-					"type": "crt.FlexContainer",
-					"direction": "row",
-					"gap": "none",
-					"alignItems": "center",
-					"items": [],
-					"layoutConfig": {
-						"colSpan": 1,
-						"column": 1,
-						"row": 1,
-						"rowSpan": 1
-					}
-				},
-				"parentName": "GridContainer_nu0ueam",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailRefreshBtn_tyko4fk",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailRefreshBtn_tyko4fk_caption)#",
-					"icon": "reload-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.LoadDataRequest",
-						"params": {
-							"config": {
-								"loadType": "reload"
-							},
-							"dataSourceName": "GridDetail_ohtfy90DS"
-						}
-					}
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSettingsBtn_vfzxdpm",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(GridDetailSettingsBtn_vfzxdpm_caption)#",
-					"icon": "actions-button-icon",
-					"iconPosition": "only-icon",
-					"color": "default",
-					"size": "medium",
-					"clickMode": "menu",
-					"menuItems": []
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailExportDataBtn_ovdiook",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailExportDataBtn_ovdiook_caption)#",
-					"icon": "export-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "GridDetail_SchedulRefinance"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_vfzxdpm",
-				"propertyName": "menuItems",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailImportDataBtn_yit4hpc",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "#ResourceString(GridDetailImportDataBtn_yit4hpc_caption)#",
-					"icon": "import-button-icon",
-					"color": "default",
-					"size": "medium",
-					"clicked": {
-						"request": "crt.ImportDataRequest",
-						"params": {
-							"entitySchemaName": "DfcLoanAmortizationTable"
-						}
-					}
-				},
-				"parentName": "GridDetailSettingsBtn_vfzxdpm",
-				"propertyName": "menuItems",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetailSearchFilter_lu7odsr",
-				"values": {
-					"type": "crt.SearchFilter",
-					"placeholder": "#ResourceString(GridDetailSearchFilter_lu7odsr_placeholder)#",
-					"iconOnly": true,
-					"targetAttributes": [
-						"GridDetail_ohtfy90"
-					]
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_x1ox1qi",
-				"values": {
-					"type": "crt.GridContainer",
-					"columns": [
-						"minmax(32px, 1fr)"
-					],
-					"rows": "minmax(max-content, 32px)",
-					"gap": {
-						"columnGap": "large",
-						"rowGap": "none"
-					},
-					"items": [],
-					"fitContent": true,
-					"visible": true,
-					"color": "transparent",
-					"borderRadius": "none",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"alignItems": "stretch"
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "FlexContainer_562389j",
-				"values": {
-					"type": "crt.FlexContainer",
-					"direction": "row",
-					"gap": "none",
-					"alignItems": "center",
-					"items": [],
-					"visible": true,
-					"color": "#CBE8FA",
-					"borderRadius": "medium",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "none"
-					},
-					"justifyContent": "start",
-					"wrap": "wrap"
-				},
-				"parentName": "FlexContainer_nreug2u",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "Button_35xf714",
-				"values": {
-					"type": "crt.Button",
-					"caption": "#ResourceString(Button_35xf714_caption)#",
-					"color": "default",
-					"disabled": false,
-					"size": "large",
-					"iconPosition": "left-icon",
-					"visible": true,
-					"icon": "message-composer-checkmark",
-					"clicked": {
-						"request": "crt.RunBusinessProcessRequest",
-						"params": {
-							"processName": "DfcProcess_6bbb3ad",
-							"processRunType": "ForTheSelectedPage",
-							"showNotification": true,
-							"recordIdProcessParameterName": "RecordId"
-						}
-					},
-					"clickMode": "default"
-				},
-				"parentName": "FlexContainer_562389j",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridContainer_wvrd4ig",
-				"values": {
-					"type": "crt.GridContainer",
-					"rows": "minmax(max-content, 32px)",
-					"columns": [
-						"minmax(32px, 1fr)",
-						"minmax(32px, 1fr)"
-					],
-					"gap": {
-						"columnGap": "large",
-						"rowGap": 0
-					},
-					"styles": {
-						"overflow-x": "hidden"
-					},
-					"items": []
-				},
-				"parentName": "ExpansionPanel_d4zt3ud",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_SchedulRefinance",
-				"values": {
-					"type": "crt.DataGrid",
-					"layoutConfig": {
-						"colSpan": 2,
-						"column": 1,
-						"row": 1,
-						"rowSpan": 6
-					},
-					"features": {
-						"rows": {
-							"selection": {
-								"enable": true,
-								"multiple": true
-							}
-						},
-						"editable": {
-							"enable": false,
-							"itemsCreation": false
-						}
-					},
-					"items": "$GridDetail_ohtfy90",
-					"visible": true,
-					"fitContent": true,
-					"primaryColumnName": "GridDetail_ohtfy90DS_Id",
-					"columns": [
-						{
-							"id": "a22418cd-e562-b2ad-d10f-6c91c5d1a4ef",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationNumber",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationNumber)#",
-							"dataValueType": 27,
-							"width": 174
-						},
-						{
-							"id": "3c9d426d-825d-1c25-ec51-67fe4d0c44b4",
-							"code": "GridDetail_ohtfy90DS_DfcPeriodNumber",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcPeriodNumber)#",
-							"dataValueType": 4
-						},
-						{
-							"id": "ff8cc4f0-6543-5956-f5cb-b26748f935c4",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationEndingBalance",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationEndingBalance)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "58f68245-e9b5-d49e-3107-f0193f0eab17",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationBeginningBalance",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationBeginningBalance)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "20f97612-d99d-6c5d-e46a-2ccab86bae39",
-							"code": "GridDetail_ohtfy90DS_DfcCurrentDue",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcCurrentDue)#",
-							"dataValueType": 12
-						},
-						{
-							"id": "4ee491ec-1656-7ddd-0edd-2a38002ec9c4",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationInterest",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationInterest)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "a0fd0bed-766c-1592-d800-e4bb20370391",
-							"code": "GridDetail_ohtfy90DS_DfcPaid",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcPaid)#",
-							"dataValueType": 12
-						},
-						{
-							"id": "13fe7637-6e6d-419e-048c-bc2239cf33f7",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationPrincipal",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationPrincipal)#",
-							"dataValueType": 6
-						},
-						{
-							"id": "562a665c-7a8d-284a-da0f-025d87b93821",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationDate",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationDate)#",
-							"dataValueType": 8
-						},
-						{
-							"id": "c0a4823a-9ce3-4ebc-1761-bc9ccef18eea",
-							"code": "GridDetail_ohtfy90DS_DfcAmortizationAmount",
-							"caption": "#ResourceString(GridDetail_ohtfy90DS_DfcAmortizationAmount)#",
-							"dataValueType": 6
-						}
-					],
-					"placeholder": false,
-					"activeRow": "$GridDetail_ohtfy90_ActiveRow",
-					"selectionState": "$GridDetail_ohtfy90_SelectionState",
-					"_selectionOptions": {
-						"attribute": "GridDetail_ohtfy90_SelectionState"
-					},
-					"bulkActions": []
-				},
-				"parentName": "GridContainer_wvrd4ig",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_AddTagsBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Add tag",
-					"icon": "tag-icon",
-					"clicked": {
-						"request": "crt.AddTagsInRecordsRequest",
-						"params": {
-							"dataSourceName": "GridDetail_ohtfy90DS",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					},
-					"items": []
-				},
-				"parentName": "GridDetail_SchedulRefinance",
-				"propertyName": "bulkActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_RemoveTagsBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Remove tag",
-					"icon": "delete-button-icon",
-					"clicked": {
-						"request": "crt.RemoveTagsInRecordsRequest",
-						"params": {
-							"dataSourceName": "GridDetail_ohtfy90DS",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					}
-				},
-				"parentName": "GridDetail_ohtfy90_AddTagsBulkAction",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_ExportToExcelBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Export to Excel",
-					"icon": "export-button-icon",
-					"clicked": {
-						"request": "crt.ExportDataGridToExcelRequest",
-						"params": {
-							"viewName": "GridDetail_ohtfy90",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					}
-				},
-				"parentName": "GridDetail_SchedulRefinance",
-				"propertyName": "bulkActions",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "GridDetail_ohtfy90_DeleteBulkAction",
-				"values": {
-					"type": "crt.MenuItem",
-					"caption": "Delete",
-					"icon": "delete-button-icon",
-					"clicked": {
-						"request": "crt.DeleteRecordsRequest",
-						"params": {
-							"dataSourceName": "GridDetail_ohtfy90DS",
-							"filters": "$GridDetail_ohtfy90 | crt.ToCollectionFilters : 'GridDetail_ohtfy90' : $GridDetail_ohtfy90_SelectionState | crt.SkipIfSelectionEmpty : $GridDetail_ohtfy90_SelectionState"
-						}
-					}
-				},
-				"parentName": "GridDetail_SchedulRefinance",
-				"propertyName": "bulkActions",
-				"index": 2
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -5558,16 +5425,7 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"isCollection": true,
 						"modelConfig": {
 							"path": "GridDetail_ohtfy90DS",
-							"filterAttributes": [
-								{
-									"name": "GridDetailSearchFilter_lu7odsr_GridDetail_ohtfy90",
-									"loadOnChange": true
-								},
-								{
-									"loadOnChange": true,
-									"name": "GridDetail_ohtfy90_PredefinedFilter"
-								}
-							]
+							"filterAttributes": []
 						},
 						"viewModelConfig": {
 							"attributes": {
@@ -5678,72 +5536,137 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"path": "PDS.DfcLoanAppDfcLegacyLoan"
 						}
 					},
-					"PDS_DfcLoanPaymentFrecuency_0a8653c": {
-						"modelConfig": {
-							"path": "PDS.DfcLoanPaymentFrecuency"
-						}
-					},
-					"GridDetail_5lui0rj": {
+					"DataGrid_xoft756": {
 						"isCollection": true,
 						"modelConfig": {
-							"path": "GridDetail_5lui0rjDS",
+							"path": "DataGrid_xoft756DS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"DataGrid_xoft756DS_DfcAmortizationNumber": {
+									"modelConfig": {
+										"path": "DataGrid_xoft756DS.DfcAmortizationNumber"
+									}
+								},
+								"DataGrid_xoft756DS_Id": {
+									"modelConfig": {
+										"path": "DataGrid_xoft756DS.Id"
+									}
+								}
+							}
+						}
+					},
+					"GridDetail_dourile": {
+						"isCollection": true,
+						"modelConfig": {
+							"path": "GridDetail_dourileDS",
 							"sortingConfig": {
 								"default": [
 									{
 										"direction": "asc",
-										"columnName": "Type"
+										"columnName": "DfcAmortizationAmount"
 									}
 								]
 							}
 						},
 						"viewModelConfig": {
 							"attributes": {
-								"GridDetail_5lui0rjDS_BankAccountNumber": {
+								"GridDetail_dourileDS_DfcAmortizationNumber": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.BankAccountNumber"
+										"path": "GridDetail_dourileDS.DfcAmortizationNumber"
 									}
 								},
-								"GridDetail_5lui0rjDS_Type": {
+								"GridDetail_dourileDS_DfcAmortizationAmount": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.Type"
+										"path": "GridDetail_dourileDS.DfcAmortizationAmount"
 									}
 								},
-								"GridDetail_5lui0rjDS_Status": {
+								"GridDetail_dourileDS_DfcAmortizationBeginningBalance": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.Status"
+										"path": "GridDetail_dourileDS.DfcAmortizationBeginningBalance"
 									}
 								},
-								"GridDetail_5lui0rjDS_Balance": {
+								"GridDetail_dourileDS_DfcAmortizationEndingBalance": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.Balance"
+										"path": "GridDetail_dourileDS.DfcAmortizationEndingBalance"
 									}
 								},
-								"GridDetail_5lui0rjDS_DfcEscrowAmountPayment": {
+								"GridDetail_dourileDS_DfcCurrentDue": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.DfcEscrowAmountPayment"
+										"path": "GridDetail_dourileDS.DfcCurrentDue"
 									}
 								},
-								"GridDetail_5lui0rjDS_DfcYearlyEscrowAmount": {
+								"GridDetail_dourileDS_DfcAmortizationInterest": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.DfcYearlyEscrowAmount"
+										"path": "GridDetail_dourileDS.DfcAmortizationInterest"
 									}
 								},
-								"GridDetail_5lui0rjDS_Id": {
+								"GridDetail_dourileDS_Id": {
 									"modelConfig": {
-										"path": "GridDetail_5lui0rjDS.Id"
+										"path": "GridDetail_dourileDS.Id"
 									}
 								}
 							}
 						}
 					},
-					"PDS_DfcTotalPeriodPayment_00gpqp9": {
+					"GridDetail_3roxzy7": {
+						"isCollection": true,
 						"modelConfig": {
-							"path": "PDS.DfcTotalPeriodPayment"
+							"path": "GridDetail_3roxzy7DS"
+						},
+						"viewModelConfig": {
+							"attributes": {
+								"GridDetail_3roxzy7DS_DfcEscrowItem": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.DfcEscrowItem"
+									}
+								},
+								"GridDetail_3roxzy7DS_DfcAmount": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.DfcAmount"
+									}
+								},
+								"GridDetail_3roxzy7DS_DfcStartDate": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.DfcStartDate"
+									}
+								},
+								"GridDetail_3roxzy7DS_DfcEndDate": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.DfcEndDate"
+									}
+								},
+								"GridDetail_3roxzy7DS_CreatedBy": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.CreatedBy"
+									}
+								},
+								"GridDetail_3roxzy7DS_CreatedOn": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.CreatedOn"
+									}
+								},
+								"GridDetail_3roxzy7DS_ModifiedBy": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.ModifiedBy"
+									}
+								},
+								"GridDetail_3roxzy7DS_ModifiedOn": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.ModifiedOn"
+									}
+								},
+								"GridDetail_3roxzy7DS_Id": {
+									"modelConfig": {
+										"path": "GridDetail_3roxzy7DS.Id"
+									}
+								}
+							}
 						}
 					},
-					"PDS_DfcTotalEscrowPayment_zzior2x": {
+					"DfcLoanApp": {
 						"modelConfig": {
-							"path": "PDS.DfcTotalEscrowPayment"
+							"path": "PDS.DfcLoanApp"
 						}
 					}
 				}
@@ -5809,15 +5732,15 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 								"relationPath": "PDS.Id"
 							}
 						],
-						"GridDetail_ohtfy90DS": [
+						"GridDetail_dourileDS": [
 							{
 								"attributePath": "DfcLegacyLoan",
 								"relationPath": "PDS.Id"
 							}
 						],
-						"GridDetail_5lui0rjDS": [
+						"GridDetail_3roxzy7DS": [
 							{
-								"attributePath": "DfcAssociatedLoan",
+								"attributePath": "DfcLoanNo",
 								"relationPath": "PDS.Id"
 							}
 						]
@@ -6174,29 +6097,74 @@ define("DfcLoans_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							}
 						}
 					},
-					"GridDetail_5lui0rjDS": {
+					"DataGrid_xoft756DS": {
 						"type": "crt.EntityDataSource",
 						"scope": "viewElement",
 						"config": {
-							"entitySchemaName": "BankAccount",
+							"entitySchemaName": "DfcLoanAmortizationTable",
 							"attributes": {
-								"BankAccountNumber": {
-									"path": "BankAccountNumber"
+								"DfcAmortizationNumber": {
+									"path": "DfcAmortizationNumber"
+								}
+							}
+						}
+					},
+					"GridDetail_dourileDS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcLoanAmortizationTable",
+							"attributes": {
+								"DfcAmortizationNumber": {
+									"path": "DfcAmortizationNumber"
 								},
-								"Type": {
-									"path": "Type"
+								"DfcAmortizationAmount": {
+									"path": "DfcAmortizationAmount"
 								},
-								"Status": {
-									"path": "Status"
+								"DfcAmortizationBeginningBalance": {
+									"path": "DfcAmortizationBeginningBalance"
 								},
-								"Balance": {
-									"path": "Balance"
+								"DfcAmortizationEndingBalance": {
+									"path": "DfcAmortizationEndingBalance"
 								},
-								"DfcEscrowAmountPayment": {
-									"path": "DfcEscrowAmountPayment"
+								"DfcCurrentDue": {
+									"path": "DfcCurrentDue"
 								},
-								"DfcYearlyEscrowAmount": {
-									"path": "DfcYearlyEscrowAmount"
+								"DfcAmortizationInterest": {
+									"path": "DfcAmortizationInterest"
+								}
+							}
+						}
+					},
+					"GridDetail_3roxzy7DS": {
+						"type": "crt.EntityDataSource",
+						"scope": "viewElement",
+						"config": {
+							"entitySchemaName": "DfcEscrowInfo",
+							"attributes": {
+								"DfcEscrowItem": {
+									"path": "DfcEscrowItem"
+								},
+								"DfcAmount": {
+									"path": "DfcAmount"
+								},
+								"DfcStartDate": {
+									"path": "DfcStartDate"
+								},
+								"DfcEndDate": {
+									"path": "DfcEndDate"
+								},
+								"CreatedBy": {
+									"path": "CreatedBy"
+								},
+								"CreatedOn": {
+									"path": "CreatedOn"
+								},
+								"ModifiedBy": {
+									"path": "ModifiedBy"
+								},
+								"ModifiedOn": {
+									"path": "ModifiedOn"
 								}
 							}
 						}

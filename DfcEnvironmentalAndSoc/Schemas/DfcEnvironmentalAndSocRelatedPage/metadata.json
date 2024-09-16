@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "5f524ec0-3e32-4b72-a0fc-0950ff4da4e8",
+      "A2": "DfcEnvironmentalAndSocRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "8a8cbe00-f26a-4a65-af50-143ae8075c42",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "9d369241-893f-4aa6-bdd6-27451372989c",
+            "PageSchemaUId": "130beeb0-fb4a-40f6-89a9-db0c80887e55",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

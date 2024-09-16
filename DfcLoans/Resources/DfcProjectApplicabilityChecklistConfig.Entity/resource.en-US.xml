@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Project Applicability Checklist Configuration" />
+			<Item Name="Columns.DfcESSApplicabilityName.Caption" Value="ESS Applicability Name" />
+			<Item Name="Columns.DfcIFCPSDescription.Caption" Value="IFC PS Description" />
+			<Item Name="Columns.DfcIFCPSNumber.Caption" Value="IFC Performance Standards No" />
+			<Item Name="Columns.DfcIFCPSNumber.Description" Value="IFC Performance Standards No" />
+			<Item Name="Columns.DfcIFCQuestion.Caption" Value="IFC PS Question" />
+			<Item Name="Columns.DfcIFCQuestion.Description" Value="IFC PS Question" />
+			<Item Name="Columns.DfcOtherApplicableESS.Caption" Value="Other applicable ESS if answer is &quot;Yes&quot;" />
+			<Item Name="Columns.DfcOtherApplicableESS.Description" Value="Other applicable ESS if answer is &quot;Yes&quot;" />
+			<Item Name="Description" Value="Project Applicability Checklist Configuration" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

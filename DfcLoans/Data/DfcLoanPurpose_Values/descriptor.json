@@ -1,0 +1,70 @@
+﻿{
+  "Descriptor": {
+    "UId": "1fe30665-56de-48e3-894c-d19bd7c1d785",
+    "Name": "DfcLoanPurpose_Values",
+    "ModifiedOnUtc": "\/Date(1726487296000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "1fe30665-56de-48e3-894c-d19bd7c1d785",
+      "Name": "DfcLoanPurpose"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CreatedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ModifiedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "5ca35f10-a101-4c67-a96a-383da6afacfc"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "b916542d-cade-2d0e-f20e-bf4a0807154f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcWeight",
+        "DataTypeValueUId": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+      },
+      {
+        "ColumnUId": "5ce8c748-62a3-2bc1-8564-3b46523dfc93",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcRisk",
+        "DataTypeValueUId": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+      },
+      {
+        "ColumnUId": "53854c74-3874-be35-7bf3-19617ed16743",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "DfcValue",
+        "DataTypeValueUId": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+      }
+    ]
+  }
+}
