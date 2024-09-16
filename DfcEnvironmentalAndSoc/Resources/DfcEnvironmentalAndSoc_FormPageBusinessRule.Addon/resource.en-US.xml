@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.5ac10111-2f8c-6a84-5e59-b9df6ba5c7a4.Caption" Value="Hide elements: ActionButtonsContainer" />
+			<Item Name="Caption" Value="Environmental and Social Management System form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5f524ec0-3e32-4b72-a0fc-0950ff4da4e8",
+    "Name": "DfcEnvironmentalAndSocRelatedPage",
+    "ModifiedOnUtc": "\/Date(1726495679000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Environmental and Social Management System (Page settings)",
+    "DependsOn": []
+  }
+}

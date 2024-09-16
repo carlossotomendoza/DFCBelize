@@ -5,6 +5,8 @@
 			<Item Name="Caption" Value="Projects" />
 			<Item Name="Columns.DfcProjectAddress.Caption" Value="Project Address" />
 			<Item Name="Columns.DfcProjectAddress.Description" Value="Project Address" />
+			<Item Name="Columns.DfcProjectApplication.Caption" Value="Project Application" />
+			<Item Name="Columns.DfcProjectApplication.Description" Value="Project Application" />
 			<Item Name="Columns.DfcProjectAssociatedFacilities.Caption" Value="Associated facilities in and outside project area" />
 			<Item Name="Columns.DfcProjectAssociatedFacilities.Description" Value="Associated facilities in and outside project area" />
 			<Item Name="Columns.DfcProjectBorrowerAge.Caption" Value="Project Borrower Age" />

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "fcedb9ec-daa8-4e2b-9c03-59ee5327e713",
+    "Name": "DfcProcess_8270a1e",
+    "ModifiedOnUtc": "\/Date(1726513039000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Copy Exclusion List Collection - Subprocess",
+    "DependsOn": []
+  }
+}

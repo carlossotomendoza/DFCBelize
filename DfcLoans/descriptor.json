@@ -3,7 +3,8 @@
     "UId": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
     "Name": "DfcLoans",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1724434194000)\/",
+    "InstallBehavior": 1,
+    "ModifiedOnUtc": "\/Date(1726230037000)\/",
     "Maintainer": "Customer",
     "ProjectPath": "Files/DfcLoans.csproj",
     "DependsOn": [

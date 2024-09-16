@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9fb3fd33-188b-40ba-bafb-a6c674b44b82",
+    "Name": "DfcEnvironmentalAndSoc_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1726510142000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Environmental and Social Management System form page (Business rules)",
+    "DependsOn": []
+  }
+}

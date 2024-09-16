@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.DfcColumn1.Caption" Value="IFC PS 1" />
+			<Item Name="Columns.DfcColumn1.Description" Value="IFC PS 1" />
+			<Item Name="Columns.DfcColumn2.Caption" Value="IFC PS 2" />
+			<Item Name="Columns.DfcColumn2.Description" Value="IFC PS 2" />
+			<Item Name="Columns.DfcColumn3.Caption" Value="IFC PS 3" />
+			<Item Name="Columns.DfcColumn3.Description" Value="IFC PS 3" />
+			<Item Name="Columns.DfcColumn4.Caption" Value="IFC PS 4" />
+			<Item Name="Columns.DfcColumn4.Description" Value="IFC PS 4" />
+			<Item Name="Columns.DfcColumn5.Caption" Value="IFC PS 5" />
+			<Item Name="Columns.DfcColumn5.Description" Value="IFC PS 5" />
+			<Item Name="Columns.DfcColumn6.Caption" Value="IFC PS 6" />
+			<Item Name="Columns.DfcColumn6.Description" Value="IFC PS 6" />
+			<Item Name="Columns.DfcColumn7.Caption" Value="IFC PS 7" />
+			<Item Name="Columns.DfcColumn7.Description" Value="IFC PS 7" />
+			<Item Name="Columns.DfcColumn8.Caption" Value="IFC PS 8" />
+			<Item Name="Columns.DfcColumn8.Description" Value="IFC PS 8" />
+			<Item Name="Columns.DfcColumn9.Caption" Value="Project Excluded" />
+			<Item Name="Columns.DfcColumn9.Description" Value="Project Excluded" />
+		</Items>
+	</Group>
+</Resources>
