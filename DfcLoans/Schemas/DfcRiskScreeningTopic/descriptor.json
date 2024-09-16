@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2517ac52-7b1f-44cc-ac59-1a7951a755a0",
+    "Name": "DfcRiskScreeningTopic",
+    "ModifiedOnUtc": "\/Date(1726251373000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Risk Screening Topic",
+    "DependsOn": []
+  }
+}

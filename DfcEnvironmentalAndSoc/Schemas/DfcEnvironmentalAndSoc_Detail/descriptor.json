@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e33adf1a-6aea-4aca-b395-9dde634eefd4",
+    "Name": "DfcEnvironmentalAndSoc_Detail",
+    "ModifiedOnUtc": "\/Date(1726495679000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Environmental and Social Management System detail",
+    "DependsOn": []
+  }
+}

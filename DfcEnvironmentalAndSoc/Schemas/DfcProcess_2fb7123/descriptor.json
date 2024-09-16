@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b89e047a-9ba2-4a42-af91-0ca68973edb9",
+    "Name": "DfcProcess_2fb7123",
+    "ModifiedOnUtc": "\/Date(1726505554000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Load Exclusion List Configuration",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "562b9896-4290-4731-9ba9-e4fd7ceedb2c",
+    "Name": "DfcEnvironmentalAndSoc_ListPage",
+    "ModifiedOnUtc": "\/Date(1726495679000)\/",
+    "Parent": {
+      "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
+      "Name": "ListPageV2Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Environmental and Social Management System list page",
+    "DependsOn": []
+  }
+}

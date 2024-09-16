@@ -209,3 +209,5 @@ bld/
 *.pidb
 *.svclog
 *.scc
+*.dll
+*.csproj

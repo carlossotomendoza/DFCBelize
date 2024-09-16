@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4a31e138-999a-45ae-a795-cdb4ba669e79",
+    "Name": "DfcRiskScreeningConfig",
+    "ModifiedOnUtc": "\/Date(1726253826000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Risk Screening Config",
+    "DependsOn": []
+  }
+}

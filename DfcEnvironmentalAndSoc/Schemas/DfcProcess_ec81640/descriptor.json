@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b337127e-d603-4556-aca2-fdd471fb30d1",
+    "Name": "DfcProcess_ec81640",
+    "ModifiedOnUtc": "\/Date(1726514204000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Copy Applicability List Collection - Subprocess",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c9210d93-3b34-40e3-881b-62e86232d691",
+    "Name": "DfcProcess_8c3ae58",
+    "ModifiedOnUtc": "\/Date(1726513135000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Load Project Configuration",
+    "DependsOn": []
+  }
+}

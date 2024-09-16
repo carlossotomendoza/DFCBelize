@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b6e4973a-31a1-4266-b38c-6668e04c3755",
+    "Name": "DfcProjectApplicabilityChecklist",
+    "ModifiedOnUtc": "\/Date(1726511519000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Project Applicability Checklist",
+    "DependsOn": []
+  }
+}

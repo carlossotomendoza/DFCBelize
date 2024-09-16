@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Environmental and Social Management System form page" />
+			<Item Name="LocalizableStrings.addRecord_1a0d4tw_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_1n64od8_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_8a4qm6x_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_a99q3ds_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_j65o6v6_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ogwoes8_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_tu5l675_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_zmbzcb7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Label_1ere3c5_caption.Value" Value=" Land Acquisition and Involuntary Resettlement" />
+			<Item Name="LocalizableStrings.Label_3t54jvo_caption.Value" Value="Assessment and Environmental and Social Risks and Impacts" />
+			<Item Name="LocalizableStrings.Label_5ftvkbi_caption.Value" Value=" Resource Efficiency and Pollution Prevention" />
+			<Item Name="LocalizableStrings.Label_anaghzu_caption.Value" Value="Labour and working conditions" />
+			<Item Name="LocalizableStrings.Label_d2jtdzf_caption.Value" Value="Indigenous Peoples" />
+			<Item Name="LocalizableStrings.Label_dpblbl5_caption.Value" Value="Cultural Heritage" />
+			<Item Name="LocalizableStrings.Label_p2wkgv5_caption.Value" Value=" Biodiversity Conservation and Sustainable Management of Living Natural Resources" />
+			<Item Name="LocalizableStrings.Label_v9s4txa_caption.Value" Value="Community Health, Safety and Security" />
+			<Item Name="LocalizableStrings.TabContainer_2jctbjc_caption.Value" Value="IFC PS 5" />
+			<Item Name="LocalizableStrings.TabContainer_60bkder_caption.Value" Value="ESS APPPLICABILITY CHECKLIST" />
+			<Item Name="LocalizableStrings.TabContainer_b54srzz_caption.Value" Value="E&amp;S Risk Categorization" />
+			<Item Name="LocalizableStrings.TabContainer_dlxn0q1_caption.Value" Value="IFC PS 8" />
+			<Item Name="LocalizableStrings.TabContainer_e7fts3y_caption.Value" Value="RISK Screening" />
+			<Item Name="LocalizableStrings.TabContainer_e9jolo6_caption.Value" Value="IFC PS 2" />
+			<Item Name="LocalizableStrings.TabContainer_fe8bt9w_caption.Value" Value="IFC PS 1" />
+			<Item Name="LocalizableStrings.TabContainer_ng7veca_caption.Value" Value="IFC PS 6" />
+			<Item Name="LocalizableStrings.TabContainer_pu6m2si_caption.Value" Value="DFC EXCLUSION LIST" />
+			<Item Name="LocalizableStrings.TabContainer_tqqmuwy_caption.Value" Value="IFC PS 7" />
+			<Item Name="LocalizableStrings.TabContainer_v01b5qk_caption.Value" Value="IFC PS 3" />
+			<Item Name="LocalizableStrings.TabContainer_x5n2zxp_caption.Value" Value="IFC PS 4" />
+		</Items>
+	</Group>
+</Resources>

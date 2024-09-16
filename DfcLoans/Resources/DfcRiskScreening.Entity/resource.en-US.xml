@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Risk Screening" />
+			<Item Name="Columns.DfcIfYesAddRemark.Caption" Value="If yes, Add remarks as needed" />
+			<Item Name="Columns.DfcIfYesAddRemark.Description" Value="If yes, Add remarks as needed" />
+			<Item Name="Columns.DfcRiskScreeningAnswer.Caption" Value="Answer" />
+			<Item Name="Columns.DfcRiskScreeningAnswer.Description" Value="Answer" />
+			<Item Name="Columns.DfcRiskScreeningName.Caption" Value="Risk Screening Name" />
+			<Item Name="Columns.DfcRiskScreeningName.Description" Value="Risk Screening Name" />
+			<Item Name="Columns.DfcRiskScreeningProject.Caption" Value="Risk Screening Project" />
+			<Item Name="Columns.DfcRiskScreeningProject.Description" Value="Risk Screening Project" />
+			<Item Name="Columns.DfcRiskScreeningQuestion.Caption" Value="Risk Screening Question" />
+			<Item Name="Columns.DfcRiskScreeningQuestion.Description" Value="Risk Screening Question" />
+			<Item Name="Columns.DfcRiskScreeningSector.Caption" Value="Risk Screening Sector" />
+			<Item Name="Columns.DfcRiskScreeningSector.Description" Value="Risk Screening Sector" />
+			<Item Name="Columns.DfcRiskScreeningTopic.Caption" Value="Risk Screening Topic" />
+			<Item Name="Columns.DfcRiskScreeningTopic.Description" Value="Risk Screening Topic" />
+			<Item Name="Description" Value="Risk Screening" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>
