@@ -35,6 +35,7 @@
 			<Item Name="Columns.DfcLoanLastInterest.Caption" Value="Last Interest" />
 			<Item Name="Columns.DfcLoanNo.Caption" Value="Loan Number" />
 			<Item Name="Columns.DfcLoanOutstandingPrincipal.Caption" Value="Outstanding Principal" />
+			<Item Name="Columns.DfcLoanPaymentFrecuency.Caption" Value="Payment Frecuency" />
 			<Item Name="Columns.DfcLoanRecoveryStatusDt.Caption" Value="Loan Recovery Status Date" />
 			<Item Name="Columns.DfcLoanStatus.Caption" Value="Loan Status" />
 			<Item Name="Columns.DfcLoanTimesRescheduled.Caption" Value="Times Rescheduled" />
@@ -58,6 +59,8 @@
 			<Item Name="Columns.DfcReservePrice.Caption" Value="Reserve Price" />
 			<Item Name="Columns.DfcTerm.Caption" Value="Term" />
 			<Item Name="Columns.DfcTotalBal.Caption" Value="Total Balance" />
+			<Item Name="Columns.DfcTotalEscrowPayment.Caption" Value="Total Escrow Payment" />
+			<Item Name="Columns.DfcTotalPeriodPayment.Caption" Value="Total Period Payment" />
 			<Item Name="Columns.DfcTotalToPaySim.Caption" Value="Total amount to pay" />
 			<Item Name="Columns.DfcTotWriteOffBal.Caption" Value="Total WriteOff Balance" />
 			<Item Name="Columns.DfcWriteoffDate.Caption" Value="Write-off Date" />

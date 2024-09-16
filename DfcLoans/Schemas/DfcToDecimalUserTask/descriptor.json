@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f5a34d60-afa7-4585-8b02-ff42a7dd22c2",
+    "Name": "DfcToDecimalUserTask",
+    "ModifiedOnUtc": "\/Date(1726241928000)\/",
+    "ManagerName": "ProcessUserTaskSchemaManager",
+    "Caption": "To Decimal User Task",
+    "DependsOn": []
+  }
+}

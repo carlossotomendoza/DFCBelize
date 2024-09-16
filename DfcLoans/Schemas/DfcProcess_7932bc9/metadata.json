@@ -624,7 +624,7 @@
           "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
           "GT1": {
             "GS1": 1,
-            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"a0929f3d-d5d9-45d8-a4b5-34370a75e4c4\",\"columnMetaPath\":{\"value\":\"1a4b4997-3d36-0d93-520f-e79967f84a2d\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{1a4b4997-3d36-0d93-520f-e79967f84a2d}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount#]+[#Read Loan.First item of resulting collection.Total Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"c104e54a-7ac9-4f92-addb-749810ed51b5\",\"columnMetaPath\":{\"value\":\"0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c166b667-51b3-4111-9438-4d7abfe8f07f}]#]\"},\"displayValue\":{\"value\":\"[#Read Loan.First item of resulting collection.Interest Balance#]+[#Interest Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"a0929f3d-d5d9-45d8-a4b5-34370a75e4c4\",\"columnMetaPath\":{\"value\":\"1a4b4997-3d36-0d93-520f-e79967f84a2d\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{1a4b4997-3d36-0d93-520f-e79967f84a2d}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount To Pay#]+[#Read Loan.First item of resulting collection.Total Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"c104e54a-7ac9-4f92-addb-749810ed51b5\",\"columnMetaPath\":{\"value\":\"0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c166b667-51b3-4111-9438-4d7abfe8f07f}]#]\"},\"displayValue\":{\"value\":\"[#Read Loan.First item of resulting collection.Interest Balance#]+[#Interest Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
             "GS5": "d42645a8-b152-4dcf-b048-9ee59ed2454e"
           }
         },
@@ -705,7 +705,7 @@
           "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
           "GT1": {
             "GS1": 1,
-            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"([#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]-[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c5a0d82c-1542-4b84-95e6-6eefbd069626}]#])+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#]\"},\"displayValue\":{\"value\":\"([#Read Payment.First item of resulting collection.Amount#]-[#Balance Principal#])+[#Read Loan.First item of resulting collection.Principal Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]-([#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c5a0d82c-1542-4b84-95e6-6eefbd069626}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#])\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount To Pay#]-([#Balance Principal#]+[#Read Loan.First item of resulting collection.Principal Balance#])\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
             "GS5": "d42645a8-b152-4dcf-b048-9ee59ed2454e"
           }
         },
@@ -786,7 +786,7 @@
           "GT4": "d3021ca7-7450-4678-a117-060171eb2976",
           "GT1": {
             "GS1": 1,
-            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount#]+[#Read Loan.First item of resulting collection.Principal Balance Paid#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+            "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount To Pay#]+[#Read Loan.First item of resulting collection.Principal Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
             "GS5": "d42645a8-b152-4dcf-b048-9ee59ed2454e"
           }
         },
@@ -1295,7 +1295,7 @@
           "A4": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "A5": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
           "IL2": "a99c4b36-f1b5-4eb5-8640-ea66d8aa4727",
-          "BL3": "1375;184",
+          "BL3": "1187;184",
           "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
           "BL8": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "BN2": "31;31",
@@ -1317,7 +1317,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]-[#[IsOwnerSchema:false].[IsSchema:false].[Element:{6e4d402e-4f93-4934-825c-c5be8b0fe512}].[Parameter:{e09d93fe-dbce-4ec8-9920-7fa8605d99c4}].[EntityColumn:{345c504a-8aec-2525-ab53-9c6d34ea315c}]#]",
+          "CH1": "[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]-[#[IsOwnerSchema:false].[IsSchema:false].[Element:{6e4d402e-4f93-4934-825c-c5be8b0fe512}].[Parameter:{e09d93fe-dbce-4ec8-9920-7fa8605d99c4}].[EntityColumn:{345c504a-8aec-2525-ab53-9c6d34ea315c}]#]",
           "HS1": "c5a0d82c-1542-4b84-95e6-6eefbd069626"
         },
         {
@@ -1826,7 +1826,7 @@
           "A4": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "A5": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
           "IL2": "a99c4b36-f1b5-4eb5-8640-ea66d8aa4727",
-          "BL3": "860;78",
+          "BL3": "803;78",
           "BL7": "d334d28f-b11a-477e-9ff0-0a95fa73d53b",
           "BL8": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "BN2": "69;55",
@@ -1844,7 +1844,7 @@
           "A4": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "A5": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
           "IL2": "a99c4b36-f1b5-4eb5-8640-ea66d8aa4727",
-          "BL3": "1055;78",
+          "BL3": "922;78",
           "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
           "BL8": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "BN2": "69;55",
@@ -1907,7 +1907,7 @@
               "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
               "L8": {
                 "GS1": 1,
-                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"a0929f3d-d5d9-45d8-a4b5-34370a75e4c4\",\"columnMetaPath\":{\"value\":\"1a4b4997-3d36-0d93-520f-e79967f84a2d\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{1a4b4997-3d36-0d93-520f-e79967f84a2d}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount#]+[#Read Loan.First item of resulting collection.Total Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"c104e54a-7ac9-4f92-addb-749810ed51b5\",\"columnMetaPath\":{\"value\":\"0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c166b667-51b3-4111-9438-4d7abfe8f07f}]#]\"},\"displayValue\":{\"value\":\"[#Read Loan.First item of resulting collection.Interest Balance#]+[#Interest Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"a0929f3d-d5d9-45d8-a4b5-34370a75e4c4\",\"columnMetaPath\":{\"value\":\"1a4b4997-3d36-0d93-520f-e79967f84a2d\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{1a4b4997-3d36-0d93-520f-e79967f84a2d}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount To Pay#]+[#Read Loan.First item of resulting collection.Total Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}},{\"ItemUId\":\"c104e54a-7ac9-4f92-addb-749810ed51b5\",\"columnMetaPath\":{\"value\":\"0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{0bcf72ca-f44b-c0e5-fb6a-aa86c8ddac63}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c166b667-51b3-4111-9438-4d7abfe8f07f}]#]\"},\"displayValue\":{\"value\":\"[#Read Loan.First item of resulting collection.Interest Balance#]+[#Interest Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"DataValueTypeUId\\\":\\\"969093e2-2b4e-463b-883a-3d3b8c61f0cd\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
                 "GS5": "d42645a8-b152-4dcf-b048-9ee59ed2454e"
               }
             },
@@ -2016,7 +2016,7 @@
               "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
               "L8": {
                 "GS1": 1,
-                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"([#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]-[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c5a0d82c-1542-4b84-95e6-6eefbd069626}]#])+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#]\"},\"displayValue\":{\"value\":\"([#Read Payment.First item of resulting collection.Amount#]-[#Balance Principal#])+[#Read Loan.First item of resulting collection.Principal Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]-([#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{c5a0d82c-1542-4b84-95e6-6eefbd069626}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#])\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount To Pay#]-([#Balance Principal#]+[#Read Loan.First item of resulting collection.Principal Balance#])\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
                 "GS5": "d42645a8-b152-4dcf-b048-9ee59ed2454e"
               }
             },
@@ -2047,7 +2047,7 @@
           "A4": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "A5": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
           "IL2": "a99c4b36-f1b5-4eb5-8640-ea66d8aa4727",
-          "BL3": "869;261",
+          "BL3": "681;261",
           "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
           "BL8": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "BN2": "69;55",
@@ -2110,7 +2110,7 @@
               "L1": "b53eaa2a-4bb7-4a6b-9f4f-58ccab293e31",
               "L8": {
                 "GS1": 1,
-                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{cbde7e02-f393-fd51-391b-2c781f07e951}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount#]+[#Read Loan.First item of resulting collection.Principal Balance Paid#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
+                "GS2": "{\"$type\":\"Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core\",\"$values\":[{\"ItemUId\":\"2650d3e0-33fa-4ce2-aeca-39e0eff7227f\",\"columnMetaPath\":{\"value\":\"acb945c5-7e77-cb3a-c730-db9599ad48d0\"},\"schemaUId\":{\"value\":\"fded6a55-d9f9-4e09-bbc2-cf6654a88b28\"},\"value\":{\"value\":\"[#[IsOwnerSchema:false].[IsSchema:false].[Element:{2e91afe8-62bf-4dff-b4a8-a8de91daf7ec}].[Parameter:{36852642-e31b-4e12-9fe4-0fce186c5b35}].[EntityColumn:{af858428-13a1-5fde-843c-dfc9ad3c4d88}]#]+[#[IsOwnerSchema:false].[IsSchema:false].[Element:{251b1f2d-a8dc-423a-a099-7397e3ae1355}].[Parameter:{a7eaf7f1-6a34-44a4-8f9d-4fe410935138}].[EntityColumn:{acb945c5-7e77-cb3a-c730-db9599ad48d0}]#]\"},\"displayValue\":{\"value\":\"[#Read Payment.First item of resulting collection.Amount To Pay#]+[#Read Loan.First item of resulting collection.Principal Balance#]\"},\"parameterValue\":{\"value\":\"{\\\"$type\\\":\\\"Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\\\",\\\"Source\\\":3,\\\"DisplayValue\\\":\\\"\\\",\\\"Value\\\":\\\"\\\",\\\"MetaPath\\\":null,\\\"MetaDataValue\\\":null,\\\"ModifiedInSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"SchemaManagerName\\\":\\\"\\\",\\\"ReferenceSchemaUId\\\":\\\"00000000-0000-0000-0000-000000000000\\\",\\\"ResourceItemName\\\":null}\"}}]}",
                 "GS5": "d42645a8-b152-4dcf-b048-9ee59ed2454e"
               }
             },
@@ -2390,7 +2390,7 @@
           "A4": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "A5": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
           "IL2": "a99c4b36-f1b5-4eb5-8640-ea66d8aa4727",
-          "BL3": "1223;78",
+          "BL3": "1041;78",
           "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
           "BL8": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "BN2": "69;55",
@@ -2484,7 +2484,7 @@
           "A4": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "A5": "a3ad35dd-3fbe-4b86-802e-91949a5d3192",
           "IL2": "a99c4b36-f1b5-4eb5-8640-ea66d8aa4727",
-          "BL3": "1223;261",
+          "BL3": "803;261",
           "BL7": "d3021ca7-7450-4678-a117-060171eb2976",
           "BL8": "d42645a8-b152-4dcf-b048-9ee59ed2454e",
           "BN2": "69;55",
@@ -2635,8 +2635,8 @@
           "CI3": "null",
           "CI5": "FF939598",
           "CI6": 1,
-          "CI11": "929;106",
-          "CI12": "1055;106"
+          "CI11": "872;106",
+          "CI12": "922;106"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -2652,8 +2652,8 @@
           "CI3": "null",
           "CI5": "FF939598",
           "CI6": 1,
-          "CI11": "1124;106",
-          "CI12": "1223;106"
+          "CI11": "991;106",
+          "CI12": "1041;106"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaConditionalFlow",
@@ -2698,7 +2698,7 @@
           "CI7": "0;-1",
           "CI8": "-1;0",
           "CI11": "568;227",
-          "CI12": "869;289",
+          "CI12": "681;289",
           "CI10": {
             "Item0": "568;289"
           },
@@ -2720,7 +2720,7 @@
           "CI5": "FF939598",
           "CI6": 1,
           "CI11": "750;106",
-          "CI12": "860;106"
+          "CI12": "803;106"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -2736,8 +2736,8 @@
           "CI3": "null",
           "CI5": "FF939598",
           "CI6": 1,
-          "CI11": "938;289",
-          "CI12": "1223;289"
+          "CI11": "750;289",
+          "CI12": "803;289"
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -2789,10 +2789,10 @@
           "CI6": 1,
           "CI7": "1;0",
           "CI8": "0;1",
-          "CI11": "1292;106",
-          "CI12": "1391;184",
+          "CI11": "1110;106",
+          "CI12": "1203;184",
           "CI10": {
-            "Item0": "1391;106"
+            "Item0": "1203;106"
           }
         },
         {
@@ -2811,10 +2811,10 @@
           "CI6": 1,
           "CI7": "1;0",
           "CI8": "0;-1",
-          "CI11": "1292;289",
-          "CI12": "1391;215",
+          "CI11": "872;289",
+          "CI12": "1203;215",
           "CI10": {
-            "Item0": "1391;289"
+            "Item0": "1203;289"
           }
         }
       ],

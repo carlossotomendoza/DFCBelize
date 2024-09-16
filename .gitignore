@@ -191,6 +191,7 @@ bld/
 *.iobj
 *.pch
 *.pdb
+*.dll
 *.ipdb
 *.pgc
 *.pgd

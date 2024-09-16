@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.DfcAssociatedApplication.Caption" Value="Associated Application" />
+			<Item Name="Columns.DfcAssociatedLoan.Caption" Value="Associated Loan" />
+			<Item Name="Columns.DfcEscrowAmountPayment.Caption" Value="Escrow Amount Payment" />
+			<Item Name="Columns.DfcYearlyEscrowAmount.Caption" Value="Yearly Escrow Amount" />
+		</Items>
+	</Group>
+</Resources>

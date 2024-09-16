@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "06f31de0-374d-4ba1-a69f-d47022a31b67",
+    "Name": "DfcProcess_9f8b50f",
+    "ModifiedOnUtc": "\/Date(1726517126000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Update Financial Accounts Fully paid Subprocess ",
+    "DependsOn": []
+  }
+}

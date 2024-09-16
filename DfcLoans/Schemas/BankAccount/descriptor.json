@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "75a4c628-1dc7-4e85-b342-9dbd5ac189d5",
+    "Name": "BankAccount",
+    "ModifiedOnUtc": "\/Date(1726243307000)\/",
+    "Parent": {
+      "UId": "8e07b87f-6425-4de2-bae2-663576293e82",
+      "Name": "BankAccount"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Financial account",
+    "DependsOn": []
+  }
+}

@@ -3,14 +3,16 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Payments" />
-			<Item Name="Columns.DfcAmount.Caption" Value="Amount" />
+			<Item Name="Columns.DfcAmount.Caption" Value="Installment Amount" />
 			<Item Name="Columns.DfcArrear.Caption" Value="Arrear" />
 			<Item Name="Columns.DfcContact.Caption" Value="Contact" />
 			<Item Name="Columns.DfcDate.Caption" Value="Date" />
+			<Item Name="Columns.DfcEscrowArrear.Caption" Value="Escrow Arrear" />
 			<Item Name="Columns.DfcLoan.Caption" Value="Loan" />
 			<Item Name="Columns.DfcPaymentNumber.Caption" Value="Payment N°" />
 			<Item Name="Columns.DfcPaymentType.Caption" Value="Payment Type" />
 			<Item Name="Columns.DfcPeriod.Caption" Value="Period" />
+			<Item Name="Columns.DfcTotalInstallmentAmount.Caption" Value="Amount To Pay" />
 		</Items>
 	</Group>
 </Resources>

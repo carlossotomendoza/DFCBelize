@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "211a4acf-b9f2-4ce1-8385-7e5038ac93f7",
+    "Name": "DfcProcess_a2b93eb",
+    "ModifiedOnUtc": "\/Date(1726244235000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Create Financial Acct",
+    "DependsOn": []
+  }
+}

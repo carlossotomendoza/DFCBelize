@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Escrow Arrears" />
+			<Item Name="Columns.DfcArrearAssociatedLoan.Caption" Value="Associated Loan" />
+			<Item Name="Columns.DfcArrearNumber.Caption" Value="Arrear N°" />
+			<Item Name="Columns.DfcAssociatedPeriod.Caption" Value="Associated Period" />
+			<Item Name="Columns.DfcCurrentDue.Caption" Value="Current Due" />
+			<Item Name="Columns.DfcEscrowArrearAmount.Caption" Value="Amount" />
+			<Item Name="Columns.DfcEscrowType.Caption" Value="Type" />
+			<Item Name="Columns.DfcPaid.Caption" Value="Paid" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet1253567487.Caption" Value="Pool 14675678567" />
+		</Items>
+	</Group>
+</Resources>

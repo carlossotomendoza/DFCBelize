@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "74a18de2-4969-4613-99f7-5b9bde727ee9",
+    "Name": "DfcProcess_929f71c",
+    "ModifiedOnUtc": "\/Date(1726445566000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate Loan Period Payment Subprocess",
+    "DependsOn": []
+  }
+}

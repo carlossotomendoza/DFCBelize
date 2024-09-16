@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Счет" />
+			<Item Name="Columns.Account.Caption" Value="Юр. лицо" />
+			<Item Name="Columns.ActivatedOn.Caption" Value="Дата активации" />
+			<Item Name="Columns.Balance.Caption" Value="Остаток" />
+			<Item Name="Columns.BankAccountNumber.Caption" Value="Номер счета" />
+			<Item Name="Columns.Branch.Caption" Value="Филиал" />
+			<Item Name="Columns.ClosedOn.Caption" Value="Дата закрытия" />
+			<Item Name="Columns.Contact.Caption" Value="Физ. лицо" />
+			<Item Name="Columns.Contract.Caption" Value="Договор" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Создал" />
+			<Item Name="Columns.CreatedOn.Caption" Value="Дата создания" />
+			<Item Name="Columns.Currency.Caption" Value="Валюта" />
+			<Item Name="Columns.Division.Caption" Value="Отделение" />
+			<Item Name="Columns.Id.Caption" Value="Id" />
+			<Item Name="Columns.ModifiedBy.Caption" Value="Изменил" />
+			<Item Name="Columns.ModifiedOn.Caption" Value="Дата изменения" />
+			<Item Name="Columns.Notes.Caption" Value="Примечание" />
+			<Item Name="Columns.OpenedOn.Caption" Value="Дата открытия" />
+			<Item Name="Columns.Package.Caption" Value="Пакет услуг" />
+			<Item Name="Columns.ProcessListeners.Caption" Value="Активные процессы" />
+			<Item Name="Columns.Product.Caption" Value="Продукт" />
+			<Item Name="Columns.ReasonForClosing.Caption" Value="Причина" />
+			<Item Name="Columns.Status.Caption" Value="Состояние" />
+			<Item Name="Columns.Type.Caption" Value="Тип" />
+		</Items>
+	</Group>
+</Resources>

@@ -10,6 +10,13 @@
 			<Item Name="LocalizableStrings.addRecord_qxkqj10_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.AmountArrear_label.Value" Value="Arrear Amount" />
 			<Item Name="LocalizableStrings.ComboBox_vfaaodi_label.Value" Value="Arrear" />
+			<Item Name="LocalizableStrings.Label_irabghe_caption.Value" Value="Total Payment" />
+			<Item Name="LocalizableStrings.NumberInput_259l6zm_label.Value" Value="T" />
+			<Item Name="LocalizableStrings.NumberInput_ei7mel2_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.NumberInput_jt6lfkl_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.NumberInput_qz7a287_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.NumberInput_v6rp3yo_label.Value" Value="Total Period Payment" />
+			<Item Name="LocalizableStrings.NumberInput_y16sova_label.Value" Value="Number" />
 		</Items>
 	</Group>
 </Resources>

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c6cef22e-7b54-411c-a173-f09e7a0ba09f",
+    "Name": "DfcProcess_7932bc9_3c78f7b",
+    "ModifiedOnUtc": "\/Date(1726501087000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate Balance with escrow",
+    "DependsOn": []
+  }
+}

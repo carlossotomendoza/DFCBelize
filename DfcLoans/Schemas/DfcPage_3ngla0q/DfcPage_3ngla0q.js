@@ -264,7 +264,7 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 			},
 			{
 				"operation": "insert",
-				"name": "NumberInput_v6rp3yo",
+				"name": "Label_irabghe",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -272,14 +272,109 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.DfcPaymentsDS_DfcAmount_5kf7ljd",
-					"labelPosition": "above",
-					"control": "$DfcPaymentsDS_DfcAmount_5kf7ljd"
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(Label_irabghe_caption)#)#",
+					"labelType": "headline-4",
+					"labelThickness": "default",
+					"labelEllipsis": false,
+					"labelColor": "auto",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "center",
+					"visible": true
 				},
 				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
 				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_jt6lfkl",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 11,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcPeriodDfcAmortizationAmount",
+					"control": "$DfcPaymentsDS_DfcPeriodDfcAmortizationAmount",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "above",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_qz7a287",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 12,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcLoanDfcTotalEscrowPayment",
+					"control": "$DfcPaymentsDS_DfcLoanDfcTotalEscrowPayment",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "above",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_v6rp3yo",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 13,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(NumberInput_v6rp3yo_label)#",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcLoanDfcTotalPeriodPayment",
+					"readonly": true,
+					"visible": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_259l6zm",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 14,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 13
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -348,6 +443,26 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"modelConfig": {
 							"path": "DfcPaymentsDS.DfcPeriodDfcInArrear"
 						}
+					},
+					"DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcTotalInstallmentAmount"
+						}
+					},
+					"DfcPaymentsDS_DfcLoanDfcTotalPeriodPayment": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcLoanDfcTotalPeriodPayment"
+						}
+					},
+					"DfcPaymentsDS_DfcLoanDfcTotalEscrowPayment": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcLoanDfcTotalEscrowPayment"
+						}
+					},
+					"DfcPaymentsDS_DfcPeriodDfcAmortizationAmount": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcPeriodDfcAmortizationAmount"
+						}
 					}
 				}
 			}
@@ -370,6 +485,18 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 									},
 									"DfcPeriodDfcInArrear": {
 										"path": "DfcPeriod.DfcInArrear",
+										"type": "ForwardReference"
+									},
+									"DfcLoanDfcTotalPeriodPayment": {
+										"path": "DfcLoan.DfcTotalPeriodPayment",
+										"type": "ForwardReference"
+									},
+									"DfcLoanDfcTotalEscrowPayment": {
+										"path": "DfcLoan.DfcTotalEscrowPayment",
+										"type": "ForwardReference"
+									},
+									"DfcPeriodDfcAmortizationAmount": {
+										"path": "DfcPeriod.DfcAmortizationAmount",
 										"type": "ForwardReference"
 									}
 								}
