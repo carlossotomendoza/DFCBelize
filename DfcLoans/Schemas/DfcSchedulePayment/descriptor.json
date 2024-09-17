@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "df645643-66fa-43ef-ba7b-3340cdb7bf8f",
     "Name": "DfcSchedulePayment",
-    "ModifiedOnUtc": "\/Date(1726151354000)\/",
+    "ModifiedOnUtc": "\/Date(1726486125000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Schedule Payment Process",
     "DependsOn": []
