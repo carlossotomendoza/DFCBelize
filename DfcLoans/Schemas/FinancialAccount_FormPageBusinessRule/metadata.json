@@ -1,0 +1,83 @@
+= MetaData.Schema.UId "e0ff23af-08d0-46ad-b66d-8bd4808025eb"
+= MetaData.Schema.A5 "cbc46c21-d2c2-4044-b814-cf59b4a4983a"
+= MetaData.Schema.B6 "a3ad35dd-3fbe-4b86-802e-91949a5d3192"
++ MetaData.Schema.B7 true
+= MetaData.Schema.B8 "8.1.3.6801"
+= MetaData.Schema.AD5 "aa7a9680-5cfe-458d-a728-8455cc7d498f"
+- MetaData.Schema.AD4.BRS1.["cb82aad6-87d1-b7c4-1e5a-69af806d9429"].BR1.["37fac593-a11f-dc97-4451-5714978e0c97"].BRC1.BGC2.["58ecbf6f-0b89-c74a-9690-01c5b688fb99"].BCO1.BRX2
++ MetaData.Schema.AD4.BRS1.["cb82aad6-87d1-b7c4-1e5a-69af806d9429"].BR2.["95fe141a-70f4-e771-9ef5-e15c9c6d5b92"].BRT1 "null"
++ MetaData.Schema.AD4.BRS1.["cb82aad6-87d1-b7c4-1e5a-69af806d9429"].BR2.["95fe141a-70f4-e771-9ef5-e15c9c6d5b92"].BRT3 "null"
++ MetaData.Schema.AD4.BRS1.["cb82aad6-87d1-b7c4-1e5a-69af806d9429"].BR2.["6809f6a0-7797-8c6d-20ae-44bf62efd523"].BRT3 "null"
++ MetaData.Schema.AD4.BRS1 {
+  "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
+  "UId": "f3a977b4-b42e-2291-c4ea-60b8297db1e4",
+  "BR1": [
+    {
+      "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
+      "UId": "68798cf6-03f6-c94b-245e-70314c7fcced",
+      "BRC1": {
+        "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
+        "UId": "8ddc08bd-3319-1dca-86e0-3cc6c17d4858",
+        "BGC1": 1,
+        "BGC2": [
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+            "UId": "676b1b12-4ccc-f38e-3a73-34c42b4901cf",
+            "BCO1": {
+              "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+              "UId": "88c65e8c-2df6-d21a-b0cf-66a956d78c6e",
+              "BRE1": "Lookup",
+              "BRE2": "AttributeValue",
+              "BRX1": "Type",
+              "BRX2": "null"
+            },
+            "BCO2": {
+              "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
+              "UId": "477350c9-8055-1fe9-0eb0-20df7c33ade5",
+              "BRE1": "Lookup",
+              "BRE3": "BankAccountType",
+              "BVE1": "90fc3ffd-5dad-418a-a304-e1e98fa99a1e"
+            },
+            "BCO3": 2
+          },
+          {
+            "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
+            "UId": "5448e35c-3828-fd5b-d2a9-2c5bc1474e77",
+            "BCO1": {
+              "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
+              "UId": "3d3fd460-b256-bf46-5238-436730b0ff78",
+              "BRE1": "Lookup",
+              "BRE2": "AttributeValue",
+              "BRX1": "Type",
+              "BRX2": "null"
+            },
+            "BCO3": 1
+          }
+        ]
+      },
+      "BRC2": [
+        {
+          "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionHideElement",
+          "UId": "edd602c3-c7c2-cbcc-3773-526071e950bc",
+          "BRA4": "EscrowAmountPayment,YearlyEscrowAmount"
+        }
+      ]
+    }
+  ],
+  "BR2": [
+    {
+      "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+      "UId": "1ffc145b-ba2a-2ceb-619d-97e8fecc88b9",
+      "BRT1": "Type",
+      "BRT3": "null"
+    },
+    {
+      "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+      "UId": "44fd4905-6e34-4245-3cbe-cf394e9d0443",
+      "BRT2": 2
+    }
+  ],
+  "BR3": "BusinessRule_4e20b44"
+}
+~ MetaData.Schema.AD4.BRS1 ["a1694364-e85d-7434-ffa5-156de7aa9ddf","556fa453-b591-0a33-b635-32d334835f3d","c9a7ccee-d71e-d48e-8bfa-0d92f8386ae0","4dee575b-ed0a-5195-4367-4e34066a0629","cb82aad6-87d1-b7c4-1e5a-69af806d9429","f3a977b4-b42e-2291-c4ea-60b8297db1e4"]
++ MetaData.Schema.B7 true

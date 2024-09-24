@@ -2,25 +2,6 @@
 <Resources Culture="hr-HR">
 	<Group Type="String">
 		<Items>
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.AggregationColumnName.Caption" Value="Naziv stupca agregatne funkcije" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.CanReadUncommitedData.Caption" Value="Pročitaj neizvršene podatke" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Uzmite u obzir vrijeme u filtru" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.DataSourceFilters.Caption" Value="Izvor podataka filtera" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.EntityColumnMetaPathes.Caption" Value="Stupci za čitanje" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.FunctionType.Caption" Value="Vrsta agregatne funkcije" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.IgnoreDisplayValues.Caption" Value="Nemojte čitati prikazane vrijednosti stupaca pretraživanja" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="Broj zapisa za čitanje" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="Redoslijed stupaca" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="Pročitaj prvo" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="Zbirka zapisa" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="Broj zapisa" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Rezultat funkcije (Datum/Vrijeme)" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultFloatFunction.Caption" Value="Rezultat funkcije (Decimalni)" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Rezultat funkcije (Cijeli broj)" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Broj pročitanih zapisa" />
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Vrsta rezultata" />
 			<Item Name="Caption" Value="Transfer Application to Loan" />
 		</Items>
 	</Group>

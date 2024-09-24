@@ -169,6 +169,29 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 			},
 			{
 				"operation": "insert",
+				"name": "AmountArrear",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 7,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(AmountArrear_label)#",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcArrearDfcArrearAmount",
+					"readonly": true,
+					"visible": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
 				"name": "ComboBox_vfaaodi",
 				"values": {
 					"layoutConfig": {
@@ -191,34 +214,11 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "AmountArrear",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 7,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "#ResourceString(AmountArrear_label)#",
-					"labelPosition": "above",
-					"control": "$DfcPaymentsDS_DfcArrearDfcArrearAmount",
-					"readonly": true,
-					"visible": false,
-					"placeholder": "",
-					"tooltip": ""
-				},
-				"parentName": "GridContainer_gxfcc7j",
-				"propertyName": "items",
 				"index": 6
 			},
 			{
 				"operation": "insert",
-				"name": "ComboBox_xa7nf4p",
+				"name": "ComboBox_juvqmei",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -227,9 +227,9 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.DfcPaymentsDS_DfcPaymentType_0d63d9w",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcEscrowArrear_0g2sp25",
 					"labelPosition": "above",
-					"control": "$DfcPaymentsDS_DfcPaymentType_0d63d9w",
+					"control": "$DfcPaymentsDS_DfcEscrowArrear_0g2sp25",
 					"listActions": [],
 					"showValueAsLink": true,
 					"controlActions": [],
@@ -244,7 +244,24 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 			},
 			{
 				"operation": "insert",
-				"name": "DateTimePicker_y10rn34",
+				"name": "addRecord_0yz14tx",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_0yz14tx_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_juvqmei",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "EscrowArrearAmount",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -252,11 +269,14 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.DateTimePicker",
-					"pickerType": "date",
-					"label": "$Resources.Strings.DfcPaymentsDS_DfcDate_mqvy7n7",
+					"type": "crt.NumberInput",
+					"label": "#ResourceString(NumberInput_w2rqgq8_label)#",
+					"control": "$DfcPaymentsDS_DfcEscrowArrearDfcEscrowArrearAmount",
+					"readonly": true,
+					"placeholder": "",
 					"labelPosition": "above",
-					"control": "$DfcPaymentsDS_DfcDate_mqvy7n7"
+					"tooltip": "",
+					"visible": false
 				},
 				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
@@ -355,11 +375,70 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 			},
 			{
 				"operation": "insert",
-				"name": "NumberInput_259l6zm",
+				"name": "DateTimePicker_y10rn34",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"row": 14,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.DateTimePicker",
+					"pickerType": "date",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcDate_mqvy7n7",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcDate_mqvy7n7"
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 13
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_7b2srld",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 15,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.DfcPaymentsDS_DfcPaymentType_5lkht2j",
+					"labelPosition": "above",
+					"control": "$DfcPaymentsDS_DfcPaymentType_5lkht2j",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GridContainer_gxfcc7j",
+				"propertyName": "items",
+				"index": 14
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_yuturyl",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_yuturyl_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_7b2srld",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_259l6zm",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 16,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -374,7 +453,7 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "GridContainer_gxfcc7j",
 				"propertyName": "items",
-				"index": 13
+				"index": 15
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -463,6 +542,21 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"modelConfig": {
 							"path": "DfcPaymentsDS.DfcPeriodDfcAmortizationAmount"
 						}
+					},
+					"DfcPaymentsDS_DfcPaymentType_5lkht2j": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcPaymentType"
+						}
+					},
+					"DfcPaymentsDS_DfcEscrowArrear_0g2sp25": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcEscrowArrear"
+						}
+					},
+					"DfcPaymentsDS_DfcEscrowArrearDfcEscrowArrearAmount": {
+						"modelConfig": {
+							"path": "DfcPaymentsDS.DfcEscrowArrearDfcEscrowArrearAmount"
+						}
 					}
 				}
 			}
@@ -497,6 +591,10 @@ define("DfcPage_3ngla0q", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 									},
 									"DfcPeriodDfcAmortizationAmount": {
 										"path": "DfcPeriod.DfcAmortizationAmount",
+										"type": "ForwardReference"
+									},
+									"DfcEscrowArrearDfcEscrowArrearAmount": {
+										"path": "DfcEscrowArrear.DfcEscrowArrearAmount",
 										"type": "ForwardReference"
 									}
 								}

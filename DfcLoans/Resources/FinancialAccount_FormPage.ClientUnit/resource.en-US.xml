@@ -5,6 +5,7 @@
 			<Item Name="LocalizableStrings.addRecord_ir4l2e4_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_qt3h0pp_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_vmev4lf_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_p9oj07b_caption.Value" Value="Add record" />
 			<Item Name="LocalizableStrings.ComboBox_1nn2psw_label.Value" Value="Associated Loan" />
 			<Item Name="LocalizableStrings.ComboBox_2pejlcm_ariaLabel.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ComboBox_2pejlcm_label.Value" Value="Dropdown" />

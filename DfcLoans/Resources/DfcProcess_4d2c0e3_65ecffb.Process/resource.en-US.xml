@@ -134,8 +134,13 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.EscrowAmount.DisplayValue" Value="[#EscrowBalance#]" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.FinAcctID.Caption" Value="FinAcctID" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.FinAcctID.DisplayValue" Value="[#Read Financial Accounts.Collection of records:Id#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Overpayment.Caption" Value="Overpayment" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Overpayment.DisplayValue" Value="[#Overpayment Amount#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.PaymentID.Caption" Value="PaymentID" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Output record collection" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.EscrowAmount.Caption" Value="Escrow Amount" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Overpayment.Caption" Value="Overpayment" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.PaymentID.Caption" Value="PaymentID" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Number of terminated instances" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Total number of instances" />
 			<Item Name="Caption" Value="Calculate Fields SubProcess Over Payment" />

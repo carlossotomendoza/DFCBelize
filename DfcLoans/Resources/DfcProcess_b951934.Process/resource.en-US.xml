@@ -37,6 +37,30 @@
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Caption" Value="Update Period N° - Escrow Arrear" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Caption" Value="Update Amortization Table - Escrow Arrear" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Caption" Value="Update Balance" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask12.Parameters.RecordColumnValues.Caption" Value="Set column values" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Caption" Value="Modify Payment in Full" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
 			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
@@ -61,7 +85,7 @@
 			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="Set column values" />
-			<Item Name="BaseElements.ChangeDataUserTask5.Caption" Value="Modify escrow arrear" />
+			<Item Name="BaseElements.ChangeDataUserTask5.Caption" Value="Escrow arrear Paid" />
 			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
 			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask5.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
@@ -93,9 +117,15 @@
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Caption" Value="Modify Payment in Full Overpayment" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.RecordColumnValues.Caption" Value="Set column values" />
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Escrow + Amortization Arrear" />
-			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Escrow Arrear" />
-			<Item Name="BaseElements.ConditionalSequenceFlow5.Caption" Value="Escrow Arrear" />
 			<Item Name="BaseElements.DeleteDataUserTask1.Caption" Value="Delete Payment" />
 			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
 			<Item Name="BaseElements.DeleteDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
@@ -105,6 +135,7 @@
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="Count" />
 			<Item Name="BaseElements.FormulaTask2.Caption" Value="Count " />
 			<Item Name="BaseElements.FormulaTask3.Caption" Value="Count Over Payment" />
+			<Item Name="BaseElements.FormulaTask4.Caption" Value="Count" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Read Payments" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -252,6 +283,27 @@
 			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
 			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask9.Caption" Value="Read Overpayment" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Type of result" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
 			<Item Name="BaseElements.SubProcess1.Caption" Value="Calculate Balance 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.Balance.Caption" Value="Balance Principal" />
@@ -268,7 +320,7 @@
 			<Item Name="BaseElements.SubProcess3.Parameters.InterestBalance.Caption" Value="Interest Balance" />
 			<Item Name="BaseElements.SubProcess3.Parameters.RecordID.Caption" Value="RecordID" />
 			<Item Name="BaseElements.SubProcess3.Parameters.RecordID.DisplayValue" Value="[#Read Payments.First item of resulting collection.Id#]" />
-			<Item Name="BaseElements.SubProcess4.Caption" Value="Actualiza Amounts Principal Balance &amp; Interest Balance Over Payment" />
+			<Item Name="BaseElements.SubProcess4.Caption" Value="Actualiza Amounts Principal Balance&amp; Interest Balance Overpayment 1" />
 			<Item Name="BaseElements.SubProcess4.Parameters.PaymentID.Caption" Value="PaymentID" />
 			<Item Name="BaseElements.SubProcess4.Parameters.PaymentID.DisplayValue" Value="[#Read Payments.First item of resulting collection.Id#]" />
 			<Item Name="BaseElements.SubProcess4.Parameters.RecordID.Caption" Value="RecordID" />

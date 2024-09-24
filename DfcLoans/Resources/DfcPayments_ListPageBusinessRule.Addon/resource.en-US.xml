@@ -2,8 +2,10 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="AddonConfig.Rules.0b6f6561-4ab9-c2d6-57b4-cc884a0913fb.Caption" Value="Hide elements: Make a payment" />
 			<Item Name="AddonConfig.Rules.40c35b04-38cc-2866-bf97-0e82f14882cc.Caption" Value="Legal Entity" />
 			<Item Name="AddonConfig.Rules.567c14ba-90f8-cd11-ff82-d01d1f05a989.Caption" Value="Hide elements: Legal Entity" />
+			<Item Name="AddonConfig.Rules.73fce98a-9623-342b-1df5-de574d7ab8b0.Caption" Value="Show Make a payment Button" />
 			<Item Name="Caption" Value="Payments list page (Business rules)" />
 		</Items>
 	</Group>

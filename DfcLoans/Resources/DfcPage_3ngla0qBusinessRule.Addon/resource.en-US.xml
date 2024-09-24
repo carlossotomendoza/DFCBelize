@@ -3,7 +3,6 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="AddonConfig.Rules.08a8ed4e-e415-7e4e-a978-cfbe683f9cea.Caption" Value="Hide Save button" />
-			<Item Name="AddonConfig.Rules.0ebfe530-9780-8399-93c7-a9f929332e9d.Caption" Value="Period not filled in" />
 			<Item Name="AddonConfig.Rules.2e5dade5-bfdd-a5d7-49d7-b7f5c0d823ee.Caption" Value="Business rule" />
 			<Item Name="AddonConfig.Rules.49cd76f1-df8a-01fe-57fc-6cd3a5846a67.Caption" Value="Period is filled in" />
 			<Item Name="AddonConfig.Rules.7e5066c7-a1bb-5f6a-e592-f3ea043a090e.Caption" Value="Hide Period" />

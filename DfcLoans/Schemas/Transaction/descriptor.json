@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "71746b0e-2397-49b7-9e37-9dab98f4f3c1",
+    "Name": "Transaction",
+    "ModifiedOnUtc": "\/Date(1727113461000)\/",
+    "Parent": {
+      "UId": "d6f7e63e-4bc4-472b-89c6-19304f5164d9",
+      "Name": "Transaction"
+    },
+    "ExtendParent": true,
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Transaction",
+    "DependsOn": []
+  }
+}

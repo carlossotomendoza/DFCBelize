@@ -161,7 +161,15 @@
   "E17": "DfcAmortizationPeriodId",
   "E18": "DfcAmortizationPeriodDfcAmortizationNumber"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","ec4ed4de-7153-d920-4998-e1a46e954956","43992ab5-3520-118b-9ecb-468a5afd6694","15b8bec9-d57d-62ba-b35f-cf9c6a380aaa","7ea2d890-9997-2c3a-bf3d-039196f332fa","e0a200d3-fd23-ed7b-642c-f3feac4b8a55","b0dcf769-83ea-15f7-717f-18a0f7702394","13900014-cef2-cd9d-1a3c-ffaf899bf4ef","40c28afe-da72-6d09-be21-9b541c216840","e860a9c3-8daf-8f31-3d7a-c82bb4455f3f","91b57523-f5be-7b52-cb3a-18f79c50485a"]
++ MetaData.Schema.D2 {
+  "UId": "e73f4f22-00ff-b00b-6e07-00ffb8ecab65",
+  "A2": "DfcArrearAging",
+  "A3": "9fe8dce8-c3b9-4d58-a477-746212bfdc7c",
+  "A4": "9fe8dce8-c3b9-4d58-a477-746212bfdc7c",
+  "A5": "cbc46c21-d2c2-4044-b814-cf59b4a4983a",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","ec4ed4de-7153-d920-4998-e1a46e954956","43992ab5-3520-118b-9ecb-468a5afd6694","15b8bec9-d57d-62ba-b35f-cf9c6a380aaa","7ea2d890-9997-2c3a-bf3d-039196f332fa","e0a200d3-fd23-ed7b-642c-f3feac4b8a55","b0dcf769-83ea-15f7-717f-18a0f7702394","13900014-cef2-cd9d-1a3c-ffaf899bf4ef","40c28afe-da72-6d09-be21-9b541c216840","e860a9c3-8daf-8f31-3d7a-c82bb4455f3f","91b57523-f5be-7b52-cb3a-18f79c50485a","e73f4f22-00ff-b00b-6e07-00ffb8ecab65"]
 = MetaData.Schema.D20.A2 "DfcLoanArrearsEvents"
 = MetaData.Schema.D36.A3 "9fe8dce8-c3b9-4d58-a477-746212bfdc7c"
 = MetaData.Schema.D36.BS1 false

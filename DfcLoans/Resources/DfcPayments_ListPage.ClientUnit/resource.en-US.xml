@@ -25,6 +25,7 @@
 			<Item Name="LocalizableStrings.ExpansionPanel_hml8kid_title.Value" Value="Amortization Table" />
 			<Item Name="LocalizableStrings.ExpansionPanel_ix0qfhl_title.Value" Value="Arrears" />
 			<Item Name="LocalizableStrings.ExpansionPanel_kn3w0rk_title.Value" Value="Payments" />
+			<Item Name="LocalizableStrings.ExpansionPanel_kne7wce_title.Value" Value="Escrow Arrears" />
 			<Item Name="LocalizableStrings.ExpansionPanel_rb70qgs_title.Value" Value="Amortization Schedule" />
 			<Item Name="LocalizableStrings.ExpansionPanel_tml7dye_title.Value" Value="Expansion panel" />
 			<Item Name="LocalizableStrings.ExpansionPanel_v4ucb82_title.Value" Value="Payments" />
@@ -33,6 +34,7 @@
 			<Item Name="LocalizableStrings.GridDetailAddBtn_0yd4fom_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_3ofkdm1_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_3rgp4dg_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_71nmi4n_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_98wb557_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_dplj9oi_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_g8a31ak_caption.Value" Value="New" />
@@ -58,6 +60,7 @@
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_q9um428_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_qqeuepc_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_rbq20c1_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_rqbeamc_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_yriioh2_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_zxib7ky_caption.Value" Value="Export to Excel" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_0lvokth_caption.Value" Value="Data import" />
@@ -70,6 +73,7 @@
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_hah1gou_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_hepknje_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_igodkve_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_myhhimm_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_quejj2l_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_sdtwnik_caption.Value" Value="Data import" />
 			<Item Name="LocalizableStrings.GridDetailImportDataBtn_t7curvp_caption.Value" Value="Data import" />
@@ -85,6 +89,7 @@
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_gsb72oe_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_j2485ag_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_md2pdx0_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_njd4of7_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_o2a23pk_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_o6rs859_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_qj77g0i_caption.Value" Value="Refresh" />
@@ -97,6 +102,7 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_5yxcj8z_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_7mg9cjn_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_d1m6urk_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_holvobv_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_kvvkmxz_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_myozup3_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_okckzt0_placeholder.Value" Value="Search" />
@@ -115,6 +121,7 @@
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_hfcem49_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jo4vzgh_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_ktf4giw_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_npnletp_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_pdoiqoi_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_pmj1to7_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_y3wmv8q_caption.Value" Value="Actions" />
@@ -155,6 +162,7 @@
 			<Item Name="LocalizableStrings.QuickFilter_wyh8owr_caption.Value" Value="Quick filter" />
 			<Item Name="LocalizableStrings.QuickFilter_wyh8owr_config_caption.Value" Value="Quick filter" />
 			<Item Name="LocalizableStrings.RefreshButton_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.TabContainer_1lmkru0_caption.Value" Value="Escrow Arrears" />
 			<Item Name="LocalizableStrings.TabContainer_2n0gqhl_caption.Value" Value="Arrears" />
 			<Item Name="LocalizableStrings.TabContainer_i448ov7_caption.Value" Value="General Information" />
 			<Item Name="LocalizableStrings.TabContainer_kzqojur_caption.Value" Value="Payments" />

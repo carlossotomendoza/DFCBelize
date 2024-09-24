@@ -78,7 +78,7 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Number of completed instances" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Input record collection" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#Read Amortization Amount.Collection of records#]" />
-			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.FinAcctID.Caption" Value="FinAcctID" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.EscrowBalance.Caption" Value="EscrowBalance" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.InterestAmountBalance.Caption" Value="InterestAmountBalance" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.PaymentID.Caption" Value="PaymentID" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.PaymentID.DisplayValue" Value="[#PaymentID#]" />
@@ -87,7 +87,7 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.RecordID.DisplayValue" Value="[#Read Amortization Amount.Collection of records:Id#]" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.TotalBalance.Caption" Value="TotalBalance" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Output record collection" />
-			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.FinAcctID.Caption" Value="FinAcctID" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.EscrowBalance.Caption" Value="EscrowBalance" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.InterestAmountBalance.Caption" Value="InterestAmountBalance" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.PaymentID.Caption" Value="PaymentID" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.PrincipalAmountBalance.Caption" Value="PrincipalAmountBalance" />
