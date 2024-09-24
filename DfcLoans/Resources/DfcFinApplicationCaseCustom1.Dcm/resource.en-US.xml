@@ -62,6 +62,10 @@
 			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.StartIn.DisplayValue" Value="0" />
 			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
 			<Item Name="Stages.Stage1.Elements.DcmElement1.ProcessFlowElement.Parameters.StartInPeriod.DisplayValue" Value="minutes" />
+			<Item Name="Stages.Stage1.Elements.DcmElement6.Caption" Value="Validate terms filled" />
+			<Item Name="Stages.Stage1.Elements.DcmElement6.ProcessFlowElement.Parameters.ApplicationId.Caption" Value="Application Id" />
+			<Item Name="Stages.Stage1.Elements.DcmElement6.ProcessFlowElement.Parameters.ApplicationId.DisplayValue" Value="[#Main record.Id#]" />
+			<Item Name="Stages.Stage1.Elements.DcmElement6.ProcessFlowElement.Parameters.DfcValResultTerms.Caption" Value="Validation Result" />
 			<Item Name="Stages.Stage2.Caption" Value="Filling in the application form" />
 			<Item Name="Stages.Stage2.Elements.DcmElement4.Caption" Value="Create application form for borrower" />
 			<Item Name="Stages.Stage2.Elements.DcmElement4.ProcessFlowElement.Parameters.ApplicationId.Caption" Value="Application" />

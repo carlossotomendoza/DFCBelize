@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3ebecea3-a88e-43ae-bfe7-75611a4f5be0",
+    "Name": "DfcProductTermsVal",
+    "ModifiedOnUtc": "\/Date(1726586520000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Product Terms Validation",
+    "DependsOn": []
+  }
+}

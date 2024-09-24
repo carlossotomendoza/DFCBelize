@@ -3272,8 +3272,7 @@
           "GT5": "ac22e1fb-0517-445b-b19d-5ce8d4fdd731",
           "GT4": "2dca139f-ae57-4adb-81cd-16f14ea682f3",
           "GT1": {
-            "GS1": 1,
-            "GS2": "Payment schedule generated successfully"
+            "GS1": 1
           }
         },
         {
@@ -6644,6 +6643,7 @@
           "BL7": "1418e61a-82c3-403e-8221-01088f52c125",
           "BL8": "df645643-66fa-43ef-ba7b-3340cdb7bf8f",
           "BN2": "69;55",
+          "BO3": true,
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
@@ -6689,6 +6689,7 @@
           "BL7": "1418e61a-82c3-403e-8221-01088f52c125",
           "BL8": "df645643-66fa-43ef-ba7b-3340cdb7bf8f",
           "BN2": "69;55",
+          "BO3": true,
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
