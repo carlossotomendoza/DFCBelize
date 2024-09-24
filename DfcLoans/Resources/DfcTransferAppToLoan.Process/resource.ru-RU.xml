@@ -15,18 +15,6 @@
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.EntitySchemaUId.Caption" Value="Объект" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.IsMatchConditions.DisplayValue" Value="true" />
-			<Item Name="BaseElements.ChangeDataUserTask2.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.EntitySchemaUId.Caption" Value="Объект" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.IsMatchConditions.DisplayValue" Value="true" />
-			<Item Name="BaseElements.ChangeDataUserTask3.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
@@ -113,7 +101,6 @@
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.NumberOfRecords.Caption" Value="Количество записей для чтения" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.OrderInfo.Caption" Value="Порядок сортировки колонок" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ReadSomeTopRecords.Caption" Value="Читать первые" />
-<<<<<<< HEAD
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Account.Caption" Value="Юр. лицо" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.ActivatedOn.Caption" Value="Дата активации" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Balance.Caption" Value="Остаток" />
@@ -138,9 +125,6 @@
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.ReasonForClosing.Caption" Value="Причина" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Status.Caption" Value="Состояние" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Type.Caption" Value="Тип" />
-=======
-			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCompositeObjectList.Caption" Value="Коллекция записей" />
->>>>>>> 8336a7b3eebe8ea56d7dd077a715265e7a703810
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultCount.Caption" Value="Количество записей" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultDateTimeFunction.Caption" Value="Результат функции (Дата/Время)" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultEntity.Caption" Value="Первый элемент результирующей коллекции" />

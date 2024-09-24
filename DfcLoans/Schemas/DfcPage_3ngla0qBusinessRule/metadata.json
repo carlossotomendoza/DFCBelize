@@ -19,57 +19,6 @@
         "BRS1": [
           {
             "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
-            "UId": "0ebfe530-9780-8399-93c7-a9f929332e9d",
-            "BR1": [
-              {
-                "JI0": "Terrasoft.Core.BusinessRules.Models.BusinessRuleCase",
-                "UId": "8f683ac6-4635-5614-32e4-8fd5c0227707",
-                "BRC1": {
-                  "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
-                  "UId": "e0dc1e1c-3c6d-53a7-75d3-ff9d406886a0",
-                  "BGC1": 1,
-                  "BGC2": [
-                    {
-                      "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
-                      "UId": "6fc1ac92-3af7-cda9-ef6d-6c2a33a3ca9e",
-                      "BCO1": {
-                        "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                        "UId": "3ea83e58-c784-7837-c7ae-35784c4cbf4f",
-                        "BRE1": "Lookup",
-                        "BRE2": "AttributeValue",
-                        "BRX1": "DfcPaymentsDS_DfcPeriod_4ugfrs0"
-                      }
-                    }
-                  ]
-                },
-                "BRC2": [
-                  {
-                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionReadonlyElement",
-                    "UId": "b55cfe74-4593-8ab0-6699-dd29fbc66ed0",
-                    "BRA4": "ComboBox_xa7nf4p,DateTimePicker_y10rn34"
-                  }
-                ]
-              }
-            ],
-            "BR2": [
-              {
-                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "4386d8bb-cc10-248f-84ba-ecb4902ffe3c",
-                "BRT1": "null",
-                "BRT3": "null",
-                "BRT2": 2
-              },
-              {
-                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "53106d1f-1e49-6b62-28f9-ad573f086b2f",
-                "BRT1": "DfcPaymentsDS_DfcPeriod_4ugfrs0",
-                "BRT3": "null"
-              }
-            ],
-            "BR3": "BusinessRule_723822c"
-          },
-          {
-            "JI0": "Terrasoft.Core.BusinessRules.BusinessRule",
             "UId": "49cd76f1-df8a-01fe-57fc-6cd3a5846a67",
             "BR1": [
               {
@@ -98,7 +47,7 @@
                   {
                     "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionEditableElement",
                     "UId": "368a4baa-802a-b553-bf9d-660c68d7293c",
-                    "BRA4": "NumberInput_v6rp3yo,ComboBox_xa7nf4p,DateTimePicker_y10rn34"
+                    "BRA4": "NumberInput_v6rp3yo,DateTimePicker_y10rn34"
                   }
                 ]
               }
@@ -106,16 +55,16 @@
             "BR2": [
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "435efabb-88ae-c7c8-27d7-9dbf2da8efff",
-                "BRT1": "null",
-                "BRT3": "null",
-                "BRT2": 2
-              },
-              {
-                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
                 "UId": "83a6e1f0-c148-55a4-8e19-888c86a705d4",
                 "BRT1": "DfcPaymentsDS_DfcPeriod_4ugfrs0",
                 "BRT3": "null"
+              },
+              {
+                "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
+                "UId": "aabe9c1b-ba86-7802-eeb2-e6a2420017e3",
+                "BRT1": "null",
+                "BRT3": "null",
+                "BRT2": 2
               }
             ],
             "BR3": "BusinessRule_113eafe"
@@ -129,18 +78,18 @@
                 "UId": "09afa19d-7792-df3f-7b26-071867b6ff16",
                 "BRC1": {
                   "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
-                  "UId": "95ccd834-af93-86ce-0160-9f39fb0428a3",
+                  "UId": "60bd7d2c-853e-662b-a040-258a198c2952",
                   "BGC1": 1,
                   "BGC2": [
                     {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
-                      "UId": "cb9fac23-11de-83b6-0c09-aa7ae9932184",
+                      "UId": "82cb5668-1be6-9919-03a0-bb5287b81471",
                       "BCO1": {
                         "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                        "UId": "466a967a-0708-d431-3007-fc346ed5a2d8",
+                        "UId": "b43b8070-5437-e0c8-4f29-1be882c82091",
                         "BRE1": "Money",
                         "BRE2": "AttributeValue",
-                        "BRX1": "DfcPaymentsDS_DfcAmount_5kf7ljd"
+                        "BRX1": "DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2"
                       }
                     }
                   ]
@@ -157,15 +106,15 @@
             "BR2": [
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "da6a0341-5331-d5b6-c8d6-6e5e7bb585e7",
+                "UId": "f3c07cb7-b52d-dec1-3070-062ca6991583",
                 "BRT1": "null",
                 "BRT3": "null",
                 "BRT2": 2
               },
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "738498bb-2cd7-6007-9c89-3e645cdc5744",
-                "BRT1": "DfcPaymentsDS_DfcAmount_5kf7ljd",
+                "UId": "9314f5cf-b1f1-582e-8775-eb69ed954934",
+                "BRT1": "DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2",
                 "BRT3": "null"
               }
             ],
@@ -180,18 +129,18 @@
                 "UId": "ac351778-a50a-8cff-b92d-a9b0c7434c34",
                 "BRC1": {
                   "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleGroupCondition",
-                  "UId": "421ee43a-6962-8b15-eb26-84f8cf44d225",
+                  "UId": "1c3dc0b0-c57b-3e95-42f9-b47eeed4d242",
                   "BGC1": 1,
                   "BGC2": [
                     {
                       "JI0": "Terrasoft.Core.BusinessRules.Models.Conditions.BusinessRuleCondition",
-                      "UId": "73ed4933-7430-57be-1dc5-dd45f2e0fa09",
+                      "UId": "8870bdb4-9a15-ee92-2ba3-491d15659c3a",
                       "BCO1": {
                         "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                        "UId": "29551399-7116-87d8-c2d2-31566dead63f",
+                        "UId": "b39ebf5e-35dc-5e0b-0bfc-97932c2239cc",
                         "BRE1": "Money",
                         "BRE2": "AttributeValue",
-                        "BRX1": "DfcPaymentsDS_DfcArrearDfcArrearAmount"
+                        "BRX1": "DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2"
                       },
                       "BCO3": 1
                     }
@@ -209,15 +158,15 @@
             "BR2": [
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "65450f1e-7419-48b1-7b08-1761faa0322d",
+                "UId": "eba7d26e-982f-dc28-44c7-dfbf29032f95",
                 "BRT1": "null",
                 "BRT3": "null",
                 "BRT2": 2
               },
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "f8cb8383-8988-6b4f-96ec-46b222c4e7a2",
-                "BRT1": "DfcPaymentsDS_DfcArrearDfcArrearAmount",
+                "UId": "4b44de0c-3bd9-0fdc-9b66-bce3dc03c07c",
+                "BRT1": "DfcPaymentsDS_DfcTotalInstallmentAmount_q5i52f2",
                 "BRT3": "null"
               }
             ],
@@ -295,8 +244,7 @@
                         "UId": "84a88f28-2f73-e73c-5eeb-f4826e30eab1",
                         "BRE1": "Boolean",
                         "BRE2": "AttributeValue",
-                        "BRX1": "DfcPaymentsDS_DfcPeriodDfcInArrear",
-                        "BRX2": "null"
+                        "BRX1": "DfcPaymentsDS_DfcPeriodDfcInArrear"
                       },
                       "BCO2": {
                         "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleValueExpression",
@@ -312,12 +260,7 @@
                   {
                     "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionShowElement",
                     "UId": "031a3238-e078-371f-e519-5c819cff4210",
-                    "BRA4": "ComboBox_vfaaodi,AmountArrear"
-                  },
-                  {
-                    "JI0": "Terrasoft.Core.BusinessRules.Models.Actions.BusinessRuleActionRequiredElement",
-                    "UId": "7c12462e-1651-8e8a-6f17-ca1d09a1df33",
-                    "BRA4": "ComboBox_vfaaodi"
+                    "BRA4": "ComboBox_vfaaodi,AmountArrear,ComboBox_juvqmei,EscrowArrearAmount"
                   }
                 ]
               }
@@ -325,13 +268,14 @@
             "BR2": [
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "233d4e50-abea-2dcb-1565-7c0f1af41680",
-                "BRT2": 2
+                "UId": "946b7c4a-25f9-1438-e4da-850e78b51f48",
+                "BRT1": "DfcPaymentsDS_DfcPeriodDfcInArrear",
+                "BRT3": "null"
               },
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "946b7c4a-25f9-1438-e4da-850e78b51f48",
-                "BRT1": "DfcPaymentsDS_DfcPeriodDfcInArrear"
+                "UId": "6a1345df-84cc-e598-f45c-cb5214462887",
+                "BRT2": 2
               }
             ],
             "BR3": "BusinessRule_d006f37"

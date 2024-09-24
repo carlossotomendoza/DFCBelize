@@ -25,9 +25,9 @@
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcDisbursements/DfcDisbursements.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcDisbursements/DfcDisbursements.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcDocUploadStatus/DfcDocUploadStatus.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcDocUploadStatus/DfcDocUploadStatus.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcEmploymentType/DfcEmploymentType.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcEmploymentType/DfcEmploymentType.cs')" />
+		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcEscrowArrears/DfcEscrowArrears.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcEscrowArrears/DfcEscrowArrears.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcEscrowInfo/DfcEscrowInfo.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcEscrowInfo/DfcEscrowInfo.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcEscrowItems/DfcEscrowItems.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcEscrowItems/DfcEscrowItems.cs')" />
-		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcEscrowArrears/DfcEscrowArrears.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcEscrowArrears/DfcEscrowArrears.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcEthnicity/DfcEthnicity.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcEthnicity/DfcEthnicity.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcFinCategory/DfcFinCategory.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcFinCategory/DfcFinCategory.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcFinType/DfcFinType.cs')" />
@@ -63,10 +63,10 @@
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcProjectTyp/DfcProjectTyp.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcProjectTyp/DfcProjectTyp.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRepaymentCycle/DfcRepaymentCycle.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRepaymentCycle/DfcRepaymentCycle.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRepaymentMethod/DfcRepaymentMethod.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRepaymentMethod/DfcRepaymentMethod.cs')" />
+		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRiskMatrix/DfcRiskMatrix.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRiskMatrix/DfcRiskMatrix.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRiskScreening/DfcRiskScreening.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRiskScreening/DfcRiskScreening.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRiskScreeningConfig/DfcRiskScreeningConfig.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRiskScreeningConfig/DfcRiskScreeningConfig.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRiskScreeningTopic/DfcRiskScreeningTopic.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRiskScreeningTopic/DfcRiskScreeningTopic.cs')" />
-		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRiskMatrix/DfcRiskMatrix.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRiskMatrix/DfcRiskMatrix.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcRobustnessApplicant/DfcRobustnessApplicant.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcRobustnessApplicant/DfcRobustnessApplicant.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcSector/DfcSector.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcSector/DfcSector.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/DfcSourceFunds/DfcSourceFunds.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/DfcSourceFunds/DfcSourceFunds.cs')" />
@@ -81,5 +81,6 @@
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/FinApplication/FinApplication.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/FinApplication/FinApplication.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/FinApplicationSpec/FinApplicationSpec.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/FinApplicationSpec/FinApplicationSpec.cs')" />
 		<Compile Include="$(PkgPath)/DfcLoans/Schemas/Product/Product.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/Product/Product.cs')" />
+		<Compile Include="$(PkgPath)/DfcLoans/Schemas/Transaction/Transaction.cs" Condition="Exists('$(PkgPath)/DfcLoans/Schemas/Transaction/Transaction.cs')" />
 	</ItemGroup>
 </Project>

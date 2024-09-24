@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "e0ff23af-08d0-46ad-b66d-8bd4808025eb",
+    "Name": "FinancialAccount_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1727111121000)\/",
+    "Parent": {
+      "UId": "aa7a9680-5cfe-458d-a728-8455cc7d498f",
+      "Name": "FinancialAccount_FormPageBusinessRule"
+    },
+    "ExtendParent": true,
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Financial account form page (Business rules)",
+    "DependsOn": []
+  }
+}

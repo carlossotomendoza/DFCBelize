@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "50c17136-25d0-439e-a109-4faf2099396f",
+    "Name": "DfcTransactionRelatedPage",
+    "ModifiedOnUtc": "\/Date(1727113483000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Transaction (Page settings)",
+    "DependsOn": []
+  }
+}

@@ -8,12 +8,7 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Pre\\Default\\dotnet\\.nuget\\packages\\": {}
-=======
-    "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Pre\\Default\\dotnet\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 8336a7b3eebe8ea56d7dd077a715265e7a703810
   },
   "project": {
     "version": "8.1.3.6801",
@@ -25,22 +20,12 @@
       "outputPath": "C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Pre\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_DFC_Pre\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 8336a7b3eebe8ea56d7dd077a715265e7a703810
       ],
       "originalTargetFrameworks": [
         "net472"
       ],
       "sources": {
-<<<<<<< HEAD
-=======
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
->>>>>>> 8336a7b3eebe8ea56d7dd077a715265e7a703810
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,12 +43,16 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
->>>>>>> 8336a7b3eebe8ea56d7dd077a715265e7a703810
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\DFC_Pre\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\DfcLoans\\Files\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

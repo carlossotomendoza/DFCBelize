@@ -15,6 +15,5 @@ C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Relea
 C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.AssemblyInfoInputs.cache
 C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.AssemblyInfo.cs
 C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.csproj.CoreCompileInputs.cache
-C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.sourcelink.json
 C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.dll
 C:\DFC_Pre\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\DfcLoans\Files\obj\Release\DfcLoans.pdb

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d4ba3c87-46e4-4326-bf16-b1cf6c769c51",
+    "Name": "DfcPage_10cqu62",
+    "ModifiedOnUtc": "\/Date(1727113424000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Transaction modal page"
+  }
+}

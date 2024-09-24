@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.f3a977b4-b42e-2291-c4ea-60b8297db1e4.Caption" Value="Hide Overpayment Escrow and Yearly" />
+		</Items>
+	</Group>
+</Resources>

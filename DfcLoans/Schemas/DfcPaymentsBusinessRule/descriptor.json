@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "e5e11614-bf12-4447-890f-3219c90739dc",
     "Name": "DfcPaymentsBusinessRule",
-    "ModifiedOnUtc": "\/Date(1726084681000)\/",
+    "ModifiedOnUtc": "\/Date(1726601872000)\/",
     "ManagerName": "AddonSchemaManager",
     "Caption": "Payments (Business rules)",
     "DependsOn": []

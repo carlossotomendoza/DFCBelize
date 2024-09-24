@@ -198,49 +198,11 @@ define("FinancialAccount_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 			},
 			{
 				"operation": "insert",
-				"name": "YearlyEscrowAmount",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcYearlyEscrowAmount_rx711ai",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcYearlyEscrowAmount_rx711ai"
-				},
-				"parentName": "FinancialAccountInfoFieldsContainer",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "EscrowAmountPayment",
-				"values": {
-					"layoutConfig": {
-						"column": 2,
-						"row": 3,
-						"colSpan": 1,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_DfcEscrowAmountPayment_uzs7c63",
-					"labelPosition": "auto",
-					"control": "$PDS_DfcEscrowAmountPayment_uzs7c63"
-				},
-				"parentName": "FinancialAccountInfoFieldsContainer",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
 				"name": "ComboBox_2pejlcm",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
-						"row": 4,
+						"row": 3,
 						"colSpan": 1,
 						"rowSpan": 1
 					},
@@ -260,7 +222,74 @@ define("FinancialAccount_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 				},
 				"parentName": "FinancialAccountInfoFieldsContainer",
 				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "YearlyEscrowAmount",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcYearlyEscrowAmount_rx711ai",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcYearlyEscrowAmount_rx711ai"
+				},
+				"parentName": "FinancialAccountInfoFieldsContainer",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "EscrowAmountPayment",
+				"values": {
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_DfcEscrowAmountPayment_uzs7c63",
+					"labelPosition": "auto",
+					"control": "$PDS_DfcEscrowAmountPayment_uzs7c63",
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "FinancialAccountInfoFieldsContainer",
+				"propertyName": "items",
 				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "Button_p9oj07b",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_p9oj07b_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "small",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "Transaction",
+							"defaultValues": [
+								{
+									"attributeName": "BankAccount",
+									"value": "$BankAccount"
+								}
+							]
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "TransactionsToolsFlexContainer",
+				"propertyName": "items",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -303,6 +332,11 @@ define("FinancialAccount_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"PDS_DfcColumn5_mney3sx": {
 						"modelConfig": {
 							"path": "PDS.DfcColumn5"
+						}
+					},
+					"BankAccount": {
+						"modelConfig": {
+							"path": "PDS.Id"
 						}
 					}
 				}

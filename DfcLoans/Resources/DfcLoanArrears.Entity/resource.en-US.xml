@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Arrears" />
 			<Item Name="Columns.DfcAmortizationPeriod.Caption" Value="Period" />
+			<Item Name="Columns.DfcArrearAging.Caption" Value="Days" />
 			<Item Name="Columns.DfcArrearAmount.Caption" Value="Amount" />
 			<Item Name="Columns.DfcArrearDate.Caption" Value="Date" />
 			<Item Name="Columns.DfcArrearLoan.Caption" Value="Loan" />
